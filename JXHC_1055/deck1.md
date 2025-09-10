@@ -473,6 +473,12 @@ hellow
 # try
 
 
-slideshow.gotoFirstSlide();
+<div class="mermaid">
+graph LR
+        A-->B
+        B-->C
+        C-->A
+        D-->C
+</div>
 
-slideshow.gotoLastSlide();
+---
