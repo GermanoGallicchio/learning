@@ -1,7 +1,5 @@
 class: center, middle
 
-
-
 ## Foundations of Sport and Exercise Psychology
 
 ### JXH-1055, JXC-1055
@@ -18,7 +16,7 @@ Dr Germano Gallicchio [personal page](https://www.bangor.ac.uk/staff/spss/german
 
 # Agenda
 
-Receive information about this module and about your lecturer(s)
+Information about this module and about your lecturers
 
 --
 
@@ -49,12 +47,17 @@ Get an overview of career opportunities and future directions in sport and exerc
 
 ]
 
+--
 
 .right-column[ 
 - Do not copy the slides
+
 - Review your notes regularly
+
 - Study from books and articles. The slides are not the only study resource.
+
 - Do the suggested homework
+
 - Be proactive
 
 ]
@@ -66,13 +69,29 @@ Get an overview of career opportunities and future directions in sport and exerc
 
 # Resources
 
-Lectures/seminars/workshops
+.left-column[
+- Activities
+    - lectures
+    - workshops
+    - seminars
 
-Blackboard
+- Blackboard website
+    - Recordings (Panopto)
+    - Reading list (Talis)
+    - Presentation slides
+]
 
-Panopto recordings
+.right-column[
+- People
+    - Lecturers
+    - Personal Tutor
+    - Peer guides
+    - Fellow students
+]
 
-Talis Reading list
+I'll demonstrate the Blackboard website
+
+Experimental feature this year: These slides _should be_ accessible via a modern browser laptop and phone
 
 ---
 
@@ -95,6 +114,8 @@ Sport and Exercise Psychology is the:
 
 - **applications** of that knowledge
 
+--
+
 The ABC of Psychology
 
 | Affect (Feelings) | Behavior (Actions) | Cognition (Thoughts) |
@@ -109,11 +130,11 @@ The ABC of Psychology
 
 Sport and exercise psychology lives in the _intersection_ of sport and exercise science and psychology
 
-<svg width="100%" height="50%">
-    <text x="20%" y="30%" text-anchor="middle" fill="black" font-size="1em">Sport and exercise science</text>
+<svg width="100%" height="60%">
     <circle cx="35%" cy="50%" r="25%" fill="red" fill-opacity="0.5"/>
-    <text x="80%" y="30%" text-anchor="middle" fill="black" font-size="1em">Psychology</text>
     <circle cx="65%" cy="50%" r="25%" fill="blue" fill-opacity="0.5"/>
+    <text x="80%" y="30%" text-anchor="middle" fill="black" font-size="1em">Psychology</text>
+    <text x="20%" y="30%" text-anchor="middle" fill="black" font-size="1em">Sport and exercise science</text>
 </svg>
 
 ---
@@ -122,12 +143,19 @@ Sport and exercise psychology lives in the _intersection_ of sport and exercise 
 
 We will review in turn each of the two objectives: sport and exercise
 
-<svg width="100%" height="50%">
-    <circle cx="35%" cy="50%" r="25%" fill="green" fill-opacity="0.5"/>
-    <circle cx="65%" cy="50%" r="25%" fill="yellow" fill-opacity="0.5"/>
-    <text x="20%" y="30%" text-anchor="middle" fill="black" font-size="1em">Sport</text>
-    <text x="80%" y="30%" text-anchor="middle" fill="black" font-size="1em">Exercise</text>
-</svg>
+<div style="display: flex; justify-content: center">
+<div class="mermaid">
+flowchart LR
+    subgraph OBJECTIVES
+    direction LR
+    Sport e1@--> Exercise
+    Exercise e2@--> Sport
+    e1@{ animation: slow }
+    e2@{ animation: slow }
+    end
+</div>
+</div>
+
 
 ---
 
@@ -284,9 +312,18 @@ Videos 1 and 2 about selective attention. Video 3 on an elite sport application.
 
 ---
 
-# History of sport and exercise psychology
+# Brief historocal overview of sport and exercise psychology
 
-
+<div class="mermaid">
+ timeline
+    title development of sport and exercise psychology
+    1890-1920s : Early years
+    1920-40s : First laboratory testing
+    1940-60s : Preparation for the future
+    1960-80s : Academic discipline
+    1980-90s : Multidisciplinary science and practice
+    2000-present : Contemporary sport and exercise psychology
+</div>
 
 ---
 
@@ -472,13 +509,12 @@ hellow
 
 # try
 
-
 <div class="mermaid">
-graph LR
-        A-->B
-        B-->C
-        C-->A
-        D-->C
+flowchart TD
+    A-->B
+    B-->C
+    C-->A
+    D-->C
 </div>
 
 ---
