@@ -1,0 +1,74 @@
+/* slide content */
+.remark-slide-content {
+  background-color: #f8f9fa;
+  color: #333333;
+  line-height: 1;
+  box-sizing: border-box;
+  height: 100vh;
+  font-size: 2em;
+}
+
+/* level one header */
+.remark-slide-content h1 {
+  font-size: 0.8em;
+  font-weight: normal;
+  color: #8e8e8e;
+  margin-bottom: 1em; /* spacing below */
+}
+
+/* level two header */
+.remark-slide-content h2 {
+  font-size: 2em;
+  font-weight: normal;
+  color: #000000;
+  margin-bottom: 1em; /* spacing below */
+}
+
+strong { color: #000000; }
+em { color: #000000; }
+
+a {
+  text-decoration: none;
+  color: #666666;
+  border-bottom: 1px dashed #666666;
+}
+
+/* Setting link properties is particular, do not change order below */
+a:visited { color: #909090; }
+a:hover {
+  color: #ff851a;
+  border-bottom: 1px dashed #ff851a;
+}
+a:active, a#active { color: #FF9700; }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-family: 'Droid Serif', serif;
+}
+
+th, td {
+  border: 1px solid #eceff4;
+  padding: 0.6em 0.8em;
+  text-align: left;
+}
+
+th {
+  background-color: #81a1c1;
+  color: #2e3440;
+}
+
+/* Two-column layouts */
+.left-column  { width: 49%; float: left; }
+.right-column { width: 49%; float: right; }
+
+.left-column-33  { width: 33%; float: left; }
+.right-column-66 { width: 66%; float: right; }
+
+.left-column-66  { width: 66%; float: left; }
+.right-column-33 { width: 33%; float: right; }
+
+.right-column ~ p { clear: both; }
+.right-column ~ ul { clear: both; }
