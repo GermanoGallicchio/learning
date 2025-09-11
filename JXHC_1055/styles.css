@@ -1,7 +1,7 @@
 /* slide content */
 .remark-slide-content {
   background-color: #eceff4;
-  color: #2e3440;
+  color: #3b4252;
   line-height: 1;
   box-sizing: border-box;
   height: 100vh;
@@ -10,21 +10,21 @@
 
 /* level one header */
 .remark-slide-content h1 {
-  font-size: 1em;
+  font-size: 0.7em;
   font-weight: normal;
-  color: #d8dee9;
-  margin-bottom: 1em; /* spacing below */
+  color: #4c566a;
+  margin-bottom: 0.8em; /* spacing below */
 }
 
 /* level two header */
 .remark-slide-content h2 {
   font-size: 2em;
   font-weight: normal;
-  color: #000000;
+  color: #3b4252;
   margin-bottom: 1em; /* spacing below */
 }
 
-strong { color: #000000; }
+strong { color: #2e3440; }
 em { color: #000000; }
 
 a {
@@ -50,13 +50,13 @@ table {
 }
 
 th, td {
-  border: 1px solid #eceff4;
+  border: 1px solid #d8dee9;
   padding: 0.6em 0.8em;
   text-align: left;
 }
 
 th {
-  background-color: #81a1c1;
+  background-color: #d8dee9;
   color: #2e3440;
 }
 
@@ -74,5 +74,20 @@ th {
 .right-column ~ ul { clear: both; }
 
 .small-text {
-  font-size: 0.6em;
+  font-size: 0.8em;
+}
+
+
+/* Footnote style */
+.footnote {
+  font-size: 0.7em;
+  color: #5e81ac;
+  line-height: 1em;
+  margin-top: 0em;
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+  text-align: left;
+  border-top: 1px solid #5e81ac; /* Thin horizontal line */
+  padding-top: 0em; /* Space between the line and text */
 }
