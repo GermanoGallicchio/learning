@@ -29,17 +29,15 @@ em { color: #000000; }
 
 a {
   text-decoration: none;
-  color: #666666;
-  border-bottom: 1px dashed #666666;
+  color: #b48ead;
+  border-bottom: 1px dashed #b48ead;
 }
 
-/* Setting link properties is particular, do not change order below */
-a:visited { color: #909090; }
-a:hover {
-  color: #ff851a;
-  border-bottom: 1px dashed #ff851a;
+a:visited { color: #b48ead; }
+a:hover, a:active, a#active {
+  color: #a3be8c;
+  border-bottom-color: #a3be8c;
 }
-a:active, a#active { color: #FF9700; }
 
 /* Tables */
 table {
