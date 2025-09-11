@@ -1,7 +1,7 @@
 /* slide content */
 .remark-slide-content {
-  background-color: #f8f9fa;
-  color: #333333;
+  background-color: #eceff4;
+  color: #2e3440;
   line-height: 1;
   box-sizing: border-box;
   height: 100vh;
@@ -10,9 +10,9 @@
 
 /* level one header */
 .remark-slide-content h1 {
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: normal;
-  color: #8e8e8e;
+  color: #d8dee9;
   margin-bottom: 1em; /* spacing below */
 }
 
@@ -72,3 +72,7 @@ th {
 
 .right-column ~ p { clear: both; }
 .right-column ~ ul { clear: both; }
+
+.small-text {
+  font-size: 0.6em;
+}
