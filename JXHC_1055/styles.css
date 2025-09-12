@@ -58,18 +58,7 @@ th {
   color: #2e3440;
 }
 
-/* Two-column layouts */
-.left-column  { width: 49%; float: left; }
-.right-column { width: 49%; float: right; }
 
-.left-column-33  { width: 33%; float: left; }
-.right-column-66 { width: 66%; float: right; }
-
-.left-column-66  { width: 66%; float: left; }
-.right-column-33 { width: 33%; float: right; }
-
-.right-column ~ p { clear: both; }
-.right-column ~ ul { clear: both; }
 
 .small-text {
   font-size: 0.8em;
@@ -88,4 +77,49 @@ th {
   text-align: left;
   border-top: 1px solid #5e81ac; /* Thin horizontal line */
   padding-top: 0em; /* Space between the line and text */
+}
+
+
+
+/* LAYOUT CLASSES */
+
+/* Two-column layouts */
+.left-column  { width: 49%; float: left; }
+.right-column { width: 49%; float: right; }
+
+.left-column-33  { width: 33%; float: left; }
+.right-column-66 { width: 66%; float: right; }
+
+.left-column-66  { width: 66%; float: left; }
+.right-column-33 { width: 33%; float: right; }
+
+.right-column ~ p { clear: both; }
+.right-column ~ ul { clear: both; }
+
+
+/* Four-quadrant layouts */
+.quadrant-1 {
+  width: 50%;
+  height: 50%;
+  float: right;
+}
+
+.quadrant-2 {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.quadrant-3 {
+  width: 50%;
+  height: 50%;
+  float: left;
+  clear: left;
+}
+
+.quadrant-4 {
+  width: 50%;
+  height: 50%;
+  float: right;
+  clear: right;
 }
