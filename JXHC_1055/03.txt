@@ -1,0 +1,72 @@
+https://kroki.io/#try
+
+---
+https://kroki.io/mermaid/svg/eNpLL0osyFDwCeJSAALHar_U0qL8PPVihZKMotRUsKBCbmJmnkJBYlFJcS1ElYKurp2CU3Rwfm5iLJKIS7RLal5KUWZJajGysGu0Y0V-XiwXWKi4NCkdbCPIIpBKsKgLmHQFk0AjAAk2J9c=
+
+graph LR
+    A{Neuron's three
+     main parts}
+    A --> B[Soma]
+    A --> D[Dendrites]
+    A --> E[Axon]
+
+    subgraph Neurites
+    D
+    E
+    end
+
+---
+https://kroki.io/mermaid/svg/eNpLL0osyFAIceFSAALHaL_U0qL8kqLEvOLczJKS1KLiWAWIjIKurp2CU7RrRXJmSWJJflFlLJK4c7RnXkZmUia6uEu0b35KaQ5EPQCt0h_-
+
+graph TD
+    A[Neurotransmitters] 
+    A --> B[Excitatory]
+    A --> C[Inhibitory]
+    A --> D[Modulatory]
+
+---
+https://kroki.io/mermaid/svg/eNpLL0osyFDwCeJSAALHaL_U0qLEHAXn_Nzc0rzM5MSSzPy8WIicgq6unYJTtJaWa05qckkRUDJHSwtVpQJYZXhmSUZmngLIKFTNzkDNzhmpudi0gpU5pZaUp6bCtBbHAgDLuzDI
+
+graph LR
+    A[Neural Communication]
+    A --> B[Electrical Communication 
+    Within Neuron]
+    A --> C[Chemical Communication
+    Between Neurons]
+
+---
+https://kroki.io/mermaid/svg/eNp1kEtuwyAQQPc5BcvxIleo5F-bOJ9Gohegzli2ZBhrPE7k2xfBhlQOy_cezIhupGfbGxb1U-2UPznAFflBy6z0OgvaLItc7fcfqoASnbAZ1b8oaUq4IQ9Tj1tZ6IrQVVCwGVyWoBr0NDh_rSS-R1EF8ennMv7yYlP6FSmO4ys_xJeTiWXgR9BkjQzt5vaxaSBfhBzZN9UxVCfQ6GbiVeVd53dwktozXEiIVf3imuAuoFc7GenR75GKK9wMm3lbfkPtxP9qm_0B8Dx5Sw==
+
+flowchart TD
+    A((Nervous System))
+    A --> B(Central Nervous System)
+    A --> C(Peripheral Nervous System)
+
+    B --> D(Brain)
+    B --> E(Spinal Cord)
+    D --> F(Cerebrum)
+    D --> G(Cerebellum)
+    D --> H(Brainstem)
+
+    C --> I(Somatic Nervous System)
+    C --> J(Autonomic Nervous System)
+    I --> K(Sensory Afferent)
+    I --> L(Motor Efferent)
+    J --> M(Sympathetic)
+    J --> N(Parasympathetic)
+    J --> O(Enteric)
+
+---
+https://kroki.io/mermaid/svg/eNpty00OgjAQhuG9p-hyWHAFF2LQhYkg9Wc7NKM0aSkZ2qi3twFNasIs3-ebu3FP1SF7IbcrEa8EKIip5WCzbC4iz9ei-mY0onDs6ZViDU1oVcxaRW88B-UD0zhvqmlzgpJd76MfXEupNFAha1oiCZLs4HiBznBUSg_6_62e7AIbHGPfYf8wGlO6guzQoA1jWm-wfw_O_-QDSWNNHA==
+
+flowchart TD
+    F((Cerebrum))
+    F --> P(Cerebral Cortex)
+    F --> Q(Subcortical Structures)
+    P --> R(Frontal Lobe)
+    P --> S(Parietal Lobe)
+    P --> T(Temporal Lobe)
+    P --> U(Occipital Lobe)
+    Q --> V(Basal Ganglia)
+    Q --> W(Thalamus)
+    Q --> X(Hypothalamus)
