@@ -1,0 +1,145 @@
+https://kroki.io/#try
+
+---
+https://kroki.io/mermaid/svg/eNpljjEOgzAMRXdO4bEdcoVKGSuBhOgJ3CSApWBXTlqu3zQsQD3-__6Txyirm1EztEMD5TSsqN6YmxPOKjEST8eCeBRdMJMwxqZ26f2cFF8z2L4f7P1h2xqfFcflLwnsN0N3ocISJ3KwSKZPpa5njTHgg9OAKSQov3T_3oIQ75EvaQNIoA==
+flowchart LR
+    reward-->controlling
+    reward-->informational
+
+    subgraph APPRAISAL
+    controlling
+    informational
+    end
+
+    M(intrinsic motivation)
+    controlling-- decreases -->M
+    informational-- increases -->M
+
+---
+https://kroki.io/mermaid/svg/eNp9jzFPwzAQhff8ilOmIpGl2ZEssUQCtwoRC0LK1THNqY5d2S6l_x7HNpRmwMvJ7332e_ehzFmMaD10jwWEw97KnrS35EigUpdqMp4-0ZPeRx9FuJK_9OV7EYV2Vfbyy0urUYGVZ7QDRMOdxAjoYDJaBvwu4-vANzAY8CO5RO6kwJOT0ICigwTyV7oO9GRsEOdOOpS6T2-UdA5CbhJ_H_CVNrCo82P9m4wTHJGG60dzcgxZJsc6N8mzWuSdd3uLxxHYdtuy5oU95aVzgzikHhb086ZrXlnXbHjeOle4xRlU1QO0kMY6jfqPxZPFk8Xrb1ESf6w=
+
+flowchart TD
+    A["`intrisically-motivating
+    activity`"]
+
+    R("`external reward 
+    such as money`")
+
+    R2("`I do this 
+    because I like it`")
+
+    R3("`more intrinsic, 
+    less extrinsic`")
+
+    N(no external reward)
+
+    N2("`I do this 
+    because I am paid`")
+
+    N3("`less intrinsic, 
+    more extrinsic`")
+    
+
+    subgraph APPRAISAL
+    R2
+    N2
+    end
+
+    subgraph MOTIVATION
+    R3
+    N3
+    end
+
+    A --> R  --> R2 --> R3
+    A --> N  --> N2 --> N3
+
+---
+https://kroki.io/mermaid/svg/eNpLy8kvT85ILCpR8AniUgACT43MvJKizLzizGSF3PySzLLEksz8PE2wnKtGagUuOU-FVEMHXV07BVeIUoVUIzDXE8wFylUrJOZl5oJ1WCkUA61VqIVIGWGVAgATAy3T
+
+flowchart LR
+    I(intrinsic motivation)
+    E(extrinsic motivation)
+    I e1@--> E
+    E e2@--> I
+    e1@{ animation: slow }
+    e2@{ animation: slow }
+
+---
+https://kroki.io/mermaid/svg/eNpLy8kvT85ILCpR8AniUgAC_2j_oszUvJLEksz8vOJYsJhjdEhicbYCkgRE3CnaNT0fU9hfQVfXTsERie3EBQDFZh4V
+
+flowchart LR
+    O[Orientations]
+    A[Task Orientation]
+    B[Ego Orientation]
+    O --> A
+    O --> B
+
+---
+https://kroki.io/mermaid/svg/eNpLy8kvT85ILCpR8AniUgAC52jnnMzcxJLU4lgw3zE6JLE4W8G_KDM1rySxJDM_DyLuFO2ano8p7Kygq2un4IjEduICABPiHCQ=
+
+flowchart LR
+    C[Climates]
+    A[Task Orientation]
+    B[Ego Orientation]
+    C --> A
+    C --> B
+
+---
+https://kroki.io/mermaid/svg/eNpLy8kvT85ILCpR8AniUgACl2iXzKLU5JLM_LxYsIBjtGNBQVF-YnIGhO8U7ViWn5mSmJecChFwUdDVtVNwRGI7AQBiuxc-
+flowchart LR
+    D[Direction]
+    A[Approach]
+    B[Avoidance]
+    D --> A
+    D --> B
+
+---
+https://kroki.io/mermaid/svg/eNp9j8EOwiAMhu8-RY96WIx7AJO5qUc97EY8VKhC3GABnK8vjmWiJvbQpF_a_4NLYx5covVQVxBqNnv1el5LSwRCtaSdMtotIocsy-BgFWmPPvCElo1q0VNCKmWJD1sDdPfz1WInf-4LlhBYQsGlop6C2sPeYHOKWyFzDdWK1ehuHyhn26uJhLT4kqXP2rBxCpIjWU6qJwEVtaiFiwGbIXKbWkb01_L-6guXbJrjQTlE7Fas6DprkMsPnLOiN0qg5jTlPwGEp3Kf
+
+flowchart TD    
+
+    T(Three dimensions)
+    T --- Orientation
+    T --- Climate
+    T --- Direction
+
+    subgraph Orientation
+    A[Orientation / Achievement Goal]
+    A --> D1[Task]
+    A --> D2[Ego]
+    end
+
+    subgraph Climate
+    B[Climate / Perceived Demands]
+    B --> E1[Task]
+    B --> E2[Ego]
+    end
+
+    subgraph Direction
+    C[Direction]
+    C --> F1[Approach]
+    C --> F2[Avoidance]
+    end
+
+---
+https://kroki.io/mermaid/svg/eNqNzsEKwjAMgOG7T1F2L8IeQOguevAkA5EhrOtSW5jJSDunb-_sdlEUzDE_-YjtaDROcxT7w2olpglDc2HdO1E6IH6knaqUcR5ucAWMYku6W-o55aJSMbJvhugJ3wpg-6Eed6qczbzK6h44EE5cC9ajT_dklwtjIIS11b4bGOrst3iav3iBcO87jTpBlvgvSUkpDKEBRmjF6KMTUsqNymf2ey3yJ1teXzQ=
+
+flowchart LR
+
+    subgraph Theory
+    A[Achievement Goal Theory]
+    B[Attribution Theory]
+    end
+
+    subgraph WHAT
+    A2["`personal definition of
+    success/failure`"]
+    end
+
+    subgraph WHY
+    B2["`explanation for
+    success/failure`"]
+    end
+
+    A-- concerned with --->A2
+    B-- concerned with --->B2
