@@ -1,0 +1,69 @@
+---
+format: 
+    revealjs:
+        incremental: true
+        center-title-slide: true
+        center: false
+        slide-number: true
+        preview-links: false
+        progress: true
+        chalkboard: true
+        transition: fade
+        theme: solarized
+---
+
+# Foundations of Motivation {.nostretch}
+
+Foundations of Sport and Exercise Psychology
+JXH-1055, JXC-1055
+
+Dr Germano Gallicchio [personal page](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en)
+
+<img src="https://www.bangor.ac.uk/themes/custom/bangor/images/logo-black.svg" alt="Bangor University logo" style="width:20%;">
+
+# Attendance PIN
+
+asda
+
+
+# Agenda
+
+- motivation and basic related concepts
+
+- basics of Cognitive Evaluation Theory
+
+- basics of Achievement Goal Theory
+
+- basics of Attribution Theory
+
+- Experience collecting self-report data to measure motivation
+
+# Two columns
+
+:::: {.columns}
+
+::: {.column width="40%"}
+content on the left
+:::
+
+::: {.column width="60%"}
+content on the right
+:::
+
+::::
+
+. . .
+
+outside of column
+
+. . . 
+
+and more 
+
+---
+
+---
+# this is smaller {.smaller}
+
+asdasd
+asdasd
