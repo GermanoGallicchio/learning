@@ -13,8 +13,11 @@ website:
 
 format: 
     revealjs:
+        width: 1280     # slide width in pixels
+        height: 720     # slide height in pixels
+        margin: 0.02       # margin around slides (default is 0.1 = 10%)
         incremental: true
-        center-title-slide: true
+        center-title-slide: false
         center: false
         slide-number: true
         preview-links: false
