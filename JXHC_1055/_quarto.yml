@@ -1,13 +1,6 @@
 project:
   type: website
-  output-dir: docs
-
-website:
-  title: "JXHC 1055"
-  navbar:
-    left:
-      - text: "Session 2"
-        href: 02.qmd
+  output-dir: ../docs/JXHC_1055
 
 format: 
     revealjs:
