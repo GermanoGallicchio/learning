@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "JXHC 1055"
+  navbar:
+    left:
+      - text: "Session 2"
+        href: 02.qmd
+
+format: 
+    revealjs:
+        incremental: true
+        center-title-slide: true
+        center: false
+        slide-number: true
+        preview-links: false
+        progress: true
+        transition: fade
+        theme: solarized
