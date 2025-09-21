@@ -2,6 +2,15 @@ project:
   type: website
   output-dir: ../docs/JXHC_1055
 
+website:
+  title: "JXHC 1055"
+  navbar:
+    left:
+      - text: "Session 1"
+        href: 01.qmd
+      - text: "Session 2"
+        href: 02.qmd
+
 format: 
     revealjs:
         incremental: true
@@ -11,4 +20,6 @@ format:
         preview-links: false
         progress: true
         transition: fade
-        theme: solarized
+        theme: simple
+        chalkboard: true
+        css: custom.css

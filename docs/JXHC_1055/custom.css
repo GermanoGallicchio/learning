@@ -1,0 +1,15 @@
+/* Base text size for paragraphs and list items */
+.reveal p,
+.reveal li {
+  font-size: 1em;
+}
+
+/* H1 on normal slides */
+.reveal h1 {
+  font-size: 0.8em !important;
+}
+
+/* H1 on the title slide */
+.reveal .title-slide h1 {
+  font-size: 0.8em !important;
+}
