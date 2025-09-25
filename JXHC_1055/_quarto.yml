@@ -25,4 +25,7 @@ format:
         transition: fade
         theme: simple
         chalkboard: true
+        scrollable: true
+        touch: false
+        controls: true
         css: custom.css
