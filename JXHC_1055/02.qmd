@@ -8,6 +8,9 @@ Dr Germano Gallicchio, [personal page](https://www.bangor.ac.uk/staff/spss/germa
 
 <img src="https://www.bangor.ac.uk/themes/custom/bangor/images/logo-black.svg" alt="Bangor University logo" style="width:20%;">
 
+<div style="font-size:0.6em">
+On a computer press F11 for full-screen view
+</div>
 
 ## Attendance PIN {.center}
 
@@ -19,15 +22,12 @@ Dr Germano Gallicchio, [personal page](https://www.bangor.ac.uk/staff/spss/germa
 
 # Agenda
 
-- motivation and basic related concepts
-
-- Experience collecting self-report data to measure motivation
-
+- foundational concepts in motivation 
+- through a mixture of theory, intuition, and examples
 - basics of Cognitive Evaluation Theory
-
 - basics of Achievement Goal Theory
-
 - basics of Attribution Theory
+- experience collecting self-report data to measure motivation
 
 ## Questionnaire activity (part 1) {.center}
 
@@ -75,6 +75,7 @@ The way in which rewards are _interpreted_ (appraisal) has an impact on motivati
 . . .
 
 ```{dot}
+//| fig-width: 7
 digraph G {
 	rankdir = "LR"
     bgcolor = "transparent"
@@ -180,6 +181,7 @@ src="https://kroki.io/mermaid/svg/eNp9jzFPwzAQhff8ilOmIpGl2ZEssUQCtwoRC0LK1THNqY
 
 
 ```{dot}
+//| fig-height: 7
 digraph G {
     rankdir=TD;
     bgcolor = "transparent"
@@ -272,7 +274,10 @@ Three hierarchical levels (from most specific to most general):
 />
 -->
 
+::::{.columns}
+:::{.column}
 ```{dot}
+//| fig-width: 6
 digraph G {
     rankdir=LR;
     bgcolor="transparent";
@@ -284,14 +289,18 @@ digraph G {
     O -> B;
 }
 ```
+:::
 
+:::{.column}
 Two orientations (also known as "achievement goals"):
 
 - **Task** / mastery orientation: focus on aquiring competence and personal development
 
 - **Ego** / performance/outcome orientation: focus on demonstrating better performance than others
+:::
+::::
 
-. . .
+---
 
 <div style="font-size: 0.8em;">
 
@@ -302,6 +311,8 @@ Examples:
 - Ego: “Finish ahead of your teammate today”
 
 </div>
+
+Think of some examples
 
 ---
 
@@ -318,7 +329,7 @@ The two orientations are associated with different behaviours and thoughts
 :::
 
 
-
+---
 
 ## Questionnaire activity (part 2) {.center}
 
@@ -339,7 +350,10 @@ Two climates (also known as "perceived demands"):
 />
 -->
 
+::::{.columns}
+:::{.column}
 ```{dot}
+//| fig-width: 6
 digraph G {
     rankdir=LR;
     bgcolor="transparent";
@@ -351,13 +365,16 @@ digraph G {
     O -> B;
 }
 ```
+:::
 
-. . . 
 
+:::{.column}
 Climates are environments that facilitates or impede the development of a certain personal orientation.
 
 - **Task** climate: rewards and punishments are contingent to development and effort
 - **Ego** climate: rewards and punishments are contingent to distance from desired outcome
+:::
+::::
 
 ---
 
@@ -389,7 +406,10 @@ Distinction used across several motivation models:
 />
 -->
 
+::::{.columns}
+:::{.column}
 ```{dot}
+//| fig-width: 6
 digraph G {
     rankdir=LR;
     bgcolor="transparent";
@@ -401,17 +421,18 @@ digraph G {
     O -> B;
 }
 ```
+:::
 
-. . .
-
+:::{.column}
 **Approach** motivation refers to the tendency to move _towards_ a desired goal, reward, or positive outcome.  
 <div style="font-size:85%">Example: Aim to learn a new skill this week</div>
 
-. . .
+
 
 **Avoidance** motivation refers to the tendency to move _away from_ an undesired situation, threat, or negative outcome.  
 <div style="font-size:85%">Example: Aim to avoid making mistakes this week</div>
-
+:::
+::::
 
 
 # Trichotomous model (Elliot, 1999) 
@@ -426,7 +447,10 @@ The trichotomous model expands on previous theories by integrating three dimensi
 />
 -->
 
+::::{.columns}
+:::{.column width=60%}
 ```{dot}
+//| fig-width: 7
 digraph G {
     rankdir=LR;
     bgcolor="transparent";
@@ -453,9 +477,16 @@ digraph G {
     Direction -> F2;
 }
 ```
+:::
 
-Three dimensions: **Orientation** / achievement goal (task, ego), **Climate** / perceived demands (task, ego), **Direction** (approach, avoidance)
+:::{.column width=40%}
+Three dimensions: 
 
+- **Orientation** / achievement goal (task, ego), 
+- **Climate** / perceived demands (task, ego), 
+- **Direction** (approach, avoidance)
+:::
+::::
 
 # "Two-by-two model" (Elliot, 1999)
 
@@ -504,14 +535,8 @@ This model categorizes explanations against 3 dimensions, each defined in two le
 Examples of Attribution Theory
 
 
-<style>
-table {
-    font-size: 0.8em;
-}
-</style>
-
 | **Scenario** | **Locus of Causality** | **Stability** | **Locus of Control** |
-|--------------|-------------------------|---------------|-----------------------|
+|----------------------|-------------|-------------|-----------------------|
 | "I failed the test because I didn't study enough." | Internal | Unstable | Under own control |
 | "We lost the game because the referee made bad calls." | External | Unstable | Outside own control |
 | "I won the race because I have natural talent." | Internal | Stable | Outside own control |
