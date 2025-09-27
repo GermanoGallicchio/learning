@@ -399,14 +399,16 @@ Illustration of **pyramidal** and **stellate** neurons, highlighting their disti
 . . .
 
 ::::{.columns}
-:::{.fragment}
+
 :::{.column}
+:::{.fragment}
 Golgi **Type I** neurons, also known as **projecting neurons**, have long axons that extend to distant targets, enabling communication across different regions of the nervous system.
 :::
 :::
 
-:::{.fragment}
+
 :::{.column}
+:::{.fragment}
 Golgi **Type II** neurons, also known as **local circuit neurons**, have short axons that remain close to the soma, facilitating communication within a localized area.
 :::
 :::
@@ -631,7 +633,7 @@ The outermost layer of the brain, responsible for cognitive functions such as **
 ::::
 
 
-# Frontal lobe
+# Frontal lobe {.scrollable}
 
 The **frontal lobe** is the largest of the brain's lobes and is responsible for a wide range of functions, including:
 
@@ -705,22 +707,31 @@ These layers vary in thickness and composition across different parts (structura
 # Brodmann areas
 
 ::::{.columns}
-:::{.column width=40%}
+:::{.column width=30%}
 <img 
     src="https://upload.wikimedia.org/wikipedia/commons/5/57/Brodmann_areas.jpg"
     alt="Brodmann Areas"
-    width="80%"
+    width="100%"
 />
 :::
 
-:::{.column width=60%}
+:::{.column width=70%}
+
+:::{.fragment}
 The cerebral cortex is divided into distinct zones based on differences in cytoarchitecture. These zones, known as **Brodmann areas**, identified in the early 20th century by Korbinian Brodmann. 
+:::
 
+:::{.fragment}
 Generally, each area is associated with specific functions, such as sensory processing, motor control, or higher cognitive tasks.
+:::
 
+:::{.fragment}
 For example:
+
 - **Primary motor cortex (Brodmann area 4)**: Contains large pyramidal neurons critical for voluntary _movement_.
 - **Broca's area (Brodmann areas 44 and 45)**: Located in the frontal lobe, it is critical for speech _production_ and language processing.
+:::
+
 :::
 ::::
 
@@ -729,7 +740,9 @@ For example:
 
 <iframe src="https://www.brainfacts.org/3d-brain#intro=false&focus=Brain" width="100%" height="70%" frameborder="0" allowfullscreen=></iframe>
 
-The in-slide interactive feature is a bit temperamental. Here is the link: https://www.brainfacts.org/3d-brain#intro=false&focus=Brain
+<a href="https://www.brainfacts.org/3d-brain#intro=false&focus=Brain" target="_blank">
+https://www.brainfacts.org/3d-brain#intro=false&focus=Brain
+</a>
 
 
 # Cerebral cortex and cognitive functions
