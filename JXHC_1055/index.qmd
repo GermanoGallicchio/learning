@@ -1,7 +1,0 @@
----
-format: html
----
-
-# Welcome to JXHC 1055
-
-Use the navigation bar above to access a specific presentation
