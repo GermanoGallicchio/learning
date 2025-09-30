@@ -1,0 +1,357 @@
+## Foundations of Attention {.nostretch .center}
+
+Foundations of Sport and Exercise Psychology
+
+JXH-1055, JXC-1055
+
+Dr Germano Gallicchio, [personal page](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en)
+
+<img src="https://www.bangor.ac.uk/themes/custom/bangor/images/logo-black.svg" alt="Bangor University logo" style="width:20%;">
+
+<div style="font-size:0.6em">
+On a computer press F11 for full-screen view
+</div>
+
+
+## Attendance PIN {.center}
+
+<div contenteditable="true" style="
+    min-height: 2em;
+    padding: 0.1em;
+    font-size: 4em;
+"> pin </div>
+
+# Agenda
+
+Definition of attention
+
+Visuospatial attention and its typologies
+
+Spatial cueing effects
+
+Attention and deception in sports
+
+
+# What is attention?
+
+::::{.columns}
+:::{.column width=20%}
+<div style="text-align: center;">
+<img 
+    src="https://media.snl.no/media/19335/standard_compressed_256px-William_James_b1842c.jpg"
+    alt="Portrait of William James"
+    title="William James"
+    width="100%"/>
+    William James
+</div>
+
+::: aside
+[William James](https://en.wikipedia.org/wiki/William_James): American psychologist and philosopher, founder of modern psychology
+:::
+:::
+
+:::{.column width=80%}
+>Everyone knows what attention is. It is the [taking possession by the mind]{.fragment .highlight-red fragment-index=1}, in clear and vivid form, of [one out of what seem several simultaneously possible objects or trains of thought]{.fragment .highlight-red fragment-index=2}. Focalization, concentration of consciousness are of its essence. [It implies withdrawal from some things in order to deal effectively with others]{.fragment .highlight-red fragment-index=3}, and is a condition which has a real opposite in the confused, dazed, scatterbrain state.
+:::
+::::
+
+
+[point 1: We can choose the focus of attention. Attention can be voluntary.]{.fragment fragment-index=1}
+
+[point 2: Inability to attend to many things at once]{.fragment fragment-index=2}
+
+[point 3: Limited capacity to process information. 
+Attention is a selective process]{.fragment fragment-index=3}
+
+
+
+
+# Attention is a selective process 
+
+These videos are meant to demonstrate we don't notice obvious changes when we don't pay attention to them.
+
+<iframe 
+    width="49%" 
+    height="70%" 
+    src="https://youtube.com/embed/FWSxSQsspiQ/" 
+    title="The Door Study" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+
+<iframe 
+    width="49%" 
+    height="70%" 
+    src="https://youtube.com/embed/vJG698U2Mvo/" 
+    title="Selective Attention Test" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+
+# Visuospatial attention
+
+
+There are several theoretical models of visuospatial attention (but we will not go through each of them)
+
+It is useful to think of attention as a spotlight moving in space
+
+<div style="text-align:center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/White_spotlight_on_David_Byrne.jpg" alt="a spotlight in theatre" style="width:70%;">
+</div>
+
+---
+
+:::{.fragment}
+Selecting a certain location or object in space, so that processing of those stimuli is facilitated.
+:::
+
+:::{.fragment}
+Events occurring in that location (vs those occuring in another location):
+:::
+
+- are processed more quickly
+- produce greater neural activity in related regions
+- are detected at lower thresholds
+
+:::{.fragment}
+**Orienting** of visuospatial attention = aligning of attention with a source of sensory input or with an internal representation (memory)
+:::
+
+---
+
+Keep your gaze on the center while reading the letters appearing on screen
+
+
+<div class="circle">
+  <span class="center">[+]{.fragment}</span>
+  <span style="--i:0">[C]{.fragment}</span>
+  <span style="--i:1">[O]{.fragment}</span>
+  <span style="--i:2">[V]{.fragment}</span>
+  <span style="--i:3">[E]{.fragment}</span>
+  <span style="--i:4">[R]{.fragment}</span>
+  <span style="--i:5">[T]{.fragment}</span>
+</div>
+
+<style>
+.circle {
+  position: relative;
+  width: 30%;
+  height: 80%;
+  margin: auto;
+}
+.circle span {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: rotate(calc(60deg * var(--i))) translate(150px) rotate(calc(-60deg * var(--i)));
+  font-size: 1.5em;
+}
+
+/* Override for the center element */
+.circle .center {
+  transform: translate(-50%, -50%); /* stays in the middle */
+}
+</style>
+
+
+
+# Orienting of visuospatial attention
+
+
+```{dot}
+//| fig-width: 6
+digraph {
+    node [shape=plaintext]
+    edge [arrowhead=none]
+    rankdir=LR
+    bgcolor="transparent"
+    orienting -> {overt; covert}
+}
+```
+
+
+
+
+:::{.fragment}
+**covert orienting**: attention is directed in space independently of the sensorial organs (e.g., direction of eyes or head)
+:::
+
+:::{.fragment}
+**overt orienting**: Directing the sensorial organs
+towards the region of space of interest.
+:::
+
+
+
+# Covert or overt?
+
+::::{.columns}
+:::{.column width=50%}
+Overt orienting
+
+- Turning your head or body toward a sound to better hear or identify it.
+    *Example: You hear footsteps and turn your head to locate the source.*
+- You pay attention to something without moving your head or eyes.  
+    *Example: You listen to a conversation behind you but keep facing forward.*
+
+:::
+
+:::{.column width=50%}
+Covert orienting
+
+- Focusing attention on a particular sound or voice without moving your head or body.
+    *Example: You listen for a specific person's voice in a crowded room while remaining still.*
+- Tracking the location of people or objects based on auditory cues, without physically orienting toward them.
+- You think about or track what someone is doing, even though you are looking somewhere else.
+- You notice something happening at the edge of your perceptual field while not redirecting your senses towards it.
+
+:::
+::::
+
+
+# Spatial cueing task
+
+Introductory video (scene from the movie "Back to the Future")
+
+<iframe 
+    width="100%" 
+    height="70%" 
+    src="https://youtube.com/embed/GCp-zxSqopw?t=5" 
+    title="Back to the Future scene" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+
+
+# Spatial Cueing Task
+
+::::{.columns}
+:::{.column width=20%}
+<div style="text-align: center;">
+<img 
+    src="https://www.aaas.org/sites/default/files/s3fs-public/blog_media/michael_posner_image.jpg"
+    alt="Portrait of Michael Posner"
+    title="Michael Posner"
+    width="100%"/>
+    Michael Posner
+</div>
+
+<iframe 
+    width="100%" 
+    height="70%" 
+    src="https://youtube.com/embed/uYUdwS7-WvA" 
+    title="Interview to Michael Posner" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+
+:::
+
+:::{.column width=80%}
+The spatial cueing task is a experiment used to study how attention is directed in space. It helps us understand how **cues** can guide our focus, even without moving our eyes or head. [How does the task work?]{.fragment}
+
+- You fix your gaze on a central point.
+- A cue appears, indicating where a target might show up.
+- After a brief delay, the target appears either at the cued location or elsewhere.
+- You respond as quickly as possible when you detect the target.
+
+[There is a catch: the cue does not always tell the truth.]{.fragment}
+
+:::
+::::
+
+::: aside
+[Michael Posner](https://en.wikipedia.org/wiki/Michael_Posner_(psychologist)) is an American cognitive psychologist known for his pioneering research on attention and the development of the spatial cueing task.
+:::
+
+
+
+# Types of cues
+
+::::{.columns}
+:::{.column width=33%}
+**Valid cue**
+
+- The cue correctly indicates where the target will appear.
+- Example: A sound or light flashes on the left, and the target appears on the left.
+- People respond faster to valid cues.
+
+:::
+
+:::{.column width=33%}
+**Invalid cue**
+
+- The cue points to the wrong location.
+- Example: A cue flashes on the right, but the target appears on the left.
+- Responses are slower because attention was misdirected.
+
+:::
+
+:::{.column width=33%}
+**Neutral cue**
+
+- The cue does not give information about the target's location.
+- Example: A cue appears in the center or points in both directions.
+- Response times are intermediate.
+
+:::
+::::
+
+
+# Examples of possible non-visual adaptations
+
+**Auditory version**
+
+:::{.fragment}
+Cue: a brief tone presented to either the left, right, of both ears
+
+Target: another brief tone presented to either left or right ear
+
+Task: Press a button as quickly as possible when you hear the target
+:::
+
+
+**Tactile version**
+
+:::{.fragment}
+Cue: a brief vibration presented to either the left, right, or both hands
+
+Target: another brief vibration presented to either the left or right hand
+
+Task: respond with your voice as soon quickly as possible when you feel the vibration
+:::
+
+::: aside
+Cue-Target Delay: The delay between the cue and target is small
+:::
+
+
+# Why this task has been so influencial
+
+- It demonstrates how the attention can be guided by cues, even without moving our senses.
+- It reveals that attention improves processing at the cued location and slows it elsewhere.
+- This helps us understand selective attention in everyday life and sports.
+- It shows the **cost** of attenting to the wrong location and the **benefit** of attenting to the right location
+
+# results
+
+```{r}
+# Data
+conditions <- c("Invalid 20%", "Neutral 50%", "Valid 80%")
+response_times <- c(300, 260, 240)
+
+# Base R barplot
+barplot(
+  height = response_times,
+  names.arg = conditions,
+  col = c("red", "gray", "green"),
+  ylim = c(0, 320),
+  xlab = "Condition",
+  ylab = "Response Time [ms]"
+)
+
+```
+
