@@ -265,7 +265,7 @@ Where: Athletic teams, military, fitness industry
 
 
 ::::{.columns}
-:::{.column}
+:::{.column width=40%}
 ```{dot}
 //| fig-width: 5
 digraph {
@@ -281,7 +281,7 @@ digraph {
 ```
 :::
 
-:::{.column}
+:::{.column width=60%}
 :::{.fragment}
 **Clinical** sport and exercise psychologists
 
@@ -393,14 +393,18 @@ timeline
     2000-present : Contemporary sport and exercise 
 ```
 
-
+::::{.columns}
+:::{.column}
 - 1890-1920s : Early years
 - 1920-40s : First laboratory testing
 - 1940-60s : Preparation for the future
+:::
+:::{.column}
 - 1960-80s : Academic discipline
 - 1980-90s : Multidisciplinary science and practice
 - 2000-present : Contemporary sport and exercise 
-
+:::
+::::
 
 # Development of sport and exercise psychology (scrollable slide) {.scrollable}
 
@@ -591,13 +595,13 @@ correct answer: B
 
 2) Which is NOT one of the two main objectives?
 
-- A) Understanding effects of psychological factors on performance (Sport)
+A) Understanding effects of psychological factors on performance (Sport)
 
-- B) Understanding effects of physical activity on health and well-being (Exercise)
+B) Understanding effects of physical activity on health and well-being (Exercise)
 
-- C) Developing strength and conditioning programmes
+C) Developing strength and conditioning programmes
 
-- D) Understanding psychological development related to activity (Exercise)
+D) Understanding psychological development related to activity (Exercise)
 
 ::: {.fragment} 
 correct answer: C
@@ -608,13 +612,13 @@ correct answer: C
 
 3) Which population is explicitly within SEP’s remit?
 
-- A) Only elite athletes
+A) Only elite athletes
 
-- B) Only children and adolescents
+B) Only children and adolescents
 
-- C) Children, people with disabilities, elderly, recreational, and elite athletes
+C) Children, people with disabilities, elderly, recreational, and elite athletes
 
-- D) Only adults in clinical care
+D) Only adults in clinical care
 
 ::: {.fragment} 
 correct answer: C
@@ -625,26 +629,31 @@ correct answer: C
 
 4) Which role focuses on advancing knowledge?
 
-- A) Teaching
-- B) Consulting
-- C) Research
-- D) Personal tutoring
+A) Teaching
+
+B) Consulting
+
+C) Research
+
+D) Personal tutoring
 
 ::: {.fragment} 
 correct answer: C
 :::
 
+
 # Review (MCQs 5)
 
 5) Which statement about specialties is true?
 
-- A) Educational specialists diagnose and treat emotional disorders
+A) Educational specialists diagnose and treat emotional disorders
 
-- B) Clinical SEP require an additional clinical licence
+B) Clinical SEP require an additional clinical licence
 
-- C) Clinical SEP do not work with mental health issues
+C) Clinical SEP do not work with mental health issues
 
-- D) Educational SEP cannot work in universities
+D) Educational SEP cannot work in universities
+
 
 ::: {.fragment} 
 correct answer: B
@@ -655,13 +664,13 @@ correct answer: B
 
 6) Which best matches the psychophysiological orientation?
 
-- A) Studying social context effects on individuals
+A) Studying social context effects on individuals
 
-- B) Using brain waves/heart rate as markers of psychological states
+B) Using brain waves/heart rate as markers of psychological states
 
-- C) Emphasising thoughts driving behaviour
+C) Emphasising thoughts driving behaviour
 
-- D) Analysing technique via biomechanics
+D) Analysing technique via biomechanics
 
 ::: {.fragment} 
 correct answer: B
@@ -672,13 +681,13 @@ correct answer: B
 
 7) A core tenet of the scientific method is:
 
-- A) Relying on expert opinion over data
+A) Relying on expert opinion over data
 
-- B) Systematic approach and control of conditions
+B) Systematic approach and control of conditions
 
-- C) Avoiding replication
+C) Avoiding replication
 
-- D) Prioritising intuition
+D) Prioritising intuition
 
 ::: {.fragment} 
 correct answer: B
@@ -689,13 +698,13 @@ correct answer: B
 
 8) A scientific theory is best described as:
 
-- A) A speculative guess
+A) A speculative guess
 
-- B) A set of interrelated facts describing, explaining, and predicting a phenomenon
+B) A set of interrelated facts describing, explaining, and predicting a phenomenon
 
-- C) A personal belief supported by anecdote
+C) A personal belief supported by anecdote
 
-- D) A single confirmed hypothesis
+D) A single confirmed hypothesis
 
 ::: {.fragment} 
 correct answer: B
