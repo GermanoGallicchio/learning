@@ -22,18 +22,21 @@ On a computer press F11 for full-screen view
 
 # Agenda
 
-- foundational concepts in motivation 
-- through a mixture of theory, intuition, and examples
+- some foundational concepts in motivation 
+- a mixture of theory and intuition
 - basics of Cognitive Evaluation Theory
 - basics of Achievement Goal Theory
 - basics of Attribution Theory
-- experience collecting self-report data to measure motivation
+- experience collecting self-report data to measure a motivation construct
+
 
 ## Questionnaire activity (part 1) {.center}
 
-Fill in the questionnare "Task and Ego orientation in Sport Questionnaire" (Duda, 1989). There is no right or wrong.
+Fill in the questionnare "Task and Ego orientation in Sport Questionnaire" (Duda, 1989). There is no right or wrong answer.
 
-We will compute the scores (page 2) later in the session
+[We will compute the scores (page 2) later in the session]{.fragment} [and we will discuss what the scores mean]{.fragment}
+
+
 
 
 # Intuitive understanding
@@ -41,15 +44,15 @@ We will compute the scores (page 2) later in the session
 :::: {.columns}
 ::: {.column width="50%"}
 
-::: {.fragment}
+::: {.fragment fragment-index=1}
 Etymology (origin of the word) of _motivation_: from the Latin "motus" meaning "motion"
 :::
 
-::: {.fragment}
+::: {.fragment fragment-index=2}
 A working definition for now can be "what moves somebody"
 :::
 
-::: {.fragment}
+::: {.fragment fragment-index=3}
 Analogy of "stick and carrot"
 :::
 :::
@@ -57,14 +60,43 @@ Analogy of "stick and carrot"
 
 
 ::: {.column width="50%"}
+::: {.fragment fragment-index=3}
 <img src="https://images.prismic.io/sketchplanations/b3c548b0-71ab-48c5-8c6e-e14bf07d6ac5_SP+773+-+Extrinsic+motivation.png?auto=compress,format&w=1200" style="width:100%" alt="Image of donkey with carrot ahead and stick behind" />
+:::
 :::
 ::::
 
+
 # Cognitive Evaluation Theory (Deci & Ryan, 1991)
 
-The way in which rewards are _interpreted_ (appraisal) has an impact on motivation
+[The way in which]{.fragment fragment-index=2} [rewards are _interpreted_ (evaluated)]{.fragment fragment-index=1} [has an impact on intrinsic motivation]{.fragment fragment-index=2}
 
+
+::::{.columns}
+:::{.column}
+
+```{dot}
+//| fig-width: 6
+digraph {
+	rankdir = "LR"
+    bgcolor = "transparent"
+	
+	subgraph cluster_0 {
+		controlling 
+		informational
+		label = "APPRAISAL";
+	}
+	
+    A [label="reward"];
+    A -> controlling;
+	A -> informational;
+
+}
+```
+
+:::
+
+:::{.column}
 <!--
 <img 
     src="https://kroki.io/mermaid/svg/eNpljjEOgzAMRXdO4bEdcoVKGSuBhOgJ3CSApWBXTlqu3zQsQD3-__6Txyirm1EztEMD5TSsqN6YmxPOKjEST8eCeBRdMJMwxqZ26f2cFF8z2L4f7P1h2xqfFcflLwnsN0N3ocISJ3KwSKZPpa5njTHgg9OAKSQov3T_3oIQ75EvaQNIoA==" style="width:80%"
@@ -72,45 +104,52 @@ The way in which rewards are _interpreted_ (appraisal) has an impact on motivati
 />
 -->
 
-. . .
 
-```{dot}
-//| fig-width: 7
-digraph G {
-	rankdir = "LR"
-    bgcolor = "transparent"
+:::{.fragment fragment-index=3}
+The _same_ reward can be interpreted as
+:::
 
-	a1 = "reward"
-	
-	subgraph cluster_0 {
-		controlling 
-		informational
-		label = "appraisal";
-	}
+- **controlling** (i.e., trying to influence their behaviour), resulting in decreased intrinsic motivation
 
-	
-    reward -> controlling -> decreases -> "intrinsic motivation";
-	reward -> informational -> increases -> "intrinsic motivation";
+- **informational** (i.e., providing constructive feedback), resulting in enhanced intrinsic motivation
 
-}
-```
+:::
+::::
 
+
+::: aside
+:::{.fragment fragment-index=2}
+intrinsic motivation will be defined shortly
+:::
+:::
 
 ---
 
-The same reward can be interpreted as
+Which is which?
 
-- _controlling_ (i.e., trying to influence their behaviour), resulting in decreased intrinsic motivation
+<br>
 
-- _informational_ (i.e., providing constructive feedback), resulting in enhanced intrinsic motivation
+::::{.columns}
+:::{.column}
+Coach: "Win and we skip tomorrow’s session" 
+<br><br><br>
+Giving a prize for just showing up
+<br><br><br>
+Coach: "Your tackle timing improved; keep that footwork" 
+<br><br><br>
+Giving a progress report with specific, constructive comments
+:::
+:::{.column}
+<br><br><br>
+**controlling**
+<br><br><br><br><br><br>
+**informational**
+:::
+::::
 
-. . .
 
-Examples:
 
-- Coach: "Win and we skip tomorrow’s session" (controlling) vs "Your tackle timing improved; keep that footwork" (informational)
 
-- Prize for just showing up (controlling) vs a progress report with specific, constructive comments (informational)
 
 
 # Intrinsic vs extrinsic motivation 
@@ -123,6 +162,8 @@ Examples:
 
 . . .
 
+<br>
+
 Examples of intrinsic and extrinsic motivation:
 
 - Intrinsic: running because you enjoy the sensation and challenge
@@ -131,23 +172,43 @@ Examples of intrinsic and extrinsic motivation:
 
 # Which one is better?
 
+:::{.fragment fragment-index=1}
 Intrinsic is often the ideal type
+:::
 
-. . .
-
+:::{.fragment fragment-index=2}
 Theoretically distinct...
+:::
 
-. . .
-
+:::{.fragment fragment-index=3}
 ...but practically interacting in real life: more of one is associated with less of the other
+:::
+
+:::{.fragment fragment-index=4}
+Importantly, one can turn into the other.
+:::
+
+:::{.fragment fragment-index=3}
+```{dot}
+digraph G {
+    rankdir=LR; // Left to Right layout
+    bgcolor="transparent"
+
+    Intrinsic [label="Intrinsic", shape=plaintext, fontsize=8];
+    Extrinsic [label="Extrinsic", shape=plaintext, fontsize=8];
+
+    Intrinsic -> Extrinsic [
+        dir=both,          // arrowheads on both ends
+        penwidth=3,        // makes the arrow thick
+        arrowsize=0.5,       // makes the arrowheads big
+        color=black
+    ];
+}
+```
+:::
 
 
-<svg width="50%" height="30%">
-    <circle cx="40%" cy="50%" r="20%" fill="purple" fill-opacity="0.5"/>
-    <circle cx="60%" cy="50%" r="20%" fill="orange" fill-opacity="0.5"/>
-    <text x="35%" y="50%" text-anchor="middle" fill="black" font-size="1em">Intrinsic</text>
-    <text x="65%" y="50%" text-anchor="middle" fill="black" font-size="1em">Extrinsic</text>
-</svg>
+
 
 # Anectode of the old man and the kids
 
@@ -181,21 +242,21 @@ src="https://kroki.io/mermaid/svg/eNp9jzFPwzAQhff8ilOmIpGl2ZEssUQCtwoRC0LK1THNqY
 
 
 ```{dot}
-//| fig-height: 7
+//| fig-width: 13
 digraph G {
-    rankdir=TD;
+    rankdir=LR;
     bgcolor = "transparent"
     
     A [label="intrinsically-motivating\nactivity"];
-    R [label="external reward\nsuch as money"];
+    R [label="no external reward"];
     R2 [label="I do this\nbecause I like it"];
     R3 [label="more intrinsic,\nless extrinsic"];
-    N [label="no external reward"];
+    N [label="external reward\nsuch as money"];
     N2 [label="I do this\nbecause I am paid"];
     N3 [label="less intrinsic,\nmore extrinsic"];
 
     subgraph cluster_appraisal {
-        label="APPRAISAL";
+        label="COGNITIVE\nEVALUATION";
         style=dashed;
         R2;
         N2;
@@ -233,37 +294,67 @@ Further examples:
 - Removing external rewards, such as points or badges, can renew interest in an activity when the activity itself is inherently enjoyable.
 
 
-# Hierarchical Model of Intrinsic/Extrinsic Motivation (HMIEM, Lalande & Vallerand, 2014)
+# Hierarchical Model of Intrinsic/Extrinsic Motivation (HMIEM, Lalande & Vallerand, 2014) {.scrollable}
 
-Three hierarchical levels (from most specific to most general):
+::::{.columns}
+:::{.column}
+Motivation operates at three hierarchical levels of generality (from most general to most specific):
 
-- situational (most specific)
-
-- contextual
-
-- global (most general)
-
-. . .
-
-:::: {.columns}
-
-
-::: {.column width="40%"}
-::: {.fragment}
-**Similarity across levels**. For example, high intrinsic motivation at the global level is associated with high intrinsic motivation at the contextual level
-:::
+::: {.fragment fragment-index=1}
+**Global** level: how a person is generally motivated across life (e.g., traits)
 :::
 
-::: {.column width="60%"}
-::: {.fragment}
+::: {.fragment fragment-index=2}
+**Contextual** level: within specific life domains (e.g., work, school, relationships, sport).
+:::
+
+::: {.fragment fragment-index=3}
+**Situational** Level: Motivation in specific situation, moments, or tasks within a certain context (e.g., studying for a test today).
+:::
+
+:::
+
+:::{.column}
+
+<!-- SVG: Three concentric circles representing nested sets -->
+<svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="130" cy="130" r="110" fill="#e0e0e0" stroke="#888" stroke-width="2"/>
+    <circle cx="130" cy="130" r="75" fill="#bdbdbd" stroke="#888" stroke-width="2"/>
+    <circle cx="130" cy="130" r="40" fill="#9e9e9e" stroke="#888" stroke-width="2"/>
+    <text x="130" y="45" text-anchor="middle" font-size="1em" fill="#333">Global</text>
+    <text x="130" y="90" text-anchor="middle" font-size="1em" fill="#333">Contextual</text>
+    <text x="130" y="140" text-anchor="middle" font-size="1em" fill="#333">Situational</text>
+</svg>
+
+::: {.fragment fragment-index=4}
 | level | example
 | ----- | ------ |
 | situational | specific drills, specific parts of the game |
 | contextual | football |
 | global | sport |
 :::
+
+
 :::
 ::::
+
+
+::: {.fragment fragment-index=5}
+**Similarity across levels**. For example, high intrinsic motivation at the global level is associated with high intrinsic motivation at the contextual level
+:::
+
+
+# Small-group chats
+
+1. Share an example from your own experience where your motivation changed from intrinsic to extrinsic (or vice versa). What triggered the change?
+
+<br><br>
+
+2. Can you think of an example from sport or exercise that fits all three hierarchical levels?
+    - Global: Motivation across life
+    - Contextual: Motivation within a specific sport or activity
+    - Situational: Motivation in a specific moment or task within that sport
+
 
 
 # Achievement Goal Theory (Nichols, 1984)
@@ -536,7 +627,7 @@ Examples of Attribution Theory
 
 
 | **Scenario** | **Locus of Causality** | **Stability** | **Locus of Control** |
-|----------------------|-------------|-------------|-----------------------|
+|-------------------------|-------------|----------|-----------------------|
 | "I failed the test because I didn't study enough." | Internal | Unstable | Under own control |
 | "We lost the game because the referee made bad calls." | External | Unstable | Outside own control |
 | "I won the race because I have natural talent." | Internal | Stable | Outside own control |
@@ -545,18 +636,51 @@ Examples of Attribution Theory
 
 # Memory tip
 
-How to distinguish "Achievement Goal Theory" from "Attribution Theory". The former is concerned with the **what**, the latter with the **why**.
+How to remember the distinction between "Achievement Goal Theory" and "Attribution Theory". 
+
+:::{.fragment}
+Both deal with successes and failures. The former is concerned with the **what**, the latter with the **why**.
+:::
+
+<!-- <img 
+src="https://kroki.io/mermaid/svg/eNqNzsEKwjAMgOG7T1F2L8IeQOguevAkA5EhrOtSW5jJSDunb-_sdlEUzDE_-YjtaDROcxT7w2olpglDc2HdO1E6IH6knaqUcR5ucAWMYku6W-o55aJSMbJvhugJ3wpg-6Eed6qczbzK6h44EE5cC9ajT_dklwtjIIS11b4bGOrst3iav3iBcO87jTpBlvgvSUkpDKEBRmjF6KMTUsqNymf2ey3yJ1teXzQ="
+width="100%"
+alt="Diagram generated by Kroki"
+/> -->
+
+:::{.fragment}
+```{dot}
+//| fig-width: 13
+digraph G {
+    rankdir=LR;
+    bgcolor="transparent";
+    node [shape=plaintext]
+    
+
+	subgraph cluster_0 {
+        AchievementGoalTheory
+		AttributionTheory 
+		label = "THEORY";
+	}
+
+    AchievementGoalTheory [label="Achievement Goal\nTheory"];
+    AttributionTheory [label="Attribution\nTheory"];
+    ConcernedWith [label="concerned with"];
+    ExplanationFor [label="explanation for"];
+    PersonalDefinitionOf [label="personal definition of"];
+    SuccessFailure [label="success/failure"];
 
 
-<img 
-    src="https://kroki.io/mermaid/svg/eNqNzsEKwjAMgOG7T1F2L8IeQOguevAkA5EhrOtSW5jJSDunb-_sdlEUzDE_-YjtaDROcxT7w2olpglDc2HdO1E6IH6knaqUcR5ucAWMYku6W-o55aJSMbJvhugJ3wpg-6Eed6qczbzK6h44EE5cC9ajT_dklwtjIIS11b4bGOrst3iav3iBcO87jTpBlvgvSUkpDKEBRmjF6KMTUsqNymf2ey3yJ1teXzQ="
-    width="100%"
-    alt="Diagram generated by Kroki"
-/>
+    AchievementGoalTheory -> ConcernedWith -> PersonalDefinitionOf -> SuccessFailure
+
+    AttributionTheory -> ConcernedWith -> ExplanationFor -> SuccessFailure;
 
 
+}
+```
+:::
 
-# Additional: Self-determination theory (Deci & Ryan, 1985)
+# Additional and optional: Self-determination theory (Deci & Ryan, 1985)
 
 Focuses on the degree to which human behavior is self-motivated and self-determined.
 
@@ -568,8 +692,8 @@ Three basic psychological needs:
 
 . . .
 
-Very influential theory because it highlights the importance of basic psychological needs in fostering optimal functioning, well-being, and sustained engagement. It provides a framework for understanding how different types of motivation impact behavior and performance across various domains.
+Very influential theory because it highlights the importance of basic psychological needs in fostering optimal functioning, well-being, and sustained engagement. It provides a framework for understanding _how different types of motivation impact behavior and performance_ across various domains.
 
 ::: aside
-This theory will be more prominent in your year 2.
+This theory will be more prominent in your year 2 (exercise psychology, e.g., motivations to exercise or to healthy lifestyle).
 :::
