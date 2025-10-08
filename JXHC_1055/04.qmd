@@ -62,7 +62,6 @@ On a computer press F11 for full-screen view
 :::
 ::::
 
-
 [point 1: We can choose the focus of attention. Attention can be voluntary.]{.fragment fragment-index=1}
 
 [point 2: Inability to attend to many things at once]{.fragment fragment-index=2}
@@ -575,6 +574,12 @@ more slowly]{.fragment}​
 If you want to read more about Posner studies, find his publications on Google Scholar:
 [Michael Posner](https://scholar.google.com/citations?user=4X4X4xkAAAAJ&hl=en&oi=ao)
 :::
+
+# Optional: Demo of spatial cueing task
+
+<iframe src="https://www.psytoolkit.org/experiment-library/cueing.html
+" width="100%" height="80%" frameborder="0" allowfullscreen=></iframe>
+
 
 
 # Social spatial cueing
