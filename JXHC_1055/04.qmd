@@ -3,8 +3,15 @@
 Foundations of Sport and Exercise Psychology
 
 JXH-1055, JXC-1055
+<br><br>
 
-Dr Germano Gallicchio, [personal page](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en)
+
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+School of Psychology and Sport Science, Bangor University, UK <br>
+[Web profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [Research publications](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [Software](https://github.com/GermanoGallicchio) | [Book a meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+</div>
 
 <img src="https://www.bangor.ac.uk/themes/custom/bangor/images/logo-black.svg" alt="Bangor University logo" style="width:20%;">
 
@@ -23,13 +30,13 @@ On a computer press F11 for full-screen view
 
 # Agenda
 
-Definition of attention
+- Definition of attention
 
-Visuospatial attention and its typologies
+- Visuospatial attention and its typologies
 
-Spatial cueing effects
+- Spatial cueing effects
 
-Attention and deception in sports
+- Attention and deception in sports
 
 
 # What is attention?
@@ -98,14 +105,17 @@ There are several theoretical models of visuospatial attention (but we will not 
 It is useful to think of attention as a spotlight moving in space
 
 <div style="text-align:center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/White_spotlight_on_David_Byrne.jpg" alt="a spotlight in theatre" style="width:70%;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/White_spotlight_on_David_Byrne.jpg" alt="a spotlight in theatre" style="width:50%;">
 </div>
 
----
-
-:::{.fragment}
-Selecting a certain location or object in space, so that processing of those stimuli is facilitated.
+::: aside
+By definition, visuo-spatial attention is based on visual representations and most examples of spatial attention are _visuo_-spatial. But a similar concept can be applied to any other sensorial modalities.
 :::
+
+
+# Orienting
+
+Selecting a certain location or object in space, so that processing of those stimuli is facilitated.
 
 :::{.fragment}
 Events occurring in that location (vs those occuring in another location):
@@ -119,9 +129,9 @@ Events occurring in that location (vs those occuring in another location):
 **Orienting** of visuospatial attention = aligning of attention with a source of sensory input or with an internal representation (memory)
 :::
 
----
+# Demonstration of a type of orienting
 
-Keep your gaze on the center while reading the letters appearing on screen
+Keep your gaze on the center while reading the letters appearing on screen. Which word do they form?
 
 
 <div class="circle">
@@ -155,10 +165,19 @@ Keep your gaze on the center while reading the letters appearing on screen
 </style>
 
 
+::: aside
+:::{.fragment}
+the word is "covert"
+:::
+:::
 
-# Orienting of visuospatial attention
+# Orienting of visuo-spatial attention
+
+Important distinction in the manner visuospatial attention can be oriented.
 
 
+::::{.columns}
+:::{.column}
 ```{dot}
 //| fig-width: 6
 digraph {
@@ -166,46 +185,52 @@ digraph {
     edge [arrowhead=none]
     rankdir=LR
     bgcolor="transparent"
-    orienting -> {overt; covert}
+    orienting -> {covert; overt}
 }
 ```
-
-
-
+:::
+:::{.column}
 
 :::{.fragment}
 **covert orienting**: attention is directed in space independently of the sensorial organs (e.g., direction of eyes or head)
 :::
+
+<br><br><br><br>
 
 :::{.fragment}
 **overt orienting**: Directing the sensorial organs
 towards the region of space of interest.
 :::
 
+:::
+
+::::
 
 
-# Covert or overt?
+
+# Covert or overt? Examples.
 
 ::::{.columns}
-:::{.column width=50%}
+:::{.column width=40%}
 Overt orienting
 
+<div style="font-size:0.8em">
 - Turning your head or body toward a sound to better hear or identify it.
     *Example: You hear footsteps and turn your head to locate the source.*
 - You pay attention to something without moving your head or eyes.  
     *Example: You listen to a conversation behind you but keep facing forward.*
-
+</div>
 :::
 
-:::{.column width=50%}
+:::{.column width=60%}
 Covert orienting
-
+<div style="font-size:0.8em">
 - Focusing attention on a particular sound or voice without moving your head or body.
     *Example: You listen for a specific person's voice in a crowded room while remaining still.*
 - Tracking the location of people or objects based on auditory cues, without physically orienting toward them.
 - You think about or track what someone is doing, even though you are looking somewhere else.
 - You notice something happening at the edge of your perceptual field while not redirecting your senses towards it.
-
+</div>
 :::
 ::::
 
@@ -255,7 +280,7 @@ The spatial cueing task is a experiment used to study how attention is directed 
 
 - You fix your gaze on a central point.
 - A cue appears, indicating where a target might show up.
-- After a brief delay, the target appears either at the cued location or elsewhere.
+- After a brief _delay_, the target appears either at the cued location or elsewhere.
 - You respond as quickly as possible when you detect the target.
 
 [There is a catch: the cue does not always tell the truth.]{.fragment}
@@ -301,6 +326,12 @@ The spatial cueing task is a experiment used to study how attention is directed 
 ::::
 
 
+::: aside
+:::{.fragment}
+Extra knowledge: the delay between the cue and target is small. But varying it leads to an interesting phenomenon called "Inhibition of Return"
+:::
+:::
+
 # Examples of possible non-visual adaptations
 
 **Auditory version**
@@ -324,34 +355,458 @@ Target: another brief vibration presented to either the left or right hand
 Task: respond with your voice as soon quickly as possible when you feel the vibration
 :::
 
-::: aside
-Cue-Target Delay: The delay between the cue and target is small
+
+# Demonstration of visuo-spatial cueing {.scrollable}
+
+
+**Valid cue**
+The cue is an arrow pointing to the left. A short while after, the target appears also on the left. In this trial, the cue was _valid_.
+<div class="posner">
+  <div class="fixation">+</div>
+  <div class="box left"></div>
+  <div class="box right"></div>
+  <div class="cueEndoLeft fragment"></div>
+  <div class="targetLeft fragment"></div>
+</div>
+
+**Invalid cue**
+The cue is an arrow pointing to the left. A short while after, the target appears on the right. In this trial, the cue was _invalid_.
+<div class="posner">
+  <div class="fixation">+</div>
+  <div class="box left"></div>
+  <div class="box right"></div>
+  <div class="cueEndoLeft fragment"></div>
+  <div class="targetRight fragment"></div>
+</div>
+
+
+**Neutral cue**
+The cue is an arrow pointing to both left and right. A short while after, the target appears on the left. In this trial, the cue was _neutral_ (i.e., not informative).
+<div class="posner">
+  <div class="fixation">+</div>
+  <div class="box left"></div>
+  <div class="box right"></div>
+  <div class="cueEndoBoth fragment"></div>
+  <div class="targetLeft fragment"></div>
+</div>
+
+
+
+# Why this task is important in sport and exercise psychology
+
+- It demonstrates how the focus of attention can be guided by cues (instructions), even without moving our senses [(is this covert or overt orienting?).]{.fragment}
+- This helps us understand selective attention in everyday life and sports.
+- It reveals that attention improves processing at the cued location and slows it elsewhere.
+- It shows the **cost** of attenting to the wrong location and the **benefit** of attenting to the right location
+
+
+# Types of cue
+
+::::{.columns}
+:::{.column}
+```{dot}
+//| fig-width: 6
+digraph {
+    node [shape=plaintext]
+    edge [arrowhead=none]
+    rankdir=LR
+    bgcolor="transparent"
+    
+    A [label="two types\nof cue"];
+    A -> {exogenous; endogenous}
+}
+```
+
+:::
+
+:::{.column}
+**Exogenous cues**: These are external, automatic signals (like a sudden flash or sound or an arrow) that capture attention involuntarily. They are fast and reflexive.
+
+**Endogenous cues**: These are internal, symbolic signals (like an arrow or instruction) that guide attention voluntarily. They require interpretation and are slower.
+:::
+::::
+
+In other words, there are two ways that attention can be shifted:
+
+- **Exo**genous = "from outside", stimulus driven, bottom-up
+
+- **Endo**genous = "from inside", goal-directed, top-down
+
+
+# Examples of exogenous and endogenous cues for the visual and auditory modalities
+
+|                | Exogenous cue | Endogenous cue |
+|----------------|--------------|----------------|
+| Visual modality | a flash in a location | an arrow pointing at a location |
+| Auditory modality | a tone in a location | a tone pointing at a direction (e.g., a voice saying "right") |
+
+# Demonstration of visuo-spatial cueing (_exogenous_) {.scrollable}
+The previous demonstration included only endogenous cues was 
+
+
+**Valid cue**
+The cue is a flash on the left. A short while after, the target appears also on the left. In this trial, the cue was _valid_.
+<div class="posner">
+  <div class="fixation">+</div>
+  <div class="box left"></div>
+  <div class="box right"></div>
+  <div class="cueExoLeft fragment"></div>
+  <div class="targetLeft fragment"></div>
+</div>
+
+**Invalid cue**
+The cue is a flash on the right. A short while after, the target appears on the right. In this trial, the cue was _invalid_.
+<div class="posner">
+  <div class="fixation">+</div>
+  <div class="box left"></div>
+  <div class="box right"></div>
+  <div class="cueExoLeft fragment"></div>
+  <div class="targetRight fragment"></div>
+</div>
+
+
+**Neutral cue**
+The cue is two flashes on both left and right. A short while after, the target appears on the left. In this trial, the cue was _neutral_ (i.e., not informative).
+<div class="posner">
+  <div class="fixation">+</div>
+  <div class="box left"></div>
+  <div class="box right"></div>
+  <div class="fragment">
+  <div class="cueExoLeft"></div>
+  <div class="cueExoRight"></div>
+  </div>
+  <div class="targetLeft fragment"></div>
+</div>
+
+
+
+
+# Posner studies (ca. 1970-80s)
+
+M. Posner used a **spatial cueing task** to investigate how attention is directed in space. Participants were asked to fixate on a central point while cues indicated where a target might appear. 
+
+[The cues could be valid, invalid, or neutral. After a brief delay, the target appeared, and participants responded as quickly as possible. The study measured **response times** to the onset of the target.]{.fragment}
+
+[The classic Posner study focused on **endogenous** (central, symbolic) cues such as arrows presented at the center.]{.fragment} [Exogenous cues (such as peripheral flashes) were introduced in later studies.]{.fragment}
+
+[Participants were required to keep their eyes on the fixation cross the whole time.]{.fragment}
+
+---
+
+The classic design typically used **80% valid**, **20% invalid**, and **50% neutral** trials as a separate baseline.
+
+:::{.fragment}
+::: {.callout-note}
+The percentages refer to the distribution of **trial types** within the experiment, not to a single set of trials. Typically, the experiment is structured so that, for example, 80% of the *cued* trials are valid and 20% are invalid, while *neutral* trials are presented as a separate baseline (often making up 50% of the total trials, or sometimes 1/3 if all three types are equally represented). The numbers in the example above are illustrative and not meant to sum to 100% in a single block—they describe the proportions within each trial type.
+:::
 :::
 
 
-# Why this task has been so influencial
+| trial type |  function  |
+|---|---|
+| neutral | serve as a control condition for the other two |
+| valid | study the **benefits** of attending to the correct location |
+| invalid | study the **costs** of attending to the wrong location |
 
-- It demonstrates how the attention can be guided by cues, even without moving our senses.
-- It reveals that attention improves processing at the cued location and slows it elsewhere.
-- This helps us understand selective attention in everyday life and sports.
-- It shows the **cost** of attenting to the wrong location and the **benefit** of attenting to the right location
+---
 
-# results
+Questions:
+
+**Why did Posner decide to make the cue 80% of the times valid? Why not 100%?​**
+
+[If it were 100%, then the cue would never be invalid, and Posner could not study the cost of attending to an incorrect location]{.fragment}
+
+
+**Why then 80-20% and not 50-50%?​**
+
+[To build trustworthiness in the cue: the participant oriented their attention to the cued direction because _most of the times_ the cue pointed in the correct direction​. If the participant learned over time that the cue was uninformative, they would stop using]{.fragment}
+
+**Were participants supposed to orient their attention overtly or covertly?**
+
+[Covertly. In fact, they were required to keep their eyes on the central fixation cross.]{.fragment}
+
+
+# Posner task: basic results
+
 
 ```{r}
 # Data
 conditions <- c("Invalid 20%", "Neutral 50%", "Valid 80%")
-response_times <- c(300, 260, 240)
+response_times <- c(300, 260, 230)
 
 # Base R barplot
 barplot(
   height = response_times,
   names.arg = conditions,
   col = c("red", "gray", "green"),
-  ylim = c(0, 320),
+  ylim = c(230, 310),
   xlab = "Condition",
   ylab = "Response Time [ms]"
 )
 
 ```
 
+<div style="font-size: 0.8em">
+Interpretation:
+
+- Valid cue pre-activates a an attentional path which is the same as that activated by the target
+
+- Invalid cue pre-activates a an attentional path which is different from that activated by the target
+
+</div>
+
+
+# We just scratched the surfaced of the spatial cueing literature
+
+Most later studies are more complex than this.​
+
+[One (of many) idea: a valid cue does not always
+cause facilitation...​]{.fragment}
+
+[How can it be? Any ideas?]{.fragment}
+
+[If the cue is exogenous and the cue-target delay
+is longer than expected, the target is detected
+more slowly]{.fragment}​
+
+[This phenomenon is known as _inhibition of return​_ (however, this is not topic for this module)]{.fragment}
+
+::: aside
+If you want to read more about Posner studies, find his publications on Google Scholar:
+[Michael Posner](https://scholar.google.com/citations?user=4X4X4xkAAAAJ&hl=en&oi=ao)
+:::
+
+
+# Social spatial cueing
+
+Directional changes in posture (e.g., eye movements) of a person can influence somebody else's direction of attetnion.
+
+<br><br>
+
+::::{.columns}
+:::{.column}
+<div style="text-align: center;">
+<svg width="50%" height="50%" viewBox="0 0 80 80" aria-label="Drawing of a face with eyes looking right" role="img">
+  <!-- Face -->
+  <circle cx="40" cy="40" r="35" fill="#ffe0b2" stroke="#b38b59" stroke-width="2"/>
+  <!-- Eyes (bigger) -->
+  <circle cx="30" cy="35" r="9" fill="white" stroke="#333" stroke-width="1"/>
+  <circle cx="50" cy="35" r="9" fill="white" stroke="#333" stroke-width="1"/>
+  <!-- Pupils (far right in each eye, bigger) -->
+  <circle cx="36" cy="35" r="4" fill="#222"/>
+  <circle cx="56" cy="35" r="4" fill="#222"/>
+  <!-- Mouth (horizontal line) -->
+  <line x1="30" y1="60" x2="50" y2="60" stroke="#333" stroke-width="2"/>
+</svg>
+</div>
+
+:::
+
+:::{.column}
+[Sport fakes?]{.fragment}
+:::
+
+::::
+
+---
+
+## Seminar: Sebanz and Shiffrar (2009) {.center}
+
+Make sure to read the paper
+
+# General introduction
+
+Overarching aim: determine whether expert basketball players are better than novices in distinguishing true from fake passes
+
+<img 
+  src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Partido_NBA_-i---i-_(31910569110)_(cropped).jpg"
+  alt="picture of basketball game. decorative reasons only."
+  width="70%"
+/>
+
+
+# Method | Study 1
+
+**Participants**
+
+- 12 experts
+- 18 novices
+
+**Task**
+
+- Watch videos/photos and classify as true pass or fake pass
+  - 30 movies (true passes)
+  - 30 movies (false passes)
+  - 30 pictures (true passes)
+  - 30 pictures (false passes)
+
+**Main measure**
+
+- percentage of accurate classifications
+
+# Results | Study 1
+
+- Both experts and novices performed above chance level, for both movies and pictures: they could distinguish fakes from passes
+
+- Experts outperformed novices (i.e., they gave more correct responses) when movies were presented
+
+# Method | Study 2
+
+**Participants**
+
+- 12 experts
+- 18 novices
+
+**Task**
+
+- Watch videos with kinematic cues only (light points) and classify as true pass or fake pass
+  - 12 front view (true passes)
+  - 12 front view (false passes)
+  - 12 half-profile view (true passes)
+  - 12 half-profile view (false passes)
+
+**Main measure**
+
+- percentage of accurate classifications
+
+# Results | Study 2
+
+- Novices performed at the chance level
+
+- Experts performed above chance: they could distinguish fakes from passes
+
+- Experts performed better when watching from the front than from half-profile
+
+# General discussion
+
+Interpretation:
+
+- visual expertise
+
+- motor expertise 
+
+
+How would you follow-up this study?
+
+:::{.fragment}
+example: track gaze position to identify which information experts and novices use
+:::
+
+---
+
+<style>
+.posner {
+  position: relative;
+  width: 50%; height: 20%;
+  margin: auto;
+}
+.fixation {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 2em;
+}
+.box {
+  position: absolute;
+  top: 50%; width: 100px; height: 100px;
+  border: 2px solid black;
+  transform: translateY(-50%);
+}
+.box.left { left: 100px; }
+.box.right { right: 100px; }
+.cueExoLeft {
+  position: absolute;
+  top: 50%; left: 100px;
+  width: 100px; height: 100px;
+  border: 4px solid red;
+  transform: translateY(-50%);
+}
+
+.cueExoRight {
+  position: absolute;
+  top: 50%; right: 100px;
+  width: 100px; height: 100px;
+  border: 4px solid red;
+  transform: translateY(-50%);
+}
+
+
+/* left-pointing arrow */
+.cueEndoLeft {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80px; height: 20px;
+  background: black; /* shaft colour */
+  z-index: 2; /* sits above fixation */
+}
+
+.cueEndoLeft::before {
+  content: "";
+  position: absolute;
+  left: -30px; /* move further left */
+  top: 50%;
+  transform: translateY(-50%); /* center vertically */
+  width: 0; height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 30px solid black; 
+}
+
+
+/* arrow with heads on both ends, same total width as single-headed arrow */
+.cueEndoBoth {
+position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80px; height: 20px;
+  background: black; /* shaft colour */
+  z-index: 2; /* sits above fixation */
+}
+
+/* left arrow head */
+.cueEndoBoth::before {
+  content: "";
+  position: absolute;
+  left: -30px; /* move further left */
+  top: 50%;
+  transform: translateY(-50%); /* center vertically */
+  width: 0; height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 30px solid black; 
+}
+
+/* right arrow head */
+.cueEndoBoth::after {
+  content: "";
+  position: absolute;
+  right: -30px; top: 50%;
+  transform: translateY(-50%);
+  width: 0; height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 30px solid black;
+}
+
+
+
+
+.targetLeft {
+  position: absolute;
+  top: 50%; left: 130px;
+  width: 40px; height: 40px;
+  background: blue;
+  transform: translateY(-50%);
+}
+
+.targetRight {
+  position: absolute;
+  top: 50%; right: 130px;
+  width: 40px; height: 40px;
+  background: blue;
+  transform: translateY(-50%);
+}
+
+
+</style>
