@@ -27,6 +27,7 @@ On a computer press F11 for full-screen view
     font-size: 4em;
 "> pin </div>
 
+
 # Agenda
 
 - some foundational concepts in motivation 
@@ -42,8 +43,6 @@ On a computer press F11 for full-screen view
 Fill in the questionnare "Task and Ego orientation in Sport Questionnaire" (Duda, 1989). There is no right or wrong answer.
 
 [We will compute the scores (page 2) later in the session]{.fragment} [and we will discuss what the scores mean]{.fragment}
-
-
 
 
 # Intuitive understanding
@@ -182,18 +181,20 @@ digraph G {
 :::: {.columns}
 ::: {.column width="33%"}
 <img src="https://goodlifechiropractic.com/storage/2025/05/The_Impact_of_a_Bulging_Disc_on_Daily_Activities.jpg" style="width:100%" alt="old man in distress near kids" />
+
+[The reward overjustified the activity. This phenomenon is called _overjustification effect_.]{.fragment fragment-index=2}
+
 :::
 
 ::: {.column width="66%"}
 <div style="font-size:90%">
-An old man lived alone on a street where boys played noisily every afternoon. The din annoyed him, so one day he called the boys to his door. He told them he loved the cheerful sound of children’s voices and promised them each 50 cents if they would return the next day. Next afternoon the youngsters raced back and played more lustily than ever. The old man paid them and promised another reward the next day. Again they returned, whooping it up, and the man again paid them; this time 25 cents. The following day they got only 15 cents, and the man explained that his meager resources were being exhausted. “Please, though, would you come to play for 10 cents tomorrow?” The disappointed boys told the man they would not be back. 
+An old man lived alone on a street where boys played noisily every afternoon. The din annoyed him, so one day he called the boys to his door. He told them he loved the cheerful sound of children’s voices and promised them each 50 cents if they would return the next day. Next afternoon the youngsters raced back and played more lustily than ever. The old man paid them and promised another reward the next day. Again they returned, whooping it up, and the man again paid them; this time 25 cents. The following day they got only 15 cents, and the man explained that his meager resources were being exhausted. “Please, though, would you come to play for 10 cents tomorrow?” The disappointed boys told the man they would not be back. [It wasn’t worth the effort, they said, to play all afternoon at his house for only 10 cents.]{.fragment .highlight-red fragment-index=1}
 
-::: {.fragment .highlight-red} 
-It wasn’t worth the effort, they said, to play all afternoon at his house for only 10 cents. 
-:::
 
 </div>
 :::
+
+
 
 ::::
 
@@ -489,13 +490,15 @@ Task orientation is not the same as intrinsic motivation, and ego orientation is
 
 ---
 
-## Questionnaire activity (part 2) {.center}
+## Questionnaire activity (part 2) {.scrollable}
 
 
 This questionnaire measured your task and ego orientation
 
 Complete page 2 of the questionnaire document to know your scores
 
+
+<iframe width="100%" height="100%" src="https://www.brianmac.co.uk/teosq.htm" title="online version of the Task and Ego orientation in Sport Questionnaire (Duda, 1989)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 # Achievement Goal Theory (Nichols, 1984), continuation
