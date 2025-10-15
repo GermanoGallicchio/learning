@@ -29,4 +29,5 @@ format:
         touch: true
         controls: false
         vertical-sections: false
+        audio-slideshow: true
         css: custom.css
