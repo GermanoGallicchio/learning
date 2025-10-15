@@ -130,7 +130,7 @@ Events occurring in that location (vs those occuring in another location):
 
 # Demonstration of a type of orienting
 
-Keep your gaze on the center while reading the letters appearing on screen. Which word do they form?
+Keep your gaze on the center while reading the letters appearing on screen.
 
 
 <div class="circle">
