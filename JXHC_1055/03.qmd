@@ -46,19 +46,46 @@ In other words:
 
 # Structure of a neuron
 
-
+::::{.columns}
+:::{.column}
 <div style="text-align: center;">
-<img 
-    src="https://kroki.io/mermaid/svg/eNpLL0osyFDwCeJSAALHar_U0qL8PPVihZKMotRUsKBCbmJmnkJBYlFJcS1ElYKurp2CU3Rwfm5iLJKIS7RLal5KUWZJajGysGu0Y0V-XiwXWKi4NCkdbCPIIpBKsKgLmHQFk0AjAAk2J9c="
-    alt="Diagram of neuronal structures"
-    width="55%"/>
+```{dot}
+//| fig-width: 6
+digraph Neuron {
+    rankdir=LR;
+    node [fontname="Helvetica"];
+
+    A [label="Neuron's three\nmain structures", shape=box];
+    B [label="Soma"];
+    D [label="Dendrites"];
+    E [label="Axon"];
+
+    A -> B;
+    A -> D;
+    A -> E;
+    
+
+    subgraph cluster {
+        label="Neurites";
+        color=gray;
+        D;
+        E;
+    }
+
+    
+}
+```
 </div>
+:::
 
+:::{.column}
+the three main neuronal structures:
 
-Diagram showing the three main neuronal structures:
 - soma
 - dendrites
 - axon
+:::
+::::
 
 ---
 
@@ -151,7 +178,7 @@ While each neuron has **only one axon**, it may branch into **collaterals** to c
 . . .
 
 <div style="font-size: 0.85em;">
-Many axons are **wrapped in myelin**, a fatty substance that **speeds up** signal transmission by enabling faster conduction of electrical impulses.
+Many axons are **wrapped in myelin**, a fatty substance that enables **faster conduction** of electrical impulses by insulating the axon membrane.
 </div>
 
 
@@ -173,6 +200,26 @@ Many axons are **wrapped in myelin**, a fatty substance that **speeds up** signa
 . . .
 
 The soma **integrates** incoming signals from the dendrites and determines whether to generate an action potential that travels down the axon.
+
+
+# review questions
+
+Which part of the neuron _mainly_ receives information from other neurons?
+
+a) Axon
+b) Soma
+c) Myelin
+d) Dendrites
+
+[Correct response: d]{.fragment}
+
+[Note the emphasis on mainly in the question: the soma can also receive information but it's not its main function]{.fragment}
+
+
+True or false: Each neuron has multiple axons.
+
+[Correct response: false]{.fragment}
+
 
 
 # Electrochemical Communication: post-synaptic potential
@@ -325,6 +372,13 @@ the post-synaptic neuron
 
 The **interplay** between inhibition and excitation ensures precise and regulated communication among neurons, enabling complex processes such as learning, memory, and motor control.
 
+# Review questions
+
+What is the gap between two neurons called?
+
+<br><br><br>
+
+Explain the difference between pre-synaptic and post-synaptic neurons in synaptic communication.
 
 # Types of Neurons
 
@@ -514,6 +568,14 @@ For example, a neuron may exhibit a high spiking rate during specific activities
 Neurons that respond to similar types of information are often spatially **grouped together**, reflecting **regional functional specialization**.
 
 
+# Review questions 
+
+Explain the dual nature of neural communication (electrical vs. chemical)
+
+If all action potentials are the same, how do neurons communicate different types or intensities of information?
+
+
+
 
 # Not just neurons
 
@@ -687,6 +749,11 @@ The **occipital lobe** is located at the back of the brain and is primarily resp
 - **Spatial Processing**: Helps in understanding spatial relationships and depth perception.
 - **Object Recognition**: Assists in identifying shapes, patterns, and objects.
 - **Visual Memory**: Stores and retrieves visual information for future reference.
+
+# Review question
+
+<br><br>
+An athlete suffers a concussion affecting the frontal lobe. Based on the functions of this lobe, what cognitive or motor difficulties might they experience?
 
 
 
