@@ -44,6 +44,20 @@ In other words:
 - **Why do neurons communicate?** The higher-level functions that emerge from this communication
 
 
+# Why study the brain, neurons, etc?
+
+<br><br>
+[A fundamental principle in Biology: "structure determines function"]{.fragment}
+
+<br><br>
+
+[Psychology studies mental "functions"]{.fragment}
+
+<br><br>
+
+[Useful for psychologists to understand (at the least at a basic level) the biological substrate to the mental functions.]{.fragment}
+
+
 # Structure of a neuron
 
 ::::{.columns}
@@ -53,12 +67,13 @@ In other words:
 //| fig-width: 6
 digraph Neuron {
     rankdir=LR;
-    node [fontname="Helvetica"];
-
+    node [shape=plaintext]
+    bgcolor="transparent";
+    
     A [label="Neuron's three\nmain structures", shape=box];
-    B [label="Soma"];
-    D [label="Dendrites"];
-    E [label="Axon"];
+    B [label="Soma", shape=ellipse];
+    D [label="Dendrites", shape=ellipse];
+    E [label="Axon", shape=ellipse];
 
     A -> B;
     A -> D;
@@ -216,7 +231,9 @@ d) Dendrites
 [Note the emphasis on mainly in the question: the soma can also receive information but it's not its main function]{.fragment}
 
 
-True or false: Each neuron has multiple axons.
+<br>
+
+[True or false: Each neuron has multiple axons.]{.fragment}
 
 [Correct response: false]{.fragment}
 
@@ -336,12 +353,27 @@ Once released, neurotransmitters bind to specific receptors on the **postsynapti
 
 ::::{.columns}
 :::{.column width=40%}
-<img 
-    src="https://kroki.io/mermaid/svg/eNpLL0osyFAIceFSAALHaL_U0qL8kqLEvOLczJKS1KLiWAWIjIKurp2CU7RrRXJmSWJJflFlLJK4c7RnXkZmUia6uEu0b35KaQ5EPQCt0h_-"
-    alt="Diagram listing the three main function types: excite, inhibit, modulate"
-    width="100%"
-/>
+
+```{dot}
+//| fig-width: 5
+digraph Neurotransmitters {
+    rankdir=TB;
+    node [shape=plaintext]
+    bgcolor="transparent";
+
+    A [label="Neurotransmitters"];
+    B [label="Excitatory"];
+    C [label="Inhibitory"];
+    D [label="Modulatory"];
+
+    A -> B;
+    A -> C;
+    A -> D;
+}
+```
+
 :::
+
 
 :::{.column width=60%}
 Neurotransmittes can either:
@@ -400,8 +432,8 @@ This classification highlights the _diversity_ of neurons and their _specialized
 
 | **Type**     | **Description**                                                                 | **Examples**        |
 |--------------|---------------------------------------------------------------------------------|---------------------|
-| Unipolar     | Single projection from the soma that branches into dendrites and an axon.      | Sensory neurons     |
-| Bipolar      | One axon and one dendrite extending from the soma.                             | Retinal neurons     |
+| Unipolar     | Single projection (one neurite) from the soma that branches into dendrites and an axon.      | Sensory neurons     |
+| Bipolar      | One axon and one dendrite (two neurites) extending from the soma.                             | Retinal neurons     |
 | Multipolar   | One axon and multiple dendrites, the most common type of neuron.               | Motor neurons, interneurons |
 
 
@@ -438,7 +470,7 @@ Illustration of **unipolar**, **bipolar**, or **multipolar** neurons, depending 
 <img 
     src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pyramsdal-and-Spiny-stellate-cell.JPG"
     alt="Pyramidal and Stellate Cells"
-    width="90%"
+    width="80%"
 />
 </div>
 
@@ -501,34 +533,48 @@ Dendrites receives information.
 
 . . .
 
+<br>
 The soma receives and integrates information. 
 
 . . .
 
+<br>
 The axon sends information. 
 
 . . .
 
+<br>
 But what information are we talking about? 
 
 . . . 
 
+<br>
 **Electrico-chemical potentials**
 
 # Electrico-chemical potentials
 
 ::::{.columns}
-:::{.column}
-<img 
-    src="https://kroki.io/mermaid/svg/eNpLL0osyFDwCeJSAALHaL_U0qLEHAXn_Nzc0rzM5MSSzPy8WIicgq6unYJTtJaWa05qckkRUDJHSwtVpQJYZXhmSUZmngLIKFTNzkDNzhmpudi0gpU5pZaUp6bCtBbHAgDLuzDI"
-    alt="Diagram illustrating neural communication"
-    width="100%"
-/>
+:::{.column width=60%}
 
-Neurons communicate information using both **electrical** and **chemical** mechanisms.
+```{dot}
+//| fig-width: 6
+digraph NeuralCommunication {
+    rankdir=LR;
+    bgcolor="transparent";
+    node [shape=box];
+
+    A [label="Neural Communication"];
+    B [label="Electrical Communication\nWithin Neuron"];
+    C [label="Chemical Communication\nBetween Neurons"];
+
+    A -> B;
+    A -> C;
+}
+```
+
 :::
 
-:::{.column}
+:::{.column width=40%}
 
 Within a neuron, information is transmitted _electrically_ (post-synaptic potentials, action potential).
 
@@ -537,6 +583,7 @@ Between neurons (in the synapse), information is transmitted _chemically_ via ne
 :::
 ::::
 
+Neurons communicate information using both **electrical** and **chemical** mechanisms.
 
 
 # Spiking Rate and Neural Coding
@@ -660,7 +707,51 @@ Video to watch in your own time, summarizing some of the content covered so far.
 # Nervous system
 
 <div style="text-align: center;">
-<img src="https://kroki.io/mermaid/svg/eNp1kEtuwyAQQPc5BcvxIleo5F-bOJ9Gohegzli2ZBhrPE7k2xfBhlQOy_cezIhupGfbGxb1U-2UPznAFflBy6z0OgvaLItc7fcfqoASnbAZ1b8oaUq4IQ9Tj1tZ6IrQVVCwGVyWoBr0NDh_rSS-R1EF8ennMv7yYlP6FSmO4ys_xJeTiWXgR9BkjQzt5vaxaSBfhBzZN9UxVCfQ6GbiVeVd53dwktozXEiIVf3imuAuoFc7GenR75GKK9wMm3lbfkPtxP9qm_0B8Dx5Sw==" alt="Diagram of the nervous system" width="100%"/>
+
+```{dot}
+digraph NervousSystem {
+    rankdir=TB;
+    bgcolor="transparent";
+    node [shape=box, fontsize=11];
+
+    NS [label="Nervous System", shape=oval, fontsize=12];
+
+    CNS [label="Central Nervous System"];
+    PNS [label="Peripheral Nervous System"];
+
+    NS -> CNS;
+    NS -> PNS;
+
+    Brain [label="Brain"];
+    SpinalCord [label="Spinal Cord"];
+    CNS -> Brain;
+    CNS -> SpinalCord;
+
+    Cerebrum [label="Cerebrum"];
+    Cerebellum [label="Cerebellum"];
+    Brainstem [label="Brainstem"];
+    Brain -> Cerebrum;
+    Brain -> Cerebellum;
+    Brain -> Brainstem;
+
+    Somatic [label="Somatic Nervous System"];
+    Autonomic [label="Autonomic Nervous System"];
+    PNS -> Somatic;
+    PNS -> Autonomic;
+
+    SensoryAfferent [label="Sensory Afferent"];
+    MotorEfferent [label="Motor Efferent"];
+    Somatic -> SensoryAfferent;
+    Somatic -> MotorEfferent;
+
+    Sympathetic [label="Sympathetic"];
+    Parasympathetic [label="Parasympathetic"];
+    Enteric [label="Enteric"];
+    Autonomic -> Sympathetic;
+    Autonomic -> Parasympathetic;
+    Autonomic -> Enteric;
+}
+```
 </div>
 
 The central nervous system includes the brain and the spinal cord.
@@ -669,11 +760,34 @@ The central nervous system includes the brain and the spinal cord.
 # The cerebrum
 
 <div style="text-align: center;">
-<img 
-    src="https://kroki.io/mermaid/svg/eNpty00OgjAQhuG9p-hyWHAFF2LQhYkg9Wc7NKM0aSkZ2qi3twFNasIs3-ebu3FP1SF7IbcrEa8EKIip5WCzbC4iz9ei-mY0onDs6ZViDU1oVcxaRW88B-UD0zhvqmlzgpJd76MfXEupNFAha1oiCZLs4HiBznBUSg_6_62e7AIbHGPfYf8wGlO6guzQoA1jWm-wfw_O_-QDSWNNHA=="
-    alt="Diagram of the cerebrum"
-    width="100%"
-/>
+```{dot}
+digraph Cerebrum {
+    rankdir=TB;
+    bgcolor="transparent";
+    node [shape=box, fontsize=11];
+
+    F [label="Cerebrum", shape=circle];
+    P [label="Cerebral Cortex"];
+    Q [label="Subcortical Structures"];
+    R [label="Frontal Lobe"];
+    S [label="Parietal Lobe"];
+    T [label="Temporal Lobe"];
+    U [label="Occipital Lobe"];
+    V [label="Basal Ganglia"];
+    W [label="Thalamus"];
+    X [label="Hypothalamus"];
+
+    F -> P;
+    F -> Q;
+    P -> R;
+    P -> S;
+    P -> T;
+    P -> U;
+    Q -> V;
+    Q -> W;
+    Q -> X;
+}
+```
 </div>
 
 The cerebrum includes multiple structures
@@ -700,6 +814,20 @@ The outermost layer of the brain, responsible for cognitive functions such as **
 - **Occipital Lobe**: Dedicated to visual processing.
 :::
 ::::
+
+
+
+# Cerebral cortex and cognitive functions
+
+The cerebral cortex enable complex **cognitive functions** such as:
+
+- **Perception**: processing sensory input from various modalities (e.g., hearing, vision, touch, taste) to create a coherent representation of the environment.
+- **Attention**: it allows to select relevant stimuli while filtering out distractions
+- **Memory**: encoding, storing, and retrieving ot memories.
+- **Language**: speech production and comprehension.
+- **Decision-Making**: reasoning, problem-solving, and planning, which are essential for making informed decisions.
+- **Conscious Thought**: self-awareness and the ability to reflect on one's thoughts and actions.
+
 
 
 # Frontal lobe {.scrollable}
@@ -818,14 +946,3 @@ For example:
 https://www.brainfacts.org/3d-brain#intro=false&focus=Brain
 </a>
 
-
-# Cerebral cortex and cognitive functions
-
-The cerebral cortex enable complex **cognitive functions** such as:
-
-- **Perception**: processing sensory input from various modalities (e.g., hearing, vision, touch, taste) to create a coherent representation of the environment.
-- **Attention**: it allows to select relevant stimuli while filtering out distractions
-- **Memory**: encoding, storing, and retrieving ot memories.
-- **Language**: speech production and comprehension.
-- **Decision-Making**: reasoning, problem-solving, and planning, which are essential for making informed decisions.
-- **Conscious Thought**: self-awareness and the ability to reflect on one's thoughts and actions.
