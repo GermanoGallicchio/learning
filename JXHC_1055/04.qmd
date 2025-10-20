@@ -1,10 +1,10 @@
 ## Foundations of Attention {.nostretch .center}
 
+::::{.columns}
+:::{.column width=80%}
 Foundations of Sport and Exercise Psychology
 
 JXH-1055, JXC-1055
-<br><br>
-
 
 Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
@@ -12,8 +12,12 @@ Lecturer in Psychophysiology and Cognitive Neuroscience <br>
 School of Psychology and Sport Science, Bangor University, UK <br>
 [Web profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [Research publications](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [Software](https://github.com/GermanoGallicchio) | [Book a meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
 </div>
-
-<img src="https://www.bangor.ac.uk/themes/custom/bangor/images/logo-black.svg" alt="Bangor University logo" style="width:20%;">
+:::
+:::{.column width=20%}
+QR code to this slide deck
+{{< qrcode https://germanogallicchio.github.io/learning/JXHC_1055/04.html colorDark='#0011bb' >}}
+:::
+::::
 
 <div style="font-size:0.6em">
 On a computer press F11 for full-screen view
