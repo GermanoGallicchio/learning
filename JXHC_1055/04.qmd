@@ -147,12 +147,12 @@ Keep your gaze on the center while reading the letters appearing on screen.
 .circle {
   position: relative;
   width: 30%;
-  height: 80%;
+  height: 90%;
   margin: auto;
 }
 .circle span {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 40%; left: 50%;
   transform: rotate(calc(60deg * var(--i))) translate(150px) rotate(calc(-60deg * var(--i)));
   font-size: 1.5em;
 }
@@ -396,7 +396,7 @@ The cue is an arrow pointing to both left and right. A short while after, the ta
 - It demonstrates how the focus of attention can be guided by cues (instructions), even without moving our senses [(is this covert or overt orienting?).]{.fragment}
 - This helps us understand selective attention in everyday life and sports.
 - It reveals that attention improves processing at the cued location and slows it elsewhere.
-- It shows the **cost** of attenting to the wrong location and the **benefit** of attenting to the right location
+- It shows the **cost** of attending to the wrong location and the **benefit** of attending to the right location
 
 
 # Types of cue
@@ -427,9 +427,9 @@ digraph {
 
 In other words, there are two ways that attention can be shifted:
 
-- **Exo**genous = "from outside", stimulus driven, bottom-up
+- **Exo**genous shift = "from outside", stimulus driven, bottom-up
 
-- **Endo**genous = "from inside", goal-directed, top-down
+- **Endo**genous shift = "from inside", goal-directed, top-down
 
 
 # Examples of exogenous and endogenous cues for the visual and auditory modalities
@@ -482,7 +482,7 @@ The cue is two flashes on both left and right. A short while after, the target a
 
 # Posner studies (ca. 1970-80s)
 
-M. Posner used a **spatial cueing task** to investigate how attention is directed in space. Participants were asked to fixate on a central point while cues indicated where a target might appear. 
+Michael Posner used a **spatial cueing task** to investigate how attention is directed in space. Participants were asked to fixate on a central point while cues indicated where a target might appear. 
 
 [The cues could be valid, invalid, or neutral. After a brief delay, the target appeared, and participants responded as quickly as possible. The study measured **response times** to the onset of the target.]{.fragment}
 
@@ -577,8 +577,7 @@ If you want to read more about Posner studies, find his publications on Google S
 
 # Optional: Demo of spatial cueing task
 
-<iframe src="https://www.psytoolkit.org/experiment-library/cueing.html
-" width="100%" height="80%" frameborder="0" allowfullscreen=></iframe>
+<a href="https://www.psytoolkit.org/experiment-library/experiment_cueing.html">link to Psytoolkit demo</a>
 
 
 
@@ -630,7 +629,7 @@ Overarching aim: determine whether expert basketball players are better than nov
 />
 
 
-# Method | Study 1
+# Method | Study 1 {.scrollable}
 
 **Participants**
 
@@ -655,7 +654,7 @@ Overarching aim: determine whether expert basketball players are better than nov
 
 - Experts outperformed novices (i.e., they gave more correct responses) when movies were presented
 
-# Method | Study 2
+# Method | Study 2 {.scrollable}
 
 **Participants**
 
@@ -697,7 +696,7 @@ How would you follow-up this study?
 example: track gaze position to identify which information experts and novices use
 :::
 
----
+
 
 <style>
 .posner {
