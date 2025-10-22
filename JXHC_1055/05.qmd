@@ -21,7 +21,7 @@ QR code to this slide deck
 ::::
 
 <div style="font-size:0.6em">
-On a computer press F11 for full-screen view
+On a computer press F11 to de/activate full-screen view
 </div>
 
 
@@ -350,7 +350,7 @@ Optional, ungraded homework:
 
 [Ideas: The study by Navarro et al. (2013) provided arguments for keeper-independent being better than keeper-dependent in most cases. However, they also provide evidence that adapting the keeper-independent strategy is not so easy. They also provide training recommendations.]{.fragment}
 
-2. Anectode
+2. Anectode. July 5, 2014 semi-finals of the 2014 FIFA World Cup in Brazil: Netherlands - Costa Rica 
 
 :::{.fragment}
 <a href="https://www.theguardian.com/world/video/2014/jul/07/tim-krul-world-cup-football-video">The Guardian video about Krul's experience at the World Cup</a>
