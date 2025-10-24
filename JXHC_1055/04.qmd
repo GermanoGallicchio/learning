@@ -213,29 +213,26 @@ towards the region of space of interest.
 
 # Covert or overt? Examples.
 
-::::{.columns}
-:::{.column width=40%}
-Overt orienting
+**Overt** orienting
 
 <div style="font-size:0.8em">
 - Turning your head or body toward a sound to better hear or identify it.
     *Example: You hear footsteps and turn your head to locate the source.*
-- You pay attention to something without moving your head or eyes.  
-    *Example: You listen to a conversation behind you but keep facing forward.*
 </div>
-:::
 
-:::{.column width=60%}
-Covert orienting
+
+**Covert** orienting
 <div style="font-size:0.8em">
 - Focusing attention on a particular sound or voice without moving your head or body.
     *Example: You listen for a specific person's voice in a crowded room while remaining still.*
 - Tracking the location of people or objects based on auditory cues, without physically orienting toward them.
 - You think about or track what someone is doing, even though you are looking somewhere else.
 - You notice something happening at the edge of your perceptual field while not redirecting your senses towards it.
+- You pay attention to something without moving your head or eyes.  
+    *Example: You listen to a conversation behind you but keep facing forward.*
 </div>
-:::
-::::
+
+
 
 
 # Spatial cueing task
@@ -403,7 +400,7 @@ The cue is an arrow pointing to both left and right. A short while after, the ta
 - It shows the **cost** of attending to the wrong location and the **benefit** of attending to the right location
 
 
-# Types of cue
+# Types of orienting: endogenous vs. exogenous {.scrollable}
 
 ::::{.columns}
 :::{.column}
@@ -415,7 +412,7 @@ digraph {
     rankdir=LR
     bgcolor="transparent"
     
-    A [label="two types\nof cue"];
+    A [label="two types of\norienting"];
     A -> {exogenous; endogenous}
 }
 ```
@@ -423,17 +420,19 @@ digraph {
 :::
 
 :::{.column}
-**Exogenous cues**: These are external, automatic signals (like a sudden flash or sound or an arrow) that capture attention involuntarily. They are fast and reflexive.
+**Exogenous** orienting: Associated with signals that capture attention automatically and involuntarily (like a sudden flash or sound). It is fast and reflexive.
 
-**Endogenous cues**: These are internal, symbolic signals (like an arrow or instruction) that guide attention voluntarily. They require interpretation and are slower.
+**Endogenous** orienting: Associated with symbolic signals (like an arrow or instruction) that provide information about a location. Attention is then oriented voluntarily (intentionally).
 :::
 ::::
 
 In other words, there are two ways that attention can be shifted:
 
-- **Exo**genous shift = "from outside", stimulus driven, bottom-up
+- **Endo**genous shift = "from inside", goal-directed, top-down (you control it)
 
-- **Endo**genous shift = "from inside", goal-directed, top-down
+- **Exo**genous shift = "from outside", stimulus driven, bottom-up (the environment controls it). Sometimes associated with a distracting stimulus.
+
+
 
 
 # Examples of exogenous and endogenous cues for the visual and auditory modalities
