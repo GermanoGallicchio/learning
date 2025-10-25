@@ -1,5 +1,8 @@
 ## Attentional Control Theory {.nostretch .center}
 
+::::{.columns}
+:::{.column width=80%}
+
 Stress and Performance
 
 JXH-3042, JXC-3042
@@ -15,7 +18,7 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 :::
 :::{.column width=20%}
 QR code to this slide deck
-{{< qrcode https://germanogallicchio.github.io/learning/JXHC_1055/05.html colorDark='#0011bb' >}}
+{{< qrcode https://germanogallicchio.github.io/learning/JXHC_3042/ACT.html colorDark='#0011bb' >}}
 :::
 ::::
 
