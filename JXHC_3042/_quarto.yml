@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: ../docs/JXHC_3042
 
+
 format: 
     revealjs:
         width: 1280     # slide width in pixels
