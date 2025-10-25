@@ -1,0 +1,404 @@
+## Attentional Control Theory {.nostretch .center}
+
+Stress and Performance
+
+JXH-3042, JXC-3042
+<br><br>
+
+
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+School of Psychology and Sport Science, Bangor University, UK <br>
+[Web profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [Research publications](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [Software](https://github.com/GermanoGallicchio) | [Book a meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+</div>
+:::
+:::{.column width=20%}
+QR code to this slide deck
+{{< qrcode https://germanogallicchio.github.io/learning/JXHC_1055/05.html colorDark='#0011bb' >}}
+:::
+::::
+
+<div style="font-size:0.6em">
+On a computer press F11 to de/activate full-screen view
+</div>
+
+## Part 1 of 2 {.nostretch .center}
+
+# Agenda
+
+- Crash course on attention and working memory
+- Effects of anxiety
+- Processing Efficiency Theory
+- Mixture of theory, empirical research, and intuition
+
+::: aside
+Note about these slides: "print" for review
+:::
+
+
+# Crash course on working memory
+
+
+```{dot}
+//| fig-width: 6
+digraph {
+    node [shape=plaintext]
+    edge [arrowhead=none]
+    rankdir=LR
+    bgcolor="transparent"
+
+    F [label = "two key\nfeatures"]
+    L [label = "limited capacity"]
+    M [label = "multiple components"]  
+
+    F -> {L; M}
+}
+```
+
+
+[We will review these features in turn.]{.fragment}
+
+
+
+# Working memory has limited capacity (feature #1)
+
+Think of working memory as the set of resources for temporarily _holding_ and _manipulating_ information. 
+
+Analogy used often: a working desk. There is enough space for the things you are working on right now, not much else...
+
+<div style="text-align: center;">
+<img src="https://freesvg.org/img/school-desk-flat.png" alt="School desk" style="width:30%;">
+</div>
+
+
+# Measuring working memory capacity: span
+
+[Classic **span** tasks measure pure (short-term) storage capacity:]{.fragment} [participants hear or see sequences of items (digits, letters, words)]{.fragment} [and must recall them in order]{.fragment}. [Span is the _maximum number of items_ a person can correctly repeat, often reported to be around 7 +- 2.]{.fragment}
+
+[Few and relatively simple processing: encoding and recall.]{.fragment}
+
+[Optional: <a href="https://www.psytoolkit.org/experiment-library/experiment_digitspan.html">Link to demo of digit span task</a>]{.fragment}
+
+
+
+
+ 
+
+# Working memory's multiple components (feature #2) {.scrollable}
+
+::::{.columns}
+:::{.column width=20%}
+
+<img 
+    src="https://www.york.ac.uk/media/psychology/images/people/emeritus-faculty/Alan_Baddeley_013.jpg"  
+    alt="photo of Alan Baddeley from the University of York public website"
+    title="Alan Baddeley"
+    width="100%"/>
+    Alan Baddeley
+
+
+<iframe 
+width="100%" 
+height="70%" 
+src="https://youtube.com/embed/mT0NLihOK30/" 
+title="Alan Baddeley on the development of his Working Memory model" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+:::
+:::{.column width=80%}
+
+Three different components handle storage of information (e.g., visuo-spatial, verbal-phonological) or manage access to that information.
+
+```{dot}
+//| fig-width: 8
+digraph {
+    rankdir=TD
+    bgcolor="transparent"
+    
+    A [label="central executive"];
+    B [label="phonological loop"];
+    C [label="visuospatial sketchpad"];
+
+    A -> {B; C} [dir="both"]
+    
+    
+}
+```
+
+:::
+::::
+
+
+_"House windows" exercise_ to see how the three components work together
+
+Work out how many windows are there in your house? 
+
+- You retreive from long-term memory and manipulate a mental image of your house as you “walk through” it room by room (visuospatial sketchpad)
+
+- As you progress, you keep a count of the number of windows by rehearsing the numbers out loud or not. (phonological loop)
+
+- You will have followed a strategy: deciding which rooms to visualize next, keeping track of progress, and ensuring the count is updated (central executive),
+
+
+# Measuring component-specific capacity: some examples
+
+**Phonological/Verbal Working Memory:**
+
+- _Digit Span_: Recall sequences of digits in order
+- _Letter Span_: Recall sequences of letters in order
+- _Word Span_: Recall sequences of words in order
+
+**Visuospatial Working Memory:**
+
+- _Corsi Block Tapping Test_: Recall sequences of spatial locations. [Optional: <a href="https://www.psytoolkit.org/experiment-library/experiment_corsi2.html">link to Corsi span test</a>]{.fragment}
+- _Visual Patterns Test_: Recall patterns in a grid
+
+
+
+# Complex span tasks (optional: not necessary for this module)
+
+**Classic** span tasks = measure _how much_ you can hold.
+
+**Complex** span tasks = measure how well you can hold information _while doing something else_.
+
+[They require to:]{.fragment}
+
+- resist interference from additioanl processing task 
+- keep the memory items active
+
+[Compared to classic span tasks, better association with higher-order cognition (executive functions)]{.fragment}
+
+[Example: <a href="https://www.psytoolkit.org/experiment-library/experiment_aospan.html">link to the operation span task</a>]{.fragment}
+
+
+# Attention
+
+
+<iframe 
+width="100%" 
+height="50%" 
+src="https://youtube.com/embed/LW_ZVvjP_Ms" 
+title="Whodunnit video" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+[Working memory's limited capacity (feature #1) implies that we can't process all information at once. We need to **select**...]{.fragment} ['that's one of the things attention does]{.fragment}
+
+::: aside
+:::{.fragment}
+What other things does attention do other than selecting (_orienting_)? General _alertness_ (being vigilant) and _executive control_ (monitoring, regulating). <a href="https://germanogallicchio.github.io/learning/JXHC_1055/04">More info</a>
+:::
+:::
+
+# Orienting of attention {.scrollable}
+
+
+::::{.columns}
+:::{.column}
+**Endogenous**
+
+- "endo" = from the inside
+- voluntary, intentional
+- determined by the person
+- top-down
+- **goal-directed**
+:::
+:::{.column}
+**Exogenous**
+
+- "exo" = from the outside
+- involuntary, not intentional
+- determined by the environment
+- bottom-up
+- **stimulus-driven**
+:::
+::::
+
+::::{.columns}
+:::{.column}
+
+:::{.fragment}
+"Cocktail party" scenario
+<img src="https://live.staticflickr.com/2661/5807919992_39ba7947cf_o.jpg" alt="Cocktail party" style="width:100%;">
+:::
+
+:::
+:::{.column}
+
+:::{.fragment}
+<div style="font-size:0.8em">Designed to illustrate selective feature of attention, but it is also a shortcut for me to illustrate the difference between the two mechanisms at play. </div>
+:::
+
+[You are in a noisy place.]{.fragment} 
+[You choose to attend to one speaker (endogenous orienting).]{.fragment}
+[Your attention is captured (distracted) by a salient, personally relevant cue (like hearing your name from your back) (exogenous orienting).]{.fragment}
+:::
+::::
+
+# Visuospatial attention in target sports: the quiet eye {.scrollable}
+
+::::{.columns}
+:::{.column width=20%}
+
+<img 
+src="https://gameimprovementgolf.com/wp-content/uploads/2015/06/Joan-Vickers.jpg"  
+alt="photo of Joan Vickers"
+title="Joan Vickers"
+width="100%"/>
+Joan Vickers
+
+<iframe 
+width="100%" 
+height="70%" 
+src="https://youtube.com/embed/knfC978EoWc/" 
+title="Alan Alda visiting Joan Vickers to learn about the Quiet Eye(Scientific American Frontiers, Season 12, Episode 06)" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+:::
+:::{.column width=80%}
+
+"Quiet Eye" as much a phenomenon as a variable.
+
+<br>
+
+As a _variable_
+
+- The QE is a duration of time, units of (milli)seconds
+- Eyes on the critical location or object (e.g., ball in golf putting)
+- It starts before movement initiation (“QE onset”)
+- It ends when the gaze deviates from the location or object of a certain amount (“QE offset”)
+
+
+As a _phenomenon_
+
+[Extensive reports in literature that:]{.fragment}
+
+- experts have a longer QE than novices
+- QE is longer for successful than successful performance
+- it is trainable
+
+:::
+::::
+
+_Interpretations_ / Why is the QE beneficial to performance?
+
+- Attention and perception
+- Postural-kinematic quiescence
+
+::: aside
+Optional reading:
+
+Vickers, J. N. (1992). Gaze Control in Putting. Perception, 21(1), 117-132. https://doi.org/10.1068/p210117 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1068%252Fp210117&sig=3278c517db87f4c58b4ebf05275d4536865882ad3d9bf6699a801ae0f14179b2">Accessible from Talis</a>
+
+<br>
+
+Hossner (Ed.), E.-J. (2016). Quiet Eye research – Joan Vickers on target. Current Issues in Sport Science (CISS), 1, 100. <a href="https://doi.org/10.15203/CISS_2016.100">https://doi.org/10.15203/CISS_2016.100</a>
+
+<br>
+
+Gallicchio, G., Cooke, A., & Ring, C. (2018). Assessing ocular activity during performance of motor skills using electrooculography. Psychophysiology, 55(7), <a href="https://doi.org/10.1111/psyp.13070">https://doi.org/10.1111/psyp.13070</a>
+
+<br>
+
+Gallicchio, G., & Ring, C. (2020). The quiet eye effect: A test of the visual and postural-kinematic hypotheses. Sport, Exercise, and Performance Psychology, 9(1), 143. http://dx.doi.org/10.1037/spy0000162 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02699939208409696&sig=624bc9e318b1bcf8df12300d17f08fb9e8269f56b11604260d0bf446b9bc2cbb">Accessible from Talis</a>
+
+:::
+
+# Wilson & Pearcy (2009)
+
+
+::: aside
+Wilson, M. R., & Pearcy, R. C. (2009). Visuomotor Control of Straight and Breaking Golf Putts. Perceptual and Motor Skills, 109(2), 555-562. https://doi.org/10.2466/pms.109.2.555-562 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.2466%252Fpms.109.2.555-562&sig=e0177ca9b7471c4edb51eace8f924e27f26ec018d2bb5246979fe9b299047998">Accessible from Talis</a>
+:::
+
+# Walters-Symons, Wilson, & Vine (2017)
+
+::: aside
+Walters-Symons, R. M., Wilson, M. R., & Vine, S. J. (2017). The quiet eye supports error recovery in golf putting. Psychology of Sport and Exercise, 31, 21-27. https://doi.org/10.1016/j.psychsport.2017.03.012 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1016%252Fj.psychsport.2017.03.012&sig=803bbfe0ac040ef614d7ff72ace3b39ba18ff237eb6d0fe4dfd29e92c5da36f6">Accessible from Talis</a>
+:::
+
+# Anxiety 
+
+
+
+# Shapiro & Johnson (1987)
+
+Study 1
+
+Study 2
+
+::: aside
+Shapiro, K. L., & Johnson, T. L. (1987). Effects of arousal on attention to central and peripheral visual stimuli. Acta Psychologica, 66(2), 157-172.
+
+https://doi.org/10.1016/0001-6918(87)90031-X
+
+https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1016%252F0001-6918%252887%252990031-X&sig=a303f19a9bd5fb13b4e865e6ceef253b45692ac27ee8e41abdad63ffb49a5080
+:::
+
+# Lipp & Derakshan (2005)
+
+::: aside
+Lipp, O. V., & Derakshan, N. (2005). Attentional bias to pictures of fear-relevant animals in a dot probe task. Emotion, 5(3), 365.
+https://doi.org/10.1037/1528-3542.5.3.365
+
+https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1037%252F1528-3542.5.3.365&sig=213d1bc8d478ef9736f690d2e971b5d7d6166d789d903f08630710d4f7e601de
+:::
+
+# Lautenbach et al. (2016)
+
+::: aside
+Lautenbach, F., Laborde, S. J. P., Putman, P., Angelidis, A., & Raab, M. (2016). Attentional distraction by negative sports words in athletes under low-and high-pressure conditions: Evidence from the sport emotional Stroop task. Sport, Exercise, and Performance Psychology, 5(4), 296.
+
+https://doi.org/10.1037/spy0000073
+
+https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1037%252Fspy0000073&sig=5830e433a06527648191fff9d3721a585e684d34696f34d9acf6e0a664464f83
+
+:::
+
+
+# Effects of Anxiety on Attention
+
+# Processing Efficiency Theory (PET)
+
+::: aside
+Eysenck, M. W., & Calvo, M. G. (1992). Anxiety and performance: The processing efficiency theory. Cognition & emotion, 6(6), 409-434.
+
+https://doi.org/10.1080/02699939208409696
+
+https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02699939208409696&sig=624bc9e318b1bcf8df12300d17f08fb9e8269f56b11604260d0bf446b9bc2cbb
+
+:::
+
+# Smith et al. (2001)
+
+::: aside
+Smith, N. C., Bellamy, M., Collins, D. J., & Newell, D. (2001). A test of processing efficiency theory in a team sport context. Journal of Sports Sciences, 19(5), 321-332.
+
+https://doi.org/10.1080/02640410152006090
+
+https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02640410152006090&sig=901de5db172e491f699cbaf6cdc6a488959ed1c530dd7aa79a6a7cec6f20f3b6
+
+:::
+
+# Wilson et al. (2006)
+
+::: aside
+
+Wilson, M., Smith, N. C., Chattington, M., Ford, M., & Marple-Horvat, D. E. (2006). The role of effort in moderating the anxiety–performance relationship: Testing the prediction of processing efficiency theory in simulated rally driving. Journal of sports sciences, 24(11), 1223-1233.
+
+https://doi.org/10.1080/02640410500497667
+
+https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02640410500497667&sig=8d367f9b935c2921837066862c6c4d2720ead1b3fcb85f5843e0375225536c85
+
+:::
+
+## Part 2 of 2 {.nostretch .center}
