@@ -23,7 +23,9 @@ QR code to this slide deck
 ::::
 
 <div style="font-size:0.6em">
-On a computer press F11 to de/activate full-screen view
+On a computer press F11 to de/activate full-screen view.
+
+For smartphone and review: Bottom left menu > Tools > PDF Export Mode.
 </div>
 
 ## Part 1 of 2 {.nostretch .center}
@@ -34,10 +36,6 @@ On a computer press F11 to de/activate full-screen view
 - Effects of anxiety
 - Processing Efficiency Theory
 - Mixture of theory, empirical research, and intuition
-
-::: aside
-Note about these slides: "print" for review
-:::
 
 
 # Crash course on working memory
@@ -273,16 +271,16 @@ What other things does attention do other than selecting (_orienting_)? General 
 :::{.column}
 
 :::{.fragment}
-<div style="font-size:0.8em">Designed to illustrate selective feature of attention, but it is also a shortcut for me to illustrate the difference between the two mechanisms at play. </div>
+<div style="font-size:0.8em">Designed to illustrate selective feature of attention at the preconscious level, but here merely a shortcut for me to illustrate goal-directed and stimulus-driven attention at play. </div>
 :::
 
 [You are in a noisy place.]{.fragment} 
 [You choose to attend to one speaker (**goal-directed**).]{.fragment}
-[Your attention is captured (distracted) by a salient, personally relevant cue (like hearing your name from your back) (**stimulus-driven**).]{.fragment}
+[Suddenly, your attention is captured (distracted) by a salient, personally relevant cue (like hearing your name from your back) (**stimulus-driven**).]{.fragment}
 :::
 ::::
 
-[Important: the extent of _attentional control_ can be defined as the balance between goal-directed (concentration) and stimulus-driven (distraction) attention]{.fragment}
+[Important: the extent of **attentional control** can be defined as the **balance** between goal-directed (concentration) and stimulus-driven (distraction) attention]{.fragment}
 
 # Orienting of attention: overt vs covert
 
@@ -497,7 +495,7 @@ ggplot(data, aes(x = group, y = accuracyPerc, fill = stimulusLoc)) +
 
 :::
 
-[Arousal reversed the dominance, so that when a pair of central-peripheral targets were presented, _the peripheral target became the dominant_.]
+[Arousal reversed the dominance, so that when a pair of central-peripheral targets were presented, _the peripheral target became the dominant_.]{.fragment}
 
 
 ::: aside
@@ -525,16 +523,119 @@ https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3
 :::
 
 
-# Effects of Anxiety on Attention
+# Summary of effects of anxiety on attention: Attentional Bias
 
-# Processing Efficiency Theory (PET)
+Anxiety induces an **attentional bias**, consisting of:
+
+- Enhanced processing at the _periphery_, possible to monitor new threats
+- _early detection_ of threats 
+- _impaired disengagement_ from threats 
+
+[(whatever threat means to the individual).]{.fragment}
+
+<br><br>
+
+[Good or bad?]{.fragment} [Neither. From an evolutionary perspective, anxiety is an adaptive process that increase chances of survival.]{.fragment} [But thinking about threats might not always be the most functional way to use one's working memory resources.]{.fragment}
+
+# Processing Efficiency Theory (PET) {auto-animate=true}
+
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+        style="width:50%; height:100%"></div>
+  <div class="rect task" data-id="task"
+       style="width:25%; height:60%;"></div>
+</div>
+
+There are plenty of resources (white) to complete an easy task (yellow). Performance is good.
+
+# Processing Efficiency Theory (PET) {auto-animate=true}
+
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+        style="width:50%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:10%; height:60%;"></div>
+  <div class="rect task" data-id="task"
+       style="width:25%; height:60%;"></div>
+</div>
+
+Resources dedicated to worry (blue) are not dedicated to process task-related information.
+[But there are plenty resources for both. Performance is good.]{.fragment}
+
+# Processing Efficiency Theory (PET) {auto-animate=true}
+
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+        style="width:50%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:50%; height:100%;"></div>
+  <div class="rect task" data-id="task"
+       style="width:25%; height:60%;"></div>
+</div>
+
+If worry takes more resources (i.e., one experiences greater cognitive anxiety), [while still leaving enough for the easy task, there is still space for both.]{.fragment} [Performance is still not impaired.]{.fragment}
+
+# Processing Efficiency Theory (PET) {auto-animate=true}
+
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+        style="width:50%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:50%; height:100%;"></div>
+  <div class="rect task" data-id="task"
+       style="width:45%; height:60%;"></div>
+</div>
+
+But if the _task is more difficult_ requiring more resources, [and if there are none left,]{.fragment} [performance will be impaired.]{.fragment}
+
+[Performance is impared if there are not enough resources to carry out the task.]{.fragment} [Worry is a _distraction_ that takes resources away from the task]{.fragment}
+
+# Processing Efficiency Theory (PET) {auto-animate=true}
+
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+        style="width:70%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:50%; height:100%;"></div>
+  <div class="rect task" data-id="task"
+       style="width:45%; height:60%;"></div>
+</div>
+
+However, working memory capacity can temporary increase, through _effort_ mobilization. [There are now enough resources for both the worry and the task. Performance is good.]{.fragment} [However, the fact that _extra resources_ were mobilized means _decreased efficiency_.]{.fragment}
+
+
+
+# Processing Efficiency Theory (PET) {auto-animate=true}
+
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+        style="width:50%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:1%; height:1%;"></div>
+  <div class="rect task" data-id="task"
+       style="left:10%; width:45%; height:60%;"></div>
+</div>
+
+In fact, even a task so difficult could have been carried out well in a more efficient manner (i.e., without the extra effort) if worry did not occupy so much of working memory.
+
+# Processing Efficiency Theory (PET) 
+
+The effects of worry (cognitive anxiety) are best studied not on performance, but on _processing efficiency_.
+
+:::{.fragment}
+::: {.callout-note}
+Optional: my interpretation
+$$
+\text{efficiency} \propto \frac{\text{performance}}{\text{resources}}
+$$
+
+The formula is a short version of "how much you do in relation with how much effort you put tells about efficiency". The symbol $\propto$ means "is proportional to".
+
+:::
+:::
 
 ::: aside
-Eysenck, M. W., & Calvo, M. G. (1992). Anxiety and performance: The processing efficiency theory. Cognition & emotion, 6(6), 409-434.
-
-https://doi.org/10.1080/02699939208409696
-
-https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02699939208409696&sig=624bc9e318b1bcf8df12300d17f08fb9e8269f56b11604260d0bf446b9bc2cbb
+Eysenck, M. W., & Calvo, M. G. (1992). Anxiety and performance: The processing efficiency theory. Cognition & emotion, 6(6), 409-434. https://doi.org/10.1080/02699939208409696. <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02699939208409696&sig=624bc9e318b1bcf8df12300d17f08fb9e8269f56b11604260d0bf446b9bc2cbb">Accessible from Talis.</a>
 
 :::
 
@@ -644,9 +745,11 @@ https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3
 
 :::
 
-## Part 2 of 2 {.nostretch .center}
+## Part 2 of 2 {.nostretch .center .hidden}
 
-# Additional, optional material
+People who experience greater cognitive anxiety (worry) perform worse than those who experience less. But this is not always the case... why?
+
+# Additional, optional material {.hidden}
 
 Links to Rob Gray podcasts on Attentional Control Theory in sports
 
@@ -658,7 +761,7 @@ Links to Rob Gray podcasts on Attentional Control Theory in sports
   position: relative;   /* establishes positioning context */
   width: 100%;
   height: 60%;
-  border: 1px dashed #aaa; /* visual boundary */
+  /*border: 1px dashed #aaa; visual boundary */
   margin: 2rem 0;
 }
 
@@ -674,7 +777,13 @@ Links to Rob Gray podcasts on Attentional Control Theory in sports
 
 .used{
     left:5%; bottom:0%;
-  background:rgba(100,149,237,0.6)
+  background:rgba(34, 101, 226, 0.6)
+}
+
+.task{
+    left:30%; bottom:10%;
+  background:rgba(221, 255, 28, 1)
 }
 
 </style>
+
