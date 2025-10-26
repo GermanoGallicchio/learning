@@ -108,11 +108,10 @@ Other times, there's too much in working memory and the system fails due to over
 
 # Measuring working memory capacity: span
 
-_Classic_ span tasks measure pure (short-term) storage capacity: [participants hear or see sequences of items (digits, letters, words)]{.fragment} [and must recall them in order.]{.fragment} [**Span** is the _maximum number of items_ a person can correctly repeat, often reported to be around 7 +- 2.]{.fragment}
+_Classic_ span tasks measure primarily (short-term) storage capacity: [participants hear or see sequences of items (digits, letters, words)]{.fragment} [and must recall them in order.]{.fragment} [**Span** is the _maximum number of items_ a person can correctly repeat, often reported to be around 7 +- 2.]{.fragment}
 
 [These tasks involve only two main relatively-simple processes: encoding and recall.]{.fragment}
 
-<br><br>
 
 [Optional: <a href="https://www.psytoolkit.org/experiment-library/experiment_digitspan.html">Link to demo of digit span task</a>]{.fragment}
 
@@ -504,6 +503,12 @@ Shapiro, K. L., & Johnson, T. L. (1987). Effects of arousal on attention to cent
 
 # Lipp & Derakshan (2005)
 
+
+
+TO DO
+
+
+
 ::: aside
 Lipp, O. V., & Derakshan, N. (2005). Attentional bias to pictures of fear-relevant animals in a dot probe task. Emotion, 5(3), 365.
 https://doi.org/10.1037/1528-3542.5.3.365
@@ -512,6 +517,13 @@ https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3
 :::
 
 # Lautenbach et al. (2016)
+
+
+
+TO DO
+
+
+
 
 ::: aside
 Lautenbach, F., Laborde, S. J. P., Putman, P., Angelidis, A., & Raab, M. (2016). Attentional distraction by negative sports words in athletes under low-and high-pressure conditions: Evidence from the sport emotional Stroop task. Sport, Exercise, and Performance Psychology, 5(4), 296.
@@ -525,9 +537,8 @@ https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3
 
 # Summary of effects of anxiety on attention: Attentional Bias
 
-Anxiety induces an **attentional bias**, consisting of:
+Anxiety induces an **attentional bias**, consisting of enhanced processing of threats:
 
-- Enhanced processing at the _periphery_, possible to monitor new threats
 - _early detection_ of threats 
 - _impaired disengagement_ from threats 
 
@@ -641,6 +652,10 @@ Eysenck, M. W., & Calvo, M. G. (1992). Anxiety and performance: The processing e
 
 # Smith et al. (2001)
 
+
+TO DO
+
+
 ::: aside
 Smith, N. C., Bellamy, M., Collins, D. J., & Newell, D. (2001). A test of processing efficiency theory in a team sport context. Journal of Sports Sciences, 19(5), 321-332.
 
@@ -694,7 +709,7 @@ As a _phenomenon_
 [Extensive reports in literature that:]{.fragment}
 
 - experts have a longer QE than novices
-- QE is longer for successful than successful performance
+- QE is longer for successful than unsuccessful performance
 - it is trainable
 
 :::
@@ -722,11 +737,20 @@ Gallicchio, G., & Ring, C. (2020). The quiet eye effect: A test of the visual an
 # Wilson & Pearcy (2009)
 
 
+TO DO
+
+
 ::: aside
 Wilson, M. R., & Pearcy, R. C. (2009). Visuomotor Control of Straight and Breaking Golf Putts. Perceptual and Motor Skills, 109(2), 555-562. https://doi.org/10.2466/pms.109.2.555-562 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.2466%252Fpms.109.2.555-562&sig=e0177ca9b7471c4edb51eace8f924e27f26ec018d2bb5246979fe9b299047998">Accessible from Talis</a>
 :::
 
 # Walters-Symons, Wilson, & Vine (2017)
+
+
+
+TO DO
+
+
 
 ::: aside
 Walters-Symons, R. M., Wilson, M. R., & Vine, S. J. (2017). The quiet eye supports error recovery in golf putting. Psychology of Sport and Exercise, 31, 21-27. https://doi.org/10.1016/j.psychsport.2017.03.012 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1016%252Fj.psychsport.2017.03.012&sig=803bbfe0ac040ef614d7ff72ace3b39ba18ff237eb6d0fe4dfd29e92c5da36f6">Accessible from Talis</a>
@@ -734,6 +758,12 @@ Walters-Symons, R. M., Wilson, M. R., & Vine, S. J. (2017). The quiet eye suppor
 
 
 # Wilson et al. (2006)
+
+
+TO DO
+
+
+
 
 ::: aside
 
@@ -746,6 +776,8 @@ https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3
 :::
 
 ## Part 2 of 2 {.nostretch .center .hidden}
+
+# Very brief recap of Processing Efficiency Theory
 
 People who experience greater cognitive anxiety (worry) perform worse than those who experience less. But this is not always the case... why?
 
@@ -761,7 +793,7 @@ Links to Rob Gray podcasts on Attentional Control Theory in sports
   position: relative;   /* establishes positioning context */
   width: 100%;
   height: 60%;
-  /*border: 1px dashed #aaa; visual boundary */
+  /*border: 1px dashed #aaa; visual boundary when debugging*/
   margin: 2rem 0;
 }
 
