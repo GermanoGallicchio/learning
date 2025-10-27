@@ -174,7 +174,7 @@ Take a couple of minutes to **Work out how many windows are there in your house*
 
 - As you progress, you keep a count of the number of windows by rehearsing the numbers out loud or not. (_phonological loop_)
 
-- You will have followed a strategy: deciding which rooms to visualize next, keeping track of progress, and ensuring the count is updated (_central executive_),
+- You will have followed a strategy: deciding which rooms to visualize next, keeping track of progress, and ensuring the count is updated (_central executive_).
 
 
 # Combining the two features: Measuring component-specific capacity
@@ -260,18 +260,15 @@ What other things does attention do other than selecting (_orienting_)? General 
 ::::{.columns}
 :::{.column}
 
-
-:::{.fragment}
-
 <img src="https://live.staticflickr.com/2661/5807919992_39ba7947cf_o.jpg" alt="Cocktail party" style="width:100%;">
-:::
+
 
 :::
 :::{.column}
 
-:::{.fragment}
+
 <div style="font-size:0.8em">Designed to illustrate selective feature of attention at the preconscious level, but here merely a shortcut for me to illustrate goal-directed and stimulus-driven attention at play. </div>
-:::
+
 
 [You are in a noisy place.]{.fragment} 
 [You choose to attend to one speaker (**goal-directed**).]{.fragment}
@@ -838,21 +835,74 @@ Gallicchio, G., & Ring, C. (2020). The quiet eye effect: A test of the visual an
 
 :::
 
-# Wilson & Pearcy (2009)
+# Wilson & Pearcy (2009) {.scrollable}
 
+Key methodology:
 
-TO DO
+- N = 6 participants
+- Task: Golf putting on flat and sloped surfaces
+- Measure:
+  - Performance
+  - Quiet Eye duration via eye tracking
+
+Key result:
+
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+    outcome = factor(c("missed", "holed"), levels = c("missed", "holed")),
+    QEmean = c(1.23, 1.70),
+    QEse = c(0.73, 1.01))
+
+# ggplot2 barplot
+ggplot(data, aes(x = outcome, y = QEmean)) +
+    geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+    labs(x = "performance outcome", 
+         y = "mean Quiet Eye duration (s)") +
+    coord_cartesian(ylim = c(1,2)) +
+    theme_minimal(base_size = 20)
+```
+
+Significantly longer QE durations ahead of holed than missed putts.
+
 
 
 ::: aside
 Wilson, M. R., & Pearcy, R. C. (2009). Visuomotor Control of Straight and Breaking Golf Putts. Perceptual and Motor Skills, 109(2), 555-562. https://doi.org/10.2466/pms.109.2.555-562 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.2466%252Fpms.109.2.555-562&sig=e0177ca9b7471c4edb51eace8f924e27f26ec018d2bb5246979fe9b299047998">Accessible from Talis</a>
 :::
 
-# Walters-Symons, Wilson, & Vine (2017)
+# Walters-Symons, Wilson, & Vine (2017) {.scrollable}
 
+Key methodology
 
+- N = 18 experienced golfers
+- N = 21 novice golfers
+- Task: flat-surface golf putting
 
-TO DO
+Key result
+
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+    outcome = factor(c("miss", "hit", "miss", "hit"), levels = c("miss","hit")),
+    group = factor(c("experienced","experienced","novice","novice"), levels = c("experienced","novice")),
+    QEmean = c(1800, 1980, 1235, 1255)
+)
+
+# ggplot2 barplot
+ggplot(data, aes(x = group, y = QEmean, fill = outcome)) +
+    geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+    labs(x = "group", 
+         y = "mean QE duration (s)") +
+    theme_minimal(base_size = 20)
+```
+
+- Experienced golfers showed longer QE durations than novices 
+
 
 
 
@@ -900,6 +950,7 @@ Interpretation:
 
 - The high-trait anxiety group mobilized more resources, increasing their working memory, but the extra resources were not enough to maintain as good performance.
 
+- These findings support Processing Efficiency Theory
 
 ::: aside
 
@@ -907,18 +958,47 @@ Wilson, M., Smith, N. C., Chattington, M., Ford, M., & Marple-Horvat, D. E. (200
 
 :::
 
-## Part 2 of 2 {.nostretch .center .hidden}
+## Part 2 of 2 {.nostretch .center}
 
 # Very brief recap of Processing Efficiency Theory
 
 People who experience greater cognitive anxiety (worry) perform worse than those who experience less. But this is not always the case... why?
 
-# Additional, optional material {.hidden}
+# Additional, optional material {.scrollable}
 
-Links to Rob Gray podcasts on Attentional Control Theory in sports
+Performing and choking under pressure
 
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3698957/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
+<br>
 
+Sports Science Shorts: Choking under pressure Q&A
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3984899/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Interview with Denise Hill, choking under pressure
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/4258655/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Interview with Sam Vine, Quiet Eye, Pressure, VR training
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5611803/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Choking under pressure revisited: critiques
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5569026/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Choking under pressure revisited: integrative theories
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5611970/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 <style>
 .container {
