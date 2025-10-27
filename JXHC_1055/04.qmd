@@ -380,6 +380,7 @@ The cue is an arrow pointing to the left. A short while after, the target appear
 </div>
 
 
+
 **Neutral cue**
 The cue is an arrow pointing to both left and right. A short while after, the target appears on the left. In this trial, the cue was _neutral_ (i.e., not informative).
 <div class="posner">
