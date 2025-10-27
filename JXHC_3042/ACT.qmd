@@ -501,36 +501,64 @@ ggplot(data, aes(x = group, y = accuracyPerc, fill = stimulusLoc)) +
 Shapiro, K. L., & Johnson, T. L. (1987). Effects of arousal on attention to central and peripheral visual stimuli. Acta Psychologica, 66(2), 157-172. https://doi.org/10.1016/0001-6918(87)90031-X. <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1016%252F0001-6918%252887%252990031-X&sig=a303f19a9bd5fb13b4e865e6ceef253b45692ac27ee8e41abdad63ffb49a5080">Accessible from Talis</a>
 :::
 
-# Lipp & Derakshan (2005)
+# Lipp & Derakshan (2005) {.scrollable}
 
+Key methodology:
 
+- N = 70 participants
+- Groups: 
+  - Spider/snake phobics
+  - non-phobics
+- Task: emotional dot probe  
+- Emotional Dot probe: a cue appears on the screen either left or right before a target stimulus appears either left or right. The cue could be neutral or emotional (image of a snake).
 
-TO DO
+[Main results:]{.fragment}
 
+- The target was detected faster when appearing shortly after an emotional cue
+- Larger effects for phobics
 
 
 ::: aside
-Lipp, O. V., & Derakshan, N. (2005). Attentional bias to pictures of fear-relevant animals in a dot probe task. Emotion, 5(3), 365.
-https://doi.org/10.1037/1528-3542.5.3.365
-
-https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1037%252F1528-3542.5.3.365&sig=213d1bc8d478ef9736f690d2e971b5d7d6166d789d903f08630710d4f7e601de
+Lipp, O. V., & Derakshan, N. (2005). Attentional bias to pictures of fear-relevant animals in a dot probe task. Emotion, 5(3), 365. https://doi.org/10.1037/1528-3542.5.3.365. <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1037%252F1528-3542.5.3.365&sig=213d1bc8d478ef9736f690d2e971b5d7d6166d789d903f08630710d4f7e601de">Accessible from Talis</a>
 :::
 
-# Lautenbach et al. (2016)
+# Lautenbach et al. (2016) {.scrollable}
 
+Key methodology:
 
+- N = 40 athletes
+- Task: emotional Stroop task
+  - A: negative sport related words (e.g., defeat, failure, rival)
+  - B: neutral sport  related words (e.g., endurance, position, sideline)
+  - C: neutral non-sport related words (e.g., radio, lemon, computer)
 
-TO DO
+:::{.fragment}
 
+Main results:
 
+```{r}
+library(ggplot2)
 
+# Data
+data <- data.frame(
+    category = factor(c("A", "B", "C")),
+    RTmean = c(506, 494, 496),
+    RTse = c(74, 65, 67))
+
+# ggplot2 barplot
+ggplot(data, aes(x = category, y = RTmean)) +
+    geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+    labs(x = "Category", 
+         y = "mean Response Times") +
+    coord_cartesian(ylim = c(489, 511)) +
+    theme_minimal(base_size = 20)
+```
+Significantly slower when responding to negative sport-related words.
+
+:::
 
 ::: aside
-Lautenbach, F., Laborde, S. J. P., Putman, P., Angelidis, A., & Raab, M. (2016). Attentional distraction by negative sports words in athletes under low-and high-pressure conditions: Evidence from the sport emotional Stroop task. Sport, Exercise, and Performance Psychology, 5(4), 296.
-
-https://doi.org/10.1037/spy0000073
-
-https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1037%252Fspy0000073&sig=5830e433a06527648191fff9d3721a585e684d34696f34d9acf6e0a664464f83
+Lautenbach, F., Laborde, S. J. P., Putman, P., Angelidis, A., & Raab, M. (2016). Attentional distraction by negative sports words in athletes under low-and high-pressure conditions: Evidence from the sport emotional Stroop task. Sport, Exercise, and Performance Psychology, 5(4), 296. https://doi.org/10.1037/spy0000073 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1037%252Fspy0000073&sig=5830e433a06527648191fff9d3721a585e684d34696f34d9acf6e0a664464f83">Accessible from Talis</a>
 
 :::
 
@@ -552,7 +580,9 @@ Anxiety induces an **attentional bias**, consisting of enhanced processing of th
 
 <div class="container">
   <div class="rect whole" data-id="whole" 
-        style="width:50%; height:100%"></div>
+       style="width:50%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:1%; height:1%;"></div>
   <div class="rect task" data-id="task"
        style="width:25%; height:60%;"></div>
 </div>
@@ -657,11 +687,7 @@ TO DO
 
 
 ::: aside
-Smith, N. C., Bellamy, M., Collins, D. J., & Newell, D. (2001). A test of processing efficiency theory in a team sport context. Journal of Sports Sciences, 19(5), 321-332.
-
-https://doi.org/10.1080/02640410152006090
-
-https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02640410152006090&sig=901de5db172e491f699cbaf6cdc6a488959ed1c530dd7aa79a6a7cec6f20f3b6
+Smith, N. C., Bellamy, M., Collins, D. J., & Newell, D. (2001). A test of processing efficiency theory in a team sport context. Journal of Sports Sciences, 19(5), 321-332. https://doi.org/10.1080/02640410152006090. <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02640410152006090&sig=901de5db172e491f699cbaf6cdc6a488959ed1c530dd7aa79a6a7cec6f20f3b6">Accessible from Talis</a>
 
 :::
 
