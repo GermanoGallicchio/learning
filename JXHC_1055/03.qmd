@@ -588,11 +588,7 @@ Neurons communicate information using both **electrical** and **chemical** mecha
 
 # Spiking Rate and Neural Coding
 
-The action potential is always the same: same voltage and same duration. 
-
-. . .
-
-It is "all or nothing": either sent or not sent.
+The action potential is a all-or-nothing event (either sent or not sent): same voltage and same duration for each neuron under stable conditions. 
 
 . . .
 
