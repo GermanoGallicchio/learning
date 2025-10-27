@@ -680,10 +680,88 @@ Eysenck, M. W., & Calvo, M. G. (1992). Anxiety and performance: The processing e
 
 :::
 
-# Smith et al. (2001)
+# Smith et al. (2001) {.scrollable}
+
+Key methodology:
+
+- N = 12 volleyball players
+  - 6 low and 6 high in trait anxiety
+- Task: Eigth volleyball games
+- Measures:
+  - State anxiety (through questionnaire)
+  - Effort mobilized (through questionnaire)
+  - Performance (through video analyses)
+- Analysis factors
+  - Group (low, high trait anxiety)
+  - set criticality
+    - low: 7 or more points of difference
+    - moderate: between 3 and 6 points of difference
+    - high: less than 2 points of difference
+
+Predictions:
+
+- State anxiety would be greater for more critical sets
+- Effort would also be greater for more critical sets
+- Performance would increase when more effort is mobilized
+  - but only for the low-trait anxiety group
+
+Main results:
+
+- High-trait anxiety groups experienced greater state anxiety
 
 
-TO DO
+:::{.fragment}
+
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+    setCriticality = factor(c("Low", "Low", "Moderate", "Moderate", "High", "High"), levels = c("Low", "Moderate", "High")),
+    group = factor(c("lowTraitAnx","highTraitAnx","lowTraitAnx","highTraitAnx","lowTraitAnx","highTraitAnx"), levels = c("lowTraitAnx","highTraitAnx")),
+    effort = c(-0.7, -0.25, -0.05, 1, 0.8, 1.1))
+
+# ggplot2 barplot
+ggplot(data, aes(x = setCriticality, y = effort, fill = group)) +
+    geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+    labs(x = "set criticality", 
+         y = "standardized effort rating") +
+    coord_cartesian(ylim = c(-2, 2)) +
+    theme_minimal(base_size = 20)
+```
+
+- Effort increased with set criticality
+
+:::
+
+
+
+:::{.fragment}
+
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+    setCriticality = factor(c("Low", "Low", "Moderate", "Moderate", "High", "High"), levels = c("Low", "Moderate", "High")),
+    group = factor(c("lowTraitAnx","highTraitAnx","lowTraitAnx","highTraitAnx","lowTraitAnx","highTraitAnx"), levels = c("lowTraitAnx","highTraitAnx")),
+    performance = c(-0.4, 1.1, 0.25, -0.55, 1, -0.65))
+
+# ggplot2 barplot
+ggplot(data, aes(x = setCriticality, y = performance, fill = group)) +
+    geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+    labs(x = "set criticality", 
+         y = "standardized performance score") +
+    coord_cartesian(ylim = c(-2, 2)) +
+    theme_minimal(base_size = 20)
+```
+
+- Performance improved with set criticality for the low-trait anxiety group
+- Performance declined with set criticality for the high-trait anxiety group
+
+:::
+
+[Interpretation: Performance and worry competed for resources. As worry (state anxiety) increased over set criticality, fewer and fewer resources were left to focus on the volleyball task.]{.fragment} [Some support for Processing Efficiency Theory]{.fragment}
 
 
 ::: aside
@@ -783,21 +861,49 @@ Walters-Symons, R. M., Wilson, M. R., & Vine, S. J. (2017). The quiet eye suppor
 :::
 
 
-# Wilson et al. (2006)
+# Wilson et al. (2006) {.scrollable}
 
 
-TO DO
+Key methodology:
 
+- N = 24 university students
+  - Median split into low and high trait anxiety
+- Task: simulated rally driving, under two conditions
+  - practice (designed to induce lower state anxiety)
+  - competition (designed to induce higher state anxiety)
+- Measures:
+  - Trait and state anxiety (through questionnaires)
+  - Effort mobilized (through questionnaire)
+  - Performance (time to complete the race)
+  - Effort 
+    - through questionnaire
+    - pupil diameter (larger pupil = more effort)
 
+Main results:
+
+- for both groups, state anxiety increased from practice to competition.
+- the high-trait anxiety group showed greater state anxiety.
+
+- Pupil diameter increased from practice to competition for both groups, [being also larger for high-trait anxiety group]{.fragment}
+
+- Self-report effort showed similar results, with the practice-to-competition increase much larger in the high-trait anxiety group.
+
+- No group difference in performance during practice
+- Performance decreased from practice to competition
+- Performance drop was larger for the high-trait anxiety group
+
+Interpretation: 
+
+- There were enough spare resources in working memory to complete the driving task when worry (state anxiety) used a small amount of resources.
+
+- Worry (state anxiety) occupied more resources in competition, especially for the high-trait anxiety group.
+
+- The high-trait anxiety group mobilized more resources, increasing their working memory, but the extra resources were not enough to maintain as good performance.
 
 
 ::: aside
 
-Wilson, M., Smith, N. C., Chattington, M., Ford, M., & Marple-Horvat, D. E. (2006). The role of effort in moderating the anxiety–performance relationship: Testing the prediction of processing efficiency theory in simulated rally driving. Journal of sports sciences, 24(11), 1223-1233.
-
-https://doi.org/10.1080/02640410500497667
-
-https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02640410500497667&sig=8d367f9b935c2921837066862c6c4d2720ead1b3fcb85f5843e0375225536c85
+Wilson, M., Smith, N. C., Chattington, M., Ford, M., & Marple-Horvat, D. E. (2006). The role of effort in moderating the anxiety–performance relationship: Testing the prediction of processing efficiency theory in simulated rally driving. Journal of sports sciences, 24(11), 1223-1233.https://doi.org/10.1080/02640410500497667. <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02640410500497667&sig=8d367f9b935c2921837066862c6c4d2720ead1b3fcb85f5843e0375225536c85">Accessible from Talis</a>
 
 :::
 
