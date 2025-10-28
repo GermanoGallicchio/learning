@@ -15,12 +15,8 @@ Lecturer in Psychophysiology and Cognitive Neuroscience <br>
 School of Psychology and Sport Science, Bangor University, UK <br>
 [Web profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [Research publications](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [Software](https://github.com/GermanoGallicchio) | [Book a meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
 </div>
-:::
-:::{.column width=20%}
-QR code to this slide deck
-{{< qrcode https://germanogallicchio.github.io/learning/JXHC_3042/ACT.html colorDark='#0011bb' >}}
-:::
-::::
+
+<br>
 
 <div style="font-size:0.6em">
 On a computer press F11 to de/activate full-screen view.
@@ -28,7 +24,40 @@ On a computer press F11 to de/activate full-screen view.
 For smartphone and review: Bottom left menu > Tools > PDF Export Mode.
 </div>
 
+:::
+
+:::{.column width=20%}
+These slides:
+{{< qrcode https://germanogallicchio.github.io/learning/JXHC_3042/ACT.html colorDark='#0011bb' >}}
+
+<br><br>
+
+<span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
+
+<div contenteditable="true" style="
+    min-height: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: rgba(255,40,0,0.6)
+">0000</div>
+
+:::
+
+::::
+
+<style>
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+</style>
+
 ## Part 1 of 2 {.nostretch .center}
+
 
 # Agenda
 
@@ -958,29 +987,12 @@ Wilson, M., Smith, N. C., Chattington, M., Ford, M., & Marple-Horvat, D. E. (200
 
 :::
 
-## Part 2 of 2 {.nostretch .center}
 
-# Very brief recap of Processing Efficiency Theory
-
-People who experience greater cognitive anxiety (worry) perform worse than those who experience less. But this is not always the case... why?
-
-# Additional, optional material {.scrollable}
+# Optional material from Rob Gray's perception and action podcast {.scrollable}
 
 Performing and choking under pressure
 
 <iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3698957/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-<br>
-
-Sports Science Shorts: Choking under pressure Q&A
-
-<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3984899/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-<br>
-
-Interview with Denise Hill, choking under pressure
-
-<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/4258655/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 <br>
 
@@ -999,6 +1011,443 @@ Choking under pressure revisited: critiques
 Choking under pressure revisited: integrative theories
 
 <iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5611970/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Sports Science Shorts: Choking under pressure Q&A
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3984899/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Interview with Denise Hill, choking under pressure
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/4258655/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+
+
+## Part 2 of 2 {.nostretch .center}
+
+
+# Agenda
+
+- Brief recap of Procesing Efficiency Theory
+- Crash course on executive functions
+- Mixture of theory, empirical research, and intuition
+
+
+# Very brief recap of Processing Efficiency Theory
+
+People who experience greater cognitive anxiety (worry) perform worse than those who experience less. But this is not always the case... why?
+
+- There is not enough space in the working memory to process everything
+- Our attention selects information to be processed
+- Working memory and attention are not unitary concepts
+- Cognitive anxiety (worry) does not necessarily reduce performance
+- Effort can counteract the impairment at the expense of processing efficiency
+- Cognitive anxiety (worry) reduces processing efficiency
+
+# Executive functions
+
+Inhibition
+
+Resisting to processing task irrelevant information (distractions)
+
+Shifting
+
+Moving focus towards the task relevant information (concentration)
+
+Updating
+
+# Attentional Control Theory
+
+The six hypotheses / predictions
+
+```{dot}
+//| fig-width: 9
+digraph {
+    node [shape=plaintext fontsize=36]
+    edge [arrowhead=none]
+    rankdir=TD
+    bgcolor="transparent"
+
+    A [label = "ACT hypotheses"]
+    B [label = "processing\nefficiency"]
+    C [label = "task\ndemands"]  
+    D [label = "attentional\ncontrol"]  
+    E [label = "inhibition"]  
+    F [label = "shifting"]  
+    G [label = "updating"]  
+
+    A -> {B; C; D; E; F; G }
+}
+```
+
+
+
+
+::: aside
+Eysenck, M. W., Derakshan, N., Santos, R., & Calvo, M. G. (2007). Anxiety and cognitive performance: attentional control theory. Emotion, 7(2), 336. https://doi.org/10.1037/1528-3542.7.2.336
+
+TO DO: Accessible from Talis
+
+:::
+
+
+# ACT hypothesis 1: processing efficiency
+
+Cognitive anxiety impairs processing _efficiency_ more than it impairs performance
+
+# ACT hypothesis 2: task demands
+
+The more difficult the task, the higher the chances of decreased efficiency
+
+# ACT hypothesis 3: attentional control
+
+Cognitive anxiety disrupts attentional control
+
+Attentional control = ability to maintain a goal-directed (endogenous) attentional orienting (concentration)
+, while suppressing stimulus-driven (exogenous) attentional orienting (distraction)
+
+
+# ACT hypothesis 4: inhibition
+
+Impaired inhibition
+
+# ACT hypothesis 5: shifting
+
+Impaired shifting
+
+# ACT hypothesis 6: updating
+
+(Not as much) Impaired updating
+
+
+# Wilson et al. (2009) {.scrollable}
+
+Key idea: 
+
+- Quiet Eye duration as measure of attentional control
+- Does anxiety impair QE durations?
+
+Key methodology:
+
+- N = 10 university students (basketball players)
+- Task: free throws until 10 hits and 10 misses
+- Conditions:
+  - Control (low pressure)
+  - Experimental (high pressure, competition and financial incentive)
+- Measures:
+  - State anxiety, through questionnaire
+  - Quiet Eye duration, through eye tracking
+
+Key results:
+
+:::{.fragment}
+
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+    condition = factor(c("lowPressure", "highPressure"), levels = c("lowPressure", "highPressure")),
+    AnxMean = c(3.29, 5.05),
+    AnxSE = c(1.24, 0.90)
+)
+
+# ggplot2 barplot
+ggplot(data, aes(x = condition, y = AnxMean)) +
+    geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+    labs(x = "Condition", 
+         y = "State anxiety") +
+    coord_cartesian(ylim = c(2,6)) +
+    theme_minimal(base_size = 20)
+```
+
+State anxiety was larger in the experimental condition.
+
+:::
+
+:::{.fragment}
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+    condition = factor(c("lowPressure", "lowPressure", "highPressure", "highPressure"), levels = c("lowPressure", "highPressure")),
+    outcome = factor(c("hit","miss","hit","miss"), levels = c("hit","miss")),
+    QEmean = c(650,315,445,225)
+)
+
+# ggplot2 barplot
+ggplot(data, aes(x = condition, y = QEmean, fill = outcome)) +
+    geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+    labs(x = "Condition", 
+         y = "mean Quiet Eye duration (ms)") +
+    coord_cartesian(ylim = c(200, 700)) +
+    theme_minimal(base_size = 20)
+```
+Effect of outcome: Shorter Quiet Eye duration for missed throws.
+
+Effect of pressure: Shorter Quiet Eye duration under greater pressure.
+
+:::
+
+::: aside
+
+Wilson, M. R., Vine, S. J., & Wood, G. (2009). The influence of anxiety on visual attentional control in basketball free throw shooting. Journal of Sport and Exercise Psychology, 31(2), 152-168.
+https://doi.org/10.1123/jsep.31.2.152
+
+TO DO: Accessible from Talis
+
+:::
+
+# Interventions
+
+::::{.columns}
+:::{.column}
+
+```{dot}
+//| fig-width: 6
+digraph {
+    node [shape=plaintext]
+    edge [arrowhead=none]
+    rankdir=LR
+    bgcolor="transparent"
+
+    A [label = "ACT-compatible\ninterventions"]
+    B [label = "gaze training"]
+    C [label = "cognitive training"]  
+
+    A -> {B; C}
+}
+```
+:::
+
+:::{.column}
+
+Attentional control can be improved through **Gaze Training** and **Cognitive Training**.
+
+[These interventions are not specific to Attentional Control Theory but are compatible with it.]{.fragment}
+
+[We will review what they are,]{.fragment} [what mechanisms specific to Attentional Control Theory they address (supposedly)]{.fragment}, [and some empirical evidence supporting them.]{.fragment}
+
+:::
+::::
+
+# Vine & Wilson (2010) {.scrollable}
+
+First Quiet Eye training study
+
+::::{.columns}
+:::{.column}
+Key methodology:
+
+- N = 14 university students, [minimal golf experience]{.fragment}
+  - control goup: technical training
+  - experimental group: technical and Quiet Eye training 
+- Design: longitudinal (i.e., over time)
+- Task: straight putts
+:::
+
+:::{.column}
+
+:::{.fragment}
+
+Procedure:
+
+```{dot}
+//| fig-width: 6
+digraph {
+    node [shape=plaintext fontsize=24]
+    rankdir=TD
+    bgcolor="transparent"
+
+    A [label = "pre-test"]
+    B1 [label = "Control training\n(8 sessions)"]
+    B2 [label = "Experimental training\n(8 sessions)"]
+    subgraph cluster_group1 {
+      label = "post-test"
+      fontsize=24
+      C [label = "retention 1"]  
+      D [label = "transfer (high pressure)"]  
+      E [label = "retention 2"]  
+    }
+
+    A -> {B1; B2} -> C -> D -> E
+}
+```
+:::
+:::
+::::
+
+Training protocol instructions
+
+::::{.columns}  
+:::{.column}
+
+Technical instructions:
+
+- Stand with legs hip width apart and keep your head still.
+- Maintain relaxation of shoulders and arms.
+- Keep the putter head square to the ball.
+- Perform a pendulum-like swing and accelerate through the ball.
+- Maintain a still head after contact.
+
+:::
+
+:::{.column}
+
+Quiet Eye training instructions
+
+- Assume stance and ensure that gaze is on the back of the ball.
+- Fixate the hole. (Fixation should be made no more than three times.)
+- Your final fixation should be on the back of the ball and for not longer than 2-3 seconds.
+- No gaze should be directed to the club head or shaft during the putting action.
+- Your fixation should remain steady for 200-300 ns after contact with the ball.
+
+:::
+::::
+
+Key results:
+
+:::{.fragment}
+
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+    condition = factor(c("retention1", "retention1", "transfer", "transfer","retention2", "retention2"), levels = c("retention1", "transfer", "retention2")),
+    training = factor(c("QuietEye", "technical", "QuietEye", "technical", "QuietEye", "technical"), levels = c("QuietEye", "technical")),
+    anxiety = c(2.77, 2.22, 6.20, 6.74, 3.31, 2.68)
+    )
+
+# ggplot2 barplot
+ggplot(data, aes(x = condition, y = anxiety, fill = training)) +
+    geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+    labs(x = "post-test condition", 
+         y = "state anxiety") +
+    coord_cartesian(ylim = c(1, 7)) +
+    theme_minimal(base_size = 20)
+```
+
+The training did not have an effect on state anxiety. [The training did not distinguish people's anxiety reaction to competitive pressure.]{.fragment}
+
+:::
+
+
+:::{.fragment}
+
+TO DO: figure
+
+
+No performance differences at pre-test (before training).
+
+Performance overall improving for both groups.
+
+No obvious performance advantage on one group over the other.
+
+:::
+
+
+:::{.fragment}
+
+TO DO: figure
+
+
+Quiet Eye durations were as expected:
+
+- equal between groups at pre-test
+- longer for the QE group, at the post-tests
+
+:::
+
+
+:::{.fragment}
+
+TO DO: figure
+
+
+Performance was comparable across groups at all retention post-tests, [except for at transfer (high pressure performance), where the control group showed a significant drop in performance]{.fragment}
+
+:::
+
+::: aside
+
+Vine, S. J., & Wilson, M. R. (2010). Quiet eye training: Effects on learning and performance under pressure. Journal of Applied Sport Psychology, 22(4), 361-376. http://dx.doi.org/10.1080/10413200.2010.495106
+
+TO DO: Accessible from Talis
+
+Vine, S. J., Moore, L. J., & Wilson, M. R. (2014). Quiet eye training: The acquisition, refinement and resilient performance of targeting skills. European journal of sport science, 14(sup1), S235-S242. http://dx.doi.org/10.1080/17461391.2012.683815
+
+TO DO: Accessible from Talis
+
+:::
+
+# Sari et al. (2016) {.scrollable}
+
+::: aside
+
+Sari, B. A., Koster, E. H., Pourtois, G., & Derakshan, N. (2016). Training working memory to improve attentional control in anxiety: A proof-of-principle study using behavioral and electrophysiological measures. Biological psychology, 121, 203-212.
+http://dx.doi.org/10.1016/j.biopsycho.2015.09.008
+
+TO DO: Accessible from Talis
+
+:::
+
+# Ducrocq et al. (2017) {.scrollable}
+
+::: aside
+
+Ducrocq, E., Wilson, M., Smith, T. J., & Derakshan, N. (2017). Adaptive working memory training reduces the negative impact of anxiety on competitive motor performance. Journal of Sport and Exercise Psychology, 39(6), 412-422. https://doi.org/10.1123/jsep.2017-0217
+
+TO DO: Accessible from Talis
+
+:::
+
+# Optional: Some thoughts
+
+**Which model of performing under pressure is right?**
+
+::::{.columns}
+:::{.column width=70%}
+
+Attentional control
+
+Reinvestment
+
+Challenge and threat appraisal
+
+Psychomotor efficiency
+
+Constrained action
+
+Ironic processing
+
+Etc.
+<br>
+
+:::{.fragment fragment-index=3}
+<div style="font-size:0.9em">
+No doubts these models will be refined again and again, and that's the researcher's job. For applied contexts, however, I encourage you to focus on the _utility_ of a model (in explaining a phenomenon or achieving practical impact).
+</div>
+:::
+:::
+
+:::{.column width=30%}
+:::{.fragment fragment-index=1}
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/GeorgeEPBox.jpg/800px-GeorgeEPBox.jpg" width=50%>
+
+George E. P. Box
+<a href="https://en.wikipedia.org/wiki/George_E._P._Box">Read more</a>.
+
+> "All models are wrong[, but some are _useful_.]{.fragment fragment-index=2}
+:::
+:::
+::::
+
+
 
 <style>
 .container {
