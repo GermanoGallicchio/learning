@@ -61,13 +61,14 @@ These slides:
 
 # Agenda
 
-- Crash course on attention and working memory
+- Brief review on attention and working memory
 - Effects of anxiety
 - Processing Efficiency Theory
+- Quiet Eye phenomenon
 - Mixture of theory, empirical research, and intuition
 
 
-# Crash course on working memory
+# Brief review of working memory
 
 
 ```{dot}
@@ -95,11 +96,15 @@ digraph {
 
 Think of working memory as the set of resources for temporarily _holding_ and _manipulating_ information. 
 
+:::{.fragment}
+
 Analogy used often: a working desk. There is enough space for the things you are working on right now, not much else...
 
 <div style="text-align: center;">
 <img src="https://freesvg.org/img/school-desk-flat.png" alt="School desk" style="width:30%;">
 </div>
+
+:::
 
 # Desk analogy {auto-animate=true}
 
@@ -139,7 +144,7 @@ Other times, there's too much in working memory and the system fails due to over
 
 _Classic_ span tasks measure primarily (short-term) storage capacity: [participants hear or see sequences of items (digits, letters, words)]{.fragment} [and must recall them in order.]{.fragment} [**Span** is the _maximum number of items_ a person can correctly repeat, often reported to be around 7 +- 2.]{.fragment}
 
-[These tasks involve only two main relatively-simple processes: encoding and recall.]{.fragment}
+[These tasks involve mainly two relatively-simple processes: encoding and recall.]{.fragment}
 
 
 [Optional: <a href="https://www.psytoolkit.org/experiment-library/experiment_digitspan.html">Link to demo of digit span task</a>]{.fragment}
@@ -197,7 +202,7 @@ digraph {
 
 Helpful to realize how the three components work together.
 
-Take a couple of minutes to **Work out how many windows are there in your house** 
+Take a couple of minutes to **work out how many windows are there in your house** 
 
 - You retreive from long-term memory and manipulate a mental image of your house as you “walk through” it room by room (_visuospatial sketchpad_)
 
@@ -396,6 +401,11 @@ Examples
 |----|---------------|---------------|
 | **Goal-directed**    | Deliberately turning your head to look and focus where your team-mate will pass  |  While dribbling look to your right but mentally tracking your team-mate running to your left |
 | **Stimulus-driven**  | In a tennis tournament, someone in the crowd shouts your name | A motorbike racer keeps their eyes locked on the track at a difficult turn but their attention is automatically pulled to a crash happening in their peripheral vision |
+
+## End of the brief review on working memory and attention {.center}
+
+Reflect on the main things you did not remember about working memory or attention
+
 
 
 # What does anxiety do to attentional control? {.scrollable}
@@ -1028,11 +1038,15 @@ Interview with Denise Hill, choking under pressure
 
 ## Part 2 of 2 {.nostretch .center}
 
+work in progress
 
 # Agenda
 
 - Brief recap of Procesing Efficiency Theory
-- Crash course on executive functions
+- Brief review of executive functions and revisiting Alan Baddeley's model of working memory
+- Attentional Control Theory
+- Gaze training
+- Cognitive training
 - Mixture of theory, empirical research, and intuition
 
 
