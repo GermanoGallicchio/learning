@@ -1002,47 +1002,12 @@ Wilson, M., Smith, N. C., Chattington, M., Ford, M., & Marple-Horvat, D. E. (200
 :::
 
 
-# Optional material from Rob Gray's perception and action podcast {.scrollable}
-
-Performing and choking under pressure
-
-<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3698957/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-<br>
-
-Interview with Sam Vine, Quiet Eye, Pressure, VR training
-
-<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5611803/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-<br>
-
-Choking under pressure revisited: critiques
-
-<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5569026/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-<br>
-
-Choking under pressure revisited: integrative theories
-
-<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5611970/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-<br>
-
-Sports Science Shorts: Choking under pressure Q&A
-
-<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3984899/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-<br>
-
-Interview with Denise Hill, choking under pressure
-
-<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/4258655/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 
 
 ## Part 2 of 2 {.nostretch .center}
 
-work in progress
+
 
 # Agenda
 
@@ -1061,25 +1026,91 @@ People who experience greater cognitive anxiety (worry) perform worse than those
 - There is not enough space in the working memory to process everything
 - Our attention selects information to be processed
 - Working memory and attention are not unitary concepts
-- Cognitive anxiety (worry) does not necessarily reduce performance
-- Effort can counteract the impairment at the expense of processing efficiency
+- **Cognitive anxiety (worry) does not necessarily reduce performance**
+- Effort can counteract the impairment **at the expense of processing efficiency**
 - Cognitive anxiety (worry) reduces processing efficiency
 
-# Executive functions
+# Executive functions {.scrollable}
 
-Inhibition
+Alan Baddeley's initial model of Working Memory was later expanded to include advaces in executive functions.
 
-Resisting to processing task irrelevant information (distractions)
+::::{.columns}
+:::{.column}
+```{dot}
+//| fig-width: 6
+digraph {
+    rankdir=TD
+    bgcolor="transparent"
+    fontsize=28
+    
+    A [label="central executive"];
+    B [label="phonological loop"];
+    C [label="visuospatial sketchpad"];
+   
+    A -> {B; C} [dir="both"]
+    
+}
+```
 
-Shifting
+:::
 
-Moving focus towards the task relevant information (concentration)
+:::{.column}
 
-Updating
+:::{.fragment fragment-index=1}
+```{dot}
+//| fig-width: 6
+digraph {
+    rankdir=LR
+    bgcolor="transparent"
+    fontsize=28
+
+    A [label="central executive"];
+    
+    D [label = "inhibition"]  
+    E [label = "shifting"]  
+    F [label = "updating"]  
+    
+    A -> {D; E; F} [arrowhead=none]
+    
+}
+```
+:::
+
+:::
+::::
+
+
+[**Inhibition** = Ability to resist to the processing task irrelevant information (i.e., resisting distractions)]{.fragment fragment-index=2}
+
+[**Shifting** = Ability to move focus towards the task relevant information (i.e., concentrating)]{.fragment fragment-index=3}
+
+[**Updating** = Ability to monitor and process information in working memory]{.fragment fragment-index=4}
+
+[Greater specificity on the central executive component of working memory]{.fragment fragment-index=6} [and additional empirical evidence led to the]{.fragment fragment-index=7} [development of Processing Efficiency Theory into Attentional Control Theory]{.fragment fragment-index=5}
 
 # Attentional Control Theory
 
-The six hypotheses / predictions
+Attentional Control Theory is defined by six hypotheses / predictions
+
+::::{.columns}
+:::{.column width=20%}
+
+<br><br>
+
+<iframe 
+width="100%" 
+height="70%" 
+src="https://youtube.com/embed/7j47tjYzeKY/" 
+title="Michael Eysenck: Bi-directional effects of anxiety on cognition and cognition on anxiety" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+Michael Eysenck
+
+:::
+
+:::{.column width=80%}
 
 ```{dot}
 //| fig-width: 9
@@ -1101,45 +1132,171 @@ digraph {
 }
 ```
 
+:::
+::::
 
 
 
 ::: aside
-Eysenck, M. W., Derakshan, N., Santos, R., & Calvo, M. G. (2007). Anxiety and cognitive performance: attentional control theory. Emotion, 7(2), 336. https://doi.org/10.1037/1528-3542.7.2.336
-
-TO DO: Accessible from Talis
+Eysenck, M. W., Derakshan, N., Santos, R., & Calvo, M. G. (2007). Anxiety and cognitive performance: attentional control theory. Emotion, 7(2), 336. https://doi.org/10.1037/1528-3542.7.2.336 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Flibkey.io%2Flibraries%2F1613%2F10.1037%2F1528-3542.7.2.336&sig=e77ebd97e8ec66bced80a6ac16d356f20d760f2af426729774b578c17d6b86c9">Accessible from Talis</a>
 
 :::
 
 
-# ACT hypothesis 1: processing efficiency
+# ACT hypothesis 1: processing efficiency {auto-animate=true}
 
-Cognitive anxiety impairs processing _efficiency_ more than it impairs performance
+**Cognitive anxiety impairs processing _efficiency_ more than it impairs performance.** 
 
-# ACT hypothesis 2: task demands
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+       style="width:50%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:10%; height:100%;"></div>
+  <div class="rect task" data-id="task"
+       style="width:25%; height:100%; bottom:0"></div>
+</div>
 
-The more difficult the task, the higher the chances of decreased efficiency
+Worry (in blue) occupies resources in Working Memory. But there are enough resources to complete the task (in yellow).
 
-# ACT hypothesis 3: attentional control
 
-Cognitive anxiety disrupts attentional control
+# ACT hypothesis 1: processing efficiency {auto-animate=true}
 
-Attentional control = ability to maintain a goal-directed (endogenous) attentional orienting (concentration)
-, while suppressing stimulus-driven (exogenous) attentional orienting (distraction)
+**Cognitive anxiety impairs processing _efficiency_ more than it impairs performance.** 
 
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+       style="width:50%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:40%; height:100%;"></div>
+  <div class="rect task" data-id="task"
+       style="width:25%; height:100%; bottom:0; left:45%; opacity:0.5"></div>
+</div>
+
+Worry (in blue) takes resources away from the task (in yellow). Performance is impaired.
+
+# ACT hypothesis 1: processing efficiency {auto-animate=true}
+
+**Cognitive anxiety impairs processing _efficiency_ more than it impairs performance.** 
+
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+       style="width:65%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:40%; height:100%;"></div>
+  <div class="rect task" data-id="task"
+       style="width:25%; height:100%; bottom:0; left:45%; opacity:0.5"></div>
+</div>
+
+Overall resources (in white) are temporarily increased through **greater effort**. Performance of the task (yellow) is not impaired despite the large worry (blue). **Efficiency decreases**.
+
+
+# ACT hypothesis 2: task demands {auto-animate=true}
+
+**The more difficult the task, the higher the chances of decreased efficiency**
+
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+       style="width:50%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:40%; height:100%;"></div>
+  <div class="rect task" data-id="task"
+       style="width:5%; height:100%; bottom:0; left:45%; opacity:0.5"></div>
+</div>
+
+If the task is **easy** (i.e., it requires not many Working Memory resources), the effects of worry on efficiency are not visible (no need to put extra effort).
+
+# ACT hypothesis 2: task demands {auto-animate=true}
+
+**The more difficult the task, the higher the chances of decreased efficiency**
+
+<div class="container">
+  <div class="rect whole" data-id="whole" 
+       style="width:75%; height:100%"></div>
+  <div class="rect used" data-id="used"
+       style="width:40%; height:100%;"></div>
+  <div class="rect task" data-id="task"
+       style="width:35%; height:100%; bottom:0; left:45%; opacity:0.5"></div>
+</div>
+
+It is when the task is **hard** (i.e., it requires  many Working Memory resources), that the effects of worry on efficiency are more likely to be visible (there is need to put extra effort).
+
+
+# ACT hypothesis 3: attentional control {.scrollable}
+
+**Cognitive anxiety disrupts attentional control**
+
+A scale analogy:
+
+::::{.columns}
+
+:::{.column width=20%}
+<div style="font-size:4em">⚖️</div>
+:::
+
+:::{.column width=80%}
+goal-directed (i.e., concentration) and stimulus-driven (i.e., distraction) types of orienting compete for which one is the main driver of attention/selection (i.e., what to focus on)
+:::
+::::
+
+[_Attentional control_ = ability to maintain a goal-directed (endogenous) attentional orienting (concentration),]{.fragment fragment-index=1} [while suppressing stimulus-driven (exogenous) attentional orienting (distraction)]{.fragment fragment-index=2}
+
+
+::::{.columns}
+:::{.column}
+
+:::{.fragment fragment-index=3}
+The issue when performing under pressure:
+
+<div style="text-align:center">
+[GOAL-DIRECTED]{.fragment .shrink fragment-index=4 style="display:inline-block;"}
+[STIMULUS-DRIVEN]{.fragment .grow fragment-index=4 style="display:inline-block;"}
+</div>
+
+[You lose focus on the task and become distracted by non-task related information.]{.fragment fragment-index=5}
+:::
+
+:::
+
+:::{.column}
+
+:::{.fragment fragment-index=6}
+The objective of performing under pressure intervention:
+
+<div style="text-align:center">
+[GOAL-DIRECTED]{.fragment .grow fragment-index=7 style="display:inline-block;"} <br>
+[STIMULUS-DRIVEN]{.fragment .shrink fragment-index=7 style="display:inline-block;"}
+</div>
+
+[You shield from distractions and maintain focus on task-related information.]{.fragment fragment-index=8}
+:::
+
+:::
+::::
 
 # ACT hypothesis 4: inhibition
 
-Impaired inhibition
+How is attentional control impaired (hypothesis 3) under elevated cognitive anxiety? Through **impaired inhibition**
+
+- Impaired inhibition enhances the stimulus-driven path to attentional orienting
+- One becomes unable to block out irrelevant information
+- Potential distractions (non-task related activity) intrude in one's attention
+
 
 # ACT hypothesis 5: shifting
 
-Impaired shifting
+How is attentional control impaired (hypothesis 3) under elevated cognitive anxiety? Through **impaired shifting**
+
+- Impaired shifting decreases the goal-directed path to attentional orienting
+- One becomes unable to focus on the relevant information
+- Potential important information (task related activity) are not in one's focus
 
 # ACT hypothesis 6: updating
 
-(Not as much) Impaired updating
+How is attentional control impaired (hypothesis 3) under elevated cognitive anxiety? Through **impaired shifting**
 
+- When the Working Memory is overloaded, it loses the ability to update and monitor information
+- One fails to keep track of changing task demands
+- Processing becomes less flexible and adaptive
 
 # Wilson et al. (2009) {.scrollable}
 
@@ -1214,9 +1371,7 @@ Effect of pressure: Shorter Quiet Eye duration under greater pressure.
 ::: aside
 
 Wilson, M. R., Vine, S. J., & Wood, G. (2009). The influence of anxiety on visual attentional control in basketball free throw shooting. Journal of Sport and Exercise Psychology, 31(2), 152-168.
-https://doi.org/10.1123/jsep.31.2.152
-
-TO DO: Accessible from Talis
+https://doi.org/10.1123/jsep.31.2.152 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1123%252Fjsep.31.2.152&sig=e24262c415f047481f759eef4b67a6c11f76f0a424825c00fe52725526785101">Accessible from Talis</a>
 
 :::
 
@@ -1246,9 +1401,9 @@ digraph {
 
 Attentional control can be improved through **Gaze Training** and **Cognitive Training**.
 
-[These interventions are not specific to Attentional Control Theory but are compatible with it.]{.fragment}
+[These interventions are not specific to Attentional Control Theory but are _compatible_ with its theoretical framework.]{.fragment}
 
-[We will review what they are,]{.fragment} [what mechanisms specific to Attentional Control Theory they address (supposedly)]{.fragment}, [and some empirical evidence supporting them.]{.fragment}
+[We will review what they are,]{.fragment} [what _ACT-specific_ mechanisms they address (supposedly)]{.fragment}, [and some empirical evidence supporting them.]{.fragment}
 
 :::
 ::::
@@ -1256,29 +1411,32 @@ Attentional control can be improved through **Gaze Training** and **Cognitive Tr
 
 # Interventions: Gaze training
 
-Training to exhibit a longer quiet eye, specifically under greater pressure (cognitive anxiety, worry)
+What is it: Training to exhibit a longer quiet eye duration, specifically under greater cognitive anxiety (worry).
 
-ACT-specific mechanisms that it fixes: 
+<br><br>
+
+[ACT-specific mechanisms that it fixes:]{.fragment}
 
 - Quiet Eye duration as index of dominance of goal-directed orienting (more concentration) over stimulus-driven orienting (more distraction)
-- Anxiety disrupts attentional control (increases distractions)
-- Having a longer Quiet Eye duration allows greater goal-directed orienting
+- Training for a longer Quiet Eye duration allows greater goal-directed and less stimulus-driven orienting
 
-Caveats:
+[Caveats to consider for the success of training:]{.fragment}
 
-- Most experts already have long Quiet Eye durations in low-pressure situations
-- Not for all sports it is easy to identify where the visual focus should be
+- Most experts already have long Quiet Eye durations, at least in low-pressure situations
+- Not for all sports it is easy to identify where the visual focus should be and for how long
 
 # Interventions: Cognitive training
 
-Training to increase your working memory capacity (i.e., the desk).
+What is it: Training to increase your working memory capacity (i.e., the desk from the analogy).
 
-ACT-specific mechanisms that it fixes: 
+<br><br>
+
+[ACT-specific mechanisms that it fixes:]{.fragment}
 
 - Anxiety (worry) occupies resources from working memory, conflicting with resources that should be dedicated to task-related processing
-- A larger working memory capacity would increase the chances that, despite worry taking resources, there would be enough left for processing task-related information.
+- A permanently larger working memory capacity would increase the chances that, despite worry taking resources, there would be enough left for processing task-related information.
 
-Caveats:
+[Caveats to consider for the success of training:]{.fragment}
 
 - Tranferrability to real-world tasks
 
@@ -1386,8 +1544,26 @@ The training did not have an effect on state anxiety. [The training did not dist
 
 :::{.fragment}
 
-TO DO: figure
 
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+    block = factor(c("pre", "pre", "Train1", "Train1", "Train2", "Train2", "Train3", "Train3", "Train4", "Train4", "Train5", "Train5", "Train6", "Train6", "Train7", "Train7", "Train8", "Train8")),
+    group = factor(c("QuietEye","technical", "QuietEye","technical","QuietEye","technical","QuietEye","technical","QuietEye","technical","QuietEye","technical","QuietEye","technical","QuietEye","technical","QuietEye","technical"), levels = c("QuietEye","technical")),
+    performanceMean = c(257,254,280,276,283,286,302,301,290,309,286,296,297,298,309,297,317,307)
+)
+
+# ggplot2 barplot
+ggplot(data, aes(x = block, y = performanceMean, color = group)) +
+    geom_line(aes(group = group), linewidth = 1) +
+    geom_point(size = 2) + 
+    labs(x = "block", 
+       y = "Performance (/400)") +
+    theme_minimal(base_size = 20)
+
+```
 
 No performance differences at pre-test (before training).
 
@@ -1400,7 +1576,23 @@ No obvious performance advantage on one group over the other.
 
 :::{.fragment}
 
-TO DO: figure
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+    condition = factor(c("preTest","preTest","retention1", "retention1", "transfer", "transfer","retention2", "retention2"), levels = c("preTest", "retention1", "transfer", "retention2")),
+    training = factor(c("QuietEye", "technical","QuietEye", "technical", "QuietEye", "technical", "QuietEye", "technical"), levels = c("QuietEye", "technical")),
+    QEmean = c(1047,956,3261,1418,2829,895,3224,1343)
+    )
+
+# ggplot2 barplot
+ggplot(data, aes(x = condition, y = QEmean, fill = training)) +
+    geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+    labs(x = "condition", 
+         y = "mean Quiet Eye durations (ms)") +
+    theme_minimal(base_size = 20)
+```
 
 
 Quiet Eye durations were as expected:
@@ -1413,8 +1605,24 @@ Quiet Eye durations were as expected:
 
 :::{.fragment}
 
-TO DO: figure
+```{r}
+library(ggplot2)
 
+# Data
+data <- data.frame(
+    condition = factor(c("preTest","preTest","retention1", "retention1", "transfer", "transfer","retention2", "retention2"), levels = c("preTest", "retention1", "transfer", "retention2")),
+    training = factor(c("QuietEye", "technical","QuietEye", "technical", "QuietEye", "technical", "QuietEye", "technical"), levels = c("QuietEye", "technical")),
+    performance = c(255, 254, 313, 296, 303, 259, 306, 293)
+    )
+
+# ggplot2 barplot
+ggplot(data, aes(x = condition, y = performance, fill = training)) +
+    geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+    labs(x = "condition", 
+         y = "performance (/400)") +
+    coord_cartesian(ylim = c(240,310)) +
+    theme_minimal(base_size = 20)
+```
 
 Performance was comparable across groups at all retention post-tests, [except for at transfer (high pressure performance), where the control group showed a significant drop in performance]{.fragment}
 
@@ -1422,13 +1630,11 @@ Performance was comparable across groups at all retention post-tests, [except fo
 
 ::: aside
 
-Vine, S. J., & Wilson, M. R. (2010). Quiet eye training: Effects on learning and performance under pressure. Journal of Applied Sport Psychology, 22(4), 361-376. http://dx.doi.org/10.1080/10413200.2010.495106
+Vine, S. J., & Wilson, M. R. (2010). Quiet eye training: Effects on learning and performance under pressure. Journal of Applied Sport Psychology, 22(4), 361-376. http://dx.doi.org/10.1080/10413200.2010.495106 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F10413200.2010.495106&sig=d1edcbf635fff1b1b752d0456757e5d28f25a4b067dbd3b140b2ce299984cacf">Accessible from Talis</a>
 
-TO DO: Accessible from Talis
-
-Vine, S. J., Moore, L. J., & Wilson, M. R. (2014). Quiet eye training: The acquisition, refinement and resilient performance of targeting skills. European journal of sport science, 14(sup1), S235-S242. http://dx.doi.org/10.1080/17461391.2012.683815
-
-TO DO: Accessible from Talis
+Optional reading (review of Quiet Eye training literature):
+<br>
+Vine, S. J., Moore, L. J., & Wilson, M. R. (2014). Quiet eye training: The acquisition, refinement and resilient performance of targeting skills. European journal of sport science, 14(sup1), S235-S242. http://dx.doi.org/10.1080/17461391.2012.683815 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F17461391.2012.683815&sig=0336a2e2f7afed978b918f31c57dbfdb52b42204508b8e22c72dfe42107c9f1e">Accessible from Talis</a>
 
 :::
 
@@ -1437,9 +1643,7 @@ TO DO: Accessible from Talis
 ::: aside
 
 Sari, B. A., Koster, E. H., Pourtois, G., & Derakshan, N. (2016). Training working memory to improve attentional control in anxiety: A proof-of-principle study using behavioral and electrophysiological measures. Biological psychology, 121, 203-212.
-http://dx.doi.org/10.1016/j.biopsycho.2015.09.008
-
-TO DO: Accessible from Talis
+http://dx.doi.org/10.1016/j.biopsycho.2015.09.008 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1016%252Fj.biopsycho.2015.09.008&sig=8e226f6213b5a5c7f4f5d8b14c636e286069435ce1afedf8a9ae8d1b17241cf5">Accessible from Talis</a>
 
 :::
 
@@ -1447,9 +1651,7 @@ TO DO: Accessible from Talis
 
 ::: aside
 
-Ducrocq, E., Wilson, M., Smith, T. J., & Derakshan, N. (2017). Adaptive working memory training reduces the negative impact of anxiety on competitive motor performance. Journal of Sport and Exercise Psychology, 39(6), 412-422. https://doi.org/10.1123/jsep.2017-0217
-
-TO DO: Accessible from Talis
+Ducrocq, E., Wilson, M., Smith, T. J., & Derakshan, N. (2017). Adaptive working memory training reduces the negative impact of anxiety on competitive motor performance. Journal of Sport and Exercise Psychology, 39(6), 412-422. https://doi.org/10.1123/jsep.2017-0217 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1123%252Fjsep.2017-0217&sig=4ec078069a0e5f75f253b18a4cbe75b43de58ac9b52729b1c8806912177d69db">Accessible from Talis</a>
 
 :::
 
@@ -1494,6 +1696,44 @@ George E. P. Box
 :::
 ::::
 
+
+# Optional material from Rob Gray's perception and action podcast {.scrollable}
+
+Performing and choking under pressure
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3698957/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Interview with Sam Vine, Quiet Eye, Pressure, VR training
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5611803/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Choking under pressure revisited: critiques
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5569026/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Choking under pressure revisited: integrative theories
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5611970/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Sports Science Shorts: Choking under pressure Q&A
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3984899/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<br>
+
+Interview with Denise Hill, choking under pressure
+
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/4258655/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+Source: <a href="https://perceptionaction.com/">The Perception & Action Podcast by Rob Gray</a>
 
 
 <style>
