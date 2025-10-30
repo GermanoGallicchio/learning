@@ -1032,7 +1032,7 @@ People who experience greater cognitive anxiety (worry) perform worse than those
 
 # Executive functions {.scrollable}
 
-Alan Baddeley's initial model of Working Memory was later expanded to include advaces in executive functions.
+Alan Baddeley's initial model of Working Memory was later expanded to include at-the-time improved understanding of executive functions.
 
 ::::{.columns}
 :::{.column}
@@ -1174,7 +1174,7 @@ Worry (in blue) occupies resources in Working Memory. But there are enough resou
 
 Worry (in blue) takes resources away from the task (in yellow). Performance is impaired.
 
-# ACT hypothesis 1: processing efficiency {auto-animate=true}
+# ACT hypothesis 1: processing efficiency {auto-animate=true .scrollable}
 
 **Cognitive anxiety impairs processing _efficiency_ more than it impairs performance.** 
 
@@ -1190,7 +1190,7 @@ Worry (in blue) takes resources away from the task (in yellow). Performance is i
 Overall resources (in white) are temporarily increased through **greater effort**. Performance of the task (yellow) is not impaired despite the large worry (blue). **Efficiency decreases**.
 
 
-# ACT hypothesis 2: task demands {auto-animate=true}
+# ACT hypothesis 2: task demands {auto-animate=true .scrollable}
 
 **The more difficult the task, the higher the chances of decreased efficiency**
 
@@ -1205,7 +1205,7 @@ Overall resources (in white) are temporarily increased through **greater effort*
 
 If the task is **easy** (i.e., it requires not many Working Memory resources), the effects of worry on efficiency are not visible (no need to put extra effort).
 
-# ACT hypothesis 2: task demands {auto-animate=true}
+# ACT hypothesis 2: task demands {auto-animate=true .scrollable}
 
 **The more difficult the task, the higher the chances of decreased efficiency**
 
@@ -1245,6 +1245,9 @@ goal-directed (i.e., concentration) and stimulus-driven (i.e., distraction) type
 :::{.column}
 
 :::{.fragment fragment-index=3}
+
+<div style="color:rgba(200,100,100,1)">
+
 The issue when performing under pressure:
 
 <div style="text-align:center">
@@ -1253,6 +1256,9 @@ The issue when performing under pressure:
 </div>
 
 [You lose focus on the task and become distracted by non-task related information.]{.fragment fragment-index=5}
+
+</div>
+
 :::
 
 :::
@@ -1260,6 +1266,9 @@ The issue when performing under pressure:
 :::{.column}
 
 :::{.fragment fragment-index=6}
+
+<div style="color:rgba(100,100,200,1)">
+
 The objective of performing under pressure intervention:
 
 <div style="text-align:center">
@@ -1268,6 +1277,9 @@ The objective of performing under pressure intervention:
 </div>
 
 [You shield from distractions and maintain focus on task-related information.]{.fragment fragment-index=8}
+
+</div>
+
 :::
 
 :::
@@ -1275,7 +1287,7 @@ The objective of performing under pressure intervention:
 
 # ACT hypothesis 4: inhibition
 
-How is attentional control impaired (hypothesis 3) under elevated cognitive anxiety? Through **impaired inhibition**
+How is attentional control disrupted (hypothesis 3) under elevated cognitive anxiety? Through **impaired inhibition**
 
 - Impaired inhibition enhances the stimulus-driven path to attentional orienting
 - One becomes unable to block out irrelevant information
@@ -1284,7 +1296,7 @@ How is attentional control impaired (hypothesis 3) under elevated cognitive anxi
 
 # ACT hypothesis 5: shifting
 
-How is attentional control impaired (hypothesis 3) under elevated cognitive anxiety? Through **impaired shifting**
+How is attentional control disrupted (hypothesis 3) under elevated cognitive anxiety? Through **impaired shifting**
 
 - Impaired shifting decreases the goal-directed path to attentional orienting
 - One becomes unable to focus on the relevant information
@@ -1292,7 +1304,7 @@ How is attentional control impaired (hypothesis 3) under elevated cognitive anxi
 
 # ACT hypothesis 6: updating
 
-How is attentional control impaired (hypothesis 3) under elevated cognitive anxiety? Through **impaired shifting**
+How is attentional control disrupted (hypothesis 3) under elevated cognitive anxiety? Through **impaired shifting**
 
 - When the Working Memory is overloaded, it loses the ability to update and monitor information
 - One fails to keep track of changing task demands
@@ -1305,7 +1317,7 @@ Key idea:
 - Quiet Eye duration as measure of attentional control
 - Does anxiety impair QE durations?
 
-Key methodology:
+[Key methodology:]{.fragment}
 
 - N = 10 university students (basketball players)
 - Task: free throws until 10 hits and 10 misses
@@ -1366,6 +1378,8 @@ Effect of outcome: Shorter Quiet Eye duration for missed throws.
 
 Effect of pressure: Shorter Quiet Eye duration under greater pressure.
 
+[Some evidence that attentional control is impaired under elevated state anxiety]{.fragment}
+
 :::
 
 ::: aside
@@ -1375,7 +1389,7 @@ https://doi.org/10.1123/jsep.31.2.152 <a href="https://bangor.rl.talis.com/link?
 
 :::
 
-# Interventions
+# Interventions {.scrollable}
 
 ::::{.columns}
 :::{.column}
@@ -1401,15 +1415,49 @@ digraph {
 
 Attentional control can be improved through **Gaze Training** and **Cognitive Training**.
 
-[These interventions are not specific to Attentional Control Theory but are _compatible_ with its theoretical framework.]{.fragment}
+[These interventions are _not specific but compatible_ with Attentional Control Theory.]{.fragment}
 
-[We will review what they are,]{.fragment} [what _ACT-specific_ mechanisms they address (supposedly)]{.fragment}, [and some empirical evidence supporting them.]{.fragment}
+[We will review what they are,]{.fragment} [what _ACT-specific_ mechanisms they address (supposedly)]{.fragment}[, and some empirical evidence supporting them.]{.fragment}
 
 :::
 ::::
 
 
-# Interventions: Gaze training
+:::{.fragment}
+
+Specificity of mechanisms
+
+
+::::{.columns}
+:::{.column}
+
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+  mechanisms = c("ACTspecific", "nonACTspecific"),
+  value = c(25, 75)
+)
+
+# Pie chart
+ggplot(data, aes(x = "", y = value, fill = mechanisms)) +
+  geom_col(width = 1) +
+  coord_polar(theta = "y") +
+  theme_void(base_size = 30) +
+  theme(legend.position = "right")
+```
+
+:::
+
+:::{.column}
+Several mechanisms have been proposed to explain why gaze trainign and cognitive training enhance performance under stress. Only some of those mechanisms are compatible with Attentional Control Theory. We will review only those.
+:::
+::::
+
+:::
+
+# Interventions: Gaze training {.scrollable}
 
 What is it: Training to exhibit a longer quiet eye duration, specifically under greater cognitive anxiety (worry).
 
@@ -1624,7 +1672,7 @@ ggplot(data, aes(x = condition, y = performance, fill = training)) +
     theme_minimal(base_size = 20)
 ```
 
-Performance was comparable across groups at all retention post-tests, [except for at transfer (high pressure performance), where the control group showed a significant drop in performance]{.fragment}
+Performance was comparable across groups at all retention post-tests, [except at _transfer_ (high pressure performance), where the technical but not the Quiet Eye group showed a significant drop in performance]{.fragment}
 
 :::
 
@@ -1640,6 +1688,67 @@ Vine, S. J., Moore, L. J., & Wilson, M. R. (2014). Quiet eye training: The acqui
 
 # Sari et al. (2016) {.scrollable}
 
+Key methodology:
+
+::::{.columns}
+:::{.column}
+
+- N = 26 university students[, pre-screened through questionnaires for high trait anxiety and low attentional control]{.fragment}
+  - experimental group: adaptive cognitive trainining (adaptive dual n-back)
+  - control group: low-load cognitive training (non-adaptive dual 1-back)
+  
+- Design: longitudinal (i.e., over time)
+
+
+:::
+:::{.column}
+
+:::{.fragment}
+
+Procedure:
+
+```{dot}
+//| fig-width: 6
+digraph {
+    node [shape=plaintext fontsize=24]
+    rankdir=TD
+    bgcolor="transparent"
+
+    A [label = "pre-test"]
+    C [label = "post-test"]
+    
+    
+    B1 [label = "Control group\n(15 sessions)"]
+    B2 [label = "Experimental group\n(15 sessions)"]
+    A -> {B1; B2} -> C
+}
+```
+:::
+
+:::
+::::
+
+
+- Some _pre_ and _post_-test measures:
+  - attentional control through rest state electroencephalography (EEG)
+  - Flanker task performance [(<a href="https://www.psytoolkit.org/experiment-library/experiment_flanker_arrows.html">Link to Flanker task</a>)]{.fragment}, under anxiety-inducing conditions (loud and unpredictable noise bursts)
+
+
+[Training explanations:]{.fragment}
+
+- visual n-back: one 3x3 grid is presented at the time with only once cell illuminated. Participants need to respon when the same grid was presented n trials before.
+- phonological n-back: one letter is pronounced at the time. Participants need to respon when the same letter was presented n trials before. [(<a href="https://www.psytoolkit.org/experiment-library/experiment_touch_nback2.html">Link to classic visual letter n-back</a>)]{.fragment}
+- dual n-back: visual and phonological stimuli are presented simultaneously. Trials can match visually (press a key), phonologically (press another key), or both (press both keys)
+- adaptive dual n-back: the number _n_ increased or decreased at the next block depending on accuracy at the previous block. [Consult the paper for a figure of the stimuli]{.fragment}
+- Schedule: 15 sessions in 21 days
+
+[Some key results]{.fragment}
+
+- the adaptive group reached high levels of complexity (large _n_ in b-back)
+- The adaptive group showed better Flanker task performance under conditions of elevated state anxiety
+- The adaptive group showed larger values of EEG indices associated with better attentional control
+- Cognitive training improved attentional control under pressure / resilience of attentional control to pressure
+
 ::: aside
 
 Sari, B. A., Koster, E. H., Pourtois, G., & Derakshan, N. (2016). Training working memory to improve attentional control in anxiety: A proof-of-principle study using behavioral and electrophysiological measures. Biological psychology, 121, 203-212.
@@ -1648,6 +1757,23 @@ http://dx.doi.org/10.1016/j.biopsycho.2015.09.008 <a href="https://bangor.rl.tal
 :::
 
 # Ducrocq et al. (2017) {.scrollable}
+
+Key methodology:
+
+- Similar to that of Sari et al. (2016) but in a sport task (tennis)
+- N = 30 participants from tennis club
+  - experimental group: adaptive dual n-back
+  - control group: non-adaptive dual 1-back
+- Some pre- and post-test measures:
+  - performance at change detection task
+  - tennis volley task performance and Quiet Eye duration, under lower and higher pressure
+
+[Some key results]{.fragment}
+
+- The experimental group reached performed better than the control group at the change detection task
+- The experimetal group performed better at the higher pressure, whereas no changes in the control group
+- The experiemntal group showed later Quiet Eye period offset than the control group
+
 
 ::: aside
 
