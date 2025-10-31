@@ -3,7 +3,7 @@ project:
   output-dir: ../docs/JXHC_1055
 
 website:
-  title: "JXHC 1055"
+  title: "1055"
   navbar:
     left:
       - text: "Session 1"
@@ -33,3 +33,5 @@ format:
         vertical-sections: false
         audio-slideshow: true
         css: custom.css
+        
+
