@@ -10,6 +10,8 @@ website:
         href: 01.qmd
       - text: "Session 2"
         href: 02.qmd
+      - text: "Session 3"
+        href: 03.qmd
 
 format: 
     revealjs:
