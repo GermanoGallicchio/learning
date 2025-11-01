@@ -3,17 +3,12 @@
 ::::{.columns}
 :::{.column width=80%}
 
-Stress and Performance
-
-JXH-3042, JXC-3042
 <br><br>
-
-
 Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
 Lecturer in Psychophysiology and Cognitive Neuroscience <br>
 School of Psychology and Sport Science, Bangor University, UK <br>
-[Web profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [Research publications](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [Software](https://github.com/GermanoGallicchio) | [Book a meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+[profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://github.com/GermanoGallicchio/learning) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
 </div>
 
 <br>
@@ -21,16 +16,16 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 <div style="font-size:0.6em">
 On a computer press F11 to de/activate full-screen view.
 
-For smartphone and review: Bottom left menu > Tools > PDF Export Mode.
+For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 </div>
 
 :::
 
 :::{.column width=20%}
 QR code to<br>these slides:
-{{< qrcode https://germanogallicchio.github.io/learning/JXHC_3042/ACT.html colorDark='#0011bb' >}}
+{{< qrcode https://germanogallicchio.github.io/learning/AttentionalControlTheory.html colorDark='#0011bb' >}}
 
-<br><br>
+<br>
 
 <span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
 
