@@ -2,7 +2,26 @@ project:
   type: website
   output-dir: ./docs/
 
-
+website:
+  title: "Learning resources"
+  navbar:
+    left:
+      - text: "Foundations of sport and exercise psychology"
+        href: FoundationsOfSportExercisePsychology.html
+      - text: "Foundations of motivation"
+        href: FoundationsOfMotivation.html
+      - text: "Foundations of the brain"
+        href: FoundationsOfTheBrain.html
+      - text: "Foundations of attention"
+        href: FoundationsOfAttention.html
+      - text: "Foundations of executive functions"
+        href: FoundationsOfExecutiveFunctions.html
+      - text: "Foundations of brain and fatigue"
+        href: FoundationsOfBrainAndFatigue.html
+      - text: "Foundations of scientific reading"
+        href: FoundationsOfScientificReading.html
+      - text: "Attentional Control Theory"
+        href: AttentionalControlTheory.html
 format: 
     revealjs:
         width: 1280     # slide width in pixels
