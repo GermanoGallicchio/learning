@@ -1,0 +1,64 @@
+## Foudations of brain and fatigue {.nostretch .center}
+
+::::{.columns}
+:::{.column width=80%}
+
+<br><br>
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+School of Psychology and Sport Science, Bangor University, UK <br>
+[profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+</div>
+
+<br>
+
+<div style="font-size:0.6em">
+On a computer press F11 to de/activate full-screen view.
+
+For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
+</div>
+
+:::
+
+:::{.column width=20%}
+QR code to<br>these slides:
+{{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfBrainAndFatigue.html colorDark='#0011bb' >}}
+
+<br>
+
+<span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
+
+<div contenteditable="true" style="
+    min-height: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: rgba(255,40,0,0.6)
+">0000</div>
+
+:::
+
+::::
+
+<style>
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+</style>
+
+# Agenda
+
+work in progress
+
+# aSDASD {.hidden}
+
+Need to mention becausa they are in the exam:
+
+Mischel's "delayed gratification" study (also known as the "Marshmallow study") 
+
+The study conducted by Muraven (2010) shows that:
