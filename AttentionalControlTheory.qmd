@@ -27,7 +27,7 @@ For smartphone and review: Bottom left menu > Tools > PDF Export Mode.
 :::
 
 :::{.column width=20%}
-These slides:
+QR code to<br>these slides:
 {{< qrcode https://germanogallicchio.github.io/learning/JXHC_3042/ACT.html colorDark='#0011bb' >}}
 
 <br><br>
