@@ -1,0 +1,277 @@
+## Foundations of Executive Functions {.nostretch .center}
+
+::::{.columns}
+:::{.column width=80%}
+
+Stress and Performance
+
+JXH-3042, JXC-3042
+<br><br>
+
+
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+School of Psychology and Sport Science, Bangor University, UK <br>
+[Web profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [Research publications](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [Software](https://github.com/GermanoGallicchio) | [Book a meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+</div>
+
+<br>
+
+<div style="font-size:0.6em">
+On a computer press F11 to de/activate full-screen view.
+
+For smartphone and review: Bottom left menu > Tools > PDF Export Mode.
+</div>
+
+:::
+
+:::{.column width=20%}
+These slides:
+{{< qrcode https://germanogallicchio.github.io/learning/JXHC_1055/06.html colorDark='#0011bb' >}}
+
+<br><br>
+
+<span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
+
+<div contenteditable="true" style="
+    min-height: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: rgba(255,40,0,0.6)
+">0000</div>
+
+:::
+
+::::
+
+<style>
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+</style>
+
+# Agenda
+
+- definition of executive functions
+
+- brief anatomy of the executive functions
+
+- unity and diversity of executive functions
+
+- shifting
+
+- updating
+
+- inhibition
+
+- some executive function tasks
+
+# What are executive functions?
+
+::::{.columns}
+:::{.column}
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Music_director_%26_conductor.jpg/960px-Music_director_%26_conductor.jpg?20210721152138" style="width:100%" alt="Image of an orchestra conductor" />
+:::
+
+:::{.column}
+Set of higher order functions that control all cognitive processes
+
+[Like the director of an orchestra executive functions control:]{.fragment}
+
+- which cognitive functions are silenced/heightened at a certain time
+
+- How cognitive functions are coordinated
+
+[Executive functions enable behavioural and cognitive control]{.fragment}
+:::
+::::
+
+# What cortical regions are fundamental to executive funtcions?
+
+Executive functions rely on a _distributed network_, involving several cortical and subcortical regions involved. [But traditionally, the **prefrontal cortex** (often shortened as PFC) is attributed a key role within this network.]{.fragment}
+
+Key cortical regions involved:
+
+- dorsolateral prefrontal cortex (DLPFC). Some functions: working memory, goal maintenance, planning and top‑down control.
+
+- ventrolateral prefrontal cortex (VLPFC). Some functions: response selection, inhibition, and controlled retrieval.
+
+- orbitofrontal cortex (OFC). Some functions: value representation, reward-guided decision making and impulse control
+
+- anterior cingulate cortex (ACC) 
+[Note: this is structurally just outside the prefrontal cortex but it works in synergy with it]{.fragment} 
+[Some functions: conflict monitoring, error detection, and performance adjustment].{fragment}
+
+- parietal cortex. Some functions: attentional reorienting, representation updating and integration with sensory information.
+
+- Premotor cortex / supplementary motor area (SMA). Some functions: action selection and motor planning.
+
+Key subcortical regions are basal ganglia, thalamus, cerebellum
+
+
+::: aside
+How do we know so much? Progress was/is made through lesion studies and functional neuroimaging.
+:::
+
+# Evolutionary note: inter‑species differences in the mass of the PFC relative to the whole cerebral cortex
+
+Prefrontal cortex (PFC) is disproportionately large, relative to total brain mass, in primates (and especially in humans).
+  
+Humans have especially massive dorsolateral and orbitofrontal regions. 
+
+This may be the neural substrate to the greater executive function skills in humans compared with non-human primates and other mammels.
+
+Function comes from structure. But structure is not just the mass of a region (this it not true: bigger = better). Structure involves also connectivity patterns (networks)
+
+::: aside
+Anectode: post-mortem exams on the brain of Albert Einstein, widely considered person of greater than average intelligence, was smaller than the average brain. https://en.wikipedia.org/wiki/Brain_of_Albert_Einstein
+:::
+
+# Frenology
+
+# The tragic story of Phineas Gage. A selective prefrontal-cortex lesion
+
+::::{.columns}
+:::{.column width=30%}
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg/511px-Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg?20171219214641
+" style="width:100%" alt="Portrait of Phineas Gage holding a rod, presumably the one that perforated his skull" />
+:::
+
+:::{.column width=60%}
+
+The first well documented case of selective lesion to the PFC.
+
+[A railroad worker at the time.]{.fragment}
+[In an accident, a metal rod passed through his skull.]{.fragment}
+[He survived.]{.fragment} 
+[But he became a different person.]{.fragment}
+
+[_Before_ the accident:]{.fragment}
+[responsible and smart.]{.fragment}
+
+[_After_ the accident:]{.fragment}
+[Able to walk and talk.]{.fragment}
+[But unable to _control_ himself,]{.fragment}
+[impatient, impulsive,]{.fragment}
+[showing socially inappropriate behaviour,]{.fragment}
+[and _no inhibition_.]{.fragment}
+
+:::
+::::
+
+<iframe 
+width="50%" 
+height="20%" 
+src="https://youtube.com/embed/NFO6ts6vZic&t=518s/" 
+title="Phineas Gage story" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+
+# Unity and diversity of executive functions: Miyake et al. (2000)
+
+Seminal study evaluating quantitatively the commonalities and differences among several multiple executive-function tasks.
+
+::::{.columns}
+:::{.column width=60%}
+[Key conclusions: executive function tasks show **unity** (shared variance among tasks) and **diversity** (distinct variance-based components among tasks).]{.fragment}
+[Namely, there were three separable but moderately correlated factors:]{.fragment}
+
+- Shifting (task‑set switching)
+- Updating (working‑memory updating)
+- Inhibition (suppressing prepotent responses)
+:::
+
+:::{.column width=40%}
+
+:::{.fragment}
+```{dot}
+//| fig-width: 5
+digraph {
+    node [shape=plaintext]
+    edge [arrowhead=none]
+    rankdir=LR
+    bgcolor="transparent"
+
+    EF [label = "executive functions"]
+
+    EF -> {Shifting; Updating; Inhibition}
+}
+```
+:::
+
+:::
+::::
+
+
+[Implications:
+Executive functions share some underlying mechanisms (unity).]{.fragment}
+[Executive functions form a multi‑component system (diversity).]{.fragment}
+
+
+# Shifting
+
+# Updating
+
+# Inhibition
+
+
+
+# Measuring updating through the **n-back task**
+
+# n-back task demo
+
+https://www.psytoolkit.org/experiment-library/nback2.html
+
+
+# Measuring shifting through the **digit-letter task**
+
+# digit-letter task demo
+
+# Measuring shifting through the **global-local task **
+
+
+# Measuring inhibition through the **Flanker task**
+
+# Flanker task demo
+
+<iframe width="100%" height="315" src="https://www.psytoolkit.org/experiment-library/flanker_arrows.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+# Measuring inhibition through the **Stroop task**
+
+Based on the conflict between two pieces of information: 
+
+- the meaning of the word
+- the color of the ink
+
+# Stroop task demo
+
+<iframe width="100%" height="315" src="https://www.psytoolkit.org/experiment-library/stroop.html#_run_the_demo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+# Beyond the core executive functions
+
+The three core executive functions identified by Miyake et al. (2000) are important because they can be considered building blocks for higher-order functions, but they are _not exhaustive_.
+
+Some additional processes commonly treated as executive functions include:
+
+- Planning and problem solving
+
+- Goal setting and maintenance
+
+- Performance monitoring and error detection
+
+- Cognitive flexibility beyond simple shifting (e.g., creativity)
+
+- Decision‑making and value‑based control in some models
