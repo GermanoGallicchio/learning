@@ -8,6 +8,8 @@ website:
     left:
       - text: "Germano Gallicchio"
         href: "https://germanogallicchio.github.io"
+      - text: "Learning resources"
+        href: index.html
 format: 
     revealjs:
         width: 1280     # slide width in pixels
