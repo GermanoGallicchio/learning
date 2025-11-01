@@ -1,0 +1,2554 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <title>attentionalcontroltheory</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
+  <link rel="stylesheet" href="custom.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="attentional-control-theory" class="slide level2 nostretch center">
+<h2>Attentional Control Theory</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p>Stress and Performance</p>
+<p>JXH-3042, JXC-3042 <br><br></p>
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+<p>Lecturer in Psychophysiology and Cognitive Neuroscience <br> School of Psychology and Sport Science, Bangor University, UK <br> <a href="https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en">Web profile</a>&nbsp;| <a href="https://scholar.google.com/citations?user=i3h3GbMAAAAJ&amp;hl=en">Research publications</a>&nbsp;| <a href="https://github.com/GermanoGallicchio">Software</a>&nbsp;| <a href="https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint">Book a meeting</a></p>
+</div>
+<p><br></p>
+<div style="font-size:0.6em">
+<p>On a computer press F11 to de/activate full-screen view.</p>
+<p>For smartphone and review: Bottom left menu &gt; Tools &gt; PDF Export Mode.</p>
+</div>
+</div><div class="column" style="width:20%;">
+<p>These slides: </p><div id="" class="qrcode"></div>
+<script type="text/javascript">
+(function() {
+  var script = document.currentScript;
+  var qrcode = script.previousElementSibling;
+  qrcode.qrcode = new QRCode(qrcode, {"colorDark":"#0011bb","colorLight":"#ffffff","height":128,"text":"https://germanogallicchio.github.io/learning/JXHC_3042/ACT.html","width":128});
+  script.remove();
+})();
+</script>
+    <p></p>
+<p><br><br></p>
+<p><span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span></p>
+<div contenteditable="true" style="
+    min-height: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: rgba(255,40,0,0.6)
+">
+0000
+</div>
+</div></div>
+<style>
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+</style>
+</section>
+<section id="part-1-of-2" class="slide level2 nostretch center">
+<h2>Part 1 of 2</h2>
+</section>
+<section id="agenda" class="title-slide slide level1">
+<h1>Agenda</h1>
+<ul>
+<li class="fragment">Brief review on attention and working memory</li>
+<li class="fragment">Effects of anxiety</li>
+<li class="fragment">Processing Efficiency Theory</li>
+<li class="fragment">Quiet Eye phenomenon</li>
+<li class="fragment">Mixture of theory, empirical research, and intuition</li>
+</ul>
+</section>
+
+<section id="brief-review-of-working-memory" class="title-slide slide level1">
+<h1>Brief review of working memory</h1>
+<div class="cell" data-fig-width="6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="576" height="480" viewbox="0.00 0.00 238.53 98.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 94)">
+<!-- F -->
+<g id="node1" class="node">
+<title>F</title>
+<text text-anchor="middle" x="30.36" y="-49.2" font-family="Times,serif" font-size="14.00">two key</text>
+<text text-anchor="middle" x="30.36" y="-32.4" font-family="Times,serif" font-size="14.00">features</text>
+</g>
+<!-- L -->
+<g id="node2" class="node">
+<title>L</title>
+<text text-anchor="middle" x="163.62" y="-67.8" font-family="Times,serif" font-size="14.00">limited capacity</text>
+</g>
+<!-- F&#45;&gt;L -->
+<g id="edge1" class="edge">
+<title>F-&gt;L</title>
+<path fill="none" stroke="black" d="M60.82,-51.06C75.56,-54.09 93.84,-57.85 110.82,-61.34"></path>
+</g>
+<!-- M -->
+<g id="node3" class="node">
+<title>M</title>
+<text text-anchor="middle" x="163.62" y="-13.8" font-family="Times,serif" font-size="14.00">multiple components</text>
+</g>
+<!-- F&#45;&gt;M -->
+<g id="edge2" class="edge">
+<title>F-&gt;M</title>
+<path fill="none" stroke="black" d="M60.82,-38.94C71.55,-36.73 84.16,-34.14 96.78,-31.54"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><span class="fragment">We will review these features in turn.</span></p>
+</section>
+
+<section id="working-memory-has-limited-capacity-feature-1" class="title-slide slide level1">
+<h1>Working memory has limited capacity (feature #1)</h1>
+<p>Think of working memory as the set of resources for temporarily <em>holding</em> and <em>manipulating</em> information.</p>
+<div class="fragment">
+<p>Analogy used often: a working desk. There is enough space for the things you are working on right now, not much else…</p>
+<div style="text-align: center;">
+<p><img src="https://freesvg.org/img/school-desk-flat.png" alt="School desk" style="width:30%;"></p>
+</div>
+</div>
+</section>
+
+<section id="desk-analogy" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">Desk analogy</h1>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+</div>
+<p>The white rectangle is the desk, representing how much working memory is being used at this moment. <span class="fragment">Currently: unlikely/impossible situation where nothing is taking space in working memory</span></p>
+</section>
+
+<section id="desk-analogy-1" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">Desk analogy</h1>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:25%; height:80%;">
+
+</div>
+</div>
+<p>Most of the times (or always) something occupies space on the desk: the things that are in the working memory. <span class="fragment">Sometimes one has enough working memory capacity spare to do well whatever it is that one is doing.</span></p>
+</section>
+
+<section id="desk-analogy-2" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">Desk analogy</h1>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:55%; height:100%; background:rgba(255,40,0,0.6)">
+
+</div>
+</div>
+<p>Other times, there’s too much in working memory and the system fails due to overload (running out of cognitive resources). <span class="fragment">Whatever one is doing is going to suffer in quality.</span></p>
+</section>
+
+<section id="measuring-working-memory-capacity-span" class="title-slide slide level1">
+<h1>Measuring working memory capacity: span</h1>
+<p><em>Classic</em> span tasks measure primarily (short-term) storage capacity: <span class="fragment">participants hear or see sequences of items (digits, letters, words)</span> <span class="fragment">and must recall them in order.</span> <span class="fragment"><strong>Span</strong> is the <em>maximum number of items</em> a person can correctly repeat, often reported to be around 7 +- 2.</span></p>
+<p><span class="fragment">These tasks involve mainly two relatively-simple processes: encoding and recall.</span></p>
+<p><span class="fragment">Optional: <a href="https://www.psytoolkit.org/experiment-library/experiment_digitspan.html">Link to demo of digit span task</a></span></p>
+</section>
+
+<section id="working-memorys-multiple-components-feature-2" class="title-slide slide level1 scrollable">
+<h1>Working memory’s multiple components (feature #2)</h1>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="https://www.york.ac.uk/media/psychology/images/people/emeritus-faculty/Alan_Baddeley_013.jpg" alt="photo of Alan Baddeley from the University of York public website" title="Alan Baddeley" width="100%"> Alan Baddeley</p>
+<iframe width="100%" height="70%" src="https://youtube.com/embed/mT0NLihOK30/" title="Alan Baddeley on the development of his Working Memory model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</div><div class="column" style="width:80%;">
+<p>Three different components handle storage of information (e.g., visuo-spatial, verbal-phonological) or manage access to that information.</p>
+<div class="cell" data-fig-width="8" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="768" height="480" viewbox="0.00 0.00 384.24 116.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<ellipse fill="none" stroke="black" cx="179.04" cy="-90" rx="76.93" ry="18"></ellipse>
+<text text-anchor="middle" x="179.04" y="-85.8" font-family="Times,serif" font-size="14.00">central executive</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<ellipse fill="none" stroke="black" cx="81.04" cy="-18" rx="81.08" ry="18"></ellipse>
+<text text-anchor="middle" x="81.04" y="-13.8" font-family="Times,serif" font-size="14.00">phonological loop</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="black" d="M147.8,-66.69C136.47,-58.59 123.66,-49.45 112.32,-41.35"></path>
+<polygon fill="black" stroke="black" points="146.14,-69.8 156.31,-72.76 150.21,-64.1 146.14,-69.8"></polygon>
+<polygon fill="black" stroke="black" points="114.16,-38.35 103.99,-35.39 110.09,-44.05 114.16,-38.35"></polygon>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<ellipse fill="none" stroke="black" cx="278.04" cy="-18" rx="98.4" ry="18"></ellipse>
+<text text-anchor="middle" x="278.04" y="-13.8" font-family="Times,serif" font-size="14.00">visuospatial sketchpad</text>
+</g>
+<!-- A&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>A-&gt;C</title>
+<path fill="none" stroke="black" d="M210.53,-66.73C221.89,-58.7 234.72,-49.63 246.12,-41.57"></path>
+<polygon fill="black" stroke="black" points="208.15,-64.13 202,-72.76 212.19,-69.85 208.15,-64.13"></polygon>
+<polygon fill="black" stroke="black" points="248.37,-44.26 254.52,-35.63 244.33,-38.55 248.37,-44.26"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+
+<section id="house-windows-exercise" class="title-slide slide level1">
+<h1>House windows exercise</h1>
+<p>Helpful to realize how the three components work together.</p>
+<p>Take a couple of minutes to <strong>work out how many windows are there in your house</strong></p>
+<ul>
+<li class="fragment"><p>You retreive from long-term memory and manipulate a mental image of your house as you “walk through” it room by room (<em>visuospatial sketchpad</em>)</p></li>
+<li class="fragment"><p>As you progress, you keep a count of the number of windows by rehearsing the numbers out loud or not. (<em>phonological loop</em>)</p></li>
+<li class="fragment"><p>You will have followed a strategy: deciding which rooms to visualize next, keeping track of progress, and ensuring the count is updated (<em>central executive</em>).</p></li>
+</ul>
+</section>
+
+<section id="combining-the-two-features-measuring-component-specific-capacity" class="title-slide slide level1">
+<h1>Combining the two features: Measuring component-specific capacity</h1>
+<p><strong>Phonological/Verbal Working Memory:</strong></p>
+<ul>
+<li class="fragment"><em>Digit Span</em>: Recall sequences of digits in order</li>
+<li class="fragment"><em>Letter Span</em>: Recall sequences of letters in order</li>
+<li class="fragment"><em>Word Span</em>: Recall sequences of words in order</li>
+</ul>
+<p><strong>Visuospatial Working Memory:</strong></p>
+<ul>
+<li class="fragment"><em>Corsi Block Tapping Test</em>: Recall sequences of spatial locations. <span class="fragment">Optional: <a href="https://www.psytoolkit.org/experiment-library/experiment_corsi2.html">link to Corsi span test</a></span></li>
+<li class="fragment"><em>Visual Patterns Test</em>: Recall patterns in a grid</li>
+</ul>
+</section>
+
+<section id="optional-complex-span-tasks" class="title-slide slide level1">
+<h1>Optional: Complex span tasks</h1>
+<p><strong>Classic</strong> span tasks = measure <em>how much</em> you can hold.</p>
+<p><strong>Complex</strong> span tasks = measure how well you can hold information <em>while doing something else</em>.</p>
+<p><span class="fragment">They require to:</span></p>
+<ul>
+<li class="fragment">resist interference from additioanl processing task</li>
+<li class="fragment">keep the memory items active</li>
+</ul>
+<p><span class="fragment">Compared to classic span tasks, better association with higher-order cognition (executive functions)</span></p>
+<p><span class="fragment">Example: <a href="https://www.psytoolkit.org/experiment-library/experiment_aospan.html">link to the operation span task</a></span></p>
+</section>
+
+<section id="attention" class="title-slide slide level1">
+<h1>Attention</h1>
+<iframe width="100%" height="50%" src="https://youtube.com/embed/LW_ZVvjP_Ms" title="Whodunnit video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+<p><span class="fragment">Working memory’s limited capacity (feature #1) implies that one can’t process all information at once. One needs to <strong>select</strong>…</span> <span class="fragment">and that’s one of the things attention does</span></p>
+
+<aside><div>
+<div class="fragment">
+<p>What other things does attention do other than selecting (<em>orienting</em>)? General <em>alertness</em> (being vigilant) and <em>executive control</em> (monitoring, regulating). <a href="https://germanogallicchio.github.io/learning/JXHC_1055/04">More info</a></p>
+</div>
+</div></aside></section>
+
+<section id="orienting-of-attention-endo--vs-exo-genous" class="title-slide slide level1">
+<h1>Orienting of attention: endo- vs exo-genous</h1>
+<div class="columns">
+<div class="column">
+<p><strong>Endogenous</strong></p>
+<ul>
+<li class="fragment">“endo” = from the inside</li>
+<li class="fragment">voluntary, intentional</li>
+<li class="fragment">determined by the person</li>
+<li class="fragment">top-down</li>
+<li class="fragment"><strong>goal-directed</strong></li>
+</ul>
+</div><div class="column">
+<p><strong>Exogenous</strong></p>
+<ul>
+<li class="fragment">“exo” = from the outside</li>
+<li class="fragment">involuntary, not intentional</li>
+<li class="fragment">determined by the environment</li>
+<li class="fragment">bottom-up</li>
+<li class="fragment"><strong>stimulus-driven</strong></li>
+</ul>
+</div></div>
+</section>
+
+<section id="cocktail-party-scenario-demonstrating-goal-directed-endogenous-and-stimulus-driven-exogenous-attentional-orienting" class="title-slide slide level1">
+<h1>“Cocktail party” scenario: demonstrating goal-directed (endogenous) and stimulus-driven (exogenous) attentional orienting</h1>
+<div class="columns">
+<div class="column">
+<p><img src="https://live.staticflickr.com/2661/5807919992_39ba7947cf_o.jpg" alt="Cocktail party" style="width:100%;"></p>
+</div><div class="column">
+<div style="font-size:0.8em">
+Designed to illustrate selective feature of attention at the preconscious level, but here merely a shortcut for me to illustrate goal-directed and stimulus-driven attention at play.
+</div>
+<p><span class="fragment">You are in a noisy place.</span> <span class="fragment">You choose to attend to one speaker (<strong>goal-directed</strong>).</span> <span class="fragment">Suddenly, your attention is captured (distracted) by a salient, personally relevant cue (like hearing your name from your back) (<strong>stimulus-driven</strong>).</span></p>
+</div></div>
+<p><span class="fragment">Important: the extent of <strong>attentional control</strong> can be defined as the <strong>balance</strong> between goal-directed (concentration) and stimulus-driven (distraction) attention</span></p>
+</section>
+
+<section id="orienting-of-attention-overt-vs-covert" class="title-slide slide level1">
+<h1>Orienting of attention: overt vs covert</h1>
+<div class="columns">
+<div class="column">
+<p><strong>Overt</strong></p>
+<ul>
+<li class="fragment">observable orienting movement of sense organs/body</li>
+<li class="fragment">attention shifts with sensor orientation (eyes, head/ears, posture)</li>
+<li class="fragment">typically detectable by others</li>
+</ul>
+<div style="font-size:0.7em">
+<ul>
+<li class="fragment">examples:
+<ul>
+<li class="fragment">visual: turning eyes/head to look at a clock</li>
+<li class="fragment">auditory: turning your head or cupping your ear toward a speaker</li>
+<li class="fragment">tactile/proprioceptive: moving a finger to explore a texture</li>
+</ul></li>
+</ul>
+</div>
+</div><div class="column">
+<p><strong>Covert</strong></p>
+<ul>
+<li class="fragment">internal shift of focus without observable movement</li>
+<li class="fragment">attention shifts without changing sensor orientation</li>
+<li class="fragment">typically not detectable by others</li>
+</ul>
+<div style="font-size:0.7em">
+<ul>
+<li class="fragment">examples:
+<ul>
+<li class="fragment">visual: keeping eyes fixed but monitoring something in peripheral vision</li>
+<li class="fragment">auditory: keeping head still but following a conversation behind you</li>
+<li class="fragment">tactile/proprioceptive: keeping the hand still but focusing on the pressure of a ring</li>
+</ul></li>
+</ul>
+</div>
+</div></div>
+</section>
+
+<section id="demonstrating-overt-vs-covert" class="title-slide slide level1">
+<h1>Demonstrating overt vs covert</h1>
+<p>While <strong>fixating the cross</strong> at the centre, try to read what appears at the sides</p>
+<p><br><br></p>
+<div class="fragment">
+<div style="text-align: center; font-size: 2em; margin: 2rem 0;">
+<p><span style="opacity: 0.3;">COVERT</span> <span style="margin: 0 10%;">+</span> <span style="opacity: 0.3;">ORIENTING</span></p>
+</div>
+</div>
+<p><br><br></p>
+<p><span class="fragment">You just experienced covert orienting</span></p>
+</section>
+
+<section>
+<section id="types-of-attentional-orienting-a-2-x-2-framework" class="title-slide slide level1 scrollable">
+<h1>Types of attentional orienting: a 2 x 2 framework</h1>
+<p>Goal-directed orienting can happen overtly or covertly. Stimulus-driven orienting can also happen overtly or covertly.</p>
+<div class="cell" data-fig-width="12" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="1152" height="480" viewbox="0.00 0.00 449.87 188.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
+<!-- O -->
+<g id="node1" class="node">
+<title>O</title>
+<text text-anchor="middle" x="216.92" y="-157.8" font-family="Times,serif" font-size="14.00">orienting</text>
+</g>
+<!-- A -->
+<g id="node2" class="node">
+<title>A</title>
+<text text-anchor="middle" x="159.92" y="-85.8" font-family="Times,serif" font-size="14.00">overtly</text>
+</g>
+<!-- O&#45;&gt;A -->
+<g id="edge1" class="edge">
+<title>O-&gt;A</title>
+<path fill="none" stroke="black" d="M202.83,-143.7C194,-132.85 182.66,-118.92 173.85,-108.1"></path>
+</g>
+<!-- B -->
+<g id="node3" class="node">
+<title>B</title>
+<text text-anchor="middle" x="274.92" y="-85.8" font-family="Times,serif" font-size="14.00">covertly</text>
+</g>
+<!-- O&#45;&gt;B -->
+<g id="edge2" class="edge">
+<title>O-&gt;B</title>
+<path fill="none" stroke="black" d="M231.26,-143.7C240.25,-132.85 251.79,-118.92 260.75,-108.1"></path>
+</g>
+<!-- C -->
+<g id="node4" class="node">
+<title>C</title>
+<text text-anchor="middle" x="44.92" y="-13.8" font-family="Times,serif" font-size="14.00">goal-directed</text>
+</g>
+<!-- A&#45;&gt;C -->
+<g id="edge3" class="edge">
+<title>A-&gt;C</title>
+<path fill="none" stroke="black" d="M132.09,-72.05C114.14,-61.13 90.88,-46.97 72.9,-36.03"></path>
+</g>
+<!-- D -->
+<g id="node5" class="node">
+<title>D</title>
+<text text-anchor="middle" x="159.92" y="-13.8" font-family="Times,serif" font-size="14.00">stimulus-driven</text>
+</g>
+<!-- A&#45;&gt;D -->
+<g id="edge4" class="edge">
+<title>A-&gt;D</title>
+<path fill="none" stroke="black" d="M159.92,-71.7C159.92,-60.85 159.92,-46.92 159.92,-36.1"></path>
+</g>
+<!-- E -->
+<g id="node6" class="node">
+<title>E</title>
+<text text-anchor="middle" x="274.92" y="-13.8" font-family="Times,serif" font-size="14.00">goal-directed</text>
+</g>
+<!-- B&#45;&gt;E -->
+<g id="edge5" class="edge">
+<title>B-&gt;E</title>
+<path fill="none" stroke="black" d="M274.92,-71.7C274.92,-60.85 274.92,-46.92 274.92,-36.1"></path>
+</g>
+<!-- F -->
+<g id="node7" class="node">
+<title>F</title>
+<text text-anchor="middle" x="389.92" y="-13.8" font-family="Times,serif" font-size="14.00">stimulus-driven</text>
+</g>
+<!-- B&#45;&gt;F -->
+<g id="edge6" class="edge">
+<title>B-&gt;F</title>
+<path fill="none" stroke="black" d="M303.06,-71.88C320.88,-61.03 343.84,-47.05 361.68,-36.19"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>Examples</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 44%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Overt</th>
+<th>Covert</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Goal-directed</strong></td>
+<td>Deliberately turning your head to look and focus where your team-mate will pass</td>
+<td>While dribbling look to your right but mentally tracking your team-mate running to your left</td>
+</tr>
+<tr class="even">
+<td><strong>Stimulus-driven</strong></td>
+<td>In a tennis tournament, someone in the crowd shouts your name</td>
+<td>A motorbike racer keeps their eyes locked on the track at a difficult turn but their attention is automatically pulled to a crash happening in their peripheral vision</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="end-of-the-brief-review-on-working-memory-and-attention" class="slide level2 center">
+<h2>End of the brief review on working memory and attention</h2>
+<p>Reflect on the main things you did not remember about working memory or attention</p>
+</section></section>
+<section id="what-does-anxiety-do-to-attentional-control" class="title-slide slide level1 scrollable">
+<h1>What does anxiety do to attentional control?</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="https://i.imgflip.com/aa6gto.jpg" alt="just a meme about anxiety. no real content" style="width:100%;"></p>
+</div><div class="column" style="width:60%;">
+<div class="cell" data-fig-width="7" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="672" height="480" viewbox="0.00 0.00 198.09 109.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 105.6)">
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<text text-anchor="middle" x="28.6" y="-46.6" font-family="Times,serif" font-size="14.00">anxiety</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<text text-anchor="middle" x="141.65" y="-85" font-family="Times,serif" font-size="14.00">trait</text>
+<text text-anchor="middle" x="141.65" y="-68.2" font-family="Times,serif" font-size="14.00">(dispositional)</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="black" d="M57.34,-58.29C68.13,-61.21 80.81,-64.63 92.98,-67.92"></path>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<text text-anchor="middle" x="141.65" y="-25" font-family="Times,serif" font-size="14.00">state</text>
+<text text-anchor="middle" x="141.65" y="-8.2" font-family="Times,serif" font-size="14.00">(situational)</text>
+</g>
+<!-- A&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>A-&gt;C</title>
+<path fill="none" stroke="black" d="M57.34,-43.31C70.19,-39.84 85.71,-35.64 99.86,-31.82"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="cell" data-fig-width="7" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="672" height="480" viewbox="0.00 0.00 186.78 211.80" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 207.8)">
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<text text-anchor="middle" x="28.6" y="-100.6" font-family="Times,serif" font-size="14.00">anxiety</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<text text-anchor="middle" x="136" y="-181.6" font-family="Times,serif" font-size="14.00">somatic</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="black" d="M49.67,-123.01C61.92,-133.82 78.09,-147.57 93.21,-158.8 97.37,-161.89 101.87,-165.01 106.33,-167.99"></path>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<text text-anchor="middle" x="136" y="-127.6" font-family="Times,serif" font-size="14.00">behavioural</text>
+</g>
+<!-- A&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>A-&gt;C</title>
+<path fill="none" stroke="black" d="M57.29,-111.89C68.76,-114.83 82.28,-118.3 94.8,-121.5"></path>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<text text-anchor="middle" x="136" y="-73.6" font-family="Times,serif" font-size="14.00">emotional</text>
+</g>
+<!-- A&#45;&gt;D -->
+<g id="edge3" class="edge">
+<title>A-&gt;D</title>
+<path fill="none" stroke="black" d="M57.29,-97.71C70.35,-94.36 86.06,-90.34 99.93,-86.78"></path>
+</g>
+<!-- E -->
+<g id="node5" class="node">
+<title>E</title>
+<text text-anchor="middle" x="136" y="-25" font-family="Times,serif" font-size="14.00">cognitive</text>
+<text text-anchor="middle" x="136" y="-8.2" font-family="Times,serif" font-size="14.00">(aka: worry)</text>
+</g>
+<!-- A&#45;&gt;E -->
+<g id="edge4" class="edge">
+<title>A-&gt;E</title>
+<path fill="none" stroke="black" d="M50.16,-86.61C62.45,-75.93 78.48,-62.31 93.21,-50.8 97.15,-47.72 101.36,-44.55 105.55,-41.48"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+
+<section id="shapiro-johnson-1987" class="title-slide slide level1 scrollable">
+<h1>Shapiro &amp; Johnson (1987)</h1>
+<p>Study 1, key methodology</p>
+<ul>
+<li class="fragment">N = 30 University students</li>
+<li class="fragment"><strong>Task</strong>: Use one hand to classify central and peripheral target stimuli <span class="fragment">(perceptually difficult because the target stimuli were presented for a short duration)</span></li>
+<li class="fragment">Participants needed to keep their eyes on a central fixation cross. A target stimulus could appear either centrally or in the periphery <span class="fragment">… or both: dual trial (i.e., two targets at the same time)</span></li>
+<li class="fragment"><strong>Groups</strong>: arousal, non-arousal</li>
+<li class="fragment">The other hand was for receiving <em>electrical shocks</em> every now and then, but only the lucky ones in the arousal group.</li>
+<li class="fragment">Analyses: the researchers were interested in the participants’ choices in the dual trials.</li>
+</ul>
+<div class="fragment">
+<p>Study 1, main results</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p><span class="fragment">For the non-arousal group, dominance of central stimulus</span></p>
+<p><span class="fragment">For the arousal group, no dominance. Arousal countered the dominance of the central stimulus.</span></p>
+</section>
+
+<section id="shapiro-johnson-1987-1" class="title-slide slide level1 scrollable">
+<h1>Shapiro &amp; Johnson (1987)</h1>
+<p>Study 2, key idea</p>
+<p><span class="fragment">They realized the central stimulus was more predictable (only one location) than the peripheral stimulus.</span> <span class="fragment">In study 2, they used the same Method, but made the central location less predictable than in study 1.</span></p>
+<div class="fragment">
+<p>Study 2, main results</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-7-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p><span class="fragment">Arousal reversed the dominance, so that when a pair of central-peripheral targets were presented, <em>the peripheral target became the dominant</em>.</span></p>
+
+<aside><div>
+<p>Shapiro, K. L., &amp; Johnson, T. L. (1987). Effects of arousal on attention to central and peripheral visual stimuli. Acta Psychologica, 66(2), 157-172. https://doi.org/10.1016/0001-6918(87)90031-X. <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1016%252F0001-6918%252887%252990031-X&amp;sig=a303f19a9bd5fb13b4e865e6ceef253b45692ac27ee8e41abdad63ffb49a5080">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="lipp-derakshan-2005" class="title-slide slide level1 scrollable">
+<h1>Lipp &amp; Derakshan (2005)</h1>
+<p>Key methodology:</p>
+<ul>
+<li class="fragment">N = 70 participants</li>
+<li class="fragment">Groups:
+<ul>
+<li class="fragment">Spider/snake phobics</li>
+<li class="fragment">non-phobics</li>
+</ul></li>
+<li class="fragment">Task: emotional dot probe<br>
+</li>
+<li class="fragment">Emotional Dot probe: a cue appears on the screen either left or right before a target stimulus appears either left or right. The cue could be neutral or emotional (image of a snake).</li>
+</ul>
+<p><span class="fragment">Main results:</span></p>
+<ul>
+<li class="fragment">The target was detected faster when appearing shortly after an emotional cue</li>
+<li class="fragment">Larger effects for phobics</li>
+</ul>
+
+<aside><div>
+<p>Lipp, O. V., &amp; Derakshan, N. (2005). Attentional bias to pictures of fear-relevant animals in a dot probe task. Emotion, 5(3), 365. https://doi.org/10.1037/1528-3542.5.3.365. <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1037%252F1528-3542.5.3.365&amp;sig=213d1bc8d478ef9736f690d2e971b5d7d6166d789d903f08630710d4f7e601de">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="lautenbach-et-al.-2016" class="title-slide slide level1 scrollable">
+<h1>Lautenbach et al.&nbsp;(2016)</h1>
+<p>Key methodology:</p>
+<ul>
+<li class="fragment">N = 40 athletes</li>
+<li class="fragment">Task: emotional Stroop task
+<ul>
+<li class="fragment">A: negative sport related words (e.g., defeat, failure, rival)</li>
+<li class="fragment">B: neutral sport related words (e.g., endurance, position, sideline)</li>
+<li class="fragment">C: neutral non-sport related words (e.g., radio, lemon, computer)</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<p>Main results:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-8-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Significantly slower when responding to negative sport-related words.</p>
+</div>
+
+<aside><div>
+<p>Lautenbach, F., Laborde, S. J. P., Putman, P., Angelidis, A., &amp; Raab, M. (2016). Attentional distraction by negative sports words in athletes under low-and high-pressure conditions: Evidence from the sport emotional Stroop task. Sport, Exercise, and Performance Psychology, 5(4), 296. https://doi.org/10.1037/spy0000073 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1037%252Fspy0000073&amp;sig=5830e433a06527648191fff9d3721a585e684d34696f34d9acf6e0a664464f83">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="summary-of-effects-of-anxiety-on-attention-attentional-bias" class="title-slide slide level1">
+<h1>Summary of effects of anxiety on attention: Attentional Bias</h1>
+<p>Anxiety induces an <strong>attentional bias</strong>, consisting of enhanced processing of threats:</p>
+<ul>
+<li class="fragment"><em>early detection</em> of threats</li>
+<li class="fragment"><em>impaired disengagement</em> from threats</li>
+</ul>
+<p><span class="fragment">(whatever threat means to the individual).</span></p>
+<p><br><br></p>
+<p><span class="fragment">Good or bad?</span> <span class="fragment">Neither. From an evolutionary perspective, anxiety is an adaptive process that increase chances of survival.</span> <span class="fragment">But thinking about threats might not always be the most functional way to use one’s working memory resources.</span></p>
+</section>
+
+<section id="processing-efficiency-theory-pet" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">Processing Efficiency Theory (PET)</h1>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:1%; height:1%;">
+
+</div>
+<div class="rect task" data-id="task" style="width:25%; height:60%;">
+
+</div>
+</div>
+<p>There are plenty of resources (white) to complete an easy task (yellow). Performance is good.</p>
+</section>
+
+<section id="processing-efficiency-theory-pet-1" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">Processing Efficiency Theory (PET)</h1>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:10%; height:60%;">
+
+</div>
+<div class="rect task" data-id="task" style="width:25%; height:60%;">
+
+</div>
+</div>
+<p>Resources dedicated to worry (blue) are not dedicated to process task-related information. <span class="fragment">But there are plenty resources for both. Performance is good.</span></p>
+</section>
+
+<section id="processing-efficiency-theory-pet-2" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">Processing Efficiency Theory (PET)</h1>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:50%; height:100%;">
+
+</div>
+<div class="rect task" data-id="task" style="width:25%; height:60%;">
+
+</div>
+</div>
+<p>If worry takes more resources (i.e., one experiences greater cognitive anxiety), <span class="fragment">while still leaving enough for the easy task, there is still space for both.</span> <span class="fragment">Performance is still not impaired.</span></p>
+</section>
+
+<section id="processing-efficiency-theory-pet-3" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">Processing Efficiency Theory (PET)</h1>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:50%; height:100%;">
+
+</div>
+<div class="rect task" data-id="task" style="width:45%; height:60%;">
+
+</div>
+</div>
+<p>But if the <em>task is more difficult</em> requiring more resources, <span class="fragment">and if there are none left,</span> <span class="fragment">performance will be impaired.</span></p>
+<p><span class="fragment">Performance is impared if there are not enough resources to carry out the task.</span> <span class="fragment">Worry is a <em>distraction</em> that takes resources away from the task</span></p>
+</section>
+
+<section id="processing-efficiency-theory-pet-4" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">Processing Efficiency Theory (PET)</h1>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:70%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:50%; height:100%;">
+
+</div>
+<div class="rect task" data-id="task" style="width:45%; height:60%;">
+
+</div>
+</div>
+<p>However, working memory capacity can temporary increase, through <em>effort</em> mobilization. <span class="fragment">There are now enough resources for both the worry and the task. Performance is good.</span> <span class="fragment">However, the fact that <em>extra resources</em> were mobilized means <em>decreased efficiency</em>.</span></p>
+</section>
+
+<section id="processing-efficiency-theory-pet-5" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">Processing Efficiency Theory (PET)</h1>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:1%; height:1%;">
+
+</div>
+<div class="rect task" data-id="task" style="left:10%; width:45%; height:60%;">
+
+</div>
+</div>
+<p>In fact, even a task so difficult could have been carried out well in a more efficient manner (i.e., without the extra effort) if worry did not occupy so much of working memory.</p>
+</section>
+
+<section id="processing-efficiency-theory-pet-6" class="title-slide slide level1">
+<h1>Processing Efficiency Theory (PET)</h1>
+<p>The effects of worry (cognitive anxiety) are best studied not on performance, but on <em>processing efficiency</em>.</p>
+<div class="fragment">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Optional: my interpretation <span class="math display">\[
+\text{efficiency} \propto \frac{\text{performance}}{\text{resources}}
+\]</span></p>
+<p>The formula is a short version of “how much you do in relation with how much effort you put tells about efficiency”. The symbol <span class="math inline">\(\propto\)</span> means “is proportional to”.</p>
+</div>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>Eysenck, M. W., &amp; Calvo, M. G. (1992). Anxiety and performance: The processing efficiency theory. Cognition &amp; emotion, 6(6), 409-434. https://doi.org/10.1080/02699939208409696. <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02699939208409696&amp;sig=624bc9e318b1bcf8df12300d17f08fb9e8269f56b11604260d0bf446b9bc2cbb">Accessible from Talis.</a></p>
+</div></aside></section>
+
+<section id="smith-et-al.-2001" class="title-slide slide level1 scrollable">
+<h1>Smith et al.&nbsp;(2001)</h1>
+<p>Key methodology:</p>
+<ul>
+<li class="fragment">N = 12 volleyball players
+<ul>
+<li class="fragment">6 low and 6 high in trait anxiety</li>
+</ul></li>
+<li class="fragment">Task: Eigth volleyball games</li>
+<li class="fragment">Measures:
+<ul>
+<li class="fragment">State anxiety (through questionnaire)</li>
+<li class="fragment">Effort mobilized (through questionnaire)</li>
+<li class="fragment">Performance (through video analyses)</li>
+</ul></li>
+<li class="fragment">Analysis factors
+<ul>
+<li class="fragment">Group (low, high trait anxiety)</li>
+<li class="fragment">set criticality
+<ul>
+<li class="fragment">low: 7 or more points of difference</li>
+<li class="fragment">moderate: between 3 and 6 points of difference</li>
+<li class="fragment">high: less than 2 points of difference</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Predictions:</p>
+<ul>
+<li class="fragment">State anxiety would be greater for more critical sets</li>
+<li class="fragment">Effort would also be greater for more critical sets</li>
+<li class="fragment">Performance would increase when more effort is mobilized
+<ul>
+<li class="fragment">but only for the low-trait anxiety group</li>
+</ul></li>
+</ul>
+<p>Main results:</p>
+<ul>
+<li class="fragment">High-trait anxiety groups experienced greater state anxiety</li>
+</ul>
+<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-9-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li class="fragment">Effort increased with set criticality</li>
+</ul>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-10-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li class="fragment">Performance improved with set criticality for the low-trait anxiety group</li>
+<li class="fragment">Performance declined with set criticality for the high-trait anxiety group</li>
+</ul>
+</div>
+<p><span class="fragment">Interpretation: Performance and worry competed for resources. As worry (state anxiety) increased over set criticality, fewer and fewer resources were left to focus on the volleyball task.</span> <span class="fragment">Some support for Processing Efficiency Theory</span></p>
+
+<aside><div>
+<p>Smith, N. C., Bellamy, M., Collins, D. J., &amp; Newell, D. (2001). A test of processing efficiency theory in a team sport context. Journal of Sports Sciences, 19(5), 321-332. https://doi.org/10.1080/02640410152006090. <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02640410152006090&amp;sig=901de5db172e491f699cbaf6cdc6a488959ed1c530dd7aa79a6a7cec6f20f3b6">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="visuospatial-attention-in-target-sports-the-quiet-eye" class="title-slide slide level1 scrollable">
+<h1>Visuospatial attention in target sports: the quiet eye</h1>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="https://gameimprovementgolf.com/wp-content/uploads/2015/06/Joan-Vickers.jpg" alt="photo of Joan Vickers" title="Joan Vickers" width="100%"> Joan Vickers</p>
+<iframe width="100%" height="70%" src="https://youtube.com/embed/knfC978EoWc/" title="Alan Alda visiting Joan Vickers to learn about the Quiet Eye(Scientific American Frontiers, Season 12, Episode 06)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+</div><div class="column" style="width:80%;">
+<p>“Quiet Eye” as much a phenomenon as a variable.</p>
+<p><br></p>
+<p>As a <em>variable</em></p>
+<ul>
+<li class="fragment">The QE is a duration of time, units of (milli)seconds</li>
+<li class="fragment">Eyes on the critical location or object (e.g., ball in golf putting)</li>
+<li class="fragment">It starts before movement initiation (“QE onset”)</li>
+<li class="fragment">It ends when the gaze deviates from the location or object of a certain amount (“QE offset”)</li>
+</ul>
+<p>As a <em>phenomenon</em></p>
+<p><span class="fragment">Extensive reports in literature that:</span></p>
+<ul>
+<li class="fragment">experts have a longer QE than novices</li>
+<li class="fragment">QE is longer for successful than unsuccessful performance</li>
+<li class="fragment">it is trainable</li>
+</ul>
+</div></div>
+<p><em>Mechanisms</em> / What happens during the QE that is beneficial to performance?</p>
+<ul>
+<li class="fragment">Visual processing</li>
+<li class="fragment">Postural-kinematic quiescence</li>
+<li class="fragment">a few others…</li>
+</ul>
+
+<aside><div>
+<p>Optional reading:</p>
+<p>Vickers, J. N. (1992). Gaze Control in Putting. Perception, 21(1), 117-132. https://doi.org/10.1068/p210117 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1068%252Fp210117&amp;sig=3278c517db87f4c58b4ebf05275d4536865882ad3d9bf6699a801ae0f14179b2">Accessible from Talis</a></p>
+<p>Hossner (Ed.), E.-J. (2016). Quiet Eye research – Joan Vickers on target. Current Issues in Sport Science (CISS), 1, 100. <a href="https://doi.org/10.15203/CISS_2016.100">https://doi.org/10.15203/CISS_2016.100</a></p>
+<p>Gallicchio, G., Cooke, A., &amp; Ring, C. (2018). Assessing ocular activity during performance of motor skills using electrooculography. Psychophysiology, 55(7), <a href="https://doi.org/10.1111/psyp.13070">https://doi.org/10.1111/psyp.13070</a></p>
+<p>Gallicchio, G., &amp; Ring, C. (2020). The quiet eye effect: A test of the visual and postural-kinematic hypotheses. Sport, Exercise, and Performance Psychology, 9(1), 143. http://dx.doi.org/10.1037/spy0000162 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02699939208409696&amp;sig=624bc9e318b1bcf8df12300d17f08fb9e8269f56b11604260d0bf446b9bc2cbb">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="wilson-pearcy-2009" class="title-slide slide level1 scrollable">
+<h1>Wilson &amp; Pearcy (2009)</h1>
+<p>Key methodology:</p>
+<ul>
+<li class="fragment">N = 6 participants</li>
+<li class="fragment">Task: Golf putting on flat and sloped surfaces</li>
+<li class="fragment">Measure:
+<ul>
+<li class="fragment">Performance</li>
+<li class="fragment">Quiet Eye duration via eye tracking</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<p>Key result:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-11-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Significantly longer QE durations ahead of holed than missed putts.</p>
+</div>
+
+<aside><div>
+<p>Wilson, M. R., &amp; Pearcy, R. C. (2009). Visuomotor Control of Straight and Breaking Golf Putts. Perceptual and Motor Skills, 109(2), 555-562. https://doi.org/10.2466/pms.109.2.555-562 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.2466%252Fpms.109.2.555-562&amp;sig=e0177ca9b7471c4edb51eace8f924e27f26ec018d2bb5246979fe9b299047998">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="walters-symons-wilson-vine-2017" class="title-slide slide level1 scrollable">
+<h1>Walters-Symons, Wilson, &amp; Vine (2017)</h1>
+<p>Key methodology</p>
+<ul>
+<li class="fragment">N = 18 experienced golfers</li>
+<li class="fragment">N = 21 novice golfers</li>
+<li class="fragment">Task: flat-surface golf putting</li>
+</ul>
+<div class="fragment">
+<p>Key result</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-12-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li class="fragment">Experienced golfers showed longer QE durations than novices</li>
+</ul>
+</div>
+
+<aside><div>
+<p>Walters-Symons, R. M., Wilson, M. R., &amp; Vine, S. J. (2017). The quiet eye supports error recovery in golf putting. Psychology of Sport and Exercise, 31, 21-27. https://doi.org/10.1016/j.psychsport.2017.03.012 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1016%252Fj.psychsport.2017.03.012&amp;sig=803bbfe0ac040ef614d7ff72ace3b39ba18ff237eb6d0fe4dfd29e92c5da36f6">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section>
+<section id="wilson-et-al.-2006" class="title-slide slide level1 scrollable">
+<h1>Wilson et al.&nbsp;(2006)</h1>
+<p>Key methodology:</p>
+<ul>
+<li class="fragment">N = 24 university students
+<ul>
+<li class="fragment">Median split into low and high trait anxiety</li>
+</ul></li>
+<li class="fragment">Task: simulated rally driving, under two conditions
+<ul>
+<li class="fragment">practice (designed to induce lower state anxiety)</li>
+<li class="fragment">competition (designed to induce higher state anxiety)</li>
+</ul></li>
+<li class="fragment">Measures:
+<ul>
+<li class="fragment">Trait and state anxiety (through questionnaires)</li>
+<li class="fragment">Effort mobilized (through questionnaire)</li>
+<li class="fragment">Performance (time to complete the race)</li>
+<li class="fragment">Effort
+<ul>
+<li class="fragment">through questionnaire</li>
+<li class="fragment">pupil diameter (larger pupil = more effort)</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Main results:</p>
+<ul>
+<li class="fragment"><p>for both groups, state anxiety increased from practice to competition.</p></li>
+<li class="fragment"><p>the high-trait anxiety group showed greater state anxiety.</p></li>
+<li class="fragment"><p>Pupil diameter increased from practice to competition for both groups, <span class="fragment">being also larger for high-trait anxiety group</span></p></li>
+<li class="fragment"><p>Self-report effort showed similar results, with the practice-to-competition increase much larger in the high-trait anxiety group.</p></li>
+<li class="fragment"><p>No group difference in performance during practice</p></li>
+<li class="fragment"><p>Performance decreased from practice to competition</p></li>
+<li class="fragment"><p>Performance drop was larger for the high-trait anxiety group</p></li>
+</ul>
+<p>Interpretation:</p>
+<ul>
+<li class="fragment"><p>There were enough spare resources in working memory to complete the driving task when worry (state anxiety) used a small amount of resources.</p></li>
+<li class="fragment"><p>Worry (state anxiety) occupied more resources in competition, especially for the high-trait anxiety group.</p></li>
+<li class="fragment"><p>The high-trait anxiety group mobilized more resources, increasing their working memory, but the extra resources were not enough to maintain as good performance.</p></li>
+<li class="fragment"><p>These findings support Processing Efficiency Theory</p></li>
+</ul>
+
+<aside><div>
+<p>Wilson, M., Smith, N. C., Chattington, M., Ford, M., &amp; Marple-Horvat, D. E. (2006). The role of effort in moderating the anxiety–performance relationship: Testing the prediction of processing efficiency theory in simulated rally driving. Journal of sports sciences, 24(11), 1223-1233.https://doi.org/10.1080/02640410500497667. <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F02640410500497667&amp;sig=8d367f9b935c2921837066862c6c4d2720ead1b3fcb85f5843e0375225536c85">Accessible from Talis</a></p>
+</div></aside></section>
+<section id="part-2-of-2" class="slide level2 nostretch center">
+<h2>Part 2 of 2</h2>
+</section></section>
+<section id="agenda-1" class="title-slide slide level1">
+<h1>Agenda</h1>
+<ul>
+<li class="fragment">Brief recap of Procesing Efficiency Theory</li>
+<li class="fragment">Brief review of executive functions and revisiting Alan Baddeley’s model of working memory</li>
+<li class="fragment">Attentional Control Theory</li>
+<li class="fragment">Gaze training</li>
+<li class="fragment">Cognitive training</li>
+<li class="fragment">Mixture of theory, empirical research, and intuition</li>
+</ul>
+</section>
+
+<section id="very-brief-recap-of-processing-efficiency-theory" class="title-slide slide level1">
+<h1>Very brief recap of Processing Efficiency Theory</h1>
+<p>People who experience greater cognitive anxiety (worry) perform worse than those who experience less. But this is not always the case… why?</p>
+<ul>
+<li class="fragment">There is not enough space in the working memory to process everything</li>
+<li class="fragment">Our attention selects information to be processed</li>
+<li class="fragment">Working memory and attention are not unitary concepts</li>
+<li class="fragment"><strong>Cognitive anxiety (worry) does not necessarily reduce performance</strong></li>
+<li class="fragment">Effort can counteract the impairment <strong>at the expense of processing efficiency</strong></li>
+<li class="fragment">Cognitive anxiety (worry) reduces processing efficiency</li>
+</ul>
+</section>
+
+<section id="executive-functions" class="title-slide slide level1 scrollable">
+<h1>Executive functions</h1>
+<p>Alan Baddeley’s initial model of Working Memory was later expanded to include at-the-time improved understanding of executive functions.</p>
+<div class="columns">
+<div class="column">
+<div class="cell" data-fig-width="6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="576" height="480" viewbox="0.00 0.00 384.24 116.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<ellipse fill="none" stroke="black" cx="179.04" cy="-90" rx="76.93" ry="18"></ellipse>
+<text text-anchor="middle" x="179.04" y="-85.8" font-family="Times,serif" font-size="14.00">central executive</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<ellipse fill="none" stroke="black" cx="81.04" cy="-18" rx="81.08" ry="18"></ellipse>
+<text text-anchor="middle" x="81.04" y="-13.8" font-family="Times,serif" font-size="14.00">phonological loop</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="black" d="M147.8,-66.69C136.47,-58.59 123.66,-49.45 112.32,-41.35"></path>
+<polygon fill="black" stroke="black" points="146.14,-69.8 156.31,-72.76 150.21,-64.1 146.14,-69.8"></polygon>
+<polygon fill="black" stroke="black" points="114.16,-38.35 103.99,-35.39 110.09,-44.05 114.16,-38.35"></polygon>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<ellipse fill="none" stroke="black" cx="278.04" cy="-18" rx="98.4" ry="18"></ellipse>
+<text text-anchor="middle" x="278.04" y="-13.8" font-family="Times,serif" font-size="14.00">visuospatial sketchpad</text>
+</g>
+<!-- A&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>A-&gt;C</title>
+<path fill="none" stroke="black" d="M210.53,-66.73C221.89,-58.7 234.72,-49.63 246.12,-41.57"></path>
+<polygon fill="black" stroke="black" points="208.15,-64.13 202,-72.76 212.19,-69.85 208.15,-64.13"></polygon>
+<polygon fill="black" stroke="black" points="248.37,-44.26 254.52,-35.63 244.33,-38.55 248.37,-44.26"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="fragment" data-fragment-index="1">
+<div class="cell" data-fig-width="6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="576" height="480" viewbox="0.00 0.00 294.62 152.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 148)">
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<ellipse fill="none" stroke="black" cx="76.72" cy="-72" rx="76.93" ry="18"></ellipse>
+<text text-anchor="middle" x="76.72" y="-67.8" font-family="Times,serif" font-size="14.00">central executive</text>
+</g>
+<!-- D -->
+<g id="node2" class="node">
+<title>D</title>
+<ellipse fill="none" stroke="black" cx="238.03" cy="-126" rx="48.69" ry="18"></ellipse>
+<text text-anchor="middle" x="238.03" y="-121.8" font-family="Times,serif" font-size="14.00">inhibition</text>
+</g>
+<!-- A&#45;&gt;D -->
+<g id="edge1" class="edge">
+<title>A-&gt;D</title>
+<path fill="none" stroke="black" d="M121.25,-86.76C146.49,-95.31 177.87,-105.95 201.6,-113.99"></path>
+</g>
+<!-- E -->
+<g id="node3" class="node">
+<title>E</title>
+<ellipse fill="none" stroke="black" cx="238.03" cy="-72" rx="40.59" ry="18"></ellipse>
+<text text-anchor="middle" x="238.03" y="-67.8" font-family="Times,serif" font-size="14.00">shifting</text>
+</g>
+<!-- A&#45;&gt;E -->
+<g id="edge2" class="edge">
+<title>A-&gt;E</title>
+<path fill="none" stroke="black" d="M153.64,-72C168.7,-72 183.95,-72 197.21,-72"></path>
+</g>
+<!-- F -->
+<g id="node4" class="node">
+<title>F</title>
+<ellipse fill="none" stroke="black" cx="238.03" cy="-18" rx="44.66" ry="18"></ellipse>
+<text text-anchor="middle" x="238.03" y="-13.8" font-family="Times,serif" font-size="14.00">updating</text>
+</g>
+<!-- A&#45;&gt;F -->
+<g id="edge3" class="edge">
+<title>A-&gt;F</title>
+<path fill="none" stroke="black" d="M121.25,-57.24C147.04,-48.5 179.25,-37.58 203.14,-29.49"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<p><span class="fragment" data-fragment-index="2"><strong>Inhibition</strong> = Ability to resist to the processing task irrelevant information (i.e., resisting distractions)</span></p>
+<p><span class="fragment" data-fragment-index="3"><strong>Shifting</strong> = Ability to move focus towards the task relevant information (i.e., concentrating)</span></p>
+<p><span class="fragment" data-fragment-index="4"><strong>Updating</strong> = Ability to monitor and process information in working memory</span></p>
+<p><span class="fragment" data-fragment-index="6">Greater specificity on the central executive component of working memory</span> <span class="fragment" data-fragment-index="7">and additional empirical evidence led to the</span> <span class="fragment" data-fragment-index="5">development of Processing Efficiency Theory into Attentional Control Theory</span></p>
+</section>
+
+<section id="attentional-control-theory-1" class="title-slide slide level1">
+<h1>Attentional Control Theory</h1>
+<p>Attentional Control Theory is defined by six hypotheses / predictions</p>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><br><br></p>
+<iframe width="100%" height="70%" src="https://youtube.com/embed/7j47tjYzeKY/" title="Michael Eysenck: Bi-directional effects of anxiety on cognition and cognition on anxiety" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+<p>Michael Eysenck</p>
+</div><div class="column" style="width:80%;">
+<div class="cell" data-fig-width="9" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="864" height="480" viewbox="0.00 0.00 1003.97 189.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 185.6)">
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<text text-anchor="middle" x="523.98" y="-145.2" font-family="Times,serif" font-size="36.00">ACT hypotheses</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<text text-anchor="middle" x="84.98" y="-58" font-family="Times,serif" font-size="36.00">processing</text>
+<text text-anchor="middle" x="84.98" y="-14.8" font-family="Times,serif" font-size="36.00">efficiency</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="black" d="M395.3,-141.2C329.5,-131.95 248.79,-117.17 178.98,-94.4 176.04,-93.44 173.08,-92.41 170.11,-91.31"></path>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<text text-anchor="middle" x="259.98" y="-58" font-family="Times,serif" font-size="36.00">task</text>
+<text text-anchor="middle" x="259.98" y="-14.8" font-family="Times,serif" font-size="36.00">demands</text>
+</g>
+<!-- A&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>A-&gt;C</title>
+<path fill="none" stroke="black" d="M437.92,-130.38C406.86,-120.49 371.86,-108.15 340.98,-94.4 338.03,-93.08 335.04,-91.69 332.04,-90.24"></path>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<text text-anchor="middle" x="433.98" y="-58" font-family="Times,serif" font-size="36.00">attentional</text>
+<text text-anchor="middle" x="433.98" y="-14.8" font-family="Times,serif" font-size="36.00">control</text>
+</g>
+<!-- A&#45;&gt;D -->
+<g id="edge3" class="edge">
+<title>A-&gt;D</title>
+<path fill="none" stroke="black" d="M503.11,-130.23C494.18,-119.63 483.45,-106.9 473.13,-94.66"></path>
+</g>
+<!-- E -->
+<g id="node5" class="node">
+<title>E</title>
+<text text-anchor="middle" x="613.98" y="-36.4" font-family="Times,serif" font-size="36.00">inhibition</text>
+</g>
+<!-- A&#45;&gt;E -->
+<g id="edge4" class="edge">
+<title>A-&gt;E</title>
+<path fill="none" stroke="black" d="M544.86,-130.23C559.4,-112.98 578.71,-90.06 593.22,-72.84"></path>
+</g>
+<!-- F -->
+<g id="node6" class="node">
+<title>F</title>
+<text text-anchor="middle" x="772.98" y="-36.4" font-family="Times,serif" font-size="36.00">shifting</text>
+</g>
+<!-- A&#45;&gt;F -->
+<g id="edge5" class="edge">
+<title>A-&gt;F</title>
+<path fill="none" stroke="black" d="M609.38,-130.37C639,-120.62 672.03,-108.39 700.98,-94.4 713.55,-88.33 726.6,-80.48 738.08,-72.99"></path>
+</g>
+<!-- G -->
+<g id="node7" class="node">
+<title>G</title>
+<text text-anchor="middle" x="924.98" y="-36.4" font-family="Times,serif" font-size="36.00">updating</text>
+</g>
+<!-- A&#45;&gt;G -->
+<g id="edge6" class="edge">
+<title>A-&gt;G</title>
+<path fill="none" stroke="black" d="M652.81,-140.8C712.54,-131.67 783.7,-117.13 844.98,-94.4 859.72,-88.93 874.9,-80.88 888.02,-73.03"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+
+<aside><div>
+<p>Eysenck, M. W., Derakshan, N., Santos, R., &amp; Calvo, M. G. (2007). Anxiety and cognitive performance: attentional control theory. Emotion, 7(2), 336. https://doi.org/10.1037/1528-3542.7.2.336 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Flibkey.io%2Flibraries%2F1613%2F10.1037%2F1528-3542.7.2.336&amp;sig=e77ebd97e8ec66bced80a6ac16d356f20d760f2af426729774b578c17d6b86c9">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="act-hypothesis-1-processing-efficiency" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">ACT hypothesis 1: processing efficiency</h1>
+<p><strong>Cognitive anxiety impairs processing <em>efficiency</em> more than it impairs performance.</strong></p>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:10%; height:100%;">
+
+</div>
+<div class="rect task" data-id="task" style="width:25%; height:100%; bottom:0">
+
+</div>
+</div>
+<p>Worry (in blue) occupies resources in Working Memory. But there are enough resources to complete the task (in yellow).</p>
+</section>
+
+<section id="act-hypothesis-1-processing-efficiency-1" class="title-slide slide level1" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">ACT hypothesis 1: processing efficiency</h1>
+<p><strong>Cognitive anxiety impairs processing <em>efficiency</em> more than it impairs performance.</strong></p>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:40%; height:100%;">
+
+</div>
+<div class="rect task" data-id="task" style="width:25%; height:100%; bottom:0; left:45%; opacity:0.5">
+
+</div>
+</div>
+<p>Worry (in blue) takes resources away from the task (in yellow). Performance is impaired.</p>
+</section>
+
+<section id="act-hypothesis-1-processing-efficiency-2" class="title-slide slide level1 scrollable" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">ACT hypothesis 1: processing efficiency</h1>
+<p><strong>Cognitive anxiety impairs processing <em>efficiency</em> more than it impairs performance.</strong></p>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:65%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:40%; height:100%;">
+
+</div>
+<div class="rect task" data-id="task" style="width:25%; height:100%; bottom:0; left:45%; opacity:0.5">
+
+</div>
+</div>
+<p>Overall resources (in white) are temporarily increased through <strong>greater effort</strong>. Performance of the task (yellow) is not impaired despite the large worry (blue). <strong>Efficiency decreases</strong>.</p>
+</section>
+
+<section id="act-hypothesis-2-task-demands" class="title-slide slide level1 scrollable" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">ACT hypothesis 2: task demands</h1>
+<p><strong>The more difficult the task, the higher the chances of decreased efficiency</strong></p>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:50%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:40%; height:100%;">
+
+</div>
+<div class="rect task" data-id="task" style="width:5%; height:100%; bottom:0; left:45%; opacity:0.5">
+
+</div>
+</div>
+<p>If the task is <strong>easy</strong> (i.e., it requires not many Working Memory resources), the effects of worry on efficiency are not visible (no need to put extra effort).</p>
+</section>
+
+<section id="act-hypothesis-2-task-demands-1" class="title-slide slide level1 scrollable" data-auto-animate="true">
+<h1 data-id="quarto-animate-title">ACT hypothesis 2: task demands</h1>
+<p><strong>The more difficult the task, the higher the chances of decreased efficiency</strong></p>
+<div class="container">
+<div class="rect whole" data-id="whole" style="width:75%; height:100%">
+
+</div>
+<div class="rect used" data-id="used" style="width:40%; height:100%;">
+
+</div>
+<div class="rect task" data-id="task" style="width:35%; height:100%; bottom:0; left:45%; opacity:0.5">
+
+</div>
+</div>
+<p>It is when the task is <strong>hard</strong> (i.e., it requires many Working Memory resources), that the effects of worry on efficiency are more likely to be visible (there is need to put extra effort).</p>
+</section>
+
+<section id="act-hypothesis-3-attentional-control" class="title-slide slide level1 scrollable">
+<h1>ACT hypothesis 3: attentional control</h1>
+<p><strong>Cognitive anxiety disrupts attentional control</strong></p>
+<p>A scale analogy:</p>
+<div class="columns">
+<div class="column" style="width:20%;">
+<div style="font-size:4em">
+⚖️
+</div>
+</div><div class="column" style="width:80%;">
+<p>goal-directed (i.e., concentration) and stimulus-driven (i.e., distraction) types of orienting compete for which one is the main driver of attention/selection (i.e., what to focus on)</p>
+</div></div>
+<p><span class="fragment" data-fragment-index="1"><em>Attentional control</em> = ability to maintain a goal-directed (endogenous) attentional orienting (concentration),</span> <span class="fragment" data-fragment-index="2">while suppressing stimulus-driven (exogenous) attentional orienting (distraction)</span></p>
+<div class="columns">
+<div class="column">
+<div class="fragment" data-fragment-index="3">
+<div style="color:rgba(200,100,100,1)">
+<p>The issue when performing under pressure:</p>
+<div style="text-align:center">
+<p><span class="fragment shrink" data-fragment-index="4" style="display:inline-block;">GOAL-DIRECTED</span> <span class="fragment grow" data-fragment-index="4" style="display:inline-block;">STIMULUS-DRIVEN</span></p>
+</div>
+<p><span class="fragment" data-fragment-index="5">You lose focus on the task and become distracted by non-task related information.</span></p>
+</div>
+</div>
+</div><div class="column">
+<div class="fragment" data-fragment-index="6">
+<div style="color:rgba(100,100,200,1)">
+<p>The objective of performing under pressure intervention:</p>
+<div style="text-align:center">
+<p><span class="fragment grow" data-fragment-index="7" style="display:inline-block;">GOAL-DIRECTED</span> <br> <span class="fragment shrink" data-fragment-index="7" style="display:inline-block;">STIMULUS-DRIVEN</span></p>
+</div>
+<p><span class="fragment" data-fragment-index="8">You shield from distractions and maintain focus on task-related information.</span></p>
+</div>
+</div>
+</div></div>
+</section>
+
+<section id="act-hypothesis-4-inhibition" class="title-slide slide level1">
+<h1>ACT hypothesis 4: inhibition</h1>
+<p>How is attentional control disrupted (hypothesis 3) under elevated cognitive anxiety? Through <strong>impaired inhibition</strong></p>
+<ul>
+<li class="fragment">Impaired inhibition enhances the stimulus-driven path to attentional orienting</li>
+<li class="fragment">One becomes unable to block out irrelevant information</li>
+<li class="fragment">Potential distractions (non-task related activity) intrude in one’s attention</li>
+</ul>
+</section>
+
+<section id="act-hypothesis-5-shifting" class="title-slide slide level1">
+<h1>ACT hypothesis 5: shifting</h1>
+<p>How is attentional control disrupted (hypothesis 3) under elevated cognitive anxiety? Through <strong>impaired shifting</strong></p>
+<ul>
+<li class="fragment">Impaired shifting decreases the goal-directed path to attentional orienting</li>
+<li class="fragment">One becomes unable to focus on the relevant information</li>
+<li class="fragment">Potential important information (task related activity) are not in one’s focus</li>
+</ul>
+</section>
+
+<section id="act-hypothesis-6-updating" class="title-slide slide level1">
+<h1>ACT hypothesis 6: updating</h1>
+<p>How is attentional control disrupted (hypothesis 3) under elevated cognitive anxiety? Through <strong>impaired shifting</strong></p>
+<ul>
+<li class="fragment">When the Working Memory is overloaded, it loses the ability to update and monitor information</li>
+<li class="fragment">One fails to keep track of changing task demands</li>
+<li class="fragment">Processing becomes less flexible and adaptive</li>
+</ul>
+</section>
+
+<section id="wilson-et-al.-2009" class="title-slide slide level1 scrollable">
+<h1>Wilson et al.&nbsp;(2009)</h1>
+<p>Key idea:</p>
+<ul>
+<li class="fragment">Quiet Eye duration as measure of attentional control</li>
+<li class="fragment">Does anxiety impair QE durations?</li>
+</ul>
+<p><span class="fragment">Key methodology:</span></p>
+<ul>
+<li class="fragment">N = 10 university students (basketball players)</li>
+<li class="fragment">Task: free throws until 10 hits and 10 misses</li>
+<li class="fragment">Conditions:
+<ul>
+<li class="fragment">Control (low pressure)</li>
+<li class="fragment">Experimental (high pressure, competition and financial incentive)</li>
+</ul></li>
+<li class="fragment">Measures:
+<ul>
+<li class="fragment">State anxiety, through questionnaire</li>
+<li class="fragment">Quiet Eye duration, through eye tracking</li>
+</ul></li>
+</ul>
+<p>Key results:</p>
+<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-16-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>State anxiety was larger in the experimental condition.</p>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-17-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Effect of outcome: Shorter Quiet Eye duration for missed throws.</p>
+<p>Effect of pressure: Shorter Quiet Eye duration under greater pressure.</p>
+<p><span class="fragment">Some evidence that attentional control is impaired under elevated state anxiety</span></p>
+</div>
+
+<aside><div>
+<p>Wilson, M. R., Vine, S. J., &amp; Wood, G. (2009). The influence of anxiety on visual attentional control in basketball free throw shooting. Journal of Sport and Exercise Psychology, 31(2), 152-168. https://doi.org/10.1123/jsep.31.2.152 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1123%252Fjsep.31.2.152&amp;sig=e24262c415f047481f759eef4b67a6c11f76f0a424825c00fe52725526785101">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="interventions" class="title-slide slide level1 scrollable">
+<h1>Interventions</h1>
+<div class="columns">
+<div class="column">
+<div class="cell" data-fig-width="6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="576" height="480" viewbox="0.00 0.00 270.00 98.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 94)">
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<text text-anchor="middle" x="55.43" y="-49.2" font-family="Times,serif" font-size="14.00">ACT-compatible</text>
+<text text-anchor="middle" x="55.43" y="-32.4" font-family="Times,serif" font-size="14.00">interventions</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<text text-anchor="middle" x="204.43" y="-67.8" font-family="Times,serif" font-size="14.00">gaze training</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="black" d="M111.17,-55.05C127.33,-58.02 144.79,-61.23 160.13,-64.05"></path>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<text text-anchor="middle" x="204.43" y="-13.8" font-family="Times,serif" font-size="14.00">cognitive training</text>
+</g>
+<!-- A&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>A-&gt;C</title>
+<path fill="none" stroke="black" d="M111.17,-34.95C122.76,-32.82 135.02,-30.57 146.68,-28.42"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div><div class="column">
+<p>Attentional control can be improved through <strong>Gaze Training</strong> and <strong>Cognitive Training</strong>.</p>
+<p><span class="fragment">These interventions are <em>not specific but compatible</em> with Attentional Control Theory.</span></p>
+<p><span class="fragment">We will review what they are,</span> <span class="fragment">what <em>ACT-specific</em> mechanisms they address (supposedly)</span><span class="fragment">, and some empirical evidence supporting them.</span></p>
+</div></div>
+<div class="fragment">
+<p>Specificity of mechanisms</p>
+<div class="columns">
+<div class="column">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-19-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column">
+<p>Several mechanisms have been proposed to explain why gaze trainign and cognitive training enhance performance under stress. Only some of those mechanisms are compatible with Attentional Control Theory. We will review only those.</p>
+</div></div>
+</div>
+</section>
+
+<section id="interventions-gaze-training" class="title-slide slide level1 scrollable">
+<h1>Interventions: Gaze training</h1>
+<p>What is it: Training to exhibit a longer quiet eye duration, specifically under greater cognitive anxiety (worry).</p>
+<p><br><br></p>
+<p><span class="fragment">ACT-specific mechanisms that it fixes:</span></p>
+<ul>
+<li class="fragment">Quiet Eye duration as index of dominance of goal-directed orienting (more concentration) over stimulus-driven orienting (more distraction)</li>
+<li class="fragment">Training for a longer Quiet Eye duration allows greater goal-directed and less stimulus-driven orienting</li>
+</ul>
+<p><span class="fragment">Caveats to consider for the success of training:</span></p>
+<ul>
+<li class="fragment">Most experts already have long Quiet Eye durations, at least in low-pressure situations</li>
+<li class="fragment">Not for all sports it is easy to identify where the visual focus should be and for how long</li>
+</ul>
+</section>
+
+<section id="interventions-cognitive-training" class="title-slide slide level1">
+<h1>Interventions: Cognitive training</h1>
+<p>What is it: Training to increase your working memory capacity (i.e., the desk from the analogy).</p>
+<p><br><br></p>
+<p><span class="fragment">ACT-specific mechanisms that it fixes:</span></p>
+<ul>
+<li class="fragment">Anxiety (worry) occupies resources from working memory, conflicting with resources that should be dedicated to task-related processing</li>
+<li class="fragment">A permanently larger working memory capacity would increase the chances that, despite worry taking resources, there would be enough left for processing task-related information.</li>
+</ul>
+<p><span class="fragment">Caveats to consider for the success of training:</span></p>
+<ul>
+<li class="fragment">Tranferrability to real-world tasks</li>
+</ul>
+</section>
+
+<section id="vine-wilson-2010" class="title-slide slide level1 scrollable">
+<h1>Vine &amp; Wilson (2010)</h1>
+<p>First Quiet Eye training study</p>
+<div class="columns">
+<div class="column">
+<p>Key methodology:</p>
+<ul>
+<li class="fragment">N = 14 university students, <span class="fragment">minimal golf experience</span>
+<ul>
+<li class="fragment">control goup: technical training</li>
+<li class="fragment">experimental group: technical and Quiet Eye training</li>
+</ul></li>
+<li class="fragment">Design: longitudinal (i.e., over time)</li>
+<li class="fragment">Task: straight putts</li>
+</ul>
+</div><div class="column">
+<div class="fragment">
+<p>Procedure:</p>
+<div class="cell" data-fig-width="6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="576" height="480" viewbox="0.00 0.00 421.96 397.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 393.6)">
+<g id="clust1" class="cluster">
+<title>cluster_group1</title>
+<polygon fill="transparent" stroke="black" points="64.99,-8 64.99,-243.2 320.99,-243.2 320.99,-8 64.99,-8"></polygon>
+<text text-anchor="middle" x="192.99" y="-217.6" font-family="Times,serif" font-size="24.00">post-test</text>
+</g>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<text text-anchor="middle" x="192.99" y="-364" font-family="Times,serif" font-size="24.00">pre-test</text>
+</g>
+<!-- B1 -->
+<g id="node2" class="node">
+<title>B1</title>
+<text text-anchor="middle" x="84.99" y="-291.2" font-family="Times,serif" font-size="24.00">Control training</text>
+<text text-anchor="middle" x="84.99" y="-262.4" font-family="Times,serif" font-size="24.00">(8 sessions)</text>
+</g>
+<!-- A&#45;&gt;B1 -->
+<g id="edge1" class="edge">
+<title>A-&gt;B1</title>
+<path fill="none" stroke="black" d="M170.88,-352.75C160.04,-344.21 146.54,-333.55 133.47,-323.25"></path>
+<polygon fill="black" stroke="black" points="135.44,-320.34 125.42,-316.89 131.1,-325.84 135.44,-320.34"></polygon>
+</g>
+<!-- B2 -->
+<g id="node3" class="node">
+<title>B2</title>
+<text text-anchor="middle" x="300.99" y="-291.2" font-family="Times,serif" font-size="24.00">Experimental training</text>
+<text text-anchor="middle" x="300.99" y="-262.4" font-family="Times,serif" font-size="24.00">(8 sessions)</text>
+</g>
+<!-- A&#45;&gt;B2 -->
+<g id="edge2" class="edge">
+<title>A-&gt;B2</title>
+<path fill="none" stroke="black" d="M215.11,-352.75C225.94,-344.21 239.44,-333.55 252.51,-323.25"></path>
+<polygon fill="black" stroke="black" points="254.88,-325.84 260.56,-316.89 250.54,-320.34 254.88,-325.84"></polygon>
+</g>
+<!-- C -->
+<g id="node4" class="node">
+<title>C</title>
+<text text-anchor="middle" x="192.99" y="-172.8" font-family="Times,serif" font-size="24.00">retention 1</text>
+</g>
+<!-- B1&#45;&gt;C -->
+<g id="edge3" class="edge">
+<title>B1-&gt;C</title>
+<path fill="none" stroke="black" d="M118.57,-251.29C134.14,-236.58 152.37,-219.37 166.88,-205.66"></path>
+<polygon fill="black" stroke="black" points="169.66,-207.85 174.53,-198.44 164.85,-202.76 169.66,-207.85"></polygon>
+</g>
+<!-- B2&#45;&gt;C -->
+<g id="edge4" class="edge">
+<title>B2-&gt;C</title>
+<path fill="none" stroke="black" d="M267.41,-251.29C251.84,-236.58 233.62,-219.37 219.1,-205.66"></path>
+<polygon fill="black" stroke="black" points="221.13,-202.76 211.46,-198.44 216.32,-207.85 221.13,-202.76"></polygon>
+</g>
+<!-- D -->
+<g id="node5" class="node">
+<title>D</title>
+<text text-anchor="middle" x="192.99" y="-100" font-family="Times,serif" font-size="24.00">transfer (high pressure)</text>
+</g>
+<!-- C&#45;&gt;D -->
+<g id="edge5" class="edge">
+<title>C-&gt;D</title>
+<path fill="none" stroke="black" d="M192.99,-161.5C192.99,-153.81 192.99,-144.6 192.99,-136.01"></path>
+<polygon fill="black" stroke="black" points="196.49,-135.99 192.99,-125.99 189.49,-135.99 196.49,-135.99"></polygon>
+</g>
+<!-- E -->
+<g id="node6" class="node">
+<title>E</title>
+<text text-anchor="middle" x="192.99" y="-27.2" font-family="Times,serif" font-size="24.00">retention 2</text>
+</g>
+<!-- D&#45;&gt;E -->
+<g id="edge6" class="edge">
+<title>D-&gt;E</title>
+<path fill="none" stroke="black" d="M192.99,-88.7C192.99,-81.01 192.99,-71.8 192.99,-63.21"></path>
+<polygon fill="black" stroke="black" points="196.49,-63.19 192.99,-53.19 189.49,-63.19 196.49,-63.19"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<p>Training protocol instructions</p>
+<div class="columns">
+<div class="column">
+<p>Technical instructions:</p>
+<ul>
+<li class="fragment">Stand with legs hip width apart and keep your head still.</li>
+<li class="fragment">Maintain relaxation of shoulders and arms.</li>
+<li class="fragment">Keep the putter head square to the ball.</li>
+<li class="fragment">Perform a pendulum-like swing and accelerate through the ball.</li>
+<li class="fragment">Maintain a still head after contact.</li>
+</ul>
+</div><div class="column">
+<p>Quiet Eye training instructions</p>
+<ul>
+<li class="fragment">Assume stance and ensure that gaze is on the back of the ball.</li>
+<li class="fragment">Fixate the hole. (Fixation should be made no more than three times.)</li>
+<li class="fragment">Your final fixation should be on the back of the ball and for not longer than 2-3 seconds.</li>
+<li class="fragment">No gaze should be directed to the club head or shaft during the putting action.</li>
+<li class="fragment">Your fixation should remain steady for 200-300 ns after contact with the ball.</li>
+</ul>
+</div></div>
+<p>Key results:</p>
+<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-21-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The training did not have an effect on state anxiety. <span class="fragment">The training did not distinguish people’s anxiety reaction to competitive pressure.</span></p>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-22-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>No performance differences at pre-test (before training).</p>
+<p>Performance overall improving for both groups.</p>
+<p>No obvious performance advantage on one group over the other.</p>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-23-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Quiet Eye durations were as expected:</p>
+<ul>
+<li class="fragment">equal between groups at pre-test</li>
+<li class="fragment">longer for the QE group, at the post-tests</li>
+</ul>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="AttentionalControlTheory_files/figure-revealjs/unnamed-chunk-24-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Performance was comparable across groups at all retention post-tests, <span class="fragment">except at <em>transfer</em> (high pressure performance), where the technical but not the Quiet Eye group showed a significant drop in performance</span></p>
+</div>
+
+<aside><div>
+<p>Vine, S. J., &amp; Wilson, M. R. (2010). Quiet eye training: Effects on learning and performance under pressure. Journal of Applied Sport Psychology, 22(4), 361-376. http://dx.doi.org/10.1080/10413200.2010.495106 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F10413200.2010.495106&amp;sig=d1edcbf635fff1b1b752d0456757e5d28f25a4b067dbd3b140b2ce299984cacf">Accessible from Talis</a></p>
+<p>Optional reading (review of Quiet Eye training literature): <br> Vine, S. J., Moore, L. J., &amp; Wilson, M. R. (2014). Quiet eye training: The acquisition, refinement and resilient performance of targeting skills. European journal of sport science, 14(sup1), S235-S242. http://dx.doi.org/10.1080/17461391.2012.683815 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1080%252F17461391.2012.683815&amp;sig=0336a2e2f7afed978b918f31c57dbfdb52b42204508b8e22c72dfe42107c9f1e">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="sari-et-al.-2016" class="title-slide slide level1 scrollable">
+<h1>Sari et al.&nbsp;(2016)</h1>
+<p>Key methodology:</p>
+<div class="columns">
+<div class="column">
+<ul>
+<li class="fragment">N = 26 university students<span class="fragment">, pre-screened through questionnaires for high trait anxiety and low attentional control</span>
+<ul>
+<li class="fragment">experimental group: adaptive cognitive trainining (adaptive dual n-back)</li>
+<li class="fragment">control group: low-load cognitive training (non-adaptive dual 1-back)</li>
+</ul></li>
+<li class="fragment">Design: longitudinal (i.e., over time)</li>
+</ul>
+</div><div class="column">
+<div class="fragment">
+<p>Procedure:</p>
+<div class="cell" data-fig-width="6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="576" height="480" viewbox="0.00 0.00 384.30 219.20" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 215.2)">
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<text text-anchor="middle" x="173.66" y="-185.6" font-family="Times,serif" font-size="24.00">pre-test</text>
+</g>
+<!-- B1 -->
+<g id="node3" class="node">
+<title>B1</title>
+<text text-anchor="middle" x="75.66" y="-112.8" font-family="Times,serif" font-size="24.00">Control group</text>
+<text text-anchor="middle" x="75.66" y="-84" font-family="Times,serif" font-size="24.00">(15 sessions)</text>
+</g>
+<!-- A&#45;&gt;B1 -->
+<g id="edge1" class="edge">
+<title>A-&gt;B1</title>
+<path fill="none" stroke="black" d="M153.36,-174.15C143.61,-165.67 131.52,-155.16 119.8,-144.97"></path>
+<polygon fill="black" stroke="black" points="122.03,-142.27 112.19,-138.35 117.44,-147.55 122.03,-142.27"></polygon>
+</g>
+<!-- B2 -->
+<g id="node4" class="node">
+<title>B2</title>
+<text text-anchor="middle" x="272.66" y="-112.8" font-family="Times,serif" font-size="24.00">Experimental group</text>
+<text text-anchor="middle" x="272.66" y="-84" font-family="Times,serif" font-size="24.00">(15 sessions)</text>
+</g>
+<!-- A&#45;&gt;B2 -->
+<g id="edge2" class="edge">
+<title>A-&gt;B2</title>
+<path fill="none" stroke="black" d="M194.18,-174.15C204.03,-165.67 216.24,-155.16 228.08,-144.97"></path>
+<polygon fill="black" stroke="black" points="230.47,-147.53 235.77,-138.35 225.91,-142.22 230.47,-147.53"></polygon>
+</g>
+<!-- C -->
+<g id="node2" class="node">
+<title>C</title>
+<text text-anchor="middle" x="173.66" y="-11.2" font-family="Times,serif" font-size="24.00">post-test</text>
+</g>
+<!-- B1&#45;&gt;C -->
+<g id="edge3" class="edge">
+<title>B1-&gt;C</title>
+<path fill="none" stroke="black" d="M112.16,-72.87C123.34,-63.15 135.46,-52.61 145.97,-43.48"></path>
+<polygon fill="black" stroke="black" points="148.39,-46.01 153.64,-36.81 143.79,-40.73 148.39,-46.01"></polygon>
+</g>
+<!-- B2&#45;&gt;C -->
+<g id="edge4" class="edge">
+<title>B2-&gt;C</title>
+<path fill="none" stroke="black" d="M235.8,-72.87C224.5,-63.15 212.25,-52.61 201.65,-43.48"></path>
+<polygon fill="black" stroke="black" points="203.76,-40.68 193.9,-36.81 199.19,-45.99 203.76,-40.68"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<ul>
+<li class="fragment">Some <em>pre</em> and <em>post</em>-test measures:
+<ul>
+<li class="fragment">attentional control through rest state electroencephalography (EEG)</li>
+<li class="fragment">Flanker task performance <span class="fragment">(<a href="https://www.psytoolkit.org/experiment-library/experiment_flanker_arrows.html">Link to Flanker task</a>)</span>, under anxiety-inducing conditions (loud and unpredictable noise bursts)</li>
+</ul></li>
+</ul>
+<p><span class="fragment">Training explanations:</span></p>
+<ul>
+<li class="fragment">visual n-back: one 3x3 grid is presented at the time with only once cell illuminated. Participants need to respon when the same grid was presented n trials before.</li>
+<li class="fragment">phonological n-back: one letter is pronounced at the time. Participants need to respon when the same letter was presented n trials before. <span class="fragment">(<a href="https://www.psytoolkit.org/experiment-library/experiment_touch_nback2.html">Link to classic visual letter n-back</a>)</span></li>
+<li class="fragment">dual n-back: visual and phonological stimuli are presented simultaneously. Trials can match visually (press a key), phonologically (press another key), or both (press both keys)</li>
+<li class="fragment">adaptive dual n-back: the number <em>n</em> increased or decreased at the next block depending on accuracy at the previous block. <span class="fragment">Consult the paper for a figure of the stimuli</span></li>
+<li class="fragment">Schedule: 15 sessions in 21 days</li>
+</ul>
+<p><span class="fragment">Some key results</span></p>
+<ul>
+<li class="fragment">the adaptive group reached high levels of complexity (large <em>n</em> in b-back)</li>
+<li class="fragment">The adaptive group showed better Flanker task performance under conditions of elevated state anxiety</li>
+<li class="fragment">The adaptive group showed larger values of EEG indices associated with better attentional control</li>
+<li class="fragment">Cognitive training improved attentional control under pressure / resilience of attentional control to pressure</li>
+</ul>
+
+<aside><div>
+<p>Sari, B. A., Koster, E. H., Pourtois, G., &amp; Derakshan, N. (2016). Training working memory to improve attentional control in anxiety: A proof-of-principle study using behavioral and electrophysiological measures. Biological psychology, 121, 203-212. http://dx.doi.org/10.1016/j.biopsycho.2015.09.008 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1016%252Fj.biopsycho.2015.09.008&amp;sig=8e226f6213b5a5c7f4f5d8b14c636e286069435ce1afedf8a9ae8d1b17241cf5">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="ducrocq-et-al.-2017" class="title-slide slide level1 scrollable">
+<h1>Ducrocq et al.&nbsp;(2017)</h1>
+<p>Key methodology:</p>
+<ul>
+<li class="fragment">Similar to that of Sari et al.&nbsp;(2016) but in a sport task (tennis)</li>
+<li class="fragment">N = 30 participants from tennis club
+<ul>
+<li class="fragment">experimental group: adaptive dual n-back</li>
+<li class="fragment">control group: non-adaptive dual 1-back</li>
+</ul></li>
+<li class="fragment">Some pre- and post-test measures:
+<ul>
+<li class="fragment">performance at change detection task</li>
+<li class="fragment">tennis volley task performance and Quiet Eye duration, under lower and higher pressure</li>
+</ul></li>
+</ul>
+<p><span class="fragment">Some key results</span></p>
+<ul>
+<li class="fragment">The experimental group reached performed better than the control group at the change detection task</li>
+<li class="fragment">The experimetal group performed better at the higher pressure, whereas no changes in the control group</li>
+<li class="fragment">The experiemntal group showed later Quiet Eye period offset than the control group</li>
+</ul>
+
+<aside><div>
+<p>Ducrocq, E., Wilson, M., Smith, T. J., &amp; Derakshan, N. (2017). Adaptive working memory training reduces the negative impact of anxiety on competitive motor performance. Journal of Sport and Exercise Psychology, 39(6), 412-422. https://doi.org/10.1123/jsep.2017-0217 <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1123%252Fjsep.2017-0217&amp;sig=4ec078069a0e5f75f253b18a4cbe75b43de58ac9b52729b1c8806912177d69db">Accessible from Talis</a></p>
+</div></aside></section>
+
+<section id="optional-some-thoughts" class="title-slide slide level1">
+<h1>Optional: Some thoughts</h1>
+<p><strong>Which model of performing under pressure is right?</strong></p>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>Attentional control</p>
+<p>Reinvestment</p>
+<p>Challenge and threat appraisal</p>
+<p>Psychomotor efficiency</p>
+<p>Constrained action</p>
+<p>Ironic processing</p>
+<p>Etc. <br></p>
+<div class="fragment" data-fragment-index="3">
+<div style="font-size:0.9em">
+<p>No doubts these models will be refined again and again, and that’s the researcher’s job. For applied contexts, however, I encourage you to focus on the <em>utility</em> of a model (in explaining a phenomenon or achieving practical impact).</p>
+</div>
+</div>
+</div><div class="column" style="width:30%;">
+<div class="fragment" data-fragment-index="1">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/GeorgeEPBox.jpg/800px-GeorgeEPBox.jpg" width="50%"></p>
+<p>George E. P. Box <a href="https://en.wikipedia.org/wiki/George_E._P._Box">Read more</a>.</p>
+<blockquote>
+<p>“All models are wrong<span class="fragment" data-fragment-index="2">, but some are <em>useful</em>.</span></p>
+</blockquote>
+</div>
+</div></div>
+</section>
+
+<section id="optional-material-from-rob-grays-perception-and-action-podcast" class="title-slide slide level1 scrollable">
+<h1>Optional material from Rob Gray’s perception and action podcast</h1>
+<p>Performing and choking under pressure</p>
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3698957/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="">
+</iframe>
+<p><br></p>
+<p>Interview with Sam Vine, Quiet Eye, Pressure, VR training</p>
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5611803/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="">
+</iframe>
+<p><br></p>
+<p>Choking under pressure revisited: critiques</p>
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5569026/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="">
+</iframe>
+<p><br></p>
+<p>Choking under pressure revisited: integrative theories</p>
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5611970/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="">
+</iframe>
+<p><br></p>
+<p>Sports Science Shorts: Choking under pressure Q&amp;A</p>
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/3984899/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="">
+</iframe>
+<p><br></p>
+<p>Interview with Denise Hill, choking under pressure</p>
+<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/4258655/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/fd9e05/" height="90" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" oallowfullscreen="" msallowfullscreen="">
+</iframe>
+<p>Source: <a href="https://perceptionaction.com/">The Perception &amp; Action Podcast by Rob Gray</a></p>
+<style>
+.container {
+  position: relative;   /* establishes positioning context */
+  width: 100%;
+  height: 60%;
+  /*border: 1px dashed #aaa; visual boundary when debugging*/
+  margin: 2rem 0;
+}
+
+.rect {
+  position: absolute;
+}
+
+.whole {
+  border: 2px solid black;
+  left:5%; bottom:0%;
+  background:rgba(255,255,255,0.6)
+}
+
+.used{
+    left:5%; bottom:0%;
+  background:rgba(34, 101, 226, 0.6)
+}
+
+.task{
+    left:30%; bottom:10%;
+  background:rgba(221, 255, 28, 1)
+}
+
+</style>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 1.0e-2,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
