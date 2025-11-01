@@ -3,12 +3,18 @@ title: "Learning Resources"
 format: html
 ---
 
+### Psychophysiology
 
-- [Foundations of Sport and Exercise Psychology](FoundationsOfSportExercisePsychology.html)
-- [Foundations of Motivation](FoundationsOfMotivation.html)
-- [Foundations of the Brain](FoundationsOfTheBrain.html)
-- [Foundations of Attention](FoundationsOfAttention.html)
-- [Foundations of Executive Functions](FoundationsOfExecutiveFunctions.html)
-- [Foundations of Brain and Fatigue](FoundationsOfBrainAndFatigue.html)
-- [Foundations of Scientific Reading](FoundationsOfScientificReading.html)
-- [Attentional Control Theory](AttentionalControlTheory.html)
+(work in progress)
+
+
+### Psychology
+
+- Foundations of Sport and Exercise Psychology: [link to slides](FoundationsOfSportExercisePsychology.html), [link to static slides](FoundationsOfSportExercisePsychology.html?print-pdf)
+- Foundations of Motivation: [link to slides](FoundationsOfMotivation.html), [link to static slides](FoundationsOfMotivation.html?print-pdf)
+- Foundations of the Brain: [link to slide](FoundationsOfTheBrain.html), [link to static slides](FoundationsOfTheBrain.html?print-pdf)
+- Foundations of Attention: [link to slides](FoundationsOfAttention.html), [link to static slides](FoundationsOfAttention.html?print-pdf)
+- Foundations of Executive Functions: [link to slides](FoundationsOfExecutiveFunctions.html), [link to static slides](FoundationsOfExecutiveFunctions.html?print-pdf)
+- Foundations of Brain and Fatigue: [link to slides](FoundationsOfBrainAndFatigue.html), [link to static slides](FoundationsOfBrainAndFatigue.html?print-pdf)
+- Foundations of Scientific Reading: [link to slide](FoundationsOfScientificReading.html), [link to static slides](FoundationsOfScientificReading.html?print-pdf)
+- Attentional Control Theory: [link to slides](AttentionalControlTheory.html), [link to static slides](AttentionalControlTheory.html?print-pdf)
