@@ -1,0 +1,14 @@
+---
+title: "Learning Resources"
+format: html
+---
+
+
+- [Foundations of Sport and Exercise Psychology](FoundationsOfSportExercisePsychology.html)
+- [Foundations of Motivation](FoundationsOfMotivation.html)
+- [Foundations of the Brain](FoundationsOfTheBrain.html)
+- [Foundations of Attention](FoundationsOfAttention.html)
+- [Foundations of Executive Functions](FoundationsOfExecutiveFunctions.html)
+- [Foundations of Brain and Fatigue](FoundationsOfBrainAndFatigue.html)
+- [Foundations of Scientific Reading](FoundationsOfScientificReading.html)
+- [Attentional Control Theory](AttentionalControlTheory.html)
