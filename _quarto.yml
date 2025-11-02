@@ -8,6 +8,10 @@ website:
     left:
       - text: "Germano Gallicchio"
         href: "https://germanogallicchio.github.io"
+
+execute:
+  echo: false
+
 format: 
     revealjs:
         width: 1280     # slide width in pixels
@@ -28,3 +32,13 @@ format:
         vertical-sections: false
         audio-slideshow: true
         css: custom.css
+    pdf:
+        documentclass: scrartcl
+        classoption:
+          - DIV=11
+          - numbers=noendperiod
+        papersize: letter
+        include-in-header:
+          text: |
+            \usepackage{tikz}
+
