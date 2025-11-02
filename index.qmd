@@ -9,15 +9,18 @@ format: html
 
 ### Cognitive neuroscience
 
-- Foundations of the Brain: [link to slide](FoundationsOfTheBrain.html), [link to static slides](FoundationsOfTheBrain.html?print-pdf)
-- Foundations of Attention: [link to slides](FoundationsOfAttention.html), [link to static slides](FoundationsOfAttention.html?print-pdf)
-- Foundations of Executive Functions: [link to slides](FoundationsOfExecutiveFunctions.html), [link to static slides](FoundationsOfExecutiveFunctions.html?print-pdf)
-- Attentional Control Theory: [link to slides](AttentionalControlTheory.html), [link to static slides](AttentionalControlTheory.html?print-pdf)
-
+| Presentation | RevealJS Slides | Mobile-Friendly View | PDF Document |
+|--------------|-----------------|----------------------|--------------|
+| Foundations of the Brain | [slides](FoundationsOfTheBrain.html) | [scroll view](FoundationsOfTheBrain.html?view=scroll) | [pdf](FoundationsOfTheBrain.pdf) |
+| Foundations of Attention | [slides](FoundationsOfAttention.html) | [scroll view](FoundationsOfAttention.html?view=scroll) | [pdf](FoundationsOfAttention.pdf) |
+| Foundations of Executive Functions | [slides](FoundationsOfExecutiveFunctions.html) | [scroll view](FoundationsOfExecutiveFunctions.html?view=scroll) | [pdf](FoundationsOfExecutiveFunctions.pdf) |
+| Attentional Control Theory | [slides](AttentionalControlTheory.html) | [scroll view](AttentionalControlTheory.html?view=scroll) | [pdf](AttentionalControlTheory.pdf) |
 
 ### Psychology
 
-- Foundations of Sport and Exercise Psychology: [link to slides](FoundationsOfSportExercisePsychology.html), [link to static slides](FoundationsOfSportExercisePsychology.html?print-pdf)
-- Foundations of Motivation: [link to slides](FoundationsOfMotivation.html), [link to static slides](FoundationsOfMotivation.html?print-pdf)
-- Foundations of Brain and Fatigue: [link to slides](FoundationsOfBrainAndFatigue.html), [link to static slides](FoundationsOfBrainAndFatigue.html?print-pdf)
-- Foundations of Scientific Reading: [link to slide](FoundationsOfScientificReading.html), [link to static slides](FoundationsOfScientificReading.html?print-pdf)
+| Presentation | RevealJS Slides | Mobile-Friendly View | PDF Document |
+|--------------|-----------------|----------------------|--------------|
+| Foundations of Sport and Exercise Psychology | [slides](FoundationsOfSportExercisePsychology.html) | [scroll view](FoundationsOfSportExercisePsychology.html?view=scroll) | [pdf](FoundationsOfSportExercisePsychology.pdf) |
+| Foundations of Motivation | [slides](FoundationsOfMotivation.html) | [scroll view](FoundationsOfMotivation.html?view=scroll) | [pdf](FoundationsOfMotivation.pdf) |
+| Foundations of Brain and Fatigue | [slides](FoundationsOfBrainAndFatigue.html) | [scroll view](FoundationsOfBrainAndFatigue.html?view=scroll) | [pdf](FoundationsOfBrainAndFatigue.pdf) |
+| Foundations of Scientific Reading | [slides](FoundationsOfScientificReading.html) | [scroll view](FoundationsOfScientificReading.html?view=scroll) | [pdf](FoundationsOfScientificReading.pdf) |
