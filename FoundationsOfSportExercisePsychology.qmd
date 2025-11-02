@@ -1,6 +1,5 @@
 ## Foundations of sport and exercise psychology {.nostretch .center}
 
-
 ::::{.columns}
 :::{.column width=80%}
 
@@ -55,22 +54,13 @@ QR code to<br>these slides:
 
 # Agenda
 
-Information about your lecturers and this module
+- Information about your lecturers and this module
 
-. . .
+- Be able to describe what sport and exercise psychology is and what sport and exercise psychologists do
 
-Be able to describe what sport and exercise psychology is and what sport and exercise psychologists do
+- Understand major historical developments in this discipline
 
-. . .
-
-Understand major historical developments in this discipline
-
-. . .
-
-Get an overview of career opportunities and future directions in sport and exercise psychology
-
-
-. . .
+- Get an overview of career opportunities and future directions in sport and exercise psychology
 
 
 # Suggestions for optimal learning
@@ -126,10 +116,6 @@ Get an overview of career opportunities and future directions in sport and exerc
 :::
 ::::
 
-. . .
-
-Experimental feature this year: These slides _should be_ accessible via a modern browser from the internet (possibly even from a phone). If wanted they can be printed as PDF using your browser.
-
 I'll now demonstrate the Blackboard website, the Module Handbook, the Talis Reading List, etc.
 
 
@@ -151,7 +137,8 @@ Sport and Exercise Psychology is the:
 
 - **applications** of that knowledge
 
-. . .
+
+:::{.fragment}
 
 The ABC of Psychology
 
@@ -161,6 +148,7 @@ The ABC of Psychology
 | Stress, anxiety    | Communication      | Decision-making       |
 | Motivation         | Leadership         | Problem-solving       |
 
+:::
 
 
 # Discipline location in relation with Sport Science and Psychology
