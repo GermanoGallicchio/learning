@@ -8,6 +8,7 @@ Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
 Lecturer in Psychophysiology and Cognitive Neuroscience <br>
 School of Psychology and Sport Science, Bangor University, UK <br>
+
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
 </div>
 
@@ -22,8 +23,14 @@ For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 :::
 
 :::{.column width=20%}
+::: {.content-visible when-format="html"}
 QR code to<br>these slides:
 {{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfBrainAndFatigue.html colorDark='#0011bb' >}}
+:::
+
+::: {.content-visible when-format="pdf"}
+[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+:::
 
 <br>
 

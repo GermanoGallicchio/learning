@@ -9,6 +9,7 @@ Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
 Lecturer in Psychophysiology and Cognitive Neuroscience <br>
 School of Psychology and Sport Science, Bangor University, UK <br>
+
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
 </div>
 
@@ -23,8 +24,14 @@ For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 :::
 
 :::{.column width=20%}
+::: {.content-visible when-format="html"}
 QR code to<br>these slides:
 {{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfTheBrain.html colorDark='#0011bb' >}}
+:::
+
+::: {.content-visible when-format="pdf"}
+[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+:::
 
 <br>
 
@@ -88,6 +95,7 @@ In other words:
 ::::{.columns}
 :::{.column}
 <div style="text-align: center;">
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 6
 digraph Neuron {
@@ -115,6 +123,15 @@ digraph Neuron {
     
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Neuron's three main structures:**
+
+- Soma
+- Dendrites (neurite)
+- Axon (neurite)
+:::
 </div>
 :::
 
@@ -379,6 +396,7 @@ Once released, neurotransmitters bind to specific receptors on the **postsynapti
 ::::{.columns}
 :::{.column width=40%}
 
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 5
 digraph Neurotransmitters {
@@ -396,6 +414,15 @@ digraph Neurotransmitters {
     A -> D;
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Neurotransmitter types:**
+
+- Excitatory
+- Inhibitory
+- Modulatory
+:::
 
 :::
 
@@ -581,6 +608,7 @@ But what information are we talking about?
 ::::{.columns}
 :::{.column width=60%}
 
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 6
 digraph NeuralCommunication {
@@ -596,6 +624,14 @@ digraph NeuralCommunication {
     A -> C;
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Neural Communication types:**
+
+- Electrical communication (within neuron)
+- Chemical communication (between neurons)
+:::
 
 :::
 
@@ -721,7 +757,13 @@ End of the brief "microscopic" view of the brain
 
 Video to watch in your own time, summarizing some of the content covered so far.
 
+::: {.content-visible when-format="html"}
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/6qS83wD29PY?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+::: {.content-visible when-format="pdf"}
+**Video:** 2-Minute Neuroscience: The Neuron - <https://youtube.com/watch?v=6qS83wD29PY>
+:::
 
 
 
@@ -729,6 +771,7 @@ Video to watch in your own time, summarizing some of the content covered so far.
 
 <div style="text-align: center;">
 
+::: {.content-visible when-format="html"}
 ```{dot}
 digraph NervousSystem {
     rankdir=TB;
@@ -773,6 +816,14 @@ digraph NervousSystem {
     Autonomic -> Enteric;
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Nervous System structure:**
+
+- Central Nervous System: Brain (Cerebrum, Cerebellum, Brainstem) and Spinal Cord
+- Peripheral Nervous System: Somatic (Sensory Afferent, Motor Efferent) and Autonomic (Sympathetic, Parasympathetic, Enteric)
+:::
 </div>
 
 The central nervous system includes the brain and the spinal cord.
@@ -781,6 +832,7 @@ The central nervous system includes the brain and the spinal cord.
 # The cerebrum
 
 <div style="text-align: center;">
+::: {.content-visible when-format="html"}
 ```{dot}
 digraph Cerebrum {
     rankdir=TB;
@@ -809,6 +861,14 @@ digraph Cerebrum {
     Q -> X;
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Cerebrum structure:**
+
+- Cerebral Cortex: Frontal, Parietal, Temporal, Occipital Lobes
+- Subcortical Structures: Basal Ganglia, Thalamus, Hypothalamus
+:::
 </div>
 
 The cerebrum includes multiple structures
@@ -961,7 +1021,13 @@ For example:
 
 # Optional: Exploration of the brain
 
+::: {.content-visible when-format="html"}
 <iframe src="https://www.brainfacts.org/3d-brain#intro=false&focus=Brain" width="100%" height="70%" frameborder="0" allowfullscreen=></iframe>
+:::
+
+::: {.content-visible when-format="pdf"}
+**Interactive 3D brain explorer (online only):**
+:::
 
 <a href="https://www.brainfacts.org/3d-brain#intro=false&focus=Brain" target="_blank">
 https://www.brainfacts.org/3d-brain#intro=false&focus=Brain

@@ -8,6 +8,7 @@ Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
 Lecturer in Psychophysiology and Cognitive Neuroscience <br>
 School of Psychology and Sport Science, Bangor University, UK <br>
+
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
 </div>
 
@@ -22,8 +23,14 @@ For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 :::
 
 :::{.column width=20%}
+::: {.content-visible when-format="html"}
 QR code to<br>these slides:
 {{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfMotivation.html colorDark='#0011bb' >}}
+:::
+
+::: {.content-visible when-format="pdf"}
+[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+:::
 
 <br>
 
@@ -111,6 +118,7 @@ Distinction used across several motivation models:
 
 ::::{.columns}
 :::{.column}
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 6
 digraph G {
@@ -124,6 +132,14 @@ digraph G {
     O -> B;
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Direction:**
+
+- Approach
+- Avoidance
+:::
 :::
 
 :::{.column}
@@ -147,14 +163,16 @@ digraph G {
 | reward: | experience itself | social or objective rewards (e.g., trophies, praise) |
 | competitive pressure: | less pressure (concerned with the experience) | more pressure (concerned with the benefits) |
 
-. . .
+
 
 <br>
 
+:::{.fragment}
 Examples of intrinsic and extrinsic motivation:
 
 - Intrinsic: running because you enjoy the sensation and challenge
 - Extrinsic: running to qualify for team selection, or to earn a bonus
+:::
 
 :::{.fragment}
 (same behavior, but different motivation)
@@ -179,6 +197,7 @@ Importantly, one can turn into the other.
 :::
 
 :::{.fragment fragment-index=3}
+::: {.content-visible when-format="html"}
 ```{dot}
 digraph G {
     rankdir=LR; // Left to Right layout
@@ -197,6 +216,10 @@ digraph G {
 ```
 :::
 
+::: {.content-visible when-format="pdf"}
+Intrinsic ↔ Extrinsic
+:::
+:::
 
 
 
@@ -230,6 +253,7 @@ An old man lived alone on a street where boys played noisily every afternoon. Th
 ::::{.columns}
 :::{.column}
 
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 6
 digraph {
@@ -248,6 +272,11 @@ digraph {
 
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+
+:::
 
 :::
 
@@ -321,6 +350,7 @@ src="https://kroki.io/mermaid/svg/eNp9jzFPwzAQhff8ilOmIpGl2ZEssUQCtwoRC0LK1THNqY
 -->
 
 
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 13
 digraph G {
@@ -354,7 +384,14 @@ digraph G {
     A -> N -> N2 -> N3;
 }
 ```
+:::
 
+::: {.content-visible when-format="pdf"}
+**intrinsically-motivating activity** → Two paths:
+
+1. **no external reward** → "I do this because I like it" → **more intrinsic, less extrinsic**
+2. **external reward (e.g., money)** → "I do this because I am paid" → **less intrinsic, more extrinsic**
+:::
 
 
 # One can turn into the other {.scrollable}
@@ -448,6 +485,7 @@ Motivation operates at three hierarchical levels of generality (from most genera
 
 ::::{.columns}
 :::{.column}
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 6
 digraph G {
@@ -461,6 +499,14 @@ digraph G {
     O -> B;
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Orientations:**
+
+- Task
+- Ego
+:::
 :::
 
 :::{.column}
@@ -537,6 +583,7 @@ Two climates (also known as "perceived demands"):
 
 ::::{.columns}
 :::{.column}
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 6
 digraph G {
@@ -552,6 +599,14 @@ digraph G {
 ```
 :::
 
+::: {.content-visible when-format="pdf"}
+**Climates:**
+
+- Task
+- Ego
+:::
+:::
+
 
 :::{.column}
 Climates are environments that facilitates or impede the development of a certain personal orientation.
@@ -565,19 +620,20 @@ Climates are environments that facilitates or impede the development of a certai
 
 Typically, an ego climate fosters ego orientation, and a task climate fosters task orientation.^[But it's possible to have a task orientation within an ego climate]
 
-. . .
-
+:::{.fragment}
 Examples of task-climate cues:
 
 - Effort and improvement praised
 - individual progress charts
 
-. . .
+:::
 
+:::{.fragment}
 Examples of ego-climate cues:
 
 - Public leaderboard and comparison 
 - mistakes punished publicly
+:::
 
 # Imagine this scenario and discuss in small groups
 
@@ -623,6 +679,7 @@ The trichotomous model expands on previous theories by integrating three dimensi
 
 ::::{.columns}
 :::{.column width=60%}
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 7
 digraph G {
@@ -653,6 +710,15 @@ digraph G {
 ```
 :::
 
+::: {.content-visible when-format="pdf"}
+Three dimensions:
+
+- **Orientation**: Task, Ego
+- **Climate**: Task, Ego  
+- **Direction**: Approach, Avoidance
+:::
+:::
+
 :::{.column width=40%}
 Three dimensions: 
 
@@ -669,10 +735,11 @@ Three dimensions:
 | **Task** | Task-Approach   | Task-Avoidance   |
 | **Ego**  | Ego-Approach    | Ego-Avoidance    |
 
-. . .
+
 
 <br><br>
 
+:::{.fragment}
 <div style="font-size:85%">
 Example of "two-by-two model"
 
@@ -680,6 +747,7 @@ Example of "two-by-two model"
 |----------|-----------------|----------------|
 | **Task** | Striving to learn a new skill  | Striving to avoid decline in skill   |
 | **Ego**  | Striving to outperform others  | Striving to avoid doing worse than others   |
+:::
 
 </div>
 
@@ -688,8 +756,8 @@ Example of "two-by-two model"
 
 _Attribution_: explanation for **why** something happened
 
-. . .
 
+:::{.fragment}
 This model categorizes explanations against 3 dimensions, each defined in two levels:
 
 - **Locus of causality**
@@ -701,7 +769,7 @@ This model categorizes explanations against 3 dimensions, each defined in two le
 - **Locus of control**
     - under own control: it can be changed by the individual
     - outside own control: it cannot be changed by the individual
-
+:::
 
 ---
 
@@ -732,6 +800,7 @@ alt="Diagram generated by Kroki"
 /> -->
 
 :::{.fragment}
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 13
 digraph G {
@@ -763,6 +832,14 @@ digraph G {
 ```
 :::
 
+::: {.content-visible when-format="pdf"}
+Both Achievement Goal Theory and Attribution Theory are concerned with success/failure:
+
+- **Achievement Goal Theory**: Focuses on personal definition of success/failure (what defines success?)
+- **Attribution Theory**: Focuses on explanations for success/failure (why did it happen?)
+:::
+:::
+
 # Additional and optional: Self-determination theory (Deci & Ryan, 1985)
 
 Focuses on the degree to which human behavior is self-motivated and self-determined.
@@ -773,9 +850,9 @@ Three basic psychological needs:
 - **Competence**: Feeling effective and capable in one’s activities.
 - **Relatedness**: Feeling connected to others and having a sense of belonging.
 
-. . .
 
-Very influential theory because it highlights the importance of basic psychological needs in fostering optimal functioning, well-being, and sustained engagement. It provides a framework for understanding _how different types of motivation impact behavior and performance_ across various domains.
+
+[Very influential theory because it highlights the importance of basic psychological needs in fostering optimal functioning, well-being, and sustained engagement. It provides a framework for understanding _how different types of motivation impact behavior and performance_ across various domains.]{.fragment}
 
 ::: aside
 This theory will be more prominent in your year 2 (exercise psychology, e.g., motivations to exercise or to healthy lifestyle).

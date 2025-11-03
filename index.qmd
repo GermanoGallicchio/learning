@@ -7,6 +7,8 @@ format: html
 
 (work in progress)
 
+see also: "Principles of Psychophysiology" and "Psychophysiology Laboratory" by John Allen: [link](https://psychophyslab.arizona.edu/courses)
+
 ### Cognitive neuroscience
 
 | Presentation | RevealJS Slides | Mobile-Friendly View | PDF Document |

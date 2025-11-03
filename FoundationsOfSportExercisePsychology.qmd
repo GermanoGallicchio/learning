@@ -8,6 +8,7 @@ Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
 Lecturer in Psychophysiology and Cognitive Neuroscience <br>
 School of Psychology and Sport Science, Bangor University, UK <br>
+
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
 </div>
 
@@ -22,8 +23,14 @@ For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 :::
 
 :::{.column width=20%}
+::: {.content-visible when-format="html"}
 QR code to<br>these slides:
 {{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfSportExercisePsychology.html colorDark='#0011bb' >}}
+:::
+
+::: {.content-visible when-format="pdf"}
+[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+:::
 
 <br>
 
@@ -155,12 +162,31 @@ The ABC of Psychology
 
 Sport and exercise psychology lives in the _intersection_ of sport and exercise science and psychological science
 
+::: {.content-visible when-format="html"}
 <svg width="100%" height="60%">
     <circle cx="35%" cy="50%" r="25%" fill="red" fill-opacity="0.5"/>
     <circle cx="65%" cy="50%" r="25%" fill="blue" fill-opacity="0.5"/>
     <text x="80%" y="30%" text-anchor="middle" fill="black" font-size="1em">Psychological science</text>
     <text x="20%" y="30%" text-anchor="middle" fill="black" font-size="1em">Sport and exercise science</text>
 </svg>
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{center}
+\begin{tikzpicture}
+  % Two overlapping circles (Venn diagram)
+  \draw[fill=red!40, draw=red!80, thick] (0,0) circle (2cm);
+  \draw[fill=blue!40, draw=blue!80, thick] (3,0) circle (2cm);
+  
+  % Labels
+  \node[align=center] at (-0.8,2.5) {Sport and\\exercise\\science};
+  \node[align=center] at (3.8,2.5) {Psychological\\science};
+  \node[align=center, font=\small] at (1.5,0) {SEP};
+\end{tikzpicture}
+\end{center}
+```
+:::
 
 
 
@@ -168,7 +194,7 @@ Sport and exercise psychology lives in the _intersection_ of sport and exercise 
 
 We will review in turn each of the two objectives: sport and exercise.
 
-
+::: {.content-visible when-format="html"}
 ```{dot}
 digraph {
     rankdir=LR
@@ -179,6 +205,13 @@ digraph {
     B -> A
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Sport and exercise psychology objectives:**
+
+- Sport ↔ Exercise (bidirectional relationship)
+:::
 
 
 # Objective: Sport psychology
@@ -236,6 +269,7 @@ Elite athletes
 
 ::::{.columns}
 :::{.column}
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 5
 digraph {
@@ -250,6 +284,15 @@ digraph {
     M -> {A; B; C}
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Main roles:**
+
+- Research
+- Teaching
+- Consulting
+:::
 :::
 
 :::{.column}
@@ -284,6 +327,7 @@ Where: Athletic teams, military, fitness industry
 
 ::::{.columns}
 :::{.column width=40%}
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 5
 digraph {
@@ -297,6 +341,14 @@ digraph {
     S -> {A; B}
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Main specialties:**
+
+- Clinical
+- Educational
+:::
 :::
 
 :::{.column width=60%}
@@ -324,6 +376,7 @@ psychology training
 
 ::::{.columns}
 :::{.column}
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 6
 digraph {
@@ -338,6 +391,15 @@ digraph {
     O -> {A; B; C}
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Main orientations:**
+
+- Social-psychological
+- Psychophysiological
+- Cognitive-behavioral
+:::
 :::
 
 :::{.column}
@@ -401,15 +463,37 @@ Videos 2 and 3 are about selective attention (which will a later topic this seme
 
 # Brief historocal overview of sport and exercise psychology {.nofragment}
 
-```{mermaid}
-timeline
-    1890-1920s : Early years
-    1920-40s : First laboratory testing
-    1940-60s : Preparation for the future
-    1960-80s : Academic discipline
-    1980-90s : Multidisciplinary science and practice
-    2000-present : Contemporary sport and exercise 
+::: {.content-visible when-format="html"}
+```{dot}
+//| fig-width: 13
+//| fig-height: 3
+digraph timeline {
+    rankdir=LR;
+    bgcolor="transparent";
+    node [shape=box, style=rounded, fontsize=11];
+    
+    Era1 [label="1890-1920s\nEarly years"];
+    Era2 [label="1920-40s\nFirst laboratory\ntesting"];
+    Era3 [label="1940-60s\nPreparation for\nthe future"];
+    Era4 [label="1960-80s\nAcademic\ndiscipline"];
+    Era5 [label="1980-90s\nMultidisciplinary\nscience and practice"];
+    Era6 [label="2000-present\nContemporary sport\nand exercise"];
+    
+    Era1 -> Era2 -> Era3 -> Era4 -> Era5 -> Era6;
+}
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Historical timeline:**
+
+- 1890-1920s: Early years
+- 1920-40s: First laboratory testing
+- 1940-60s: Preparation for the future
+- 1960-80s: Academic discipline
+- 1980-90s: Multidisciplinary science and practice
+- 2000-present: Contemporary sport and exercise
+:::
 
 ::::{.columns}
 :::{.column}
@@ -495,12 +579,30 @@ Discuss in small groups
 
 # Science vs practice | Sport and exercise psychology as **science** {.scrollable}
 
+::: {.content-visible when-format="html"}
 <svg width="50%" height="20%">
     <circle cx="40%" cy="50%" r="20%" fill="purple" fill-opacity="0.5"/>
     <circle cx="60%" cy="50%" r="20%" fill="orange" fill-opacity="0.5"/>
     <text x="35%" y="50%" text-anchor="middle" fill="black" font-size="1em">Science</text>
     <text x="65%" y="50%" text-anchor="middle" fill="black" font-size="1em">Practice</text>
 </svg>
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[scale=0.7]
+  % Two overlapping circles
+  \draw[fill=purple!40, draw=purple!80, thick] (0,0) circle (1.2cm);
+  \draw[fill=orange!40, draw=orange!80, thick] (2,0) circle (1.2cm);
+  
+  % Labels
+  \node at (0,0) {Science};
+  \node at (2,0) {Practice};
+\end{tikzpicture}
+\end{center}
+```
+:::
 
 
 
@@ -528,12 +630,30 @@ What is a **theory**?
 
 # Science vs practice | Sport and exercise psychology as **practice**
 
+::: {.content-visible when-format="html"}
 <svg width="50%" height="20%">
     <circle cx="40%" cy="50%" r="20%" fill="purple" fill-opacity="0.5"/>
     <circle cx="60%" cy="50%" r="20%" fill="orange" fill-opacity="0.5"/>
     <text x="35%" y="50%" text-anchor="middle" fill="black" font-size="1em">Science</text>
     <text x="65%" y="50%" text-anchor="middle" fill="black" font-size="1em">Practice</text>
 </svg>
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{center}
+\begin{tikzpicture}[scale=0.7]
+  % Two overlapping circles
+  \draw[fill=purple!40, draw=purple!80, thick] (0,0) circle (1.2cm);
+  \draw[fill=orange!40, draw=orange!80, thick] (2,0) circle (1.2cm);
+  
+  % Labels
+  \node at (0,0) {Science};
+  \node at (2,0) {Practice};
+\end{tikzpicture}
+\end{center}
+```
+:::
 
 - Guided by trial-and-error learning
 - Based on systematic observation, personal experience, introspection, intuition, …and scientific method

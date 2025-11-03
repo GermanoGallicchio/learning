@@ -9,6 +9,7 @@ Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
 Lecturer in Psychophysiology and Cognitive Neuroscience <br>
 School of Psychology and Sport Science, Bangor University, UK <br>
+
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
 </div>
 
@@ -23,8 +24,14 @@ For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 :::
 
 :::{.column width=20%}
+::: {.content-visible when-format="html"}
 QR code to<br>these slides:
 {{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfAttention.html colorDark='#0011bb' >}}
+:::
+
+::: {.content-visible when-format="pdf"}
+[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+:::
 
 <br>
 
@@ -101,6 +108,7 @@ Attention is a selective process]{.fragment fragment-index=3}
 
 These videos are meant to demonstrate we don't notice obvious changes when we don't pay attention to them.
 
+::: {.content-visible when-format="html"}
 <iframe 
     width="49%" 
     height="70%" 
@@ -120,6 +128,14 @@ These videos are meant to demonstrate we don't notice obvious changes when we do
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
 </iframe>
+:::
+
+::: {.content-visible when-format="pdf"}
+**Videos (available online):**
+
+- The Door Study: <https://youtube.com/watch?v=FWSxSQsspiQ>
+- Selective Attention Test: <https://youtube.com/watch?v=vJG698U2Mvo>
+:::
 
 # Visuospatial attention
 
@@ -202,6 +218,7 @@ Important distinction in the manner visuospatial attention can be oriented.
 
 ::::{.columns}
 :::{.column}
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 6
 digraph {
@@ -212,6 +229,14 @@ digraph {
     orienting -> {covert; overt}
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+**Two types of orienting:**
+
+- covert
+- overt
+:::
 :::
 :::{.column}
 
@@ -260,6 +285,7 @@ towards the region of space of interest.
 
 Introductory video (scene from the movie "Back to the Future")
 
+::: {.content-visible when-format="html"}
 <iframe 
     width="100%" 
     height="70%" 
@@ -269,6 +295,12 @@ Introductory video (scene from the movie "Back to the Future")
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
 </iframe>
+:::
+
+::: {.content-visible when-format="pdf"}
+**Video (available online):**  
+Back to the Future scene: <https://youtube.com/watch?v=GCp-zxSqopw&t=5s>
+:::
 
 
 # Spatial Cueing Task
@@ -284,6 +316,7 @@ Introductory video (scene from the movie "Back to the Future")
     Michael Posner
 </div>
 
+::: {.content-visible when-format="html"}
 <iframe 
     width="100%" 
     height="70%" 
@@ -293,6 +326,12 @@ Introductory video (scene from the movie "Back to the Future")
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
 </iframe>
+:::
+
+::: {.content-visible when-format="pdf"}
+**Video interview:**  
+<https://youtube.com/watch?v=uYUdwS7-WvA>
+:::
 
 :::
 
@@ -426,6 +465,7 @@ The cue is an arrow pointing to both left and right. A short while after, the ta
 
 ::::{.columns}
 :::{.column}
+::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 6
 digraph {
@@ -438,7 +478,14 @@ digraph {
     A -> {exogenous; endogenous}
 }
 ```
+:::
 
+::: {.content-visible when-format="pdf"}
+**Two types of orienting:**
+
+- exogenous
+- endogenous
+:::
 :::
 
 :::{.column}
@@ -571,7 +618,12 @@ barplot(
 ```
 
 <div style="font-size: 0.8em">
-Interpretation:
+
+Key result:
+
+- Response times were slowest for invalid trials (i.e., target preceded by an invalid cue), faster for neutral trials (i.e., target preceded by a neutral, uninformative cue), and fastest for valid trials (i.e., target preceded by a valid cue)
+
+Key interpretation:
 
 - Valid cue pre-activates a an attentional path which is the same as that activated by the target
 
@@ -596,13 +648,13 @@ more slowly]{.fragment}​
 [This phenomenon is known as _inhibition of return​_ (however, this is not topic for this module)]{.fragment}
 
 ::: aside
-If you want to read more about Posner studies, find his publications on Google Scholar:
+Optionally, if you want to read more about Posner studies, find his publications on Google Scholar:
 [Michael Posner](https://scholar.google.com/citations?user=4X4X4xkAAAAJ&hl=en&oi=ao)
 :::
 
 # Optional: Demo of spatial cueing task
 
-<a href="https://www.psytoolkit.org/experiment-library/experiment_cueing.html">link to Psytoolkit demo</a>
+Try the task yourself at: [link to Psytoolkit demo](https://www.psytoolkit.org/experiment-library/experiment_cueing.html)
 
 
 
