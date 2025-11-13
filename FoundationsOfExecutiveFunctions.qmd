@@ -91,52 +91,103 @@ Set of higher order functions that control all cognitive processes
 
 - How cognitive functions are coordinated
 
-[Executive functions enable behavioural and cognitive control]{.fragment}
+[Main function: executive functions allow to **control** behaviour and cognition]{.fragment}
 :::
 ::::
 
-# What cortical regions are fundamental to executive funtcions?
+# Anatomy of the executive functions: a distributed network
 
-Executive functions rely on a _distributed network_, involving several cortical and subcortical regions involved. [But traditionally, the **prefrontal cortex** (often shortened as PFC) is attributed a key role within this network.]{.fragment}
-
-Key cortical regions involved:
-
-- dorsolateral prefrontal cortex (DLPFC). Some functions: working memory, goal maintenance, planning and top‑down control.
-
-- ventrolateral prefrontal cortex (VLPFC). Some functions: response selection, inhibition, and controlled retrieval.
-
-- orbitofrontal cortex (OFC). Some functions: value representation, reward-guided decision making and impulse control
-
-- anterior cingulate cortex (ACC) 
-[Note: this is structurally just outside the prefrontal cortex but it works in synergy with it]{.fragment} 
-[Some functions: conflict monitoring, error detection, and performance adjustment].{fragment}
-
-- parietal cortex. Some functions: attentional reorienting, representation updating and integration with sensory information.
-
-- Premotor cortex / supplementary motor area (SMA). Some functions: action selection and motor planning.
-
-Key subcortical regions are basal ganglia, thalamus, cerebellum
-
-
-::: aside
-How do we know so much? Progress was/is made through lesion studies and functional neuroimaging.
+::::{.columns}
+:::{.column}
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Graph_theory_tree.svg/542px-Graph_theory_tree.svg.png?20070519100203" width="80%" alt="a decorative diagram showing nodes (objects) and edges (connections between objects) forming a network">
 :::
 
-# Evolutionary note: inter‑species differences in the mass of the PFC relative to the whole cerebral cortex
+:::{.column}
 
-Prefrontal cortex (PFC) is disproportionately large, relative to total brain mass, in primates (and especially in humans).
-  
-Humans have especially massive dorsolateral and orbitofrontal regions. 
+Executive functions rely on a _distributed network_, involving several cortical and subcortical regions (i.e., nodes of the network) and their connections (i.e., edges of the network). 
 
-This may be the neural substrate to the greater executive function skills in humans compared with non-human primates and other mammels.
+[Traditionally, the **prefrontal cortex** (often shortened as PFC) is attributed a the role of an important node within this network.]{.fragment}
 
-Function comes from structure. But structure is not just the mass of a region (this it not true: bigger = better). Structure involves also connectivity patterns (networks)
-
-::: aside
-Anectode: post-mortem exams on the brain of Albert Einstein, widely considered person of greater than average intelligence, was smaller than the average brain. https://en.wikipedia.org/wiki/Brain_of_Albert_Einstein
 :::
 
-# Frenology
+::::
+
+
+
+# What cortical regions are fundamental to executive funtcions? {.scrollable}
+
+Key _cortical_ regions along with the main functions they enable:
+
+| Region | Abbreviation | Key Functions |
+|--------|------|---------------------------|
+| Dorsolateral prefrontal cortex | DLPFC | Working memory, goal maintenance, planning and top‑down control |
+| Ventrolateral prefrontal cortex | VLPFC | Response selection, inhibition, and controlled retrieval |
+| Orbitofrontal cortex | OFC | Value representation, reward-guided decision making and impulse control |
+| Anterior cingulate cortex* | ACC | Conflict monitoring, error detection, and performance adjustment |
+| Parietal cortex | - | Attentional reorienting, representation updating and integration with sensory information |
+| Premotor cortex / supplementary motor area | SMA | Action selection and motor planning |
+
+
+*Note: anatomically it lies just outside the prefrontal cortex but it works in synergy with it
+
+Key _subcortical_ regions are basal ganglia, thalamus, cerebellum
+
+::: aside
+How do we know so much? Progress was/is made through lesion studies (real or virtual) and functional neuroimaging.
+:::
+
+# Optional evolutionary note {.scrollable}
+
+Inter‑species differences in the _mass_ of the PFC _relative_ to the whole cerebral cortex
+
+::::{.columns}
+
+:::{.column width=60%}
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Brain-body_mass_ratio_for_some_animals_diagram.svg/965px-Brain-body_mass_ratio_for_some_animals_diagram.svg.png?20160611154348" width="100%" alt="diagram comparing brain mass to body mass of several species, showing humans have a large brain mass relative to the body's">
+:::
+
+:::{.column width=40%}
+
+Relative to total cortical mass, the prefrontal cortex (PFC) is disproportionately large in primates (and especially in humans).
+
+This may be the neural substrate to the greater executive function skills in primates compared with non-primates.
+
+:::
+::::
+
+[However, a bigger structure does not always lead to better function. Connectivity is also important.]{.fragment}
+
+::: aside
+[Anectode: post-mortem exams on the brain of Albert Einstein, widely considered person of greater than average intelligence, was smaller than the average brain. https://en.wikipedia.org/wiki/Brain_of_Albert_Einstein]{.fragment}
+:::
+
+
+# Frenology {.scrollable}
+
+::::{.columns}
+:::{.column}
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Phrenology%3B_Chart_Wellcome_L0000992.jpg/960px-Phrenology%3B_Chart_Wellcome_L0000992.jpg?20141002162515" width="80%" alt="Phrenology map showing different areas of the skull associated with various traits" />
+:::
+
+:::{.column}
+
+Frenology is a historical theory, now **discredited**, suggesting that the shape and size of the skull can determine a person's character and mental abilities.
+
+Some key concepts:
+
+- Localization of Function: Different areas of the brain are responsible for different traits and behaviors.
+- Cranial Measurements: The bumps and indentations on the skull reflect the underlying brain structure.
+
+:::
+::::
+
+
+[Despite getting the wrong answer, phrenology gets the credits for sparking important questions about the localization (in the brain) of cognitive functions.]{.fragment}
+
+[Neuropsychology first and neuroscience later confirmed that each cortical region plays key roles in networks responsible for specific cognitive functions.]{.fragment}
+
+[Earlier evidence for the connection between structure and function came from **lesion studies**: clinical assessment of patients with selective lesions to the cerebral cortex.]{.fragment}
+
 
 # The tragic story of Phineas Gage. A selective prefrontal-cortex lesion
 
@@ -144,6 +195,17 @@ Anectode: post-mortem exams on the brain of Albert Einstein, widely considered p
 :::{.column width=30%}
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg/511px-Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg?20171219214641
 " style="width:100%" alt="Portrait of Phineas Gage holding a rod, presumably the one that perforated his skull" />
+
+<iframe 
+width="100%" 
+height="20%" 
+src="https://youtube.com/embed/NFO6ts6vZic&t=518s/" 
+title="Phineas Gage story" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
 :::
 
 :::{.column width=60%}
@@ -151,7 +213,7 @@ Anectode: post-mortem exams on the brain of Albert Einstein, widely considered p
 The first well documented case of selective lesion to the PFC.
 
 [A railroad worker at the time.]{.fragment}
-[In an accident, a metal rod passed through his skull.]{.fragment}
+[In an accidental explosion, a metal rod passed through his skull.]{.fragment}
 [He survived.]{.fragment} 
 [But he became a different person.]{.fragment}
 
@@ -168,37 +230,20 @@ The first well documented case of selective lesion to the PFC.
 :::
 ::::
 
-<iframe 
-width="50%" 
-height="20%" 
-src="https://youtube.com/embed/NFO6ts6vZic&t=518s/" 
-title="Phineas Gage story" 
-frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen>
-</iframe>
 
 
-# Unity and diversity of executive functions: Miyake et al. (2000)
 
-Seminal study evaluating quantitatively the commonalities and differences among several multiple executive-function tasks.
+# Unity and diversity of executive functions: Miyake et al. (2000) {.scrollable}
 
-::::{.columns}
-:::{.column width=60%}
-[Key conclusions: executive function tasks show **unity** (shared variance among tasks) and **diversity** (distinct variance-based components among tasks).]{.fragment}
-[Namely, there were three separable but moderately correlated factors:]{.fragment}
+Seminal study evaluating quantitatively the commonalities and differences among several multiple executive-function tasks and the functions they represent.
 
-- Shifting (task‑set switching)
-- Updating (working‑memory updating)
-- Inhibition (suppressing prepotent responses)
-:::
+[They used a variety of tasks to measure each of three functions, upon which there was growing consensus as being the _core executive functions_:]{.fragment}
 
-:::{.column width=40%}
 
-:::{.fragment}
 ::: {.content-visible when-format="html"}
+:::{.fragment}
 ```{dot}
-//| fig-width: 5
+//| fig-width: 8
 digraph {
     node [shape=plaintext]
     edge [arrowhead=none]
@@ -206,78 +251,465 @@ digraph {
     bgcolor="transparent"
 
     EF [label = "executive functions"]
-
-    EF -> {Shifting; Updating; Inhibition}
+    U [label = "Updating\n(of working memory)"]
+    I [label = "inhibition"]
+    S [label = "Shifting\n(or switching)"]
+    
+    EF -> {U; I; S}
 }
 ```
 :::
+:::
 
 ::: {.content-visible when-format="pdf"}
-**Executive functions components:**
+- updating (of working memory)
+- shifting (or switching)
+- inhibition
+:::
 
-- Shifting
-- Updating
-- Inhibition
+
+Two key conclusions: 
+
+- the three core executive functions are _separable_: each explains a unique aspect of cognitive control.
+
+- the three core executive functions are _correlated_: each contributes to explaining general aspects of cognitive control.
+
+[This **unity and diversity** framework revolutionized how researchers conceptualize executive functions. Not as a single construct, but as three separable but moderately correlated functions.]{.fragment}
+
+
+# Inhibition {.scrollable}
+
+Inhibition refers to the ability to suppress dominant responses that are inappropriate or not relevant in a certain situation.
+
+[How you might experience inhibition:]{.fragment}
+
+- Resisting the urge to check your phone while studying
+- Stopping yourself from eating a slice of cake when you are trying to eat healthy
+- Not doing something that you normally do out of habit
+- Not laughing during a serious or inappropriate moment
+
+
+[Key properties of inhibition tasks:]{.fragment}
+
+- You are presented with stimuli that contain two pieces of information (e.g., the word "high" spoken in either a high-pitched or low-pitched voice)
+- Sometimes, the two pieces point at the same idea (_congruent trial_, e.g., the word "high" spoken in a high-pitched voice)
+- Sometimes, the two pieces point at different ideas (_incongruent trial_, e.g., the word "low" spoken in a high-pitched voice)
+- One of the two pieces is dominant; the one that is more automatic or habitual to process (e.g., the word meaning)
+- Your task is to focus only on the non-dominant information.
+- Congruent trials present no inhibitory challenge because the two pieces of information match.
+- Incongruent trials require solving a _conflict_ between the to-be-inhibited dominant response and the required non-dominant response.
+
+
+::: {.content-visible when-format="html"}
+:::{.fragment}
+```{dot}
+//| fig-width: 8
+digraph {
+    node [shape=plaintext]
+    edge [arrowhead=none]
+    rankdir=LR
+    bgcolor="transparent"
+
+    ST [label = "stimulus type"]
+    C [label = "congruent"]
+    I [label = "incongruent"]
+    
+    ST -> {C; I}
+}
+```
 :::
 :::
+
+::: {.content-visible when-format="pdf"}
+:::
+
+
+
+[Key performance metric:]{.fragment}
+
+- **Inhibition cost**: how slower and less accurate you become in incongruent vs congruent trials. In other words, the cost of solving the conflict by inhibiting the dominant information/response.
+
+
+# Measuring inhibition through the **Stroop task** {.scrollable}
+
+The Stroop task involves a conflict between the meaning of a word and the color of the ink it is printed in.
+
+::::{.columns}
+:::{.column width=50%}
+
+[Key features in a trial:]{.fragment}
+
+- Stimulus: Words that represent colors printed in in/congruent colors (e.g., the word "red" printed in blue ink).
+- Decision: Name the color of the ink, not the word itself.
+- Response: Press the key corresponding to the color of the ink.
+
+:::
+
+:::{.column width=50%}
+
+[Key outcome measures:]{.fragment}
+
+- **Inhibition cost (response time)**: 
+time taken to respond correctly to incongruent trials minus time taken to respond correctly to congruent trials.
+- **Inhibition cost (accuracy)**: proportion of correctly responded incongruent trials minus proportion of correctly responded congruent trials.
+
 
 :::
 ::::
 
+[There are variations:]{.fragment}
 
-[Implications:
-Executive functions share some underlying mechanisms (unity).]{.fragment}
-[Executive functions form a multi‑component system (diversity).]{.fragment}
+- Different types of stimuli (e.g., shapes, numbers, visual/auditory modality).
 
 
-# Shifting
+# optional Stroop task demonstration
 
-# Updating
-
-# Inhibition
+[link to the Stroop task on psytoolkit](https://www.psytoolkit.org/experiment-library/experiment_stroop.html)
 
 
 
-# Measuring updating through the **n-back task**
 
-# n-back task demo
+# Measuring inhibition through the **Flanker task** {.scrollable}
 
-https://www.psytoolkit.org/experiment-library/nback2.html
+The Flanker task involves resolving a conflict between a central target stimulus and surrounding flanking stimuli.
 
+::::{.columns}
+:::{.column width=50%}
 
-# Measuring shifting through the **digit-letter task**
+[Key features in a trial:]{.fragment}
 
-# digit-letter task demo
+- Stimulus: A central arrow (or letter) flanked by other arrows (or letters) that point in the same (congruent) or opposite (incongruent) direction.
+- Decision: Identify the direction of the central arrow while ignoring the direction of the flanking stimuli.
+- Response: Press the key corresponding to the direction of the central arrow.
 
-# Measuring shifting through the **global-local task **
+:::
 
+:::{.column width=50%}
 
-# Measuring inhibition through the **Flanker task**
+[Key outcome measures:]{.fragment}
+
+- **Inhibition cost (response time)**: 
+time taken to respond correctly to incongruent trials minus time taken to respond correctly to congruent trials.
+- **Inhibition cost (accuracy)**: proportion of correctly responded incongruent trials minus proportion of correctly responded congruent trials.
+
+:::
+::::
+
+[There are variations:]{.fragment}
+
+- Different types of stimuli (e.g., arrows, letters, fish).
+- Different numbers of flankers (e.g., 2 vs 4 flanking stimuli).
+
 
 # Flanker task demo
 
-<iframe width="100%" height="315" src="https://www.psytoolkit.org/experiment-library/flanker_arrows.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[link to the Flanker task on psytoolkit](https://www.psytoolkit.org/experiment-library/experiment_flanker_arrows.html)
 
 
-# Measuring inhibition through the **Stroop task**
 
-Based on the conflict between two pieces of information: 
+# Updating {.scrollable}
 
-- the meaning of the word
-- the color of the ink
+Being able to maintain and manipulate information in working memory.
 
-# Stroop task demo
+[How you might experience updating:]{.fragment}
 
-<iframe width="100%" height="315" src="https://www.psytoolkit.org/experiment-library/stroop.html#_run_the_demo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- Mental arithmetic: keeping track of running totals while calculating (e.g., ,mentally adding up the cost of items in a shopping basket)
+
+- Phone number exchanging: memorizing a phone number you have just been told, except they tell you "sorry, the third to last digit was 5"
+
+- Navigation: remembering the sequence of turns you have taken to find your way back
+
+[Key properties of updating tasks:]{.fragment}
+
+- You are presented with a sequence of stimuli (e.g., letters, numbers, spatial positions)
+- You must continuously maintain and update a mental representation of recent items
+- The task requires you to discard old information and replace it with new information
+- At some point, you must recall or recognize items from recent positions in the sequence
+
+[Key performance metrics:]{.fragment}
+
+- **Accuracy**: how correctly you can recall or recognize items at specified positions (e.g., an _n_-number of items back)
+- **Response time**: how quickly you can respond when probed
+
+
+# Measuring updating through the **n-back task** {.scrollable}
+
+You see a continuous stream of stimuli (e.g., letters, digits, sounds, or locations). Each stimulus is presented for a short duration, and there might be a small gap until the next stimulus.
+
+[Your task: for each stimulus, decide if the current item matches (i.e., is identical to) the one from _n_ steps earlier.]{.fragment} [A stimulus requiring a decision forms a trial.]{.fragment}
+
+::::{.columns}
+:::{.column width=50%}
+
+[Common levels:]{.fragment}
+
+- 1‑back (compare with the immediately previous item)
+- 2‑back (compare with the item two steps back)
+- 3‑back+ (increasing working‑memory load)
+:::
+:::{.column}
+[Key features in a trial:]{.fragment}
+
+- Stimulus appears briefly, then a short gap
+- Decision: match vs non‑match with the item _n_ ago
+- Response: one key for match, another for non‑match (or just one key for matching stimuli and withhold response for non-matching stimuli)
+:::
+::::
+
+::: {.content-visible when-format="html"}
+```{dot}
+//| fig-width: 10
+//| fig-cap: "n-back: sliding window comparison"
+digraph NBack {
+  rankdir=LR
+  bgcolor="transparent"
+  node [shape=box, style=filled, fillcolor="#e5e9f0", color="#4c566a", fontcolor="#2e3440"]
+  edge [color="#5e81ac"]
+
+  S0 [label="S(t-3)"]
+  S1 [label="S(t-2)"]
+  S2 [label="S(t-1)"]
+  S3 [label="S(t)"]
+  S4 [label="S(t+1)"]
+
+  S0 -> S1 -> S2 -> S3 -> S4
+
+  subgraph cluster_window {
+    label="n=2 window"; color="#81a1c1"; style="rounded"; bgcolor="transparent";
+    S1; S2; S3
+  }
+  
+  S3 -> S1 [label = "compare", constraint = false]
+}
+```
+:::
+
+[Stimulus modalities:]{.fragment}
+
+- Visual symbols (letters/digits)
+- spatial positions (spatial n‑back)
+- tones (auditory), 
+- a combination (dual n‑back)
+
+[Key outcome measures:]{.fragment}
+
+- Accuracy (number of correctly responded trials divided by the number of total trials)
+- response times (time from the onset of the stimulus to the correct response within each trial)
+
+
+
+[There are variations:]{.fragment}
+
+- Dual n‑back (simultaneous auditory + visual streams)
+- Adaptive n‑back (n increases/decreases based on performance)
+
+
+
+# optional n-back task demonstration
+
+[link to n-back task on psytoolkit](https://www.psytoolkit.org/experiment-library/experiment_nback2.html)
+
+
+
+# Shifting/switching {.scrollable}
+
+Being able to flexibly switch between tasks or rules.
+
+[How you might experience shifting:]{.fragment}
+
+- Language: switching language when translating to/from two languages
+
+- Driving: shifting from following the navigation system to reacting to unexpected roadworks
+
+- Home life: pausing cooking to answer the door
+
+- Navigation on phone: switching from map view to messages and back
+
+- Sports: switching from offense to defense 
+
+[Key properties of switching task:]{.fragment}
+
+- You are described two tasks, A and B. 
+- For each task, you are given a set of stimuli that require a decision and then a response. Each set of stimuli requiring a decision/response is called a trial.
+- Sometimes, you are asked to do task A, other times you are asked to do task B.
+- In a block, you might be presented with only task A trials (_pure trials_). This is a pure block.
+- In another block, you might be presented with some task A trials and some task B trials. This is a mixed block. In other words, some trials will require you to continue performing whichever task you were doing until then (_repeat trials_) or to switch to the other task (_switch trials_)
+
+[Key performance metrics:]{.fragment}
+
+- **Switch cost**: how slower and less accurate you are in switch trials vs repeat trials
+
+- **Mixing cost**: how slower and less accurate you are in repeat trials vs pure trials
+
+::: {.content-visible when-format="html"}
+```{dot}
+//| fig-width: 12
+//| fig-cap: "Task switching: repeat vs switch transitions"
+digraph Switching {
+  rankdir=LR
+  bgcolor="transparent"
+  node [shape=oval, style=filled, fillcolor="#e5e9f0", color="#4c566a", fontcolor="#2e3440"]
+  edge [color="#5e81ac"]
+
+  A1 [label = "A: task-A trial" shape=none];
+  B1 [label = "B: task-B trial" shape=none];
+
+  
+
+  subgraph cluster_pure {
+    label="pure block"; 
+    color="#81a1c1"; 
+    style="rounded"; 
+    bgcolor="transparent";
+    PA1 [label="A"]; 
+    PA2 [label="A"]; 
+    PA3 [label="A"]; 
+    PA1 -> PA2 [label="repeat" constraint=true]
+    PA2 -> PA3 [label="repeat" constraint=true]
+  }
+  subgraph cluster_mixed {
+    label="mixed block"; 
+    color="#ebcb8b"; 
+    style="rounded"; 
+    bgcolor="transparent";
+    M1 [label="A"]; 
+    M2 [label="A"]; 
+    M3 [label="B"]; 
+    M4 [label="B"]; 
+    M5 [label="A"]; 
+    M6 [label="A"]; 
+    M1 -> M2 [label="repeat" constraint=true]
+    M2 -> M3 [label="switch" constraint=true]
+    M3 -> M4 [label="repeat" constraint=true]
+    M4 -> M5 [label="switch" constraint=true]
+    M5 -> M6 [label="repeat" constraint=true]
+  }
+}
+```
+:::
+
+# Measuring shifting through the **digit-letter task** {.scrollable}
+
+You are presented with a pair of a digit and a letter (e.g., 3T).
+
+::::{.columns}
+:::{.column}
+
+[Task A: Digit task]{.fragment}
+
+- Stimulus: a digit (e.g., 3, 7)
+- Decision: Is it odd or even?
+- Response: Press left key for odd, right key for even
+:::
+
+:::{.column}
+[Task B: Letter task]{.fragment}
+
+- Stimulus: a letter (e.g., A, G)
+- Decision: Is it a vowel or consonant?
+- Response: Press left key for vowel, right key for consonant
+
+:::
+::::
+
+[How they alternate:]{.fragment}
+
+- Cue tells you which task to perform (e.g., colored box, position on screen)
+- Pure blocks: only digit trials OR only letter trials
+- Mixed blocks: digit and letter trials alternate unpredictably or in a sequence
+
+[There are variations:]{.fragment}
+
+- Different stimulus types (numbers/letters, shapes/colors)
+- Different cue types (verbal, spatial, color-coded)
+- Predictable vs unpredictable switches
+- Different cue-stimulus intervals
+
+
+
+# optional digit-letter task demo
+
+[link to the digit-letter task from psytoolkit](https://www.psytoolkit.org/experiment-library/experiment_taskswitching.html)
+
+# Measuring shifting through the **dual task**
+
+You are presented with a spoken number (e.g., "three", "eight").
+
+::::{.columns}
+:::{.column}
+
+[**Task A: Odd/Even Task**]{.fragment}
+
+- Stimulus: A number spoken aloud (e.g., 3, 7, 8)
+- Decision: Is it odd or even?
+- Response: Press left key for odd, right key for even
+:::
+
+:::{.column}
+[**Task B: Magnitude Task**]{.fragment}
+
+- Stimulus: A number spoken aloud (e.g., 3, 7, 8)
+- Decision: Is it greater than or less than five?
+- Response: Press left key for less than five, right key for greater than five
+:::
+::::
+
+[How they alternate:]{.fragment}
+
+- A cue tells you which task to perform (e.g., different voice)
+- Pure blocks: only odd/even trials OR only magnitude trials
+- Mixed blocks: odd/even and magnitude trials alternate unpredictably or in a predictable sequence
+
+# Measuring shifting through the **global-local task** {.scrollable}
+
+::::{.columns}
+:::{.column width=40%}
+You are presented with a _Navon_ stimulus.
+
+[Navon stimuli consist of large letters or shapes made up of smaller letters or shapes. For example, a large "H" might be composed of many small "S" letters.]{.fragment}
+
+[This design allows for two levels of processing: the _global_ level (the large letter) and the _local_ level (the small letters).]{.fragment}
+
+:::
+
+:::{.column width=60%}
+
+<img src="https://upload.wikimedia.org/wikipedia/en/e/e9/Targetstimulus.png" width="70%" alt="picture of a Navon stimulus"/>
+
+:::
+
+::::
+
+::::{.columns}
+:::{.column}
+[**Task A: Global Task**]{.fragment}
+
+- Stimulus: A Navon figure.
+- Decision: Identify the large letter.
+- Response: Press a designated key corresponding to the identified letter.
+:::
+
+:::{.column}
+[**Task B: Local Task**]{.fragment}
+
+- Stimulus: The same or a different Navon figure.
+- Decision: Identify the small letters.
+- Response: Press a designated key corresponding to the identified letter.
+:::
+::::
+
+How they alternate
+- A cue tells you which task to perform
+- The cue could be the colour of the Navon figure or the tone of a sound
 
 
 
 
 # Beyond the core executive functions
 
-The three core executive functions identified by Miyake et al. (2000) are important because they can be considered building blocks for higher-order functions, but they are _not exhaustive_.
+The three core executive functions studied by Miyake et al. (2000) are important because they can be considered building blocks for higher-order functions, but they are _not exhaustive_.
 
-Some additional processes commonly treated as executive functions include:
+Some additional functions considered executive functions include:
 
 - Planning and problem solving
 
