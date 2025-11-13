@@ -1,0 +1,482 @@
+## Biosignals: sources and propagation {.nostretch .center}
+
+::::{.columns}
+:::{.column width=80%}
+
+<br><br>
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+School of Psychology and Sport Science, Bangor University, UK <br>
+
+[profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+</div>
+
+<br>
+
+::: {.content-visible when-format="html"}
+<div style="font-size:0.6em">
+On a computer press F11 to de/activate full-screen view.
+
+For smartphone and review: Bottom left menu → Tools → PDF Export Mode. </div>
+:::
+
+:::
+
+:::{.column width=20%}
+::: {.content-visible when-format="html"}
+QR code to<br>these slides:
+{{< qrcode https://germanogallicchio.github.io/learning/link2beMade.html?view=scroll colorDark='#0011bb' >}}
+:::
+
+::: {.content-visible when-format="pdf"}
+[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+:::
+
+<br>
+
+::: {.content-visible when-format="html"}
+<span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
+<div contenteditable="true" style="
+    min-height: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: rgba(255,40,0,0.6)
+">0000</div>
+:::
+:::
+
+::::
+
+<style>
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+</style>
+
+
+# Objectives:
+
+By the end of this session, you should be able to elaborate on:
+
+::: {.content-visible when-format="pdf"}
+- sources
+- propagation
+- acquisition
+- preprocessing
+:::
+
+::: {.content-visible when-format="html"}
+```{dot}
+//| fig-width: 11
+//| fig-height: 2
+digraph {
+    node [shape=box]
+    rankdir=LR
+    bgcolor="transparent"
+
+    A [label="sources" style=filled fillcolor="#ffad76ff"]
+    B [label="propagation" style=filled   fillcolor="#ffad76ff"]
+    C [label="acquisition"]
+    D [label="processing"]
+    
+    A -> B -> C -> D
+}
+```
+:::
+
+[Approach:]{.fragment}
+
+- a mixture of intuition, theory, practice
+- questions welcome now or [later](https://germanogallicchio.github.io/contact.html)
+
+# Content
+
+TO DO
+
+
+# Source and propagation: the ripple analogy {.scrollable}
+
+![The ripple analogy: a stone (source) is thrown in a water body (medium) creating a ripple (propagation)](https://i1.pickpik.com/photos/52/885/135/drop-of-water-ripple-water-preview.jpg){width="100%" fig-align="center" fig-alt="Figure showing a ripple in the water" .lightbox}
+
+
+
+<!--img src="/images/ripple.jpg" style="width:50%; margin: auto; border-radius: 10%"-->
+
+>[Biosignals] are complex ramifications of the [electrochemical] spread of action [and graded] potentials in a conductive medium, the human body.
+
+(Adapted from Stern et al. 2001 [^1])
+
+[1]: Stern, R. M., Ray, W. J., & Quigley, K. S. (2001). Psychophysiological recording. Oxford University Press, USA.
+
+
+
+| ANALOGY | MEANING |
+| ------: | --- |
+| stone   | electrochemical event |
+| water   | medium for propagation |
+| ripple  | electrical field |
+
+
+# Some basic principles of biosignals propagation:
+
+<!--
+```mermaid {theme:'dark', scale:0.9}
+flowchart LR
+    
+    A(Biosignal propagation) 
+    B(Volume Conduction)
+    C(Impedance)
+    D(Spatial degradation)
+    E(Summation)
+    F(Orientation)
+    A -> B
+    A -> C
+    A -> D
+    A -> E
+    A -> F
+  
+```
+-->
+
+
+# Volume conduction
+
+- Electrical fields spread in space instantly 
+(electromagnetic waves travel at the speed of light)
+- Propagation medium: extracellular fluid
+- Volume conduction is **good**: it allows to detect the phenomenon at a distance
+- Volume conduction is **bad**: multiple sources get mixed
+
+
+# Impedance
+
+- Resistance to propagation of the electrical field
+- Mainly due to the outer layer of the skin
+- It can be decreased through (mild) skin abrasion
+
+
+
+# Spatial degradation
+
+- The electrical field is stronger near its source
+- Its magnitude diminishes gradually the farther from the source
+
+
+
+# Summation
+
+- Most electro-chemical events are very small and involve few cells
+- Because of their small magnitude and of spatial degradation, _in principle_ we cannot detect them from the skin
+- However... small electro-chemical potentials can _summate_ into a larger potential when the individual potentials occur:
+    - at the same time
+    - in the same area
+    - with roughly the same orientation (more on this in the next slide)
+
+
+# Orientation
+
+- Each electrical event has a geometry: a dipole
+- Just like vectors, multiple dipoles have a _resultant_
+- Dipoles in the same orientation _summate_ and their resultant is larger than the individual dipoles
+- Dipoles in the opposite orientation _cancel out_ and their resultant is smaller than the individual dipoles (or even null)
+- Not all resulting dipoles are big enough to be detectable from the skin
+
+
+
+<!-- img src="/images/neuronDipole.jpg" style="height:100%; margin:auto" -->
+
+# Biosignals: acquisition
+
+# Overarching objective:
+- Measure the electrical field associated with the biological event (the <span v-mark.circle.orange="1">**signal**</span>)
+- While discarding as much as possible of other biological (or not biological) events (the <span v-mark.circle.orange="1">**noise**</span>)
+- makimize signal to noise ratio: 
+  $SNR = \frac{S}{N}$
+
+# The recording chain:
+
+<!--
+```mermaid {scale: 0.9}
+flowchart LR
+  A(Sensors)
+  B(Coupler)
+  C(Amplifier)
+  D(Visualization)
+  E(Storage)
+  A -> B
+  B -> C
+  C -> D
+  C -> E
+  D <-> E
+  
+```
+-->
+
+
+# Sensors: Electrodes
+
+Conductive material
+
+Used in pairs to measure a _difference_ in voltage
+Note: One electrode alone cannot measure anything
+
+At the interface between electrode and skin, electro-chemical reactions occur consisting of exchange of ions. 
+
+The exchange of ion generates an unwanted voltage, called **offset potential** or bias potential
+
+Desirable property of electrodes: **stability** against offset potential
+
+Factors affecting electrode stability:
+- temperature
+- electrolyte composition (between the electrode and the skin)
+- metal type (the electrode)
+
+
+
+Lykken (1959)[^1] experimented with different metals.
+
+Left pairs of electrode pairs of various metals in a saline solution (electrolyte) for 1 hour.
+
+Among several metals such as platinum, zinc, silver, **Ag/AgCl**[^2] showed the lowest offset potential. To this day, mosty electrodes are made of this metal.
+
+
+[^1]: [Lykken, D. T. (1959). Properties of electrode used in electrodermal measurement. Journal of Comparative and Physiological Psychology, 52(5), 629.](https://psycnet.apa.org/doi/10.1037/h0047437)
+[^2]: Ag/AgCl = "chlorided silver" or "silver / silver chloride" meaning silver coated with silver chloride
+
+
+Desirable property of skin-electrode interface **low impedance**, so the signal passes through with little resistance.
+skin --> electrolytic gel --> electrode
+
+Skin preparation to lower impedance:
+- mild abrasion with sandpaper or abrasive paste (scrub) to remove dead cells
+- alcohol to clean residuals 
+- More abrasion --> lower impedance
+- Larger signals (e.g., ECG) can be ok even with less abrasion
+
+
+# electrode types
+
+<div class="container">
+  <!--img class="img" src="/images/electrodesDisposable.jpg" alt="Image 1"-->
+  <!--img class="img" src="/images/electrodesCup.jpg" alt="Image 2"-->
+  <!--img class="img" src="/images/electrodesBioSemi.gif" alt="Image 3"-->
+</div>
+
+1. pregelled
+2. requires gel and cleaning (requires care)
+3. like n.2 but with pre-amplifier (requires extra care)
+
+
+<style>
+.container {
+  display: flex;
+}
+
+img {
+  scale: 0.9;
+  flex: 1; /* This will make all the images take equal width */
+  object-fit: none; 
+  }
+</style>
+
+
+# Sensors: Transducers
+
+While biological events have electrical nature, certain electrical fields are difficult to detect. Non-electrical consequences of these events are easier to detect
+
+Transducers convert (_transduce_) non-electrical signals to electrical signals (for the next steps of the recording chain)
+
+Examples:
+
+
+## changes in blood volume
+
+Photo-conductive transducer:
+- infra-red (IR) light is sent from a light emitter
+- IR-light passes through certain biological tissues (e.g., skin) but it is reflected back by other tissues (e.g., blood)
+- By measuring the difference between IR-light emitted and received back, we can infer blood volume
+- commonly placed on finger or earlobe
+
+
+## changes in pupil diameter
+
+Photo-sensitive transducer:
+
+- infra-red (IR) light is sent from a light emitter
+- IR-light is reflected differently by pupil and iris 
+- By measuring the areas with more and less IR-light reflection, we can infer the size of the diameter
+- pupillometry
+
+
+#  Coupler
+
+<br>
+
+Transmits the electrical signal from the sensor to the amplifier.
+
+Optionally:
+- it powers the transducer
+- basic computations (e.g., filtering)
+
+
+Filtering is a complex mechanism... Let's first see waveforms of different frequencies
+
+<!--![](./images/waveformFrequency.png)-->
+
+
+basic filter types
+
+## Low-pass
+Filters out fast (high) frequencies and retains slow (low) frequencies
+
+## High-pass
+Filters out slow (low) frequencies and retains fast (high) frequencies
+
+Both filters require:
+- cut-off frequency value
+- other parameters having to do with how sharp the transition is from filtered frequencies to non-filtered frequencies
+
+
+## Band-pass 
+a combination of high-pass and low-pass filters to allow frequencies between two cut-off values, which describe a _frequency band_. Frequecies outside of this band are filtered out
+
+Depending on the sharpness parameter, frequencies near the transition are partly retained
+
+In theory, a filter with a sharp transition is better. In practice, too sharp will create distortions
+
+
+## Notch
+
+Filters out only one frequency (and those immediately near t) 
+Used to minimize the electrical interference from mains electricity (alternative current). In the UK, it is 50 Hz
+
+
+
+# Amplifier
+
+<br>
+
+Multiplies the filtered signal
+
+The multiplication factor is called **gain**
+
+Traditionally, so the magnitude of the signal reaches approximately 1 V. 
+
+For example, a signal with magnitude 1 mV will be multiplied by 1000 to reach 1 V. In this example, the gain is 1000.
+
+Note: Important to amplify the noise but not the signal. That's why filtering happens before amplifying (with some exceptions)
+
+
+# Visualization and storage
+
+### Analog signal
+- continuous. 
+- Imagine an uninterrupted line on a polygraph.
+
+### Digital signal
+- discrete. 
+- Ir has small temporal gaps between each value. Imagine taking a a _sample_ (value) every so often and storing each sample. If the samples are taken very often, the gaps between samples will be small.
+
+**Sampling rate**: how many samples are taken in a unit of time
+
+
+## Analog-to-digital conversion
+
+Computers can only store digital signals. But the acquired electrical signals are analog
+
+The computer samples the analog signal at a certain rate to store a digital copy.
+
+The digital copy of the analog signal is an approximation of the original analog signal
+
+
+The higher the sampling rate, the better the digital copy. However, higher sampling rate needs more digital storage/memory.
+
+The lower the sampling rate the less digital  storage/memory is required. However, too low sampling rate leads to distortion.
+
+Analogy for the analog-to-digital conversion: Imagine you want to convert a 1-min video into a number of screenshots that can decently represent what's in the video. How often do you take a screenshot? 
+It depends on what's in the video...
+
+
+Distortion due to using a too-small sampling rate is called **aliasing**
+
+To avoid aliasing, the sampling rate should be at least 2-5 times larger than the larger frequency contained in the signal.
+
+
+# Biosignals processing
+
+## Signal reduction
+Term indicating the _signal processing_ happening before statistics are run. For example:
+- _reduce_ the complex ECG waveform into a simpler series of heart rate (HR) values
+- _reduce_ the complex EOG waveform into a simpler number of eye blinks within a minute
+
+Signal reduction can happen 
+- _online_ (during the acquisition stage, in real time) 
+- _offline_ (after the acquisition stage)
+
+
+
+## signal processing
+
+The temporaldynamics of biological activity can be classified in:
+- tonic
+- phasic
+
+
+## tonic activity
+
+- Background level over a relatively _long_ period of time
+- Useful for studying the signal "on average" 
+- Generally recorded at rest, but it could be recorded during a relatively long activity
+- Sometimes interesting as a baseline for phasic acitivyt (next slide); sometimes interesting by itself (e.g., essential hypertension)
+
+
+## phasic activity
+
+- Transient activity over a relatively _short_ period of time
+- Useful for studying the short-lived fluctuations on top of tonic activity
+- Generally specific to reaction to certain events (e.g., a stimulus is presented that needs processing, an action is performed)
+- It can be a change in amplitude of the signal, frequency of the signal, or other (more complex) parameters not discussed in this module
+
+
+## Change scores
+
+General idea: describe transient changes (phasic activity) from baseline (tonic activity)
+
+A = activity; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B = baseline
+
+Notable types of change scores:
+* subtraction: $A-B$
+* percentage change: $\frac{A-B}{B}\\ *100$
+* decibel change: $10log_{10}\frac{A}{B}\\$
+
+
+## time domain
+Features that develop over time. For example:
+- durations (e.g., eye blink duration)
+- rate (e.g., number of ECG R-waves in 1 minute)
+- amplitude (e.g., max blood pressure)
+
+
+## frequency domain (aka: spectral) 
+Features linked to trends. For example:
+- the magnitude of oscillations at certain frequencies
+- the positioning of oscillations at certain frequencies
+
+
+
+## coherence
+Extent to which two signals are related
+- within the same biological domain (e.g., connectivity between brain areas)
+- across biological domains (e.g., coupling between breathing rate and heart rate)
+
+
+Caveats with the acquisition and processing of each specific biological signals of psychological interest. In this module, we will focus on:
+- electrooculogram (EOG)
+- electrocardiogram (ECG)
+- electroencephalogram (EEG)
