@@ -25,7 +25,7 @@ For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 :::{.column width=20%}
 ::: {.content-visible when-format="html"}
 QR code to<br>these slides:
-{{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfBrainAndFatigue.html colorDark='#0011bb' >}}
+{{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfBrainAndFatigue.html?view=scroll colorDark='#0011bb' >}}
 :::
 
 ::: {.content-visible when-format="pdf"}
