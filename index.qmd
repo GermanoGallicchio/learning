@@ -5,13 +5,25 @@ format: html
 
 ### Psychophysiology
 
-(work in progress)
+| Topic | RevealJS Slides | Mobile-Friendly View | PDF Document |
+|--------------|-----------------|----------------------|--------------|
+| Oculomotor system | - | - | - |
+| Cortical system | - | - | - |
+| Electrooculography | - | - | - |
+| Electroencephalography | - | - | - |
+| Hot topics in sport & exercise: Quiet Eye | - | - | - |
+| Hot topics in sport & exercise: Psychomotor efficiency | - | - | - |
+
+<!--| Biosignals: sources and propagation | - | - | - |
+| Biosignals: acquisition | - | - | - |
+| Biosignals: processing theory | - | - | - |
+| Biosignals: processing practice  | - | - | - |-->
 
 see also: "Principles of Psychophysiology" and "Psychophysiology Laboratory" by John Allen: [link](https://psychophyslab.arizona.edu/courses)
 
 ### Cognitive neuroscience
 
-| Presentation | RevealJS Slides | Mobile-Friendly View | PDF Document |
+| Topic | RevealJS Slides | Mobile-Friendly View | PDF Document |
 |--------------|-----------------|----------------------|--------------|
 | Foundations of the Brain | [slides](FoundationsOfTheBrain.html) | [scroll view](FoundationsOfTheBrain.html?view=scroll) | [pdf](FoundationsOfTheBrain.pdf) |
 | Foundations of Attention | [slides](FoundationsOfAttention.html) | [scroll view](FoundationsOfAttention.html?view=scroll) | [pdf](FoundationsOfAttention.pdf) |
@@ -20,7 +32,7 @@ see also: "Principles of Psychophysiology" and "Psychophysiology Laboratory" by 
 
 ### Psychology
 
-| Presentation | RevealJS Slides | Mobile-Friendly View | PDF Document |
+| Topic | RevealJS Slides | Mobile-Friendly View | PDF Document |
 |--------------|-----------------|----------------------|--------------|
 | Foundations of Sport and Exercise Psychology | [slides](FoundationsOfSportExercisePsychology.html) | [scroll view](FoundationsOfSportExercisePsychology.html?view=scroll) | [pdf](FoundationsOfSportExercisePsychology.pdf) |
 | Foundations of Motivation | [slides](FoundationsOfMotivation.html) | [scroll view](FoundationsOfMotivation.html?view=scroll) | [pdf](FoundationsOfMotivation.pdf) |
