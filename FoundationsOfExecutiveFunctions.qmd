@@ -14,18 +14,19 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 
 <br>
 
+::: {.content-visible when-format="html"}
 <div style="font-size:0.6em">
 On a computer press F11 to de/activate full-screen view.
 
-For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
-</div>
+For smartphone and review: Bottom left menu → Tools → PDF Export Mode. </div>
+:::
 
 :::
 
 :::{.column width=20%}
 ::: {.content-visible when-format="html"}
 QR code to<br>these slides:
-{{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfExecutiveFunctions.html colorDark='#0011bb' >}}
+{{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfExecutiveFunctions.html?view=scroll colorDark='#0011bb' >}}
 :::
 
 ::: {.content-visible when-format="pdf"}
@@ -34,15 +35,15 @@ QR code to<br>these slides:
 
 <br>
 
+::: {.content-visible when-format="html"}
 <span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
-
 <div contenteditable="true" style="
     min-height: 0;
     padding: 0;
     font-size: 2.5em;
     color: rgba(255,40,0,0.6)
 ">0000</div>
-
+:::
 :::
 
 ::::
@@ -369,6 +370,7 @@ time taken to respond correctly to incongruent trials minus time taken to respon
 
 
 
+
 # Measuring inhibition through the **Flanker task** {.scrollable}
 
 The Flanker task involves resolving a conflict between a central target stimulus and surrounding flanking stimuli.
@@ -631,6 +633,8 @@ You are presented with a pair of a digit and a letter (e.g., 3T).
 
 [link to the digit-letter task from psytoolkit](https://www.psytoolkit.org/experiment-library/experiment_taskswitching.html)
 
+
+
 # Measuring shifting through the **dual task**
 
 You are presented with a spoken number (e.g., "three", "eight").
@@ -703,6 +707,41 @@ How they alternate
 - The cue could be the colour of the Navon figure or the tone of a sound
 
 
+
+
+# Find the executive functions in real scenarios {.scrollable}
+
+In small groups, pick a scenario and map each activity to an executive function (note: an activity could map onto more than one executive function).
+
+::::{.columns}
+:::{.column width=33%}
+
+Olympic gymnast:
+
+- Learning new routine while maintaining old ones
+- Suppressing fear responses on difficult elements
+- Adjusting performance based on judges' feedback
+:::
+
+:::{.column width=33%}
+Air Traffic Controller
+
+- Tracking planes
+- Switching attention between radio channels
+- Updating mental model as new planes enter airspace
+
+:::
+
+:::{.column width=33%}
+
+a student
+
+- Resisting social media distractions
+- Switching between different subjects
+- Tracking what's been studied vs. what remains
+
+:::
+::::
 
 
 # Beyond the core executive functions
