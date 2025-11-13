@@ -102,7 +102,7 @@
     "href": "index.html",
     "title": "Learning Resources",
     "section": "",
-    "text": "Psychophysiology\n(work in progress)\nsee also: “Principles of Psychophysiology” and “Psychophysiology Laboratory” by John Allen: link\n\n\nCognitive neuroscience\n\n\n\nPresentation\nRevealJS Slides\nMobile-Friendly View\nPDF Document\n\n\n\n\nFoundations of the Brain\nslides\nscroll view\npdf\n\n\nFoundations of Attention\nslides\nscroll view\npdf\n\n\nFoundations of Executive Functions\nslides\nscroll view\npdf\n\n\nAttentional Control Theory\nslides\nscroll view\npdf\n\n\n\n\n\nPsychology\n\n\n\nPresentation\nRevealJS Slides\nMobile-Friendly View\nPDF Document\n\n\n\n\nFoundations of Sport and Exercise Psychology\nslides\nscroll view\npdf\n\n\nFoundations of Motivation\nslides\nscroll view\npdf\n\n\nFoundations of Brain and Fatigue\nslides\nscroll view\npdf\n\n\nFoundations of Scientific Reading\nslides\nscroll view\npdf"
+    "text": "Psychophysiology\n\n\n\nTopic\nRevealJS Slides\nMobile-Friendly View\nPDF Document\n\n\n\n\nOculomotor system\n-\n-\n-\n\n\nCortical system\n-\n-\n-\n\n\nElectrooculography\n-\n-\n-\n\n\nElectroencephalography\n-\n-\n-\n\n\nHot topics in sport & exercise: Quiet Eye\n-\n-\n-\n\n\nHot topics in sport & exercise: Psychomotor efficiency\n-\n-\n-\n\n\n\n\nsee also: “Principles of Psychophysiology” and “Psychophysiology Laboratory” by John Allen: link\n\n\nCognitive neuroscience\n\n\n\nTopic\nRevealJS Slides\nMobile-Friendly View\nPDF Document\n\n\n\n\nFoundations of the Brain\nslides\nscroll view\npdf\n\n\nFoundations of Attention\nslides\nscroll view\npdf\n\n\nFoundations of Executive Functions\nslides\nscroll view\npdf\n\n\nAttentional Control Theory\nslides\nscroll view\npdf\n\n\n\n\n\nPsychology\n\n\n\nTopic\nRevealJS Slides\nMobile-Friendly View\nPDF Document\n\n\n\n\nFoundations of Sport and Exercise Psychology\nslides\nscroll view\npdf\n\n\nFoundations of Motivation\nslides\nscroll view\npdf\n\n\nFoundations of Brain and Fatigue\nslides\nscroll view\npdf\n\n\nFoundations of Scientific Reading\nslides\nscroll view\npdf"
   },
   {
     "objectID": "FoundationsOfBrainAndFatigue.html",
@@ -173,5 +173,222 @@
     "title": "Learning resources",
     "section": "Visual comparison: switch and mixing costs (illustrative)",
     "text": "Visual comparison: switch and mixing costs (illustrative)"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#biosignals-sources-acquisition-and-processing",
+    "href": "Psychophysiology_biosignals.html#biosignals-sources-acquisition-and-processing",
+    "title": "Objectives:",
+    "section": "",
+    "text": "Dr Germano Gallicchio \n\nLecturer in Psychophysiology and Cognitive Neuroscience  School of Psychology and Sport Science, Bangor University, UK \nprofile | research | software | learning resources | book meeting\n\n\n\nOn a computer press F11 to de/activate full-screen view.\nFor smartphone and review: Bottom left menu → Tools → PDF Export Mode.\n\n\nQR code tothese slides: \n\n    \n\nPIN\n\n0000"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#objectives",
+    "href": "Psychophysiology_biosignals.html#objectives",
+    "title": "More to come",
+    "section": "Objectives",
+    "text": "Objectives\n\nBeing able to elaborate: - sources and propagation of biosignals - acquisition of biosignals - processing of biosignals\n::right::"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#content",
+    "href": "Psychophysiology_biosignals.html#content",
+    "title": "More to come",
+    "section": "Content",
+    "text": "Content\n  — layout: intro title: sources and propagation level: 1 —"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#sources-and-propagation",
+    "href": "Psychophysiology_biosignals.html#sources-and-propagation",
+    "title": "More to come",
+    "section": "sources and propagation",
+    "text": "sources and propagation"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#ripple-analogy",
+    "href": "Psychophysiology_biosignals.html#ripple-analogy",
+    "title": "More to come",
+    "section": "Ripple analogy",
+    "text": "Ripple analogy\n::left::\nThrowing a stone in a pond\n\n\n[Biosignals] are complex ramifications of the [electrochemical] spread of action [and graded] potentials in a conductive medium, the human body.\n\n(Adapted from Stern et al. 2001 1)\n[1]: Stern, R. M., Ray, W. J., & Quigley, K. S. (2001). Psychophysiological recording. Oxford University Press, USA.\n::right::\n\n\n\nANALOGY\nMEANING\n\n\n\n\nstone\nelectrochemical event\n\n\nwater\nmedium for propagation\n\n\nripple\nelectrical field\n\n\n\nLykken, D. T. (1959). Properties of electrode used in electrodermal measurement. Journal of Comparative and Physiological Psychology, 52(5), 629."
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#some-basic-principles-of-biosignals-propagation",
+    "href": "Psychophysiology_biosignals.html#some-basic-principles-of-biosignals-propagation",
+    "title": "More to come",
+    "section": "Some basic principles of biosignals propagation:",
+    "text": "Some basic principles of biosignals propagation:\n\n```mermaid {theme:‘dark’, scale:0.9} flowchart LR\nA(Biosignal propagation) \nB(Volume Conduction)\nC(Impedance)\nD(Spatial degradation)\nE(Summation)\nF(Orientation)\nA --&gt; B\nA --&gt; C\nA --&gt; D\nA --&gt; E\nA --&gt; F\n\n---\ntitle: volume conduction\nlevel: 3\n---\n\n## Volume conduction\n\n- Electrical fields spread in space instantly \n(electromagnetic waves travel at the speed of light)\n- Propagation medium: extracellular fluid\n- Volume conduction is **good**: it allows to detect the phenomenon at a distance\n- Volume conduction is **bad**: multiple sources get mixed\n\n---\ntitle: impedance\nlevel: 3\n\n---\n## Impedance\n\n- Resistance to propagation of the electrical field\n- Mainly due to the outer layer of the skin\n- It can be decreased through (mild) skin abrasion\n\n\n---\ntitle: spatial degradation\nlevel: 3\n---\n\n## Spatial degradation\n\n- The electrical field is stronger near its source\n- Its magnitude diminishes gradually the farther from the source\n\n---\ntitle: summation\nlevel: 3\n---\n\n## Summation\n\n- Most electro-chemical events are very small and involve few cells\n- Because of their small magnitude and of spatial degradation, _in principle_ we cannot detect them from the skin\n- However... small electro-chemical potentials can _summate_ into a larger potential when the individual potentials occur:\n    - at the same time\n    - in the same area\n    - with roughly the same orientation (more on this in the next slide)\n\n---\nlayout: two-cols\ntitle: orientation\nlevel: 3\n---\n\n## Orientation\n\n- Each electrical event has a geometry: a dipole\n- Just like vectors, multiple dipoles have a _resultant_\n- Dipoles in the same orientation _summate_ and their resultant is larger than the individual dipoles\n- Dipoles in the opposite orientation _cancel out_ and their resultant is smaller than the individual dipoles (or even null)\n- Not all resulting dipoles are big enough to be detectable from the skin\n\n::right::\n\n&lt;img src=\"/images/neuronDipole.jpg\" style=\"height:100%; margin:auto\" &gt;\n\n---\nlayout: intro\ntitle: acquisition\nlevel: 1\n---\n\n# Biosignals: \n## acquisition\n\n---\ntitle: the recording chain\nlevel: 2\n---\n\n## Overarching objective:\n- Measure the electrical field associated with the biological event (the &lt;span v-mark.circle.orange=\"1\"&gt;**signal**&lt;/span&gt;)\n- While discarding as much as possible of other biological (or not biological) events (the &lt;span v-mark.circle.orange=\"1\"&gt;**noise**&lt;/span&gt;)\n- makimize signal to noise ratio: \n  $SNR = \\frac{S}{N}$\n\n## The recording chain:\n\n```mermaid {scale: 0.9}\nflowchart LR\n  A(Sensors)\n  B(Coupler)\n  C(Amplifier)\n  D(Visualization)\n  E(Storage)\n  A --&gt; B\n  B --&gt; C\n  C --&gt; D\n  C --&gt; E\n  D &lt;--&gt; E"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#sensors-electrodes",
+    "href": "Psychophysiology_biosignals.html#sensors-electrodes",
+    "title": "More to come",
+    "section": "Sensors: Electrodes",
+    "text": "Sensors: Electrodes\nConductive material\nUsed in pairs to measure a difference in voltage Note: One electrode alone cannot measure anything\nAt the interface between electrode and skin, electro-chemical reactions occur consisting of exchange of ions.\nThe exchange of ion generates an unwanted voltage, called offset potential or bias potential\nDesirable property of electrodes: stability against offset potential\nFactors affecting electrode stability: - temperature - electrolyte composition (between the electrode and the skin) - metal type (the electrode)\nLykken (1959)1 experimented with different metals.\nLeft pairs of electrode pairs of various metals in a saline solution (electrolyte) for 1 hour.\nAmong several metals such as platinum, zinc, silver, Ag/AgCl2 showed the lowest offset potential. To this day, mosty electrodes are made of this metal.\nDesirable property of skin-electrode interface low impedance, so the signal passes through with little resistance. skin –&gt; electrolytic gel –&gt; electrode\nSkin preparation to lower impedance: - mild abrasion with sandpaper or abrasive paste (scrub) to remove dead cells - alcohol to clean residuals - More abrasion –&gt; lower impedance - Larger signals (e.g., ECG) can be ok even with less abrasion\nLykken, D. T. (1959). Properties of electrode used in electrodermal measurement. Journal of Comparative and Physiological Psychology, 52(5), 629.Ag/AgCl = “chlorided silver” or “silver / silver chloride” meaning silver coated with silver chloride"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#electrode-types",
+    "href": "Psychophysiology_biosignals.html#electrode-types",
+    "title": "More to come",
+    "section": "electrode types",
+    "text": "electrode types\n\n  \n\n\npregelled\nrequires gel and cleaning (requires care)\nlike n.2 but with pre-amplifier (requires extra care)"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#sensors-transducers",
+    "href": "Psychophysiology_biosignals.html#sensors-transducers",
+    "title": "More to come",
+    "section": "Sensors: Transducers",
+    "text": "Sensors: Transducers\nWhile biological events have electrical nature, certain electrical fields are difficult to detect. Non-electrical consequences of these events are easier to detect\nTransducers convert (transduce) non-electrical signals to electrical signals (for the next steps of the recording chain)\nExamples:\n::left::"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#changes-in-blood-volume",
+    "href": "Psychophysiology_biosignals.html#changes-in-blood-volume",
+    "title": "Learning resources",
+    "section": "changes in blood volume",
+    "text": "changes in blood volume\nPhoto-conductive transducer: - infra-red (IR) light is sent from a light emitter - IR-light passes through certain biological tissues (e.g., skin) but it is reflected back by other tissues (e.g., blood) - By measuring the difference between IR-light emitted and received back, we can infer blood volume - commonly placed on finger or earlobe"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#changes-in-pupil-diameter",
+    "href": "Psychophysiology_biosignals.html#changes-in-pupil-diameter",
+    "title": "Learning resources",
+    "section": "changes in pupil diameter",
+    "text": "changes in pupil diameter\nPhoto-sensitive transducer:\n\ninfra-red (IR) light is sent from a light emitter\nIR-light is reflected differently by pupil and iris\nBy measuring the areas with more and less IR-light reflection, we can infer the size of the diameter\npupillometry"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#coupler",
+    "href": "Psychophysiology_biosignals.html#coupler",
+    "title": "More to come",
+    "section": "Coupler",
+    "text": "Coupler\n\nTransmits the electrical signal from the sensor to the amplifier.\nOptionally: - it powers the transducer - basic computations (e.g., filtering)\nFiltering is a complex mechanism… Let’s first see waveforms of different frequencies\n\nbasic filter types"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#low-pass",
+    "href": "Psychophysiology_biosignals.html#low-pass",
+    "title": "Learning resources",
+    "section": "Low-pass",
+    "text": "Low-pass\nFilters out fast (high) frequencies and retains slow (low) frequencies"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#high-pass",
+    "href": "Psychophysiology_biosignals.html#high-pass",
+    "title": "Learning resources",
+    "section": "High-pass",
+    "text": "High-pass\nFilters out slow (low) frequencies and retains fast (high) frequencies\nBoth filters require: - cut-off frequency value - other parameters having to do with how sharp the transition is from filtered frequencies to non-filtered frequencies"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#band-pass",
+    "href": "Psychophysiology_biosignals.html#band-pass",
+    "title": "Learning resources",
+    "section": "Band-pass",
+    "text": "Band-pass\na combination of high-pass and low-pass filters to allow frequencies between two cut-off values, which describe a frequency band. Frequecies outside of this band are filtered out\nDepending on the sharpness parameter, frequencies near the transition are partly retained\nIn theory, a filter with a sharp transition is better. In practice, too sharp will create distortions"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#notch",
+    "href": "Psychophysiology_biosignals.html#notch",
+    "title": "Learning resources",
+    "section": "Notch",
+    "text": "Notch\nFilters out only one frequency (and those immediately near t) Used to minimize the electrical interference from mains electricity (alternative current). In the UK, it is 50 Hz"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#amplifier",
+    "href": "Psychophysiology_biosignals.html#amplifier",
+    "title": "More to come",
+    "section": "Amplifier",
+    "text": "Amplifier\n\nMultiplies the filtered signal\nThe multiplication factor is called gain\nTraditionally, so the magnitude of the signal reaches approximately 1 V.\nFor example, a signal with magnitude 1 mV will be multiplied by 1000 to reach 1 V. In this example, the gain is 1000.\nNote: Important to amplify the noise but not the signal. That’s why filtering happens before amplifying (with some exceptions)"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#visualization-and-storage",
+    "href": "Psychophysiology_biosignals.html#visualization-and-storage",
+    "title": "More to come",
+    "section": "Visualization and storage",
+    "text": "Visualization and storage\nAnalog signal\n\ncontinuous.\nImagine an uninterrupted line on a polygraph.\n\nDigital signal\n\ndiscrete.\nIr has small temporal gaps between each value. Imagine taking a a sample (value) every so often and storing each sample. If the samples are taken very often, the gaps between samples will be small.\n\nSampling rate: how many samples are taken in a unit of time"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#analog-to-digital-conversion",
+    "href": "Psychophysiology_biosignals.html#analog-to-digital-conversion",
+    "title": "Learning resources",
+    "section": "Analog-to-digital conversion",
+    "text": "Analog-to-digital conversion\nComputers can only store digital signals. But the acquired electrical signals are analog\nThe computer samples the analog signal at a certain rate to store a digital copy.\nThe digital copy of the analog signal is an approximation of the original analog signal\nThe higher the sampling rate, the better the digital copy. However, higher sampling rate needs more digital storage/memory.\nThe lower the sampling rate the less digital storage/memory is required. However, too low sampling rate leads to distortion.\nAnalogy for the analog-to-digital conversion: Imagine you want to convert a 1-min video into a number of screenshots that can decently represent what’s in the video. How often do you take a screenshot? It depends on what’s in the video…\nDistortion due to using a too-small sampling rate is called aliasing\nTo avoid aliasing, the sampling rate should be at least 2-5 times larger than the larger frequency contained in the signal."
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#processing",
+    "href": "Psychophysiology_biosignals.html#processing",
+    "title": "More to come",
+    "section": "processing",
+    "text": "processing"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#signal-reduction",
+    "href": "Psychophysiology_biosignals.html#signal-reduction",
+    "title": "Learning resources",
+    "section": "Signal reduction",
+    "text": "Signal reduction\nTerm indicating the signal processing happening before statistics are run. For example: - reduce the complex ECG waveform into a simpler series of heart rate (HR) values - reduce the complex EOG waveform into a simpler number of eye blinks within a minute\nSignal reduction can happen - online (during the acquisition stage, in real time) - offline (after the acquisition stage)"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#signal-processing",
+    "href": "Psychophysiology_biosignals.html#signal-processing",
+    "title": "Learning resources",
+    "section": "signal processing",
+    "text": "signal processing\nThe temporaldynamics of biological activity can be classified in: - tonic - phasic"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#tonic-activity",
+    "href": "Psychophysiology_biosignals.html#tonic-activity",
+    "title": "Learning resources",
+    "section": "tonic activity",
+    "text": "tonic activity\n\nBackground level over a relatively long period of time\nUseful for studying the signal “on average”\nGenerally recorded at rest, but it could be recorded during a relatively long activity\nSometimes interesting as a baseline for phasic acitivyt (next slide); sometimes interesting by itself (e.g., essential hypertension)"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#phasic-activity",
+    "href": "Psychophysiology_biosignals.html#phasic-activity",
+    "title": "Learning resources",
+    "section": "phasic activity",
+    "text": "phasic activity\n\nTransient activity over a relatively short period of time\nUseful for studying the short-lived fluctuations on top of tonic activity\nGenerally specific to reaction to certain events (e.g., a stimulus is presented that needs processing, an action is performed)\nIt can be a change in amplitude of the signal, frequency of the signal, or other (more complex) parameters not discussed in this module"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#change-scores",
+    "href": "Psychophysiology_biosignals.html#change-scores",
+    "title": "Learning resources",
+    "section": "Change scores",
+    "text": "Change scores\nGeneral idea: describe transient changes (phasic activity) from baseline (tonic activity)\nA = activity;             B = baseline\nNotable types of change scores: * subtraction: \\(A-B\\) * percentage change: \\(\\frac{A-B}{B}\\\\ *100\\) * decibel change: \\(10log_{10}\\frac{A}{B}\\\\\\)"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#time-domain",
+    "href": "Psychophysiology_biosignals.html#time-domain",
+    "title": "Learning resources",
+    "section": "time domain",
+    "text": "time domain\nFeatures that develop over time. For example: - durations (e.g., eye blink duration) - rate (e.g., number of ECG R-waves in 1 minute) - amplitude (e.g., max blood pressure)"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#frequency-domain-aka-spectral",
+    "href": "Psychophysiology_biosignals.html#frequency-domain-aka-spectral",
+    "title": "Learning resources",
+    "section": "frequency domain (aka: spectral)",
+    "text": "frequency domain (aka: spectral)\nFeatures linked to trends. For example: - the magnitude of oscillations at certain frequencies - the positioning of oscillations at certain frequencies"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#coherence",
+    "href": "Psychophysiology_biosignals.html#coherence",
+    "title": "Learning resources",
+    "section": "coherence",
+    "text": "coherence\nExtent to which two signals are related - within the same biological domain (e.g., connectivity between brain areas) - across biological domains (e.g., coupling between breathing rate and heart rate)\nCaveats with the acquisition and processing of each specific biological signals of psychological interest. In this module, we will focus on: - electrooculogram (EOG) - electrocardiogram (ECG) - electroencephalogram (EEG)"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html",
+    "href": "Psychophysiology_biosignals.html",
+    "title": "Objectives:",
+    "section": "",
+    "text": "Dr Germano Gallicchio \n\nLecturer in Psychophysiology and Cognitive Neuroscience  School of Psychology and Sport Science, Bangor University, UK \nprofile | research | software | learning resources | book meeting\n\n\n\nOn a computer press F11 to de/activate full-screen view.\nFor smartphone and review: Bottom left menu → Tools → PDF Export Mode.\n\n\nQR code tothese slides: \n\n    \n\nPIN\n\n0000"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#footnotes",
+    "href": "Psychophysiology_biosignals.html#footnotes",
+    "title": "Objectives:",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nLykken, D. T. (1959). Properties of electrode used in electrodermal measurement. Journal of Comparative and Physiological Psychology, 52(5), 629.↩︎\nLykken, D. T. (1959). Properties of electrode used in electrodermal measurement. Journal of Comparative and Physiological Psychology, 52(5), 629.↩︎\nAg/AgCl = “chlorided silver” or “silver / silver chloride” meaning silver coated with silver chloride↩︎"
+  },
+  {
+    "objectID": "Psychophysiology_biosignals.html#biosignals-sources-and-propagation",
+    "href": "Psychophysiology_biosignals.html#biosignals-sources-and-propagation",
+    "title": "Learning resources",
+    "section": "Biosignals: sources and propagation",
+    "text": "Biosignals: sources and propagation\n\n\n Dr Germano Gallicchio \n\nLecturer in Psychophysiology and Cognitive Neuroscience  School of Psychology and Sport Science, Bangor University, UK \nprofile | research | software | learning resources | book meeting\n\n\n\nOn a computer press F11 to de/activate full-screen view.\nFor smartphone and review: Bottom left menu → Tools → PDF Export Mode.\n\n\nQR code tothese slides: \n\n    \n\nPIN\n\n0000"
   }
 ]
