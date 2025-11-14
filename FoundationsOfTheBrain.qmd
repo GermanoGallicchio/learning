@@ -35,6 +35,7 @@ QR code to<br>these slides:
 
 <br>
 
+::: {.content-visible when-format="html"}
 <span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
 
 <div contenteditable="true" style="
@@ -44,6 +45,7 @@ QR code to<br>these slides:
     color: rgba(255,40,0,0.6)
 ">0000</div>
 
+:::
 :::
 
 ::::
@@ -67,9 +69,9 @@ Describe structure and function of:
 - Neuronal cells (microscopic level)
 - Nervous system (macroscopic level)
 
-. . . 
 
-In other words:
+
+[In other words:]{.fragment}
 
 - **How do neurons communicate?** Structure and function of neurons
 - **What do neurons communicate?** The type of information sent and received
@@ -95,6 +97,7 @@ In other words:
 ::::{.columns}
 :::{.column}
 <div style="text-align: center;">
+
 ::: {.content-visible when-format="html"}
 ```{dot}
 //| fig-width: 6
@@ -123,6 +126,7 @@ digraph Neuron {
     
 }
 ```
+
 :::
 
 ::: {.content-visible when-format="pdf"}
@@ -226,13 +230,12 @@ The **structure and shape** of dendrites vary across different types of neurons,
 />
 </div>
 
-The **axon** is a singular, elongated projection that **transmits information** away from the soma to other neurons (dendrites or soma). 
+[The **axon** is a singular, elongated projection that **transmits information** away from the soma to other neurons (dendrites or soma).]{.fragment}
 
-. . .
 
-While each neuron has **only one axon**, it may branch into **collaterals** to communicate with multiple targets. 
 
-. . .
+[While each neuron has **only one axon**, it may branch into **collaterals** to communicate with multiple targets.]{.fragment}
+
 
 <div style="font-size: 0.85em;">
 Many axons are **wrapped in myelin**, a fatty substance that enables **faster conduction** of electrical impulses by insulating the axon membrane.
@@ -254,9 +257,9 @@ Many axons are **wrapped in myelin**, a fatty substance that enables **faster co
 
 [The soma, also known as the cell body, is the central part of a neuron.]{.fragment} [It contains the nucleus, which houses the cell's genetic material,]{.fragment} [and is responsible for regulating the neuron's activities, including protein synthesis and energy production.]{.fragment}
 
-. . .
 
-The soma **integrates** incoming signals from the dendrites and determines whether to generate an action potential that travels down the axon.
+
+[The soma **integrates** incoming signals from the dendrites and determines whether to generate an action potential that travels down the axon.]{.fragment}
 
 
 # review questions
@@ -355,21 +358,21 @@ These chemicals bind to receptors on the post-synaptic neuron, causing changes i
 
 It is the site where **neurotransmitters** are released to allow communication between neurons.
 
-. . .
+ 
 
-Synapses can be **excitatory** or **inhibitory**, depending on the type of neurotransmitter and receptor involved. This process is essential for all forms of **neural communication**, including learning, memory, and reflexes.
+[Synapses can be **excitatory** or **inhibitory**, depending on the type of neurotransmitter and receptor involved. This process is essential for all forms of **neural communication**, including learning, memory, and reflexes.]{.fragment}
 
-. . .
 
-The **presynaptic neuron** (sender) releases **neurotransmitters** from its axon terminal into the synaptic cleft, whereas the **postsynaptic neuron** receives and processes the signal. 
 
-. . .
+[The **presynaptic neuron** (sender) releases **neurotransmitters** from its axon terminal into the synaptic cleft, whereas the **postsynaptic neuron** receives and processes the signal.]{.fragment}
 
-This interaction can either **excite** or **inhibit** the postsynaptic neuron, depending on the type of neurotransmitter and receptor involved.
 
-. . .
 
-The summation of multiple post-synaptic potentials will determine whether that neuron will, in turn, generate its own action potential.
+[This interaction can either **excite** or **inhibit** the postsynaptic neuron, depending on the type of neurotransmitter and receptor involved.]{.fragment}
+
+
+
+[The summation of multiple post-synaptic potentials will determine whether that neuron will, in turn, generate its own action potential.]{.fragment}
 
 # Neurotransmitters
 
@@ -386,9 +389,9 @@ Neurotransmitters are molecules that play a crucial role in synaptic communicati
 :::
 ::::
 
-. . .
+ 
 
-Once released, neurotransmitters bind to specific receptors on the **postsynaptic neuron**, triggering changes in its electrical or chemical state.
+[Once released, neurotransmitters bind to specific receptors on the **postsynaptic neuron**, triggering changes in its electrical or chemical state.]{.fragment}
 
 
 # Neurotransmitters: types of functions
@@ -444,15 +447,15 @@ the post-synaptic neuron
 
 **Excitatory neurotransmitters** (e.g., glutamate) increase the likelihood of the postsynaptic neuron firing an action potential.
 
-. . .
+
 
 **Inhibitory neurotransmitters** (e.g., GABA) decrease the likelihood of the postsynaptic neuron firing.
 
-. . .
+
 
 **Modulatory neurotransmitters** adjust properties (e.g., excitability) of neural circuits.
 
-. . .
+
 
 The **interplay** between inhibition and excitation ensures precise and regulated communication among neurons, enabling complex processes such as learning, memory, and motor control.
 
@@ -474,7 +477,7 @@ Neurons can be classified based on several characteristics, including:
 - axon length
 - type of neurotransmitter they release
 
-. . .
+
 
 This classification highlights the _diversity_ of neurons and their _specialized_ roles in the nervous system.
 
@@ -541,7 +544,7 @@ Illustration of **pyramidal** and **stellate** neurons, highlighting their disti
 
 
 
-. . .
+
 
 ::::{.columns}
 
@@ -564,7 +567,7 @@ Golgi **Type II** neurons, also known as **local circuit neurons**, have short a
 
 [In addition to **excitatory** (i.e., they activate the postsynaptic neuron and increase the likelihood of an action potential)]{.fragment} [ and **inhibitory** (i.e., they suppress the activity of the postsynaptic neuron and reducing the likelihood of an action potential),]{.fragment} [ some neurotransmitters are **modulatory**: they influence the overall activity of neural circuits by altering the strength or dynamics of synaptic communication.]{.fragment}
 
-. . .
+
 
 For example, a modulatory neurotransmitter can influence the excitability of a postsynaptic neuron.
 
@@ -583,25 +586,25 @@ For example, a modulatory neurotransmitter can influence the excitability of a p
 
 Dendrites receives information. 
 
-. . .
+
 
 <br>
-The soma receives and integrates information. 
+[The soma receives and integrates information.]{.fragment}
 
-. . .
 
-<br>
-The axon sends information. 
-
-. . .
 
 <br>
-But what information are we talking about? 
+[The axon sends information. ]{.fragment}
 
-. . . 
+
 
 <br>
-**Electrico-chemical potentials**
+[But what information are we talking about? ]{.fragment}
+
+
+
+<br>
+[**Electrico-chemical potentials**]{.fragment}
 
 # Electrico-chemical potentials
 
@@ -651,25 +654,25 @@ Neurons communicate information using both **electrical** and **chemical** mecha
 
 The action potential is a all-or-nothing event (either sent or not sent): same voltage and same duration for each neuron under stable conditions. 
 
-. . .
 
-So how do neurons communication different information?
 
-. . .
+[So how do neurons communication different information?]{.fragment}
 
-Through **spiking rate**: the _number_ of action potentials sent _per second_. The frequency at which action potentials are sent (i.e., how often they are sent) can vary. 
 
-. . .
 
-The **spiking rate** encodes meaning in neuronal communication.
+[Through **spiking rate**: the _number_ of action potentials sent _per second_. The frequency at which action potentials are sent (i.e., how often they are sent) can vary. ]{.fragment}
 
-. . .
 
-For example, a neuron may exhibit a high spiking rate during specific activities, such as processing auditory information during speech, indicating its **specialization** in that domain.
 
-. . .
+[The **spiking rate** encodes meaning in neuronal communication.]{.fragment}
 
-Neurons that respond to similar types of information are often spatially **grouped together**, reflecting **regional functional specialization**.
+
+
+[For example, a neuron may exhibit a high spiking rate during specific activities, such as processing auditory information during speech, indicating its **specialization** in that domain.]{.fragment}
+
+
+
+[Neurons that respond to similar types of information are often spatially **grouped together**, reflecting **regional functional specialization**.]{.fragment}
 
 
 # Review questions 
@@ -718,7 +721,7 @@ Brief overview of some glial cells
 
 Until recently, it was believed that the **ratio of neurons to glial cells** in the human brain was approximately **1:10**, meaning there were ten times as many glial cells as neurons. However, recent research has revised this estimate, suggesting a ratio closer to **1:1**.
 
-. . .
+
 
 This ratio is not uniform across the nervous system; different regions exhibit varying proportions of neurons and glial cells. For example:
 
@@ -753,12 +756,13 @@ The brain is composed of **gray matter** and **white matter**, each playing dist
 
 End of the brief "microscopic" view of the brain
 
-. . .
+
 
 Video to watch in your own time, summarizing some of the content covered so far.
 
 ::: {.content-visible when-format="html"}
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/6qS83wD29PY?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 :::
 
 ::: {.content-visible when-format="pdf"}
