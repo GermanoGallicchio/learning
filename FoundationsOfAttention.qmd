@@ -35,6 +35,7 @@ QR code to<br>these slides:
 
 <br>
 
+::: {.content-visible when-format="html"}
 <span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
 
 <div contenteditable="true" style="
@@ -44,6 +45,7 @@ QR code to<br>these slides:
     color: rgba(255,40,0,0.6)
 ">0000</div>
 
+:::
 :::
 
 ::::
