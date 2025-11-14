@@ -19,7 +19,11 @@ format: html
 | Biosignals: processing theory | - | - | - |
 | Biosignals: processing practice  | - | - | - |-->
 
-see also: "Principles of Psychophysiology" and "Psychophysiology Laboratory" by John Allen: [link](https://psychophyslab.arizona.edu/courses)
+see also: 
+
+- "Principles of Psychophysiology" and "Psychophysiology Laboratory" by John Allen: [link](https://psychophyslab.arizona.edu/courses)
+- "Teacher Training Material" by Society for Psychophysiological Research: [link](https://sprweb.org/teaching_material/)
+
 
 ### Cognitive neuroscience
 
