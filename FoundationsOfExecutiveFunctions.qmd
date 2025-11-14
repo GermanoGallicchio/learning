@@ -93,7 +93,7 @@ Set of higher order functions that control all cognitive processes
 
 - How cognitive functions are coordinated
 
-[Main function: executive functions allow to **control** behaviour and cognition]{.fragment}
+[Main function: executive functions allow to **control** behaviour, cognition, and emotions]{.fragment}
 :::
 ::::
 
@@ -177,7 +177,7 @@ Frenology is a historical theory, now **discredited**, suggesting that the shape
 
 Some key concepts:
 
-- Localization of Function: Different areas of the brain are responsible for different traits and behaviors.
+- Localization of Function: Different areas of the brain are responsible for different traits and behaviours.
 - Cranial Measurements: The bumps and indentations on the skull reflect the underlying brain structure.
 
 :::
@@ -201,7 +201,7 @@ Some key concepts:
 <iframe 
 width="100%" 
 height="20%" 
-src="https://youtube.com/embed/NFO6ts6vZic&t=518s/" 
+src="https://youtube.com/embed/NFO6ts6vZic" 
 title="Phineas Gage story" 
 frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
