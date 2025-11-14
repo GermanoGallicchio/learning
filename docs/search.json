@@ -390,5 +390,124 @@
     "title": "Learning resources",
     "section": "Biosignals: sources and propagation",
     "text": "Biosignals: sources and propagation\n\n\n Dr Germano Gallicchio \n\nLecturer in Psychophysiology and Cognitive Neuroscience  School of Psychology and Sport Science, Bangor University, UK \nprofile | research | software | learning resources | book meeting\n\n\n\nOn a computer press F11 to de/activate full-screen view.\nFor smartphone and review: Bottom left menu → Tools → PDF Export Mode.\n\n\nQR code tothese slides: \n\n    \n\nPIN\n\n0000"
+  },
+  {
+    "objectID": "testingAudio.html#testing-audio",
+    "href": "testingAudio.html#testing-audio",
+    "title": "audio-slideshow Example",
+    "section": "Testing audio",
+    "text": "Testing audio\nhttps://quarto.org/docs/extensions/listing-revealjs.html"
+  },
+  {
+    "objectID": "testingAudio.html#changes-in-blood-volume",
+    "href": "testingAudio.html#changes-in-blood-volume",
+    "title": "audio-slideshow Example",
+    "section": "changes in blood volume",
+    "text": "changes in blood volume\nPhoto-conductive transducer: - infra-red (IR) light is sent from a light emitter - IR-light passes through certain biological tissues (e.g., skin) but it is reflected back by other tissues (e.g., blood) - By measuring the difference between IR-light emitted and received back, we can infer blood volume - commonly placed on finger or earlobe"
+  },
+  {
+    "objectID": "testingAudio.html#changes-in-pupil-diameter",
+    "href": "testingAudio.html#changes-in-pupil-diameter",
+    "title": "audio-slideshow Example",
+    "section": "changes in pupil diameter",
+    "text": "changes in pupil diameter\nPhoto-sensitive transducer:\n\ninfra-red (IR) light is sent from a light emitter\nIR-light is reflected differently by pupil and iris\nBy measuring the areas with more and less IR-light reflection, we can infer the size of the diameter\npupillometry"
+  },
+  {
+    "objectID": "testingAudio.html#low-pass",
+    "href": "testingAudio.html#low-pass",
+    "title": "audio-slideshow Example",
+    "section": "Low-pass",
+    "text": "Low-pass\nFilters out fast (high) frequencies and retains slow (low) frequencies"
+  },
+  {
+    "objectID": "testingAudio.html#high-pass",
+    "href": "testingAudio.html#high-pass",
+    "title": "audio-slideshow Example",
+    "section": "High-pass",
+    "text": "High-pass\nFilters out slow (low) frequencies and retains fast (high) frequencies\nBoth filters require: - cut-off frequency value - other parameters having to do with how sharp the transition is from filtered frequencies to non-filtered frequencies"
+  },
+  {
+    "objectID": "testingAudio.html#band-pass",
+    "href": "testingAudio.html#band-pass",
+    "title": "audio-slideshow Example",
+    "section": "Band-pass",
+    "text": "Band-pass\na combination of high-pass and low-pass filters to allow frequencies between two cut-off values, which describe a frequency band. Frequecies outside of this band are filtered out\nDepending on the sharpness parameter, frequencies near the transition are partly retained\nIn theory, a filter with a sharp transition is better. In practice, too sharp will create distortions"
+  },
+  {
+    "objectID": "testingAudio.html#notch",
+    "href": "testingAudio.html#notch",
+    "title": "audio-slideshow Example",
+    "section": "Notch",
+    "text": "Notch\nFilters out only one frequency (and those immediately near t) Used to minimize the electrical interference from mains electricity (alternative current). In the UK, it is 50 Hz"
+  },
+  {
+    "objectID": "testingAudio.html#analog-to-digital-conversion",
+    "href": "testingAudio.html#analog-to-digital-conversion",
+    "title": "audio-slideshow Example",
+    "section": "Analog-to-digital conversion",
+    "text": "Analog-to-digital conversion\nComputers can only store digital signals. But the acquired electrical signals are analog\nThe computer samples the analog signal at a certain rate to store a digital copy.\nThe digital copy of the analog signal is an approximation of the original analog signal\nThe higher the sampling rate, the better the digital copy. However, higher sampling rate needs more digital storage/memory.\nThe lower the sampling rate the less digital storage/memory is required. However, too low sampling rate leads to distortion.\nAnalogy for the analog-to-digital conversion: Imagine you want to convert a 1-min video into a number of screenshots that can decently represent what’s in the video. How often do you take a screenshot? It depends on what’s in the video…\nDistortion due to using a too-small sampling rate is called aliasing\nTo avoid aliasing, the sampling rate should be at least 2-5 times larger than the larger frequency contained in the signal."
+  },
+  {
+    "objectID": "testingAudio.html#signal-reduction",
+    "href": "testingAudio.html#signal-reduction",
+    "title": "audio-slideshow Example",
+    "section": "Signal reduction",
+    "text": "Signal reduction\nTerm indicating the signal processing happening before statistics are run. For example: - reduce the complex ECG waveform into a simpler series of heart rate (HR) values - reduce the complex EOG waveform into a simpler number of eye blinks within a minute\nSignal reduction can happen - online (during the acquisition stage, in real time) - offline (after the acquisition stage)"
+  },
+  {
+    "objectID": "testingAudio.html#signal-processing",
+    "href": "testingAudio.html#signal-processing",
+    "title": "audio-slideshow Example",
+    "section": "signal processing",
+    "text": "signal processing\nThe temporaldynamics of biological activity can be classified in: - tonic - phasic"
+  },
+  {
+    "objectID": "testingAudio.html#tonic-activity",
+    "href": "testingAudio.html#tonic-activity",
+    "title": "audio-slideshow Example",
+    "section": "tonic activity",
+    "text": "tonic activity\n\nBackground level over a relatively long period of time\nUseful for studying the signal “on average”\nGenerally recorded at rest, but it could be recorded during a relatively long activity\nSometimes interesting as a baseline for phasic acitivyt (next slide); sometimes interesting by itself (e.g., essential hypertension)"
+  },
+  {
+    "objectID": "testingAudio.html#phasic-activity",
+    "href": "testingAudio.html#phasic-activity",
+    "title": "audio-slideshow Example",
+    "section": "phasic activity",
+    "text": "phasic activity\n\nTransient activity over a relatively short period of time\nUseful for studying the short-lived fluctuations on top of tonic activity\nGenerally specific to reaction to certain events (e.g., a stimulus is presented that needs processing, an action is performed)\nIt can be a change in amplitude of the signal, frequency of the signal, or other (more complex) parameters not discussed in this module"
+  },
+  {
+    "objectID": "testingAudio.html#change-scores",
+    "href": "testingAudio.html#change-scores",
+    "title": "audio-slideshow Example",
+    "section": "Change scores",
+    "text": "Change scores\nGeneral idea: describe transient changes (phasic activity) from baseline (tonic activity)\nA = activity;             B = baseline\nNotable types of change scores: * subtraction: \\(A-B\\) * percentage change: \\(\\frac{A-B}{B}\\\\ *100\\) * decibel change: \\(10log_{10}\\frac{A}{B}\\\\\\)"
+  },
+  {
+    "objectID": "testingAudio.html#time-domain",
+    "href": "testingAudio.html#time-domain",
+    "title": "audio-slideshow Example",
+    "section": "time domain",
+    "text": "time domain\nFeatures that develop over time. For example: - durations (e.g., eye blink duration) - rate (e.g., number of ECG R-waves in 1 minute) - amplitude (e.g., max blood pressure)"
+  },
+  {
+    "objectID": "testingAudio.html#frequency-domain-aka-spectral",
+    "href": "testingAudio.html#frequency-domain-aka-spectral",
+    "title": "audio-slideshow Example",
+    "section": "frequency domain (aka: spectral)",
+    "text": "frequency domain (aka: spectral)\nFeatures linked to trends. For example: - the magnitude of oscillations at certain frequencies - the positioning of oscillations at certain frequencies"
+  },
+  {
+    "objectID": "testingAudio.html#coherence",
+    "href": "testingAudio.html#coherence",
+    "title": "audio-slideshow Example",
+    "section": "coherence",
+    "text": "coherence\nExtent to which two signals are related - within the same biological domain (e.g., connectivity between brain areas) - across biological domains (e.g., coupling between breathing rate and heart rate)\nCaveats with the acquisition and processing of each specific biological signals of psychological interest. In this module, we will focus on: - electrooculogram (EOG) - electrocardiogram (ECG) - electroencephalogram (EEG)"
+  },
+  {
+    "objectID": "FoundationsOfSelfControlAndFatigue.html#foudations-of-self-control-and-fatigue",
+    "href": "FoundationsOfSelfControlAndFatigue.html#foudations-of-self-control-and-fatigue",
+    "title": "Learning resources",
+    "section": "Foudations of self-control and fatigue",
+    "text": "Foudations of self-control and fatigue\n\n\n Dr Germano Gallicchio \n\nLecturer in Psychophysiology and Cognitive Neuroscience  School of Psychology and Sport Science, Bangor University, UK \nprofile | research | software | learning resources | book meeting\n\n\n\nOn a computer press F11 to de/activate full-screen view.\nFor smartphone and review: Bottom left menu → Tools → PDF Export Mode.\n\n\nQR code tothese slides: \n\n    \n\nPIN\n\n0000"
   }
 ]
