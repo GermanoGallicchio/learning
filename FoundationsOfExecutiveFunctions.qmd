@@ -43,6 +43,7 @@ QR code to<br>these slides:
     font-size: 2.5em;
     color: rgba(255,40,0,0.6)
 ">0000</div>
+
 :::
 :::
 
@@ -635,7 +636,7 @@ You are presented with a pair of a digit and a letter (e.g., 3T).
 
 
 
-# Measuring shifting through the **dual task**
+# Measuring shifting through the **dual task** {.scrollable}
 
 You are presented with a spoken number (e.g., "three", "eight").
 
