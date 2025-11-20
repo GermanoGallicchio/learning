@@ -6,7 +6,8 @@
 <br><br>
 Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
-Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
 School of Psychology and Sport Science, Bangor University, UK <br>
 
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
@@ -14,12 +15,16 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 
 <br>
 
+::: {.content-visible when-format="html"}
 <div style="font-size:0.6em">
 On a computer press F11 to de/activate full-screen view.
 
 For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
+
+For pdf document: use "learning resources" link above.
 </div>
 
+:::
 :::
 
 :::{.column width=20%}
@@ -29,7 +34,7 @@ QR code to<br>these slides:
 :::
 
 ::: {.content-visible when-format="pdf"}
-[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
 :::
 
 <br>
@@ -255,16 +260,8 @@ Elite athletes
 
 
 
-<img 
-    src="https://images.unsplash.com/photo-1623428455276-c5243d302dbe?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-    width="15%" 
-    alt="image of a person training with kettlebells" 
-/>
-<img 
-    src="https://images.unsplash.com/photo-1614982515601-4e58aedc59fa?q=80&w=714&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-    width="25%" 
-    alt="children playing football" 
-/>
+![image of a person training with kettlebells](https://images.unsplash.com/photo-1623428455276-c5243d302dbe?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){width=15%}
+![children playing football](https://images.unsplash.com/photo-1614982515601-4e58aedc59fa?q=80&w=714&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){width=25%}
 
 
 # Role of sport and exercise psychologists
@@ -691,11 +688,7 @@ Think about participants, Instructions, Measurements, Groups/Conditions, Analysi
 ::::{.columns}
 :::{.column}
 <div style="text-align: center;">
-<img 
-    src="https://ipep.bangor.ac.uk/images/IPEPlogo_000.jpg" 
-    width="40%" 
-    alt="Institute for the Psychology of Elite Performance logo" 
-/>
+![Institute for the Psychology of Elite Performance logo](https://ipep.bangor.ac.uk/images/IPEPlogo_000.jpg){width=40%}
 <br>
 <a href=https://ipep.bangor.ac.uk/>https://ipep.bangor.ac.uk/</a>
 </div>
