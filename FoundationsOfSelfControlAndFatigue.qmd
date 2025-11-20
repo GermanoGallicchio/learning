@@ -6,7 +6,8 @@
 <br><br>
 Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
-Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
 School of Psychology and Sport Science, Bangor University, UK <br>
 
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
@@ -14,22 +15,27 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 
 <br>
 
+::: {.content-visible when-format="html"}
 <div style="font-size:0.6em">
 On a computer press F11 to de/activate full-screen view.
 
 For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
+
+For pdf document: use "learning resources" link above.
 </div>
+
+:::
 
 :::
 
 :::{.column width=20%}
 ::: {.content-visible when-format="html"}
 QR code to<br>these slides:
-{{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfBrainAndFatigue.html?view=scroll colorDark='#0011bb' >}}
+{{< qrcode https://germanogallicchio.github.io/learning/FoundationsOfSelfControlAndFatigue.html?view=scroll colorDark='#0011bb' >}}
 :::
 
 ::: {.content-visible when-format="pdf"}
-[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
 :::
 
 <br>
@@ -63,46 +69,772 @@ QR code to<br>these slides:
 
 # Agenda
 
-work in progress
+- Factors the limit psychomotor performance
+- Strength model of self-control and ego-depletion
+- Psychobiological model of fatigue
+- Strategies to improve self-control
+- Strategies to increase resilience to mental fatigue
 
-# aSDASD
-
-Need to mention becausa they are in the exam:
-
-Mischel's "delayed gratification" study (also known as the "Marshmallow study") 
-
-The study conducted by Muraven (2010) shows that:
 
 # Propedeutics
 
-
 ::: {.content-visible when-format="html"}
-
 ```{dot}
 //| fig-width: 8
 digraph {
-    node [shape=none]
-    
     rankdir=LR
+    layout="circo"
     bgcolor="transparent"
 
     subgraph cluster0 {
       C [label = "cognition"]
       M [label = "motivation"]  
-      C -> M [dir=both]
+      C -> M [dir=both, rank=same]
     } 
     
-    S [label = "self-control\nand mental fatigue"]
-
-    C -> S
-    
-
+    S [label = "self-control and\nmental fatigue"]
+    {C; M} -> S 
 
 }
 ```
+:::
+
+::: {.content-visible when-format="pdf"}
+
+:::
+
+This content builds upon some concepts of executive functions and motivation.
+
+:::aside
+To cover these concepts, see the link to "learning resources" earlier/above.
+:::
+
+# Desire-goal conflict {.scrollable}
+
+
+In these scenarios, these two people have something in common:
+
+::: {.content-visible when-format="pdf"}
+- a child in front of sweets they like
+- a runner who is getting tired
+:::
+
+::: {.content-visible when-format="html"}
+
+::: {#fig-conflict layout-ncol=2}
+
+![child in front of cake](https://freerangestock.com/sample/69067/little-girl-sitting-at-table-with-cake.jpg){width=45%}
+
+![fatigued runner](https://cdn12.picryl.com/photo/2016/12/31/runner-marathon-sport-sports-efd114-1024.jpg){width=45%}
+
+Child in front of cake and fatigued runner.
+
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+Images: [child in front of cake](https://freerangestock.com/sample/69067/little-girl-sitting-at-table-with-cake.jpg) | [fatigued runner](https://cdn12.picryl.com/photo/2016/12/31/runner-marathon-sport-sports-efd114-1024.jpg)
 
 :::
 
 
-Motivation
 
+:::{.fragment}
+
+They are both tempted (e.g., to eat the sweet, to stop running) and experiencing a **conflict** between a shorter-term **desire** and a longer-term **goal**.
+
+| scenario | goal | desire |
+| -------- | ----------- | ------------ |
+| child with sweets | Wait a bit longer. If you resist you will get more | The candy looks yummy. Eat it now! |
+| tired runner | Resist the discomfort. It's for your own good | So tiring and painful. Stop this awful feeling | 
+
+:::
+
+# Personal reflections {.scrollable}
+
+::: {.content-visible when-format="html"}
+{{< countdown minutes=5 seconds=0 >}}
+:::
+
+In pairs: 
+
+- Share an example (made up or from personal experience) with the person next to you. Discuss:
+  - What was the immediate desire?
+  - What was the longer-term goal?
+  - Did you resist the temptation? If so, how?
+
+::: {.content-visible when-format="pdf"}
+**Individual reflection**: Think of a recent desire-goal conflict you have experienced recently.
+:::
+
+# The "Marshmallow study" (delayed gratification) {.scrollable}
+
+
+> You can eat the candy now (option A).
+> [But if you wait and don’t eat it until I am back, I’ll give you another one, so you have two (option B).]{.fragment}
+
+:::{.fragment}
+
+<iframe 
+width=100% 
+height=30%
+src="https://youtube.com/embed/5DGAsjUa6cA" 
+title="The “Marshmallow study”" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+:::
+
+[At 4 years of age, about 50% of kids did not wait (chose option A) and 50% waited (chose option B).]{.fragment}
+
+[Incidentally, it was later found that those who waited, many years later, had better health, grades, salary, and happiness.]{.fragment}
+
+[This study showed that ability to delay gratification in childhood predicts various positive life outcomes.]{.fragment}
+
+:::{.fragment}
+
+<iframe 
+width=100% 
+height=30%
+src="https://youtube.com/embed/XcmrCLL7Rtw" 
+title="The “Marshmallow study”" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+::::{.columns}
+
+:::{.column width=20%}
+
+::: {.content-visible when-format="html"}
+![Walter Mischel](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Walter_Mischel_Stanford_Psychologist.png/500px-Walter_Mischel_Stanford_Psychologist.png?20230413132132){width=100%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Walter Mischel](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Walter_Mischel_Stanford_Psychologist.png/500px-Walter_Mischel_Stanford_Psychologist.png?20230413132132)
+:::
+
+:::
+
+:::{.column width=80%}
+
+> What we found in many studies is that the choices they make have very serious connections to how their lives work out...
+>
+> Willpower and self-control are cognitive skills--which we have been able to identify--which are quite easily teachable not only to children but to adults...
+>
+> – Walter Mischel
+
+:::
+
+::::
+
+:::
+
+
+
+# Strength model of self-control {.scrollable}
+
+**Self-control**, also known as "willpower" or "self-discipline" is the capacity to control behaviour in line with long-term benefits, personal values, or social expectations. 
+
+[The **strength model** of self-control posits that self-control is a limited resource, operating like a muscle: it can be fatigued and it can be trained.]{.fragment fragment-index=0}
+
+::::{.columns}
+:::{.column}
+
+[Each use of self-control depletes a common tank of self-control resources.]{.fragment fragment-index=1}
+
+[When self-control resources are running low (the tank is almost dry) the individual is in a state of **ego depletion**.]{.fragment fragment-index=3}
+
+
+[Ego depletion is a temporary state, characterized by exhaustion (or near exhaustion) of self-control.]{.fragment fragment-index=4}
+[It has detrimental effects on activities requiring self-control.]{.fragment fragment-index=5}
+
+
+:::
+
+:::{.column}
+
+::: {.content-visible when-format="html"}
+:::{.fragment fragment-index=2}
+```{dot}
+//| fig-width: 6
+//| fig-cap: "How activities with varying self-control needs induce ego depletion according to the strength model of self-control"
+digraph {
+  rankdir=LR
+  bgcolor="transparent"
+  graph [splines=true]
+  node [shape=box, fontsize=30]
+  edge [fontsize=30]
+
+  subgraph cluster_tank {
+    label="Self-control\nresources"
+    fontsize=30
+    color="#cccccc"
+    fontcolor="#666666"
+    style="rounded,dashed"
+
+    Tank0 [shape=cylinder, label="tank at 100%\n(baseline)", style=filled, fillcolor="#d9f7ddff"]
+    Tank1 [shape=cylinder, label="tank at ~70%\n(after Task 1)", style=filled, fillcolor="#e7f1bcff"]
+    Tank2 [shape=cylinder, label="tank at ~65%\n(after Task 2)", style=filled, fillcolor="#ead0a6ff"]
+    Tank3 [shape=cylinder, label="tank at ~25%\n(after Task 3)", style=filled, fillcolor="#e59c9bff"]
+  }
+
+
+  subgraph cluster_acts {
+    label="Activities"
+    fontsize=30
+    color="#cccccc"
+    fontcolor="#666666"
+    style="rounded,dashed"
+
+    A1 [label="Task 1\n(much self-control\nneeded)"]
+    A2 [label="Task 2\n(little self-control\nneeded)"]
+    A3 [label="Task 3\n(even more self-control\nneeded)"]
+  }
+
+
+  Tank0 -> A1 [label="using\nmany resources"]
+  A1 -> Tank1 [label=""]
+
+  Tank1 -> A2 [label="using\nfew reources"]
+  A2 -> Tank2 [label=""]
+
+  Tank2 -> A3 [label="using\neven more resources"]
+  A3 -> Tank3 [label="depletion"]
+  
+}
+```
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+*[Diagram showing self-control depletion: A sequence of tasks where Task 1 depletes resources from 100% to ~70%, Task 2 further depletes to ~65%, and Task 3 causes severe depletion to ~25%]*
+:::
+
+:::
+
+::::
+
+
+
+# Approaches to measuring self-control
+
+Two approaches have been used to measure self-control:
+
+1. through questionnaires. [(potential issues: subjective? social desirability?)]{.fragment}
+2. through performance at a second self-control activity (the two-task paradigm), presented straight after another self-control activity.
+
+[These approaches, especially the latter, have provided substantial (but controversial) support to the strength model of self-control.]{.fragment}
+
+# The "two-task" paradigm {.scrollable}
+
+Allocation (possibly random) of study volunteers to two groups: ego-depletion group and control group.
+
+::: {.content-visible when-format="html"}
+```{dot}
+//| fig-height: 4
+//| fig-cap: "The two-task paradigm"
+digraph{
+  rankdir=LR
+
+  bgcolor="transparent"
+  
+  graph [splines=false]
+  node [shape=rect, fontsize=30]
+  edge [fontsize=30]
+  nodesep = 1
+
+  subgraph cluster_task1 {
+    
+    label="first task:\nmanual transcription"
+    fontsize=30
+    color="#cccccc"
+    fontcolor="#666666"
+    style="rounded,dashed"
+    A [label="omitting some letters"]
+    B [label="no omissions"]
+  }
+
+  subgraph cluster_task2 {
+    label="second task"
+    fontsize=30
+    color="#cccccc"
+    fontcolor="#666666"
+    style="rounded,dashed"
+    C [label="Stroop task"]
+  }
+
+  { rank = 1; A; B; C }
+  
+  
+  P [label="Participants", shape=circle]
+  P -> A [label="ego-depletion group"]
+  P -> B [label="control group"]
+  {A; B} -> C 
+
+  
+}
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+*[Diagram showing experimental paradigm: Participants are randomly assigned to either ego-depletion group (performing a first task requiring self-control - transcription with letter omissions) or control group (performing similar transcription without omissions). Both groups then complete a Stroop task as the second task.]*
+:::
+
+
+[Participants in the ego-depletion group are asked to perform a first task requiring self-control.]{.fragment}
+[Participants in the control group are asked to perform a _very similar_ first task, except it does not require (much) self-control.]{.fragment}
+
+[Participants from both groups are then given a second task requiring self-control. ]{.fragment}[Researchers study the changes in performance from the first to the second task to infer changes in self control.]{.fragment}
+
+[Key finding: Typically, the ego-depletion group performs worse than the control group at task 2]{.fragment}
+
+:::{.fragment}
+Key property showing the purported impact of the strength model of self-control:
+
+::::{.columns}
+:::{.column}
+It does _not matter_ what task 1 is, as long as it requires self-control.
+:::
+
+:::{.column}
+It does _not matter_ what task 2 is, as long as it requires self-control.
+:::
+::::
+
+What tasks require self-control?
+
+:::
+
+
+
+
+# Shared resources among “self-control” tasks?
+
+What do these activities have in common?
+
+- transcribing manually while omitting given letters
+- Stroop task
+- endurance exercise
+
+[They all require executive functions, and especially inhibition.]{.fragment}
+
+# First example of two-task paradigm: Baumeister et al.'s "radish experiment" (1998)
+
+Overview:
+
+Participants who were asked to eat radishes (and not chocolates, displayed on the table) gave up more quickly at an impossible puzzle, compared to those who were asked to eat the chocolates.
+
+:::{.fragment}
+> It takes self-control to resist temptation, and it takes self-control to make oneself keep trying a frustrating task.
+:::
+:::{.fragment}
+>
+> Apparently both forms of self-control draw on the same limited resource, because doing one interferes with subsequent efforts at the other.
+>
+> – Baumeister et al. (1998)
+:::
+
+[First evidence of ego depletion using the two-task paradigm]{.fragment}
+
+::: aside
+Baumeister, R. F., Bratslavsky, E., Muraven, M., & Tice, D. M. (1998). Ego depletion: Is the active self a limited resource? Journal of Personality and Social Psychology, 74(5), 1252–1265. https://doi.org/10.1037/0022-3514.74.5.1252. [Available on Talis](https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1037%252F0022-3514.74.5.1252&sig=cc57e09b6b8976478cd327ba35490efc201aed538b8586bce062f8a219e7899a)
+:::
+
+<!--
+# Incentives can counter the ego deplection effects
+
+- **Muraven (2010)**: Showed that monetary incentives can reduce or eliminate ego depletion effects, suggesting motivation plays a crucial role
+
+TO DO
+-->
+
+
+# Ego depletion: from consensus to controversy {.scrollable}
+
+While the concept of self-control itself is well established and unanimously recognized, the strenght model of self-control, and especially the concept of ego depletion, has been seriously questioned.
+
+[Early success]{.fragment}
+
+- Baumeister's initial studies showed robust ego depletion effects
+- Many research groups used the two-task paradigm and replicated the findings
+- Hagger et al. (2010) meta-analysis: 198 studies, moderate-to-large effect size (d = 0.62)
+- The strength model became widely accepted.
+
+[Doubts emerge]{.fragment}
+
+- It became known that some labs struggled to replicate the effect
+- Questions about publication bias (only positive results published? "File drawer problem")
+- Concerns about small sample sizes and flexible analysis
+<!-- **Job et al. (2010)**: Beliefs about willpower moderate the effect -->
+
+[Failed replication]{.fragment}
+
+- Hagger et al. (2016): Multi-lab registered replication
+- 23 labs, 2,141 participants, pre-registered protocol
+- Result: Near-zero effect size (d = 0.04)
+- Ego depletion effect essentially disappeared under rigorous conditions
+
+:::{.fragment}
+
+<iframe 
+width=45% 
+height=30%
+src="https://youtube.com/embed/aa9AjpJnZJA" 
+title="Ego depletion lecture by Roy Baumeister" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+<iframe 
+width=45% 
+height=30%
+src="https://youtube.com/embed/HD-dxUZxMcs" 
+title="Ego depletion replication crisis by Roy Baumeister" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+:::
+
+:::aside
+Hagger, M. S., Chatzisarantis, N. L. D., Alberts, H., Anggono, C. O., Batailler, C., Birt, A. R., Brand, R., Brandt, M. J., Brewer, G., Bruyneel, S., Calvillo, D. P., Campbell, W. K., Cannon, P. R., Carlucci, M., Carruth, N. P., Cheung, T., Crowell, A., De Ridder, D. T. D., Dewitte, S., ... Zwienenberg, M. (2016). A multilab preregistered replication of the ego-depletion effect. Perspectives on Psychological Science, 11(4), 546-573. https://doi.org/10.1177/1745691616652873. [Available on Talis](https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1177%252F1745691616652873&sig=7e6a7ed73dcf5a7f68f3c3be6d6edb343e9b583c758953faae64cbbf2586b389)
+:::
+
+# Limitations of the strength model of self-control
+
+::::{.columns}
+:::{.column}
+
+[Limitation 1: **what is to be depleted?**]{.fragment}
+
+[The depletion of common resources was an interesting concept,]{.fragment}
+[but what is the biological resource that is depleted in "ego depletion"?]{.fragment}
+[Nobody found that (although glicemia was considered for a while).]{.fragment}
+
+[What if nothing depletes, but something accumulates instead?]{.fragment}
+
+:::
+:::{.column}
+
+[Limitation 2: **the role of motivation**]{.fragment}
+
+[Incentives can counter the effects of ego-depletion, therefore depletion might reflect reduced motivation]{.fragment}
+[Participants might expect to feel tired after effortful and/or boring tasks, they would disengage, and put in less effort (rather than becoming unable to perform).]{.fragment}
+
+[Could the perception of effort influence fatigue?]{.fragment}
+
+:::
+::::
+
+[An alternative to the strength model that emerged from critiques of ego depletion is the "Psychobiological model of fatigue".]{.fragment}
+
+# Psychobiological model of fatigue {.scrollable}
+
+::::{.columns}
+:::{.column}
+
+A. Effort
+
+  1. Assume you are engaging with a challenging activity, mentally or physically.
+
+  2. Certain brain regions (e.g., those involved in executive functions) keep track of how hard the task feels, and you realize how much effort you are putting in.
+
+B. Tolerance
+
+  1. You have an idea of how much effort you are willing to tolerate 
+  
+  2. Motivation can raise or lower the tolerance threshold.
+
+C. Perceived effort + Motivation = Decision
+
+  1. If effort is below the threshold, you continue the task and keep going.
+
+  2. If effort meets or exceeds the threshold, you stop or reduce performance.
+  
+:::
+
+:::{.column}
+
+::: {.content-visible when-format="html"}
+```{dot}
+//| fig-width: 6
+//| fig-height: 8
+//| fig-cap: "Decision tree in the psychobiological model: effort perception vs tolerance"
+digraph Psychobio {
+  rankdir=TB
+  bgcolor="transparent"
+  node [shape=box, fontsize=30]
+  edge [fontsize=20]
+
+  Task [label="Demanding task\n(cognitive or physical)", fillcolor="#e5e9f0"]
+  
+  Brain [label="Brain regions for monitoring\n(e.g., executive function network)"]
+  
+  Perception [label="Perception of effort\n(conscious appraisal)"]
+  
+  Task -> Brain -> Perception -> Decision 
+
+
+  Motivation [label="Motivation factors:\n• rewards\n• goals\n• beliefs", fillcolor="#b48ead", shape=ellipse]
+
+  Threshold [label="Maximum tolerable\neffort threshold" shape=ellipse]
+  
+  Motivation -> Threshold [label="modulates", style=dashed]
+  Threshold -> Decision
+
+  Decision [label="Decision\nmaking", style=filled,  fillcolor="#ebcb8b", shape=diamond]
+
+  A [label="effort < threshold"]
+  B [label="effort ≥ threshold"]
+
+  Continue [label="Continue task,\nsustain effort", style=filled, fillcolor="#a3be8c"]
+
+  Stop [label="Stop/reduce\nperformance", style=filled, fillcolor="#bf616a"]
+  
+
+  Decision -> A -> Continue
+  Decision -> B -> Stop 
+  
+}
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+*[Decision tree diagram: A demanding task leads to brain monitoring, which creates perception of effort. This feeds into decision making (influenced by motivation factors and effort threshold). If effort < threshold, continue task; if effort ≥ threshold, stop/reduce performance.]*
+:::
+
+:::
+
+::::
+
+
+Key ideas: 
+
+- Fatigue is produced by the _interplay_ between the conscious **perception of effort** and the **motivation-modulated tolerance** (willingness to exert that effort)
+- Effort is typically retracted much earlier than resources running out
+- Effort is retracted when perceived effort is greater than an individual's maximum tolerable level
+- Typically, stopping is a _decision_, not a physiological necessity
+
+[Role of motivation:]{.fragment}
+
+- Strong motivation raises the tolerance threshold
+- Incentives (e.g., extrinsic motivation) can counter "depletion" effects
+
+
+
+:::aside
+Marcora, S. M., & Staiano, W. (2010). The limit to exercise tolerance in humans: mind over muscle?. European journal of applied physiology, 109(4), 763-770. https://doi.org/10.1007/s00421-010-1418-6. [Available on Talis](https://bangor.rl.talis.com/link?url=https%3A%2F%2Fbangor.idm.oclc.org%2Flogin%3Fqurl%3Dhttps%253A%252F%252Fdoi.org%252F10.1007%252Fs00421-010-1418-6&sig=e21fd721205dbff9644266dfef57f3b17671736f60f4312e1436c4417d3ac51d)
+
+:::
+
+# The "exercise stopper" {.scrollable}
+
+A substantial part of the psychobiological model was developed to understand _what makes people stop exercise_.
+
+[Initial findings focused on physiology (e.g., accumulation of metabolites), but findings revealed people could persist/desist depending on their motivation and effort tolerance.]{.fragment}
+
+[Studies manipulating incentives and their timings suggested the exercise stopper was perception of _effort being too high relative to effort tolerance_.]{.fragment}
+
+[Difficult cognitive tasks (e.g., executive function tasks) and physical exertion (running, cycling) both increase perception of effort in a vicious circle of events.]{.fragment}
+
+
+::: {.content-visible when-format="html"}
+
+::::{.columns}
+:::{.column width=40%}
+Proposed vicious circle of events:
+
+1. Continuous performance at an effortful activity
+2. Increases perception of effort
+3. Leads to feelings of fatigue
+4. Which requires greater effort to continue
+5. Back to step 1
+:::
+:::{.column width=60%}
+::: {.content-visible when-format="html"}
+```{dot}
+//| fig-cap: "Proposed vicious circle of events"
+//| fig-width: 7
+digraph EffortCycle {
+  rankdir=TB
+  layout="circo"
+  bgcolor="transparent"
+  node [shape=box, fontsize=30]
+  edge [fontsize=20]
+
+  Activity [label="Continued performance\nin effortful activity" style=filled]
+  
+  Perception [label="Perception of\neffort increases"]
+  
+  Fatigue [label="Feelings of\nfatigue"]
+  
+  MoreEffort [label="Greater effort\nrequired to continue"]
+    
+  Activity -> Perception
+  Perception -> Fatigue
+  Fatigue -> MoreEffort
+  MoreEffort -> Activity
+}
+```
+:::
+
+
+:::
+:::
+::::
+
+::: {.content-visible when-format="pdf"}
+
+Proposed vicious circle of events:
+
+1. Continuous performance at an effortful activity
+2. Increases perception of effort
+3. Leads to feelings of fatigue
+4. Which requires greater effort to continue
+5. Back to step 1
+
+:::
+
+
+# Some evidence supporting the psychobiological model {.scrollable}
+
+
+1. Mental fatigue reduces endurance performance
+
+- Participants do cognitively demanding tasks (90 min)
+- Then perform physical endurance test (cycling to exhaustion)
+- Result: Quit sooner despite same physiological state
+- They _felt_ more tired, but weren't physiologically more depleted
+
+2. Subliminal priming studies
+
+- Flash words like "go", "energy", "action" below awareness threshold
+- Improves endurance performance
+- No physiological changes, only perception altered
+
+3. Brain stimulation (tDCS) studies
+
+- Transcranial direct current stimulation to reduce effort perception
+- Participants can exercise longer
+- Same physiological capacity, different perception
+
+4. Incentive studies
+
+- Money eliminates "ego depletion"
+- increased motivation can lead to higher effort tolerance
+- Fits psychobiological model, contradicts resource depletion
+
+
+# Comparing the two models {.scrollable}
+
+| Aspect | Strength Model | Psychobiological Model |
+|--------|----------------|------------------------|
+| **Key mechanism** | Resource depletion (like a fuel tank) | Perception of effort (like pain) |
+| **Definition of fatigue** | Running out of a limited resource | Reaching maximum tolerable effort |
+| **Why we stop** | Resources are depleted | Effort feels too high relative to motivation |
+| **Role of motivation** | Does not override ego depletion | Directly modulates tolerance threshold |
+| **Recovery** | Rest replenishes resources | Time reduces effort perception |
+| **Biological basis** | Unspecified (glicemia?) | ACC, insula generate effort perception |
+
+**Which model is "correct"?**
+
+[Neither is perfect, but the psychobiological model:]{.fragment}
+
+- Has better empirical support
+- Explains motivation effects naturally
+- Doesn't require a mysterious depleting resource
+- Integrates cognitive and physical fatigue
+
+# Reflect on the models {.scrollable}
+
+::: {.content-visible when-format="html"}
+{{< countdown minutes=5 seconds=0 >}}
+:::
+
+Case study:
+
+> **Maya** is training for a marathon. During her long training runs, she often feels like quitting around the 15-km mark, even though she knows her body is capable of continuing. Some days she pushes through; other days she stops early.
+
+Reflect on:
+
+1. from the **strength model** perspective: What might explain Maya's _difficulty continuing_? What advice would you give her?
+
+2. from the **psychobiological model** perspective: What might explain Maya's _variable performance_? What advice would you give her?
+
+3. Which model better explains why Maya's performance _varies from day to day_?
+
+4. Practical application: Based on either model, suggest specific strategies Maya could use to improve her endurance.
+
+
+
+# Strategies to improve performance
+
+| strategy | theoretical framework |
+| ----- | --- |
+| Training self control like a muscle | Strength model of self-control |
+| Fatigue inoculation training to decrease perception of effort. | Psychobiological model | 
+
+# Muraven (2010) {.scrollable}
+
+::::{.columns}
+:::{.column}
+Key methodology:
+
+- participants: 92 adults
+- 4 groups, random allocation:
+  a. avoid sweets (high self-control)
+  b. handgrip exercises (high self-control)
+  c. math exercises (low self-control)
+  d. write diary (low self-control)
+  - for 2 weeks
+- assessment of inhibition ability before and after group allocation, using the Stop Signal Task
+
+:::
+
+:::{.column}
+
+Key finding:
+
+:::{.fragment}
+> Participants who practiced self-control
+by cutting back on sweets or squeezing a handgrip exhibited significant improvement in stop signal performance relative to those who practiced tasks that did not require self-control.
+:::
+:::
+::::
+
+:::aside
+Muraven, M. (2010). Building self-control strength: Practicing self-control leads to improved self-control performance. Journal of experimental social psychology, 46(2), 465-468. https://doi.org/10.1016/j.jesp.2009.12.011. [Available on Talis](https://bangor.rl.talis.com/link?url=https%3A%2F%2Flibkey.io%2Flibraries%2F1613%2F10.1016%2Fj.jesp.2009.12.011&sig=4679b4f3ac263c558e1ce2ce74c6a030c9c2ee4d562a5caee533650c352cda78)
+:::
+
+# Dallaway et al. (2021) {.scrollable}
+
+Key methodology:
+
+- participants: 36 adults
+  - 2 groups, random allocation:
+    a. brain-endurance training (handgrip and executive function tasks)
+    b. control (only handgrip tasks)
+    - for six weeks
+- rhythmic endurance handgrip task 
+  - before and after training
+  - under three conditions: solo, after, or concurrent to an executive function task (n-back)
+- Key measures:
+  - endurance performance
+  - prefrontal cortex functionality (fNIRS)
+
+[Key findings:]{.fragment}
+
+- The experimental group improved endurance more than control group
+- Experimental group developed greater prefrontal cortex functionality than control group
+
+
+:::aside
+Dallaway, N., Lucas, S. J., & Ring, C. (2021). Concurrent brain endurance training improves endurance exercise performance. Journal of Science and Medicine in Sport, 24(4), 405-411. https://doi.org/10.1016/j.jsams.2020.10.008. [Available on Talis](https://bangor.rl.talis.com/link?url=https%3A%2F%2Flibkey.io%2Flibraries%2F1613%2F10.1016%2Fj.jsams.2020.10.008&sig=700d2144ef79f254427fe66dfa49abe52c57a50e6f4c861d40da1973f1e421af)
+:::
