@@ -6,7 +6,8 @@
 <br><br>
 Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
-Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
 School of Psychology and Sport Science, Bangor University, UK <br>
 
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
@@ -14,6 +15,7 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 
 <br>
 
+::: {.content-visible when-format="html"}
 <div style="font-size:0.6em">
 On a computer press F11 to de/activate full-screen view.
 
@@ -23,6 +25,7 @@ For pdf document: use "learning resources" link above.
 </div>
 
 :::
+:::
 
 :::{.column width=20%}
 ::: {.content-visible when-format="html"}
@@ -31,7 +34,7 @@ QR code to<br>these slides:
 :::
 
 ::: {.content-visible when-format="pdf"}
-[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
 :::
 
 <br>
@@ -112,9 +115,7 @@ Think of working memory as the set of resources for temporarily _holding_ and _m
 
 Analogy used often: a working desk. There is enough space for the things you are working on right now, not much else...
 
-<div style="text-align: center;">
-<img src="https://freesvg.org/img/school-desk-flat.png" alt="School desk" style="width:30%;">
-</div>
+![School desk](https://freesvg.org/img/school-desk-flat.png){width=30% fig-align="center"}
 
 :::
 
@@ -168,11 +169,14 @@ Optional: [Link to demo of digit span task](https://www.psytoolkit.org/experimen
 ::::{.columns}
 :::{.column width=20%}
 
-<img 
-    src="https://www.york.ac.uk/media/psychology/images/people/emeritus-faculty/Alan_Baddeley_013.jpg"  
-    alt="photo of Alan Baddeley from the University of York public website"
-    title="Alan Baddeley"
-    width="100%"/>
+::: {.content-visible when-format="html"}
+![photo of Alan Baddeley from the University of York public website](https://www.york.ac.uk/media/psychology/images/people/emeritus-faculty/Alan_Baddeley_013.jpg){width=100% title="Alan Baddeley"}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Alan Baddeley](https://www.york.ac.uk/media/psychology/images/people/emeritus-faculty/Alan_Baddeley_013.jpg)
+:::
+
     Alan Baddeley
 
 
@@ -329,7 +333,7 @@ What other things does attention do other than selecting (_orienting_)? General 
 ::::{.columns}
 :::{.column}
 
-<img src="https://live.staticflickr.com/2661/5807919992_39ba7947cf_o.jpg" alt="Cocktail party" style="width:100%;">
+![Cocktail party](https://live.staticflickr.com/2661/5807919992_39ba7947cf_o.jpg){width=100%}
 
 
 :::
@@ -394,6 +398,7 @@ While **fixating the cross** at the centre, try to read what appears at the side
 <span style="margin: 0 10%;">+</span>
 <span style="opacity: 0.3;">ORIENTING</span>
 </div>
+
 :::
 
 <br><br>
@@ -457,7 +462,7 @@ Reflect on the main things you did not remember about working memory or attentio
 ::::{.columns}
 
 :::{.column width=40%}
-<img src="https://i.imgflip.com/aa6gto.jpg" alt="just a meme about anxiety. no real content" style="width:100%;">
+![just a meme about anxiety. no real content](https://i.imgflip.com/aa6gto.jpg){width=100%}
 :::
 
 :::{.column width=60%}
@@ -875,11 +880,7 @@ Smith, N. C., Bellamy, M., Collins, D. J., & Newell, D. (2001). A test of proces
 ::::{.columns}
 :::{.column width=20%}
 
-<img 
-src="https://gameimprovementgolf.com/wp-content/uploads/2015/06/Joan-Vickers.jpg"  
-alt="photo of Joan Vickers"
-title="Joan Vickers"
-width="100%"/>
+![photo of Joan Vickers](https://gameimprovementgolf.com/wp-content/uploads/2015/06/Joan-Vickers.jpg){width=100% title="Joan Vickers"}
 Joan Vickers
 
 ::: {.content-visible when-format="html"}
@@ -1952,7 +1953,13 @@ No doubts these models will be refined again and again, and that's the researche
 
 :::{.column width=30%}
 :::{.fragment fragment-index=1}
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/GeorgeEPBox.jpg/800px-GeorgeEPBox.jpg" width=50%>
+::: {.content-visible when-format="html"}
+![George E. P. Box](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/GeorgeEPBox.jpg/800px-GeorgeEPBox.jpg){width=50%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [George E. P. Box](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/GeorgeEPBox.jpg/800px-GeorgeEPBox.jpg)
+:::
 
 George E. P. Box
 <a href="https://en.wikipedia.org/wiki/George_E._P._Box">Read more</a>.
