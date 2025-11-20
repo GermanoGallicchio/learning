@@ -35,7 +35,7 @@ format:
     pdf:
         documentclass: scrartcl
         classoption:
-          - DIV=11
+          - DIV=13
           - numbers=noendperiod
         papersize: letter
         include-in-header:
