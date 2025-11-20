@@ -6,7 +6,8 @@
 <br><br>
 Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
-Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
 School of Psychology and Sport Science, Bangor University, UK <br>
 
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
@@ -18,7 +19,11 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 <div style="font-size:0.6em">
 On a computer press F11 to de/activate full-screen view.
 
-For smartphone and review: Bottom left menu → Tools → PDF Export Mode. </div>
+For smartphone and review: Bottom left menu → Tools → PDF Export Mode. 
+
+For pdf document: use "learning resources" link above.
+</div>
+
 :::
 
 :::
@@ -30,7 +35,7 @@ QR code to<br>these slides:
 :::
 
 ::: {.content-visible when-format="pdf"}
-[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
 :::
 
 <br>
@@ -81,7 +86,13 @@ QR code to<br>these slides:
 
 ::::{.columns}
 :::{.column}
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Music_director_%26_conductor.jpg/960px-Music_director_%26_conductor.jpg?20210721152138" style="width:100%" alt="Image of an orchestra conductor" />
+::: {.content-visible when-format="html"}
+![Image of an orchestra conductor](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Music_director_%26_conductor.jpg/960px-Music_director_%26_conductor.jpg?20210721152138){width=100%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [orchestra conductor](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Music_director_%26_conductor.jpg/960px-Music_director_%26_conductor.jpg?20210721152138)
+:::
 :::
 
 :::{.column}
@@ -101,7 +112,13 @@ Set of higher order functions that control all cognitive processes
 
 ::::{.columns}
 :::{.column}
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Graph_theory_tree.svg/542px-Graph_theory_tree.svg.png?20070519100203" width="80%" alt="a decorative diagram showing nodes (objects) and edges (connections between objects) forming a network">
+::: {.content-visible when-format="html"}
+![a decorative diagram showing nodes (objects) and edges (connections between objects) forming a network](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Graph_theory_tree.svg/542px-Graph_theory_tree.svg.png?20070519100203){width=80%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [network diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Graph_theory_tree.svg/542px-Graph_theory_tree.svg.png?20070519100203)
+:::
 :::
 
 :::{.column}
@@ -145,7 +162,13 @@ Inter‑species differences in the _mass_ of the PFC _relative_ to the whole cer
 ::::{.columns}
 
 :::{.column width=60%}
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Brain-body_mass_ratio_for_some_animals_diagram.svg/965px-Brain-body_mass_ratio_for_some_animals_diagram.svg.png?20160611154348" width="100%" alt="diagram comparing brain mass to body mass of several species, showing humans have a large brain mass relative to the body's">
+::: {.content-visible when-format="html"}
+![diagram comparing brain mass to body mass of several species, showing humans have a large brain mass relative to the body's](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Brain-body_mass_ratio_for_some_animals_diagram.svg/965px-Brain-body_mass_ratio_for_some_animals_diagram.svg.png?20160611154348){width=100%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [brain-body mass ratio diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Brain-body_mass_ratio_for_some_animals_diagram.svg/965px-Brain-body_mass_ratio_for_some_animals_diagram.svg.png?20160611154348)
+:::
 :::
 
 :::{.column width=40%}
@@ -168,7 +191,13 @@ This may be the neural substrate to the greater executive function skills in pri
 
 ::::{.columns}
 :::{.column}
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Phrenology%3B_Chart_Wellcome_L0000992.jpg/960px-Phrenology%3B_Chart_Wellcome_L0000992.jpg?20141002162515" width="80%" alt="Phrenology map showing different areas of the skull associated with various traits" />
+::: {.content-visible when-format="html"}
+![Phrenology map showing different areas of the skull associated with various traits](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Phrenology%3B_Chart_Wellcome_L0000992.jpg/960px-Phrenology%3B_Chart_Wellcome_L0000992.jpg?20141002162515){width=80%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Phrenology map](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Phrenology%3B_Chart_Wellcome_L0000992.jpg/960px-Phrenology%3B_Chart_Wellcome_L0000992.jpg?20141002162515)
+:::
 :::
 
 :::{.column}
@@ -195,8 +224,13 @@ Some key concepts:
 
 ::::{.columns}
 :::{.column width=30%}
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg/511px-Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg?20171219214641
-" style="width:100%" alt="Portrait of Phineas Gage holding a rod, presumably the one that perforated his skull" />
+::: {.content-visible when-format="html"}
+![Portrait of Phineas Gage holding a rod, presumably the one that perforated his skull](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg/511px-Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg?20171219214641){width=100%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Phineas Gage portrait](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg/511px-Phineas_Gage_Cased_Daguerreotype_WilgusPhoto2008-12-19_EnhancedRetouched_Color.jpg?20171219214641)
+:::
 
 <iframe 
 width="100%" 
@@ -679,7 +713,13 @@ You are presented with a _Navon_ stimulus.
 
 :::{.column width=60%}
 
-<img src="https://upload.wikimedia.org/wikipedia/en/e/e9/Targetstimulus.png" width="70%" alt="picture of a Navon stimulus"/>
+::: {.content-visible when-format="html"}
+![picture of a Navon stimulus](https://upload.wikimedia.org/wikipedia/en/e/e9/Targetstimulus.png){width=70%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Navon stimulus](https://upload.wikimedia.org/wikipedia/en/e/e9/Targetstimulus.png)
+:::
 
 :::
 
