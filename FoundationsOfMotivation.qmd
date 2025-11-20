@@ -6,7 +6,8 @@
 <br><br>
 Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
-Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
 School of Psychology and Sport Science, Bangor University, UK <br>
 
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
@@ -14,12 +15,16 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 
 <br>
 
+::: {.content-visible when-format="html"}
 <div style="font-size:0.6em">
 On a computer press F11 to de/activate full-screen view.
 
 For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
+
+For pdf document: use "learning resources" link above.
 </div>
 
+:::
 :::
 
 :::{.column width=20%}
@@ -29,7 +34,7 @@ QR code to<br>these slides:
 :::
 
 ::: {.content-visible when-format="pdf"}
-[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
 :::
 
 <br>
@@ -100,7 +105,7 @@ Analogy of "stick and carrot"
 
 ::: {.column width="50%"}
 ::: {.fragment fragment-index=3}
-<img src="https://images.prismic.io/sketchplanations/b3c548b0-71ab-48c5-8c6e-e14bf07d6ac5_SP+773+-+Extrinsic+motivation.png?auto=compress,format&w=1200" style="width:100%" alt="Image of donkey with carrot ahead and stick behind" />
+![Image of donkey with carrot ahead and stick behind](https://images.prismic.io/sketchplanations/b3c548b0-71ab-48c5-8c6e-e14bf07d6ac5_SP+773+-+Extrinsic+motivation.png?auto=compress,format&w=1200){width=100%}
 :::
 :::
 ::::
@@ -229,7 +234,7 @@ Intrinsic ↔ Extrinsic
 
 :::: {.columns}
 ::: {.column width="33%"}
-<img src="https://goodlifechiropractic.com/storage/2025/05/The_Impact_of_a_Bulging_Disc_on_Daily_Activities.jpg" style="width:100%" alt="old man in distress near kids" />
+![old man in distress near kids](https://goodlifechiropractic.com/storage/2025/05/The_Impact_of_a_Bulging_Disc_on_Daily_Activities.jpg){width=100%}
 
 [The reward overjustified the activity. This phenomenon is called _overjustification effect_.]{.fragment fragment-index=2}
 
