@@ -19,6 +19,8 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 On a computer press F11 to de/activate full-screen view.
 
 For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
+
+For pdf document: use "learning resources" link above.
 </div>
 
 :::
@@ -30,7 +32,7 @@ QR code to<br>these slides:
 :::
 
 ::: {.content-visible when-format="pdf"}
-[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
 :::
 
 <br>
@@ -78,11 +80,7 @@ QR code to<br>these slides:
 ::::{.columns}
 :::{.column width=20%}
 <div style="text-align: center;">
-<img 
-    src="https://media.snl.no/media/19335/standard_compressed_256px-William_James_b1842c.jpg"
-    alt="Portrait of William James"
-    title="William James"
-    width="100%"/>
+![Portrait of William James](https://media.snl.no/media/19335/standard_compressed_256px-William_James_b1842c.jpg){width=100% title="William James"}
     William James
 </div>
 
@@ -146,9 +144,13 @@ There are several theoretical models of visuospatial attention (but we will not 
 
 It is useful to think of attention as a spotlight moving in space
 
-<div style="text-align:center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/White_spotlight_on_David_Byrne.jpg" alt="a spotlight in theatre" style="width:50%;">
-</div>
+::: {.content-visible when-format="html"}
+![a spotlight in theatre](https://upload.wikimedia.org/wikipedia/commons/6/6c/White_spotlight_on_David_Byrne.jpg){width=50% fig-align="center"}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [a spotlight in theatre](https://upload.wikimedia.org/wikipedia/commons/6/6c/White_spotlight_on_David_Byrne.jpg)
+:::
 
 ::: aside
 By definition, visuo-spatial attention is based on visual representations and most examples of spatial attention are _visuo_-spatial. But a similar concept can be applied to any other sensorial modalities.
@@ -172,6 +174,8 @@ Events occurring in that location (vs those occuring in another location):
 :::
 
 # Demonstration of a type of orienting
+
+::: {.content-visible when-format="html"}
 
 Keep your gaze on the center while reading the letters appearing on screen.
 
@@ -211,6 +215,18 @@ Keep your gaze on the center while reading the letters appearing on screen.
 :::{.fragment}
 the word is "covert"
 :::
+:::
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+While **fixating the cross** at the centre, try to read what appears at the sides
+
+COVERT    +    ORIENTING
+
+You just experienced covert orienting
+
 :::
 
 # Orienting of visuo-spatial attention
@@ -310,11 +326,14 @@ Back to the Future scene: <https://youtube.com/watch?v=GCp-zxSqopw&t=5s>
 ::::{.columns}
 :::{.column width=20%}
 <div style="text-align: center;">
-<img 
-    src="https://www.aaas.org/sites/default/files/s3fs-public/blog_media/michael_posner_image.jpg"
-    alt="Portrait of Michael Posner"
-    title="Michael Posner"
-    width="100%"/>
+
+::: {.content-visible when-format="html"}
+![Portrait of Michael Posner](https://www.aaas.org/sites/default/files/s3fs-public/blog_media/michael_posner_image.jpg){width=100% title="Michael Posner"}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Michael Posner](https://www.aaas.org/sites/default/files/s3fs-public/blog_media/michael_posner_image.jpg)
+:::
     Michael Posner
 </div>
 
@@ -701,11 +720,13 @@ Make sure to read the paper
 
 Overarching aim: determine whether expert basketball players are better than novices in distinguishing true from fake passes
 
-<img 
-  src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Partido_NBA_-i---i-_(31910569110)_(cropped).jpg"
-  alt="picture of basketball game. decorative reasons only."
-  width="70%"
-/>
+::: {.content-visible when-format="html"}
+![picture of basketball game. decorative reasons only.](https://upload.wikimedia.org/wikipedia/commons/f/f0/Partido_NBA_-i---i-_(31910569110)_(cropped).jpg){width=70%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [basketball game](https://upload.wikimedia.org/wikipedia/commons/f/f0/Partido_NBA_-i---i-_(31910569110)_(cropped).jpg)
+:::
 
 
 # Method | Study 1 {.scrollable}
