@@ -7,7 +7,8 @@
 <br><br>
 Dr Germano Gallicchio <br>
 <div style="font-size:0.8em">
-Lecturer in Psychophysiology and Cognitive Neuroscience <br>
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
 School of Psychology and Sport Science, Bangor University, UK <br>
 
 [profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
@@ -15,12 +16,17 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 
 <br>
 
+::: {.content-visible when-format="html"}
+
 <div style="font-size:0.6em">
 On a computer press F11 to de/activate full-screen view.
 
 For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
+
+For pdf document: use "learning resources" link above.
 </div>
 
+:::
 :::
 
 :::{.column width=20%}
@@ -30,7 +36,7 @@ QR code to<br>these slides:
 :::
 
 ::: {.content-visible when-format="pdf"}
-[To access the latest version of these slides visit this link](https://germanogallicchio.github.io/learning/)
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
 :::
 
 <br>
@@ -154,11 +160,13 @@ the three main neuronal structures:
 
 
 ::: {.column width=40%}
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Dendrite_%28PSF%29.svg"
-    alt="Drawing of a neuron and its main structures"
-    width="100%"
-/>
+::: {.content-visible when-format="html"}
+![Drawing of a neuron and its main structures](https://upload.wikimedia.org/wikipedia/commons/e/e3/Dendrite_%28PSF%29.svg){width=100%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Drawing of a neuron and its main structures](https://upload.wikimedia.org/wikipedia/commons/e/e3/Dendrite_%28PSF%29.svg)
+:::
 :::
 
 ::: {.column width=60%}
@@ -189,11 +197,13 @@ The **axon** is a long, singular projection that transmits signals away from the
 :::: {.columns}
 ::: {.column}
 
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/e/e0/A_spiny_stellate_neuron.png"
-    alt="Image of a stellate neuron"
-    width="90%"
-/>
+::: {.content-visible when-format="html"}
+![Image of a stellate neuron](https://upload.wikimedia.org/wikipedia/commons/e/e0/A_spiny_stellate_neuron.png){width=90%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Stellate neuron](https://upload.wikimedia.org/wikipedia/commons/e/e0/A_spiny_stellate_neuron.png)
+:::
 
 ::: aside
 Image of a stellate neuron, so called because of the shape of the dendrites
@@ -222,13 +232,13 @@ The **structure and shape** of dendrites vary across different types of neurons,
 
 # Axon
 
-<div style="text-align: center;">
-<img 
-    src="https://pressbooks.cuny.edu/app/uploads/sites/474/2020/05/neuron.jpeg"
-    alt="Electrochemical Communication"
-    width="50%"
-/>
-</div>
+::: {.content-visible when-format="html"}
+![Electrochemical Communication](https://pressbooks.cuny.edu/app/uploads/sites/474/2020/05/neuron.jpeg){width=50% fig-align="center"}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Neuron structure showing axon](https://pressbooks.cuny.edu/app/uploads/sites/474/2020/05/neuron.jpeg)
+:::
 
 [The **axon** is a singular, elongated projection that **transmits information** away from the soma to other neurons (dendrites or soma).]{.fragment}
 
@@ -246,13 +256,13 @@ Many axons are **wrapped in myelin**, a fatty substance that enables **faster co
 
 # Soma
 
-<div style="text-align: center;">
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Neuron_Cell_Body.png"
-    alt="Neuron Cell Body"
-    width="45%"
-/>
-</div>
+::: {.content-visible when-format="html"}
+![Neuron Cell Body](https://upload.wikimedia.org/wikipedia/commons/e/ed/Neuron_Cell_Body.png){width=45% fig-align="center"}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Neuron cell body (soma)](https://upload.wikimedia.org/wikipedia/commons/e/ed/Neuron_Cell_Body.png)
+:::
 
 
 [The soma, also known as the cell body, is the central part of a neuron.]{.fragment} [It contains the nucleus, which houses the cell's genetic material,]{.fragment} [and is responsible for regulating the neuron's activities, including protein synthesis and energy production.]{.fragment}
@@ -286,12 +296,13 @@ d) Dendrites
 
 # Electrochemical Communication: post-synaptic potential
 
-<div style="text-align: center;">
-<img 
-src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Anatomy_of_neuron.png"
-alt="Axon"
-width="50%"/>
-</div>
+::: {.content-visible when-format="html"}
+![Axon](https://upload.wikimedia.org/wikipedia/commons/9/9e/Anatomy_of_neuron.png){width=50% fig-align="center"}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Anatomy of neuron](https://upload.wikimedia.org/wikipedia/commons/9/9e/Anatomy_of_neuron.png)
+:::
 
 <div style="font-size: 0.85em;">
 
@@ -312,13 +323,13 @@ The potentials generated by many dendrites are **summed** (some positive, some n
 # Electrochemical Communication: Action Potential
 
 
-<div style="text-align: center">
-<img 
-src="https://t4.ftcdn.net/jpg/07/69/49/69/360_F_769496994_irGYIqNgSe3maHRZTGfgLJsfU0MTpGnl.jpg"
-alt="Image of a neuron with its axon in foreground"
-width="85%"
->
-</div>
+::: {.content-visible when-format="html"}
+![Image of a neuron with its axon in foreground](https://t4.ftcdn.net/jpg/07/69/49/69/360_F_769496994_irGYIqNgSe3maHRZTGfgLJsfU0MTpGnl.jpg){width=85% fig-align="center"}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Neuron with axon in foreground](https://t4.ftcdn.net/jpg/07/69/49/69/360_F_769496994_irGYIqNgSe3maHRZTGfgLJsfU0MTpGnl.jpg)
+:::
 
 
 [The **action potential** is a rapid change in electrical potential that propagates along the axon]{.fragment}
@@ -329,11 +340,13 @@ width="85%"
 
 :::: {.columns}
 ::: {.column}
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/3/37/1225_Chemical_Synapse.jpg"
-    alt="Synapse"
-    width="100%"
-/>
+::: {.content-visible when-format="html"}
+![Synapse](https://upload.wikimedia.org/wikipedia/commons/3/37/1225_Chemical_Synapse.jpg){width=100%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Chemical synapse](https://upload.wikimedia.org/wikipedia/commons/3/37/1225_Chemical_Synapse.jpg)
+:::
 :::
 
 
@@ -378,9 +391,13 @@ It is the site where **neurotransmitters** are released to allow communication b
 
 :::: {.columns}
 :::{.column width=40%}
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/30/SynapseSchematic_en.svg"
-alt="Synapse Schematic"
-width="100%"/>
+::: {.content-visible when-format="html"}
+![Synapse Schematic](https://upload.wikimedia.org/wikipedia/commons/3/30/SynapseSchematic_en.svg){width=100%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Synapse schematic](https://upload.wikimedia.org/wikipedia/commons/3/30/SynapseSchematic_en.svg)
+:::
 :::
 
 :::{.column width=60%}
@@ -497,13 +514,13 @@ This classification highlights the _diversity_ of neurons and their _specialized
 # Classification by Number of Dendrites
 
 
-<div style="text-align: center">
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/1/1e/1207_Neuron_Shape_Classification.jpg"
-    alt="Neuron Shape Classification"
-    width="60%"
-/>
-</div>
+::: {.content-visible when-format="html"}
+![Neuron Shape Classification](https://upload.wikimedia.org/wikipedia/commons/1/1e/1207_Neuron_Shape_Classification.jpg){width=60% fig-align="center"}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Neuron shape classification](https://upload.wikimedia.org/wikipedia/commons/1/1e/1207_Neuron_Shape_Classification.jpg)
+:::
 
 
 Illustration of **unipolar**, **bipolar**, or **multipolar** neurons, depending on the number of projections extending from the soma.
@@ -521,13 +538,13 @@ Illustration of **unipolar**, **bipolar**, or **multipolar** neurons, depending 
 
 # Classification by Shape
 
-<div style="text-align: center">
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pyramsdal-and-Spiny-stellate-cell.JPG"
-    alt="Pyramidal and Stellate Cells"
-    width="80%"
-/>
-</div>
+::: {.content-visible when-format="html"}
+![Pyramidal and Stellate Cells](https://upload.wikimedia.org/wikipedia/commons/0/0c/Pyramsdal-and-Spiny-stellate-cell.JPG){width=80% fig-align="center"}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Pyramidal and stellate cells](https://upload.wikimedia.org/wikipedia/commons/0/0c/Pyramsdal-and-Spiny-stellate-cell.JPG)
+:::
 
 
 Illustration of **pyramidal** and **stellate** neurons, highlighting their distinct shapes and structural features.
@@ -688,11 +705,13 @@ If all action potentials are the same, how do neurons communicate different type
 
 ::::{.columns}
 :::{.column}
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Blausen_0870_TypesofNeuroglia.png"
-    alt="Types of Neuroglia"
-    width="100%"
-/>
+::: {.content-visible when-format="html"}
+![Types of Neuroglia](https://upload.wikimedia.org/wikipedia/commons/a/a6/Blausen_0870_TypesofNeuroglia.png){width=100%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Types of neuroglia](https://upload.wikimedia.org/wikipedia/commons/a/a6/Blausen_0870_TypesofNeuroglia.png)
+:::
 :::
 
 :::{.column}
@@ -734,11 +753,13 @@ This ratio is not uniform across the nervous system; different regions exhibit v
 
 ::::{.columns}
 :::{.column}
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Gray_and_White_matter_of_the_cerebrum.png"
-    alt="Gray and White Matter of the Cerebrum"
-    width="80%"
-/>
+::: {.content-visible when-format="html"}
+![Gray and White Matter of the Cerebrum](https://upload.wikimedia.org/wikipedia/commons/a/a8/Gray_and_White_matter_of_the_cerebrum.png){width=80%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Gray and white matter of the cerebrum](https://upload.wikimedia.org/wikipedia/commons/a/a8/Gray_and_White_matter_of_the_cerebrum.png)
+:::
 :::
 
 
@@ -836,6 +857,7 @@ The central nervous system includes the brain and the spinal cord.
 # The cerebrum
 
 <div style="text-align: center;">
+
 ::: {.content-visible when-format="html"}
 ```{dot}
 digraph Cerebrum {
@@ -885,11 +907,13 @@ The outermost layer of the brain, responsible for cognitive functions such as **
 
 ::::{.columns}
 :::{.column}
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/a/a3/1306_Lobes_of_Cerebral_CortexN.jpg"
-    alt="Cerebral Cortex Lobes"
-    width="80%"
-/>
+::: {.content-visible when-format="html"}
+![Cerebral Cortex Lobes](https://upload.wikimedia.org/wikipedia/commons/a/a3/1306_Lobes_of_Cerebral_CortexN.jpg){width=80%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Lobes of cerebral cortex](https://upload.wikimedia.org/wikipedia/commons/a/a3/1306_Lobes_of_Cerebral_CortexN.jpg)
+:::
 :::
 
 :::{.column}
@@ -976,11 +1000,13 @@ The cerebral cortex is highly **folded**, increasing its surface area and enabli
 
 ::::{.columns}
 :::{.column}
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/d/db/Structure_of_the_cerebellar_cortex.png"
-    alt="Structure of the Cerebral Cortex"
-    width="100%"
-/>
+::: {.content-visible when-format="html"}
+![Structure of the Cerebral Cortex](https://upload.wikimedia.org/wikipedia/commons/d/db/Structure_of_the_cerebellar_cortex.png){width=100%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Structure of the cerebellar cortex](https://upload.wikimedia.org/wikipedia/commons/d/db/Structure_of_the_cerebellar_cortex.png)
+:::
 :::
 
 :::{.column}
@@ -995,11 +1021,13 @@ These layers vary in thickness and composition across different parts (structura
 
 ::::{.columns}
 :::{.column width=30%}
-<img 
-    src="https://upload.wikimedia.org/wikipedia/commons/5/57/Brodmann_areas.jpg"
-    alt="Brodmann Areas"
-    width="100%"
-/>
+::: {.content-visible when-format="html"}
+![Brodmann Areas](https://upload.wikimedia.org/wikipedia/commons/5/57/Brodmann_areas.jpg){width=100%}
+:::
+
+::: {.content-visible when-format="pdf"}
+Image: [Brodmann areas](https://upload.wikimedia.org/wikipedia/commons/5/57/Brodmann_areas.jpg)
+:::
 :::
 
 :::{.column width=70%}
