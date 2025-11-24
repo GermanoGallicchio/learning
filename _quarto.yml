@@ -12,6 +12,9 @@ website:
 execute:
   echo: false
 
+metadata:
+  date-modified: last-modified
+
 format: 
     revealjs:
         width: 1280     # slide width in pixels
