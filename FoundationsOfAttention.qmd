@@ -527,10 +527,17 @@ In other words, there are two ways that attention can be shifted:
 
 # Examples of exogenous and endogenous cues for the visual and auditory modalities
 
+::: {.content-visible when-format="html"}
 |                | Exogenous cue | Endogenous cue |
 |----------------|--------------|----------------|
 | Visual modality | a flash in a location | an arrow pointing at a location |
 | Auditory modality | a tone in a location | a tone pointing at a direction (e.g., a voice saying "right") |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Visual modality**: Exogenous cue = a flash in a location; Endogenous cue = an arrow pointing at a location
+- **Auditory modality**: Exogenous cue = a tone in a location; Endogenous cue = a tone pointing at a direction (e.g., a voice saying "right")
+:::
 
 # Demonstration of visuo-spatial cueing (_exogenous_) {.scrollable}
 The previous demonstration included only endogenous cues was 
@@ -594,11 +601,19 @@ The percentages refer to the distribution of **trial types** within the experime
 :::
 
 
+::: {.content-visible when-format="html"}
 | trial type |  function  |
 |---|---|
 | neutral | serve as a control condition for the other two |
 | valid | study the **benefits** of attending to the correct location |
 | invalid | study the **costs** of attending to the wrong location |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Neutral trials**: serve as a control condition for the other two
+- **Valid trials**: study the benefits of attending to the correct location
+- **Invalid trials**: study the costs of attending to the wrong location
+:::
 
 ---
 
