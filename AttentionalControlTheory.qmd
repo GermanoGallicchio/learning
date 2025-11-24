@@ -446,10 +446,19 @@ digraph {
 
 Examples
 
+::: {.content-visible when-format="html"}
 |    | Overt | Covert |
 |----|---------------|---------------|
 | **Goal-directed**    | Deliberately turning your head to look and focus where your team-mate will pass  |  While dribbling look to your right but mentally tracking your team-mate running to your left |
 | **Stimulus-driven**  | In a tennis tournament, someone in the crowd shouts your name | A motorbike racer keeps their eyes locked on the track at a difficult turn but their attention is automatically pulled to a crash happening in their peripheral vision |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Goal-directed Overt**: Deliberately turning your head to look and focus where your team-mate will pass
+- **Goal-directed Covert**: While dribbling look to your right but mentally tracking your team-mate running to your left
+- **Stimulus-driven Overt**: In a tennis tournament, someone in the crowd shouts your name
+- **Stimulus-driven Covert**: A motorbike racer keeps their eyes locked on the track at a difficult turn but their attention is automatically pulled to a crash happening in their peripheral vision
+:::
 
 ## End of the brief review on working memory and attention {.center}
 
