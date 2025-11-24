@@ -137,6 +137,7 @@ Executive functions rely on a _distributed network_, involving several cortical 
 
 Key _cortical_ regions along with the main functions they enable:
 
+::: {.content-visible when-format="html"}
 | Region | Abbreviation | Key Functions |
 |--------|------|---------------------------|
 | Dorsolateral prefrontal cortex | DLPFC | Working memory, goal maintenance, planning and top‑down control |
@@ -145,6 +146,16 @@ Key _cortical_ regions along with the main functions they enable:
 | Anterior cingulate cortex* | ACC | Conflict monitoring, error detection, and performance adjustment |
 | Parietal cortex | - | Attentional reorienting, representation updating and integration with sensory information |
 | Premotor cortex / supplementary motor area | SMA | Action selection and motor planning |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Dorsolateral prefrontal cortex (DLPFC)**: Working memory, goal maintenance, planning and top‑down control
+- **Ventrolateral prefrontal cortex (VLPFC)**: Response selection, inhibition, and controlled retrieval
+- **Orbitofrontal cortex (OFC)**: Value representation, reward-guided decision making and impulse control
+- **Anterior cingulate cortex* (ACC)**: Conflict monitoring, error detection, and performance adjustment
+- **Parietal cortex**: Attentional reorienting, representation updating and integration with sensory information
+- **Premotor cortex / supplementary motor area (SMA)**: Action selection and motor planning
+:::
 
 
 *Note: anatomically it lies just outside the prefrontal cortex but it works in synergy with it
