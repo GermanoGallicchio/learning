@@ -22,6 +22,8 @@ On a computer press F11 to de/activate full-screen view.
 For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 
 For pdf document: use "learning resources" link above.
+
+Last modified: {{< meta date-modified >}}
 </div>
 
 :::
@@ -164,11 +166,19 @@ digraph G {
 
 # Intrinsic vs extrinsic motivation 
 
+::: {.content-visible when-format="html"}
 |    | **Intrinsic** | **Extrinsic** |
 |---:|---------------|---------------|
 | purpose: activity...  | ...undertaken for its own pleasures | ...undertaken for instrumental benefits |
 | reward: | experience itself | social or objective rewards (e.g., trophies, praise) |
 | competitive pressure: | less pressure (concerned with the experience) | more pressure (concerned with the benefits) |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Purpose**: Intrinsic activity is undertaken for its own pleasures; Extrinsic activity is undertaken for instrumental benefits
+- **Reward**: Intrinsic reward is the experience itself; Extrinsic reward comes from social or objective rewards (e.g., trophies, praise)
+- **Competitive pressure**: Intrinsic has less pressure (concerned with the experience); Extrinsic has more pressure (concerned with the benefits)
+:::
 
 
 
@@ -452,11 +462,19 @@ Motivation operates at three hierarchical levels of generality (from most genera
 </svg>
 
 ::: {.fragment fragment-index=4}
+::: {.content-visible when-format="html"}
 | level | example
 | ----- | ------ |
 | situational | specific drills, specific parts of the game |
 | contextual | football |
 | global | sport |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Situational**: specific drills, specific parts of the game
+- **Contextual**: football
+- **Global**: sport
+:::
 :::
 
 
@@ -542,10 +560,17 @@ Examples:
 
 The two orientations are associated with different behaviours and thoughts
 
+::: {.content-visible when-format="html"}
 | Orientation | Persistence (in spite of failure) | Moral behaviour | Perceived competence |
 | --- | ---- | --- | --- |
 | Task | high | high | stable |
 | Ego  | low  | low  | unstable* |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Task orientation**: high persistence (in spite of failure), high moral behaviour, stable perceived competence
+- **Ego orientation**: low persistence, low moral behaviour, unstable perceived competence*
+:::
 
 
 ::: aside
@@ -737,10 +762,21 @@ Three dimensions:
 
 # "Two-by-two model" (Elliot, 1999)
 
+The two-by-two model combines two dimensions, orientation (task, ego) and direction (approach avoindance).
+
+::: {.content-visible when-format="html"}
 |          | **Approach**    | **Avoidance**    |
 |----------|-----------------|------------------|
 | **Task** | Task-Approach   | Task-Avoidance   |
 | **Ego**  | Ego-Approach    | Ego-Avoidance    |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Task-Approach**: Striving towards task-based success
+- **Task-Avoidance**: Avoiding task-based failure
+- **Ego-Approach**: Striving towards ego-based success
+- **Ego-Avoidance**: Avoiding ego-based failure
+:::
 
 
 
@@ -750,10 +786,19 @@ Three dimensions:
 <div style="font-size:85%">
 Example of "two-by-two model"
 
+::: {.content-visible when-format="html"}
 |          | **Approach**    | **Avoidance**  |
 |----------|-----------------|----------------|
 | **Task** | Striving to learn a new skill  | Striving to avoid decline in skill   |
 | **Ego**  | Striving to outperform others  | Striving to avoid doing worse than others   |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Task-Approach**: Striving to learn a new skill
+- **Task-Avoidance**: Striving to avoid decline in skill
+- **Ego-Approach**: Striving to outperform others
+- **Ego-Avoidance**: Striving to avoid doing worse than others
+:::
 :::
 
 </div>
@@ -783,13 +828,21 @@ This model categorizes explanations against 3 dimensions, each defined in two le
 
 Examples of Attribution Theory
 
-
+::: {.content-visible when-format="html"}
 | **Scenario** | **Locus of Causality** | **Stability** | **Locus of Control** |
 |-------------------------------|---------|----------|-----------------------|
 | "I failed the test because I didn't study enough." | Internal | Unstable | Under own control |
 | "We lost the game because the referee made bad calls." | External | Unstable | Outside own control |
 | "I won the race because I have natural talent." | Internal | Stable | Outside own control |
 | "The project succeeded because the team worked hard." | Internal | Unstable | Under own control |
+:::
+
+::: {.content-visible when-format="pdf"}
+- "I failed the test because I didn't study enough.": Internal, Unstable, Under own control
+- "We lost the game because the referee made bad calls.": External, Unstable, Outside own control
+- "I won the race because I have natural talent.": Internal, Stable, Outside own control
+- "The project succeeded because the team worked hard.": Internal, Unstable, Under own control
+:::
 
 
 # Memory tip
