@@ -1,0 +1,607 @@
+## Oculomotor system and electrooculography {.nostretch .center}
+
+::::{.columns}
+:::{.column width=80%}
+
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
+School of Psychology and Sport Science, Bangor University, UK <br>
+
+[profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+</div>
+
+<br>
+
+::: {.content-visible when-format="html"}
+<div style="font-size:0.6em">
+On a computer press F11 to de/activate full-screen view.
+
+For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
+
+For pdf document: use "learning resources" link above.
+
+Last modified: {{< meta date-modified >}}
+</div>:::
+
+:::
+
+:::{.column width=20%}
+::: {.content-visible when-format="html"}
+QR code to<br>these slides:
+{{< qrcode https://germanogallicchio.github.io/learning/Psychophysiology_oculomotorEOG.html?view=scroll colorDark='#0011bb' >}}
+:::
+
+::: {.content-visible when-format="pdf"}
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
+:::
+
+<br>
+
+::: {.content-visible when-format="html"}
+<span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
+<div contenteditable="true" style="
+    min-height: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: rgba(255,40,0,0.6)
+">0000</div>
+
+:::
+:::
+
+::::
+
+<style>
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+</style>
+
+# Agenda
+
+- Eye movements
+- Extraocular muscles
+- The eye as a dipole
+- Electrooculography (EOG)
+- Biological sources of the EOG
+- EOG signal characteristics
+- EOG metrics
+- EOG limitations and future directions
+
+# Why study eye movements
+
+Studying eye movements is useful in sevarl domains. Some examples:
+
+- **Research**: Understanding more functioning (e.g., association between eye movements and cognitive processes at rest or during tasks such as reading, driving, sport)
+- **Sleep**: Distinguishing different stages of sleep, particularly REM sleep.
+- **Human-computer interface**: Enabling  hands-free systems for controlling computers and other devices (e.g., wheelchair, speller).
+- **Fatigue and sleepiness monitoring**: Monitor drowsiness while driving (e.g., transport, military).
+- **Sport**: Analyzing athletes' eye movements to improve performance and training techniques.
+
+# Photoreceptors in the retina
+
+The retina contains two types of photoreceptors:
+
+|  | Rods | Cones |
+|---------|------|-------|
+| main location | Peripheral retina | Central retina, especially fovea |
+| light sensitivity | Highly sensitive | Less light-sensitive |
+| motion sensitivity | high | low |
+| colour | no (monochromatic) | yes (color vision) |
+
+
+Density distribution and density varies across the retina:
+
+- Periphery: Mostly rods so better motion detection and night vision
+- Fovea: Mostly cones and with high density so sharp and colored vision
+
+
+# Types of eye movements
+
+- ⚡ Saccades
+- 🎯 Fixational movements 
+- 🌊 Smooth movements
+- 🚂 Nystagmus 
+ 
+
+# ⚡ Saccades 
+
+- Quick jumps from one fixation point to another
+- They allow to _foveate_ objects or locations
+  - foveate = direct the eyes so that image of interest in reflected in the part of the retina with most photoreceptors called fovea
+- One of the fastest human movements, with angular speed  up to 700°/s
+
+# 🎯 Fixational movements 
+
+>Far from being a quiet interlude between eye movements, fixation is a lively period of continuous albeit microscopic motion, full of complex interactions that we are just beginning to understand.<br><br>
+Krauzlis et al. (2017)
+
+[Mostly involuntary.]{.fragment}
+[Their main function: avoiding retinal image fading.]{.fragment}
+[Several types:]{.fragment}
+
+- _Microsaccades_ (tiny jerky movements)
+- _Tremor_ (rapid oscillations)
+- _Drift_ (slow wandering movements)
+
+:::aside
+Krauzlis, R. J., Goffart, L., & Hafed, Z. M. (2017). Neuronal control of fixation and fixational eye movements. _Philosophical Transactions of the Royal Society B: Biological Sciences, 372_(1718). [Available on Talis](https://bangor.rl.talis.com/link?url=https%3A%2F%2Flibkey.io%2Flibraries%2F1613%2F10.1098%2Frstb.2016.0205&sig=41bd721ea9a0a71583be8e3856feb9570391f9ee1facef3a41d2cf7d9603cfcf)
+:::
+
+# 🌊 Smooth movements
+
+Slow movements of the eyes to allow fixation under moving conditions. [Two types:]{.fragment}
+
+- _smooth pursuit movements_ The eyes track a moving object through slow conjugate movements. The head might be still. [(Try... you can't without anything to track.)]{.fragment}
+
+- _smooth compensatory movements_ The eyes fixate on a still object but the head and/or the body move [(Try... pick a point and move your head)]{.fragment}
+
+# 🚂 Nystagmus
+
+Pronunced: /nɪˈstæɡməs/ (nis-TAG-mus)
+
+<iframe 
+width=100% 
+height=30%
+src="https://youtube.com/embed/LInm9cZcHyk" 
+title="optokinetic nystagmus”" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+[Rhythmic movements.]{.fragment} [From Greek "drowsy".]{.fragment} [Two non-clinical types:]{.fragment}
+
+- _optokinetic_: watching a moving pattern (e.g., a train passing by)
+- _vestibular_: compensations for rhythmic head movements
+  
+
+
+
+# Muscular control of the eyes {.nostretch .scrollable}
+
+Six muscles attached to the outer surface of each eye
+
+![Extraocular muscles](./Psychophysiology_files/extraocularMuscles_wikimedia1412.jpg){width=90%}
+
+Each muscle pair is mostly associated with one movment type:
+
+::: {.content-visible when-format="html"}
+
+```{dot}
+//| fig-cap: ""
+//| fig-width: 7
+digraph EffortCycle {
+  rankdir=RL
+  bgcolor="transparent"
+  node [shape=box, fontsize=30]
+  edge [fontsize=20]
+
+  A [label = "medial rectus"]
+  B [label = "lateral rectus"]
+  C [label = "superior rectus"]
+  D [label = "inferior rectus"]
+  E [label = "superior oblique"]
+  F [label = "inferior oblique"]
+  G [label = "horizontal movements"  style=filled]
+  H [label = "vertical movements"  style=filled]
+  I [label = "rotational movements"  style=filled]
+  A -> G
+  B -> G
+  C -> H
+  D -> H
+  E -> I
+  F -> I
+}
+```
+:::
+
+However, in practice, all muscles contribute to all movements.
+
+# Measuring eye movements
+
+In principle, we could measure the activity of the extraocular muscles to understand in which directions the eyes are moving.
+
+[But it is very impractical to record this activity: it would require invasive electrodes.]{.fragment}
+
+[There are other techniques for measuring eye movements. One of these, the electrooculogram, exploits an electrical property of the eyes: the eye **dipole**.]{.fragment}
+
+# The eye as a dipole {.nostretch .scrollable}
+
+::::{.columns}
+:::{.column width=60%}
+![](/Psychophysiology_files/corneoRetinalPotential.png){width='100%'}
+:::
+:::{.column width=40%}
+
+- The retina (or fundus) is electrically more negatively charged than the cornea. 
+
+- Why? The greater negativity in the retina is due to metabolic activity due to photoreceptors and other neurons.
+
+- This creates a potential, called **_corneoretinal_ (or corneofundal) potential**. This potential forms a dipole.
+
+:::
+::::
+
+# More on the eye dipole
+
+- The eye dipole is **aligned** with the optical axis of the eye, from the retina outward the cornea. Its positive side points at what we are looking. Its negative side points in the opposite diretion.
+
+- The corneoretinal potential is **dynamic**. It mainly depends on ambient light. [In darkness or with eyes closed, photoreceptors are less/not active leaading to lower metabolic activity. The dipole decreases in magnitude.]{.fragment} [Changes in the corneoretinal potential are slow. The corneoretinal potential is relatively stable over minutes.]{.fragment}
+
+- **Electrodes** placed around the eyes can detect changes to the orientation of the eye dipole.
+
+# Measuring changes to the dipole{.scrollable}
+
+Assume you place two electrodes, one left and one right of the eyes.
+
+::::{.columns}
+:::{.column}
+
+:::{.fragment}
+When you _look left_: the left side becomes more positive while the right side becomes more negative.
+
+![](/Psychophysiology_files/eogDipoleLookLeft.svg){width='70%'}
+:::
+
+:::
+:::{.column}
+
+:::{.fragment}
+When you _look right_: the right side becomes more positive while the left side becomes more negative.
+
+![](/Psychophysiology_files/eogDipoleLookRight.svg){width='70%'}
+:::
+
+:::
+::::
+
+# Electrooculography (EOG) 
+
+**Electro** = electrical activity; **oculo** = eyes; **graphy** = measurement
+
+A system consisting of electrodes (plus electrolytic paste, other hardware, and software--more on this later) to record electrical activity near the eyes.
+
+::: {.content-visible when-format="html"}
+![](/Psychophysiology_files/eogDipole1.svg){width='70%'}
+
+
+# Electrooculography (EOG) 
+
+**Electro** = electrical activity; **oculo** = eyes; **graphy** = measurement
+
+A system consisting of electrodes (plus electrolytic paste, other hardware, and software--more on this later) to record electrical activity near the eyes.
+
+![](/Psychophysiology_files/eogDipole2.svg){width='70%'}
+
+
+# Electrooculography (EOG) 
+
+**Electro** = electrical activity; **oculo** = eyes; **graphy** = measurement
+
+A system consisting of electrodes (plus electrolytic paste, other hardware, and software--more on this later) to record electrical activity near the eyes.
+
+![](/Psychophysiology_files/eogDipole3.svg){width='70%'}
+
+
+# Electrooculography (EOG) 
+
+**Electro** = electrical activity; **oculo** = eyes; **graphy** = measurement
+
+A system consisting of electrodes (plus electrolytic paste, other hardware, and software--more on this later) to record electrical activity near the eyes.
+
+![](/Psychophysiology_files/eogDipole4.svg){width='70%'}
+
+
+# Electrooculography (EOG) 
+
+**Electro** = electrical activity; **oculo** = eyes; **graphy** = measurement
+
+A system consisting of electrodes (plus electrolytic paste, other hardware, and software--more on this later) to record electrical activity near the eyes.
+:::
+
+![](/Psychophysiology_files/eogDipole5.svg){width='70%'}
+
+::: {.content-visible when-format="pdf"}
+![](/Psychophysiology_files/eogDipoleAnnotated.png){width='70%'}
+:::
+
+# Electrode locations
+
+::::{.columns}
+:::{.column width=30%}
+Electrodes are placed around the eyes, but more specifically where? 
+
+[It depends on the direction in which we want to record eye movements.]{.fragment}
+:::
+:::{.column width=70%}
+:::{.fragment}
+::: {.content-visible when-format="html"}
+![](/Psychophysiology_files/eogSitesHorizontal.svg){width='60%'}
+:::
+:::
+:::
+::::
+
+::: {.content-visible when-format="html"}
+# Electrode locations
+
+::::{.columns}
+:::{.column width=30%}
+Electrodes are placed around the eyes, but more specifically where? 
+
+It depends on the direction in which we want to record eye movements.
+:::
+:::{.column width=70%}
+
+![](/Psychophysiology_files/eogSitesVertical.svg){width='60%'}
+
+:::
+::::
+:::
+
+::: {.content-visible when-format="html"}
+# Electrode locations
+
+::::{.columns}
+:::{.column width=30%}
+Electrodes are placed around the eyes, but more specifically where? 
+
+It depends on the direction in which we want to record eye movements.
+:::
+:::{.column width=70%}
+
+![](/Psychophysiology_files/eogSitesDiagonal.svg){width='60%'}
+
+:::
+::::
+:::
+
+
+::: {.content-visible when-format="pdf"}
+![](/Psychophysiology_files/eogSitesAllThree.svg){width='60%'}
+:::
+
+
+# Electrode location nomenclature {.nostretch .scrollable}
+
+::::{.columns}
+:::{.column width=40%}
+There is a standardized nomenclature to identify the location of the electrodes.
+
+- "L" stands for lateral
+- "I" stands for inferior (below)
+- "S" stands for superiod (above)
+- "1" stands for left
+- "2" stands for right
+:::
+:::{.column width=60%}
+
+:::{.fragment}
+| LABEL | SITE |
+|-----:| -----| 
+| LO1 | lateral ocular left |
+| LO2 | lateral ocular right|
+| IO1 | inferior ocular left |
+| IO2 | inferior ocular right |
+| SO1 | superior ocular left |
+| SO2 | superior ocular right |
+:::
+
+:::
+::::
+
+:::{.fragment}
+![](/Psychophysiology_files/eogSitesNames.svg){width='60%'}
+:::
+
+
+# Montage options: Bipolar channels {.scrollable}
+
+When two electrodes are referenced to one another, their montage is called _bipolar_. In a bipolar montage, the voltage reflects the difference in electrical potential between the two sites.
+
+**Horizontal EOG channel**:
+
+When computing it as left - right, eye movement to the left/right = increased/decreased voltage
+
+$$
+hEOG = LO1-LO2
+$$
+
+**Vertical EOG channel**
+
+We can compute two vertical channels, one per eye, and then average them.
+
+$$
+vEOG_{left} = SO1 - IO1
+$$
+
+$$
+vEOG_{right} = SO2 - IO2
+$$
+
+$$
+vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
+$$
+
+# Electrooculographic signals #1 {.nostretch}
+
+![horizontal EOG signal computed as $LO1 - LO2$](./Psychophysiology_files/eogH.jpg){width=100%}
+
+
+# Impact of high-pass filtering {.scrollable}
+
+High-pass filtering is not recommended when studying eye movements. But many systems apply high-pass filtering (it's simpler). 
+
+[The high-pass filter reduces _slow trends_ and retains faster changes.]{.fragment}
+
+[Consider an EOG signal (with saccades and fixations).]{.fragment} [Applying high-pass filter makes the EOG signal less "square".]{.fragment} [This is as if only the initial changes are detected or only the quick changes that happen (keeping eyes still can be considered like an extremely slow change).]{.fragment}
+
+[For example, voltage increases as you move the eyes up. You would expect the voltage to not change is you maintain your eyes in that position.]{.fragment} [But when high-pass filtering is applied, the voltage goes gradually back to baseline even if the eyes are still up.]{.fragment}
+
+:::{.fragment}
+![](./Psychophysiology_files/eogDCvsAC.png){width=80%} 
+:::
+
+
+:::{.fragment}
+:::aside
+- _DC_ (direct current) used to indicate that high-pass filter is _not_ applied
+- _AC_ (alternate current) used to indicate that high-pass filter is applied
+:::
+:::
+
+
+# EOG calibration {.scrollable}
+
+The native units of the EOG are _Volts_, but eye movements are better described as _visual angles_. Eye movements are angular in nature.
+
+**Calibration** allows to calculate how many Volts correspond to 1 degree of visual angle, so that we can convert our EOG recording from Volts to degrees.
+
+![EOG calibration: acquisition](./Psychophysiology_files/eogCalibration.png){width=100%}
+
+![EOG calibration: processing](./Psychophysiology_files/eogCalibration2.png){width=100%}
+
+# Calibrated EOG {.nostretch .scrollable}
+
+The EOG signal is now represented in degrees of visual angle.
+
+The figure shows **horizontal**, **vertical**, and **combined** EOG signals, in the seconds before the execution of a golf putt. 
+
+The combined signal is computed as the vectorial sum of the calibrated horizontal and vertical signals.
+
+![Calibrated EOG](./Psychophysiology_files/eogCalibrated.jpg){width=100%}
+
+Because the source of the EOG (the corneoretinal potential) is not fixed, calibration should be done regularly unless the recording session is very short.
+
+
+# EOG eye movement metrics {.scrollable}
+
+Several metrics can be extracted from the EOG signal to characterize eye movements:
+
+- saccades: 
+  - number
+  - extent
+  - velocity
+
+- fixations
+  - number
+  - duration
+
+- Quiet Eye durations (popular in sport tasks)
+
+
+# Eye blink as seen in the EOG
+
+::::{.columns}
+:::{.column width=60%}
+![](/Psychophysiology_files/eogBlink_1.png){width='100%'}
+:::
+:::{.column width=40%}
+![](/Psychophysiology_files/eogBlinkPotential.png){width='90%'}
+Usual negativity at the back due to the corneoretinal potential
+:::
+::::
+
+# Eye blink as seen in the EOG
+
+::::{.columns}
+:::{.column width=60%}
+![](/Psychophysiology_files/eogBlink_2.png){width='100%'}
+:::
+:::{.column width=40%}
+![](/Psychophysiology_files/eogBlinkPotential.png){width='90%'}
+Transient positivity above the eye
+:::
+::::
+
+<Arrow x1="65%" y1="75%" x2="65%" y2="60%" color="#0000ff" width="5"/>
+
+# Eye blink as seen in the EOG
+
+::::{.columns}
+:::{.column width=60%}
+![](/Psychophysiology_files/eogBlink_1.png){width='100%'}
+:::
+:::{.column width=40%}
+![](/Psychophysiology_files/eogBlinkPotential.png){width='90%' crop="0px 50px 0px 50px"}
+Back to baseline
+:::
+::::
+
+<Arrow x1="80%" y1="75%" x2="80%" y2="60%" color="#0000ff" width="5"/>
+
+# EOG Blink wave characteristics
+
+- Typical duration: 200-400 ms
+- Biphasic pattern
+  - Initial positive deflection
+  - Followed by negative component
+- Amplitude typically larger than saccades
+- More prominent in vertical than horizontal channels
+
+# Physiological source of the EOG blink 
+
+Not as well understood as the source of eye movements.
+
+Initially thought to be due to upward rotation of the eyeball (i.e., rapid dipole rotation)
+
+More recently thought to be due to eyelid bridging the corneoretinal positivity with the forehead (changes in electrical conductivity).
+
+
+# EOG Blink metrics {.scrollable}
+
+Several metrics can be extracted from the EOG signal to characterize blinking behavior:
+
+- **Number of blinks**: Total count of blinks during a recording period.
+
+- **Blink rate**: Number of blinks per minute, a commonly reported metric in psychophysiology research.
+
+- **Blink duration**: Time duration of individual blinks, typically measured from initial positive deflection to return to baseline (200-400 ms range).
+
+- **Blink flurries**: Clusters of rapid successive blinks occurring in quick succession, often associated with cognitive load or fatigue.
+
+- **Flurry rate**: Frequency of blink flurries per minute, reflecting periods of increased blinking activity.
+
+[These metrics are useful for assessing cognitive workload, fatigue, attention, and other psychological states during task performance or resting conditions.]{.fragment}
+
+
+# EOG Limitations
+
+While EOG is a useful technique, it has some limitations:
+
+- **Signal noise**: EOG signals can be affected by electrical noise from other sources, such as muscle activity and external electronic devices.
+
+- **Artifact contamination**: Blinks and other involuntary eye movements can introduce artifacts into the EOG signal, complicating data analysis.
+
+- **Head movement confounders**: EOG saccadic signals reflect movements of the eyeballs _relative to the head_. By looking at the EOG only or without behavioural constrains, it is difficult to know whether the eyes, the head, or both have moved. 
+
+- **Limited spatial resolution**: EOG provides less precise information about the exact point of gaze compared to other eye-tracking methods, such as video-based eye trackers.
+
+- **Calibration drift**: The corneoretinal potential can change over time, requiring frequent recalibration.
+
+
+# Future Directions {.scrollable}
+
+Research and development in EOG technology are ongoing, with several promising directions:
+
+- **Improved signal processing**: Developing advanced algorithms to reduce noise and artifacts in EOG signals. A promising technique is median filtering.
+
+- **Integration with other modalities**: Combining EOG with other physiological measurements, such as EEG and EMG, for a more comprehensive understanding of human behavior.
+
+- **Wearable EOG devices**: Creating portable and user-friendly EOG systems for real-world applications, such as sports training and assistive technology.
+
+:::{.fragment}
+:::aside
+Gallicchio, G., Ryu, D., Krishnani, M., Tasker, G., Pecunioso, A., & Jackson, R. (2024). Temporal and spectral electrooculographic features in a discrete precision task. _Psychophysiology, 61_(3). https://doi.org/10.1111/psyp.14461. 
+
+Gallicchio, G., & Ring, C. (2020). The quiet eye effect: A test of the visual and postural-kinematic hypotheses. _Sport, Exercise & Performance Psychology, 9_(1), 143-159- http://dx.doi.org/10.1037/spy0000162
+:::
+:::
