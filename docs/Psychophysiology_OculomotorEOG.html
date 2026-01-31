@@ -145,7 +145,7 @@ Dr Germano Gallicchio <br>
 <p>On a computer press F11 to de/activate full-screen view.</p>
 <p>For smartphone and review: Bottom left menu → Tools → PDF Export Mode.</p>
 <p>For pdf document: use “learning resources” link above.</p>
-<p>Last modified: 2026-01-21</p>
+<p>Last modified: 2026-01-31</p>
 </div>
 </div><div class="column" style="width:20%;">
 <p>QR code to<br>these slides: </p><div id="" class="qrcode"></div>
@@ -180,25 +180,18 @@ Dr Germano Gallicchio <br>
 }
 </style>
 </section>
-<section id="objectives" class="title-slide slide level1">
-<h1>Objectives</h1>
-<p>Being able to elaborate:</p>
-<ul>
-<li class="fragment">biological source of the EOG signal</li>
-<li class="fragment">metrics that can be obtained from the EOG signal</li>
-</ul>
-</section>
-
-<section id="study-resources" class="title-slide slide level1">
-<h1>Study resources</h1>
-<p>Stern, R. M., Ray, W. J., &amp; Quigley, K. S. (2001). Psychophysiological recording. Oxford University Press, USA.</p>
-<p>Other resources (e.g., articles published in the journal <em>Psychophysiology</em>) are cited when relevant.</p>
-
-<img src="./images/stern2001.jpg" style="width:50%; margin:auto" class="r-stretch"></section>
-
 <section id="agenda" class="title-slide slide level1">
 <h1>Agenda</h1>
-<p>TO DO</p>
+<ul>
+<li class="fragment">Eye movements</li>
+<li class="fragment">Extraocular muscles</li>
+<li class="fragment">The eye as a dipole</li>
+<li class="fragment">Electrooculography (EOG)</li>
+<li class="fragment">Biological sources of the EOG</li>
+<li class="fragment">EOG signal characteristics</li>
+<li class="fragment">EOG metrics</li>
+<li class="fragment">EOG limitations and future directions</li>
+</ul>
 </section>
 
 <section id="why-study-eye-movements" class="title-slide slide level1">
@@ -215,7 +208,7 @@ Dr Germano Gallicchio <br>
 
 <section id="photoreceptors-in-the-retina" class="title-slide slide level1">
 <h1>Photoreceptors in the retina</h1>
-<p>The retina contains two types of photoreceptors with different distributions:</p>
+<p>The retina contains two types of photoreceptors:</p>
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -226,46 +219,46 @@ Dr Germano Gallicchio <br>
 </thead>
 <tbody>
 <tr class="odd">
+<td>main location</td>
+<td>Peripheral retina</td>
+<td>Central retina, especially fovea</td>
+</tr>
+<tr class="even">
 <td>light sensitivity</td>
 <td>Highly sensitive</td>
 <td>Less light-sensitive</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>motion sensitivity</td>
 <td>high</td>
 <td>low</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>colour</td>
 <td>no (monochromatic)</td>
 <td>yes (color vision)</td>
-</tr>
-<tr class="even">
-<td>main location</td>
-<td>Peripheral retina</td>
-<td>Central retina, especially fovea</td>
 </tr>
 </tbody>
 </table>
 <p>Density distribution and density varies across the retina:</p>
 <ul>
 <li class="fragment">Periphery: Mostly rods so better motion detection and night vision</li>
-<li class="fragment">Fovea: Mostly cones and with high densiry so sharp and colored vision</li>
+<li class="fragment">Fovea: Mostly cones and with high density so sharp and colored vision</li>
 </ul>
 </section>
 
 <section id="types-of-eye-movements" class="title-slide slide level1">
 <h1>Types of eye movements</h1>
 <ul>
-<li class="fragment">Saccades</li>
-<li class="fragment">Nystagmus</li>
-<li class="fragment">Smooth movements</li>
-<li class="fragment">Fixational movements</li>
+<li class="fragment">⚡ Saccades</li>
+<li class="fragment">🎯 Fixational movements</li>
+<li class="fragment">🌊 Smooth movements</li>
+<li class="fragment">🚂 Nystagmus</li>
 </ul>
 </section>
 
 <section id="saccades" class="title-slide slide level1">
-<h1>Saccades</h1>
+<h1>⚡ Saccades</h1>
 <ul>
 <li class="fragment">Quick jumps from one fixation point to another</li>
 <li class="fragment">They allow to <em>foveate</em> objects or locations
@@ -277,59 +270,52 @@ Dr Germano Gallicchio <br>
 </section>
 
 <section id="fixational-movements" class="title-slide slide level1">
-<h1>Fixational movements</h1>
+<h1>🎯 Fixational movements</h1>
 <blockquote>
 <p>Far from being a quiet interlude between eye movements, fixation is a lively period of continuous albeit microscopic motion, full of complex interactions that we are just beginning to understand.<br><br> Krauzlis et al.&nbsp;(2017)</p>
 </blockquote>
-<p>mostly involuntary</p>
-<p>main function: avoiding retinal image fading</p>
-<p>several types:</p>
+<p><span class="fragment">Mostly involuntary.</span> <span class="fragment">Their main function: avoiding retinal image fading.</span> <span class="fragment">Several types:</span></p>
 <ul>
 <li class="fragment"><em>Microsaccades</em> (tiny jerky movements)</li>
-<li class="fragment"><em>Drift</em> (slow wandering movements)</li>
 <li class="fragment"><em>Tremor</em> (rapid oscillations)</li>
+<li class="fragment"><em>Drift</em> (slow wandering movements)</li>
 </ul>
 
 <aside><div>
-<p>Krauzlis, R. J., Goffart, L., &amp; Hafed, Z. M. (2017). Neuronal control of fixation and fixational eye movements. <em>Philosophical Transactions of the Royal Society B: Biological Sciences, 372</em>(1718), 20160205.</p>
+<p>Krauzlis, R. J., Goffart, L., &amp; Hafed, Z. M. (2017). Neuronal control of fixation and fixational eye movements. <em>Philosophical Transactions of the Royal Society B: Biological Sciences, 372</em>(1718). <a href="https://bangor.rl.talis.com/link?url=https%3A%2F%2Flibkey.io%2Flibraries%2F1613%2F10.1098%2Frstb.2016.0205&amp;sig=41bd721ea9a0a71583be8e3856feb9570391f9ee1facef3a41d2cf7d9603cfcf">Available on Talis</a></p>
 </div></aside></section>
 
 <section id="smooth-movements" class="title-slide slide level1">
-<h1>Smooth movements</h1>
-<p>Slow movements of the eyes to allow fixation under moving conditions</p>
-<p>Two types:</p>
+<h1>🌊 Smooth movements</h1>
+<p>Slow movements of the eyes to allow fixation under moving conditions. <span class="fragment">Two types:</span></p>
 <ul>
-<li class="fragment"><p><em>smooth pursuit movements</em> The eyes track a moving object through slow conjugate movements. The head might be still. <span class="fragment">(Try… you can’t, without anything to track.)</span></p></li>
+<li class="fragment"><p><em>smooth pursuit movements</em> The eyes track a moving object through slow conjugate movements. The head might be still. <span class="fragment">(Try… you can’t without anything to track.)</span></p></li>
 <li class="fragment"><p><em>smooth compensatory movements</em> The eyes fixate on a still object but the head and/or the body move <span class="fragment">(Try… pick a point and move your head)</span></p></li>
 </ul>
 </section>
 
 <section id="nystagmus" class="title-slide slide level1">
-<h1>Nystagmus</h1>
+<h1>🚂 Nystagmus</h1>
 <p>Pronunced: /nɪˈstæɡməs/ (nis-TAG-mus)</p>
-<ul>
-<li class="fragment">Rhythmic movements</li>
-<li class="fragment">from Greek “drowsy”</li>
-</ul>
-<p>Two types:</p>
-<ul>
-<li class="fragment">non-clinical
-<ul>
-<li class="fragment"><em>vestibular</em>: compensations for rhythmic head movements</li>
-<li class="fragment"><em>optokinetic</em>: watching a moving pattern (e.g., a train passing by)</li>
-</ul></li>
-<li class="fragment">clinical</li>
-</ul>
 <iframe width="100%" height="30%" src="https://youtube.com/embed/LInm9cZcHyk" title="optokinetic nystagmus”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
+<p><span class="fragment">Rhythmic movements.</span> <span class="fragment">From Greek “drowsy”.</span> <span class="fragment">Two non-clinical types:</span></p>
+<ul>
+<li class="fragment"><em>optokinetic</em>: watching a moving pattern (e.g., a train passing by)</li>
+<li class="fragment"><em>vestibular</em>: compensations for rhythmic head movements</li>
+</ul>
 </section>
 
-<section id="muscular-control-of-the-eyes" class="title-slide slide level1 scrollable">
+<section id="muscular-control-of-the-eyes" class="title-slide slide level1 nostretch scrollable">
 <h1>Muscular control of the eyes</h1>
 <p>Six muscles attached to the outer surface of each eye</p>
-
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/3/3b/1412_Extraocular_Muscles.jpg" style="width:90.0%" class="r-stretch quarto-figure-center"><p class="caption">Extraocular muscles</p><div class="{columns}">
-<div class="column" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./Psychophysiology_files/extraocularMuscles_wikimedia1412.jpg" style="width:90.0%"></p>
+<figcaption>Extraocular muscles</figcaption>
+</figure>
+</div>
+<p>Each muscle pair is mostly associated with one movment type:</p>
 <div class="cell" data-fig-width="7" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -341,92 +327,92 @@ Dr Germano Gallicchio <br>
 <!-- A -->
 <g id="node1" class="node">
 <title>A</title>
-<polygon fill="none" stroke="black" points="194.16,-106 17.63,-106 17.63,-62 194.16,-62 194.16,-106"></polygon>
-<text text-anchor="middle" x="105.9" y="-75" font-family="Times,serif" font-size="30.00">medial rectus</text>
+<polygon fill="none" stroke="black" points="513.6,-106 337.07,-106 337.07,-62 513.6,-62 513.6,-106"></polygon>
+<text text-anchor="middle" x="425.33" y="-75" font-family="Times,serif" font-size="30.00">medial rectus</text>
 </g>
 <!-- G -->
 <g id="node7" class="node">
 <title>G</title>
-<polygon fill="lightgrey" stroke="black" points="531.45,-75 247.57,-75 247.57,-31 531.45,-31 531.45,-75"></polygon>
-<text text-anchor="middle" x="389.51" y="-44" font-family="Times,serif" font-size="30.00">horizontal movements</text>
+<polygon fill="lightgrey" stroke="black" points="283.66,-75 -0.22,-75 -0.22,-31 283.66,-31 283.66,-75"></polygon>
+<text text-anchor="middle" x="141.72" y="-44" font-family="Times,serif" font-size="30.00">horizontal movements</text>
 </g>
 <!-- A&#45;&gt;G -->
 <g id="edge1" class="edge">
 <title>A-&gt;G</title>
-<path fill="none" stroke="black" d="M194.46,-74.36C208.23,-72.85 222.8,-71.24 237.52,-69.62"></path>
-<polygon fill="black" stroke="black" points="238.17,-73.07 247.73,-68.5 237.41,-66.11 238.17,-73.07"></polygon>
+<path fill="none" stroke="black" d="M336.77,-74.36C323,-72.85 308.42,-71.24 293.7,-69.62"></path>
+<polygon fill="black" stroke="black" points="293.82,-66.11 283.5,-68.5 293.05,-73.07 293.82,-66.11"></polygon>
 </g>
 <!-- B -->
 <g id="node2" class="node">
 <title>B</title>
-<polygon fill="none" stroke="black" points="190.97,-44 20.82,-44 20.82,0 190.97,0 190.97,-44"></polygon>
-<text text-anchor="middle" x="105.9" y="-13" font-family="Times,serif" font-size="30.00">lateral rectus</text>
+<polygon fill="none" stroke="black" points="510.4,-44 340.26,-44 340.26,0 510.4,0 510.4,-44"></polygon>
+<text text-anchor="middle" x="425.33" y="-13" font-family="Times,serif" font-size="30.00">lateral rectus</text>
 </g>
 <!-- B&#45;&gt;G -->
 <g id="edge2" class="edge">
 <title>B-&gt;G</title>
-<path fill="none" stroke="black" d="M191.01,-31.26C205.84,-32.89 221.68,-34.64 237.69,-36.4"></path>
-<polygon fill="black" stroke="black" points="237.35,-39.88 247.67,-37.5 238.12,-32.92 237.35,-39.88"></polygon>
+<path fill="none" stroke="black" d="M340.22,-31.26C325.39,-32.89 309.55,-34.64 293.54,-36.4"></path>
+<polygon fill="black" stroke="black" points="293.11,-32.92 283.55,-37.5 293.88,-39.88 293.11,-32.92"></polygon>
 </g>
 <!-- C -->
 <g id="node3" class="node">
 <title>C</title>
-<polygon fill="none" stroke="black" points="202.83,-230 8.96,-230 8.96,-186 202.83,-186 202.83,-230"></polygon>
-<text text-anchor="middle" x="105.9" y="-199" font-family="Times,serif" font-size="30.00">superior rectus</text>
+<polygon fill="none" stroke="black" points="522.27,-230 328.4,-230 328.4,-186 522.27,-186 522.27,-230"></polygon>
+<text text-anchor="middle" x="425.33" y="-199" font-family="Times,serif" font-size="30.00">superior rectus</text>
 </g>
 <!-- H -->
 <g id="node8" class="node">
 <title>H</title>
-<polygon fill="lightgrey" stroke="black" points="515.26,-199 263.76,-199 263.76,-155 515.26,-155 515.26,-199"></polygon>
-<text text-anchor="middle" x="389.51" y="-168" font-family="Times,serif" font-size="30.00">vertical movements</text>
+<polygon fill="lightgrey" stroke="black" points="267.47,-199 15.97,-199 15.97,-155 267.47,-155 267.47,-199"></polygon>
+<text text-anchor="middle" x="141.72" y="-168" font-family="Times,serif" font-size="30.00">vertical movements</text>
 </g>
 <!-- C&#45;&gt;H -->
 <g id="edge3" class="edge">
 <title>C-&gt;H</title>
-<path fill="none" stroke="black" d="M202.63,-197.46C219.03,-195.66 236.33,-193.75 253.52,-191.86"></path>
-<polygon fill="black" stroke="black" points="254.07,-195.32 263.62,-190.75 253.3,-188.36 254.07,-195.32"></polygon>
+<path fill="none" stroke="black" d="M328.6,-197.46C312.2,-195.66 294.9,-193.75 277.71,-191.86"></path>
+<polygon fill="black" stroke="black" points="277.93,-188.36 267.6,-190.75 277.16,-195.32 277.93,-188.36"></polygon>
 </g>
 <!-- D -->
 <g id="node4" class="node">
 <title>D</title>
-<polygon fill="none" stroke="black" points="198.48,-168 13.31,-168 13.31,-124 198.48,-124 198.48,-168"></polygon>
-<text text-anchor="middle" x="105.9" y="-137" font-family="Times,serif" font-size="30.00">inferior rectus</text>
+<polygon fill="none" stroke="black" points="517.92,-168 332.75,-168 332.75,-124 517.92,-124 517.92,-168"></polygon>
+<text text-anchor="middle" x="425.33" y="-137" font-family="Times,serif" font-size="30.00">inferior rectus</text>
 </g>
 <!-- D&#45;&gt;H -->
 <g id="edge4" class="edge">
 <title>D-&gt;H</title>
-<path fill="none" stroke="black" d="M198.72,-156.11C216.27,-158.04 234.98,-160.1 253.55,-162.14"></path>
-<polygon fill="black" stroke="black" points="253.23,-165.63 263.55,-163.24 253.99,-158.67 253.23,-165.63"></polygon>
+<path fill="none" stroke="black" d="M332.51,-156.11C314.96,-158.04 296.25,-160.1 277.67,-162.14"></path>
+<polygon fill="black" stroke="black" points="277.24,-158.67 267.68,-163.24 278,-165.63 277.24,-158.67"></polygon>
 </g>
 <!-- E -->
 <g id="node5" class="node">
 <title>E</title>
-<polygon fill="none" stroke="black" points="211.69,-354 0.1,-354 0.1,-310 211.69,-310 211.69,-354"></polygon>
-<text text-anchor="middle" x="105.9" y="-323" font-family="Times,serif" font-size="30.00">superior oblique</text>
+<polygon fill="none" stroke="black" points="531.12,-354 319.54,-354 319.54,-310 531.12,-310 531.12,-354"></polygon>
+<text text-anchor="middle" x="425.33" y="-323" font-family="Times,serif" font-size="30.00">superior oblique</text>
 </g>
 <!-- I -->
 <g id="node9" class="node">
 <title>I</title>
-<polygon fill="lightgrey" stroke="black" points="527.78,-323 251.24,-323 251.24,-279 527.78,-279 527.78,-323"></polygon>
-<text text-anchor="middle" x="389.51" y="-292" font-family="Times,serif" font-size="30.00">rotational movements</text>
+<polygon fill="lightgrey" stroke="black" points="279.99,-323 3.45,-323 3.45,-279 279.99,-279 279.99,-323"></polygon>
+<text text-anchor="middle" x="141.72" y="-292" font-family="Times,serif" font-size="30.00">rotational movements</text>
 </g>
 <!-- E&#45;&gt;I -->
 <g id="edge5" class="edge">
 <title>E-&gt;I</title>
-<path fill="none" stroke="black" d="M211.76,-320.46C221.28,-319.41 231.03,-318.34 240.82,-317.26"></path>
-<polygon fill="black" stroke="black" points="241.48,-320.71 251.04,-316.13 240.72,-313.75 241.48,-320.71"></polygon>
+<path fill="none" stroke="black" d="M319.47,-320.46C309.95,-319.41 300.2,-318.34 290.4,-317.26"></path>
+<polygon fill="black" stroke="black" points="290.51,-313.75 280.19,-316.13 289.74,-320.71 290.51,-313.75"></polygon>
 </g>
 <!-- F -->
 <g id="node6" class="node">
 <title>F</title>
-<polygon fill="none" stroke="black" points="207.84,-292 3.95,-292 3.95,-248 207.84,-248 207.84,-292"></polygon>
-<text text-anchor="middle" x="105.9" y="-261" font-family="Times,serif" font-size="30.00">inferior oblique</text>
+<polygon fill="none" stroke="black" points="527.27,-292 323.39,-292 323.39,-248 527.27,-248 527.27,-292"></polygon>
+<text text-anchor="middle" x="425.33" y="-261" font-family="Times,serif" font-size="30.00">inferior oblique</text>
 </g>
 <!-- F&#45;&gt;I -->
 <g id="edge6" class="edge">
 <title>F-&gt;I</title>
-<path fill="none" stroke="black" d="M207.77,-281.1C218.52,-282.29 229.62,-283.51 240.77,-284.74"></path>
-<polygon fill="black" stroke="black" points="240.69,-288.25 251.02,-285.86 241.46,-281.29 240.69,-288.25"></polygon>
+<path fill="none" stroke="black" d="M323.46,-281.1C312.7,-282.29 301.61,-283.51 290.46,-284.74"></path>
+<polygon fill="black" stroke="black" points="289.77,-281.29 280.21,-285.86 290.53,-288.25 289.77,-281.29"></polygon>
 </g>
 </g>
 </svg>
@@ -435,43 +421,140 @@ Dr Germano Gallicchio <br>
 </div>
 </div>
 </div>
+<p>However, in practice, all muscles contribute to all movements.</p>
+</section>
+
+<section id="measuring-eye-movements" class="title-slide slide level1">
+<h1>Measuring eye movements</h1>
+<p>In principle, we could measure the activity of the extraocular muscles to understand in which directions the eyes are moving.</p>
+<p><span class="fragment">But it is very impractical to record this activity: it would require invasive electrodes.</span></p>
+<p><span class="fragment">There are other techniques for measuring eye movements. One of these, the electrooculogram, exploits an electrical property of the eyes: the eye <strong>dipole</strong>.</span></p>
+</section>
+
+<section id="the-eye-as-a-dipole" class="title-slide slide level1 nostretch scrollable">
+<h1>The eye as a dipole</h1>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="./Psychophysiology_files/corneoRetinalPotential.png" style="width:100.0%"></p>
 </div><div class="column" style="width:40%;">
-<p>In practice, all muscles contribute to all movements</p>
-<p>In principle, we could measure the temporal dynamics of the extraocular muscles to study eye movements. But it is impractical to record this activity (it would require invasive electrodes).</p>
-<p>There are other techniques for measuring eye movements. One of these, the electrooculogram, exploits an electrical property of the eyes: the eye dipole.</p>
+<ul>
+<li class="fragment"><p>The retina (or fundus) is electrically more negatively charged than the cornea.</p></li>
+<li class="fragment"><p>Why? The greater negativity in the retina is due to metabolic activity due to photoreceptors and other neurons.</p></li>
+<li class="fragment"><p>This creates a potential, called <strong><em>corneoretinal</em> (or corneofundal) potential</strong>. This potential forms a dipole.</p></li>
+</ul>
 </div></div>
 </section>
 
-<section id="the-eye-as-a-dipole" class="title-slide slide level1 scrollable">
-<h1>The eye as a dipole</h1>
-
-<img data-src="./Psychophysiology_files/corneoRetinalPotential.png" style="width:100.0%" class="r-stretch"><p>The retina (or fundus) is electrically more negatively charged than the cornea. This creates a potential, called <em>corneoretinal</em> (or corneofundal) potential. This potential forms a dipole.</p>
-<p>The greater negativity in the retina is due to metabolic activity due to photoreceptors and other neurons.</p>
-<p>The dipole is aligned with the optical axis of the eye, from the retina outoward the cornea.</p>
-<p>The corneoretinal potential is dynamic. It depending on ambient light. In darkness or with eyes closed, photoreceptors are less/not active leaading to lower metabolic activity. The dipole decreases in magnitude. Changes in the corneoretinal potential are slow. The corneoretinal potential is relatively stable over minutes.</p>
+<section id="more-on-the-eye-dipole" class="title-slide slide level1">
+<h1>More on the eye dipole</h1>
+<ul>
+<li class="fragment"><p>The eye dipole is <strong>aligned</strong> with the optical axis of the eye, from the retina outward the cornea. Its positive side points at what we are looking. Its negative side points in the opposite diretion.</p></li>
+<li class="fragment"><p>The corneoretinal potential is <strong>dynamic</strong>. It mainly depends on ambient light. <span class="fragment">In darkness or with eyes closed, photoreceptors are less/not active leaading to lower metabolic activity. The dipole decreases in magnitude.</span> <span class="fragment">Changes in the corneoretinal potential are slow. The corneoretinal potential is relatively stable over minutes.</span></p></li>
+<li class="fragment"><p><strong>Electrodes</strong> placed around the eyes can detect changes to the orientation of the eye dipole.</p></li>
+</ul>
 </section>
 
-<section id="electrooculography-eog" class="title-slide slide level1 scrollable">
-<h1>Electrooculography (EOG)</h1>
-<p><strong>Electro</strong> = electrical activity; <strong>oculo</strong> = eyes; <strong>graphy</strong> = measurement</p>
+<section id="measuring-changes-to-the-dipole" class="title-slide slide level1 scrollable">
+<h1>Measuring changes to the dipole</h1>
+<p>Assume you place two electrodes, one left and one right of the eyes.</p>
 <div class="columns">
 <div class="column">
-<p>Look left: the left electrode becomes more positive while the right electrode becomes more negative.</p>
-<p><img data-src="./Psychophysiology_files/eogLookLeft.png" style="width:70.0%"></p>
+<div class="fragment">
+<p>When you <em>look left</em>: the left side becomes more positive while the right side becomes more negative.</p>
+<p><img data-src="./Psychophysiology_files/eogDipoleLookLeft.svg" style="width:70.0%"></p>
+</div>
 </div><div class="column">
-<p>Look right: the right electrode becomes more positive while the left electrode becomes more negative.</p>
-<p><img data-src="./Psychophysiology_files/eogLookRight.png" style="width:70.0%"></p>
+<div class="fragment">
+<p>When you <em>look right</em>: the right side becomes more positive while the left side becomes more negative.</p>
+<p><img data-src="./Psychophysiology_files/eogDipoleLookRight.svg" style="width:70.0%"></p>
+</div>
 </div></div>
-<p><img data-src="./Psychophysiology_files/eogDipole.jpg" style="width:70.0%"></p>
 </section>
 
-<section id="montage-options" class="title-slide slide level1">
-<h1>Montage options</h1>
+<section id="electrooculography-eog" class="title-slide slide level1">
+<h1>Electrooculography (EOG)</h1>
+<p><strong>Electro</strong> = electrical activity; <strong>oculo</strong> = eyes; <strong>graphy</strong> = measurement</p>
+<p>A system consisting of electrodes (plus electrolytic paste, other hardware, and software–more on this later) to record electrical activity near the eyes.</p>
 
-<img data-src="./Psychophysiology_files/eogMontage.png" style="width:70.0%" class="r-stretch"></section>
+<img data-src="./Psychophysiology_files/eogDipole1.svg" style="width:70.0%" class="r-stretch"></section>
 
-<section id="electrode-location-nomenclature" class="title-slide slide level1">
+<section id="electrooculography-eog-1" class="title-slide slide level1">
+<h1>Electrooculography (EOG)</h1>
+<p><strong>Electro</strong> = electrical activity; <strong>oculo</strong> = eyes; <strong>graphy</strong> = measurement</p>
+<p>A system consisting of electrodes (plus electrolytic paste, other hardware, and software–more on this later) to record electrical activity near the eyes.</p>
+
+<img data-src="./Psychophysiology_files/eogDipole2.svg" style="width:70.0%" class="r-stretch"></section>
+
+<section id="electrooculography-eog-2" class="title-slide slide level1">
+<h1>Electrooculography (EOG)</h1>
+<p><strong>Electro</strong> = electrical activity; <strong>oculo</strong> = eyes; <strong>graphy</strong> = measurement</p>
+<p>A system consisting of electrodes (plus electrolytic paste, other hardware, and software–more on this later) to record electrical activity near the eyes.</p>
+
+<img data-src="./Psychophysiology_files/eogDipole3.svg" style="width:70.0%" class="r-stretch"></section>
+
+<section id="electrooculography-eog-3" class="title-slide slide level1">
+<h1>Electrooculography (EOG)</h1>
+<p><strong>Electro</strong> = electrical activity; <strong>oculo</strong> = eyes; <strong>graphy</strong> = measurement</p>
+<p>A system consisting of electrodes (plus electrolytic paste, other hardware, and software–more on this later) to record electrical activity near the eyes.</p>
+
+<img data-src="./Psychophysiology_files/eogDipole4.svg" style="width:70.0%" class="r-stretch"></section>
+
+<section id="electrooculography-eog-4" class="title-slide slide level1">
+<h1>Electrooculography (EOG)</h1>
+<p><strong>Electro</strong> = electrical activity; <strong>oculo</strong> = eyes; <strong>graphy</strong> = measurement</p>
+<p>A system consisting of electrodes (plus electrolytic paste, other hardware, and software–more on this later) to record electrical activity near the eyes.</p>
+
+<img data-src="./Psychophysiology_files/eogDipole5.svg" style="width:70.0%" class="r-stretch"></section>
+
+<section id="electrode-locations" class="title-slide slide level1">
+<h1>Electrode locations</h1>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p>Electrodes are placed around the eyes, but more specifically where?</p>
+<p><span class="fragment">It depends on the direction in which we want to record eye movements.</span></p>
+</div><div class="column" style="width:70%;">
+<div class="fragment">
+<p><img data-src="./Psychophysiology_files/eogSitesHorizontal.svg" style="width:60.0%"></p>
+</div>
+</div></div>
+</section>
+
+<section id="electrode-locations-1" class="title-slide slide level1">
+<h1>Electrode locations</h1>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p>Electrodes are placed around the eyes, but more specifically where?</p>
+<p>It depends on the direction in which we want to record eye movements.</p>
+</div><div class="column" style="width:70%;">
+<p><img data-src="./Psychophysiology_files/eogSitesVertical.svg" style="width:60.0%"></p>
+</div></div>
+</section>
+
+<section id="electrode-locations-2" class="title-slide slide level1">
+<h1>Electrode locations</h1>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p>Electrodes are placed around the eyes, but more specifically where?</p>
+<p>It depends on the direction in which we want to record eye movements.</p>
+</div><div class="column" style="width:70%;">
+<p><img data-src="./Psychophysiology_files/eogSitesDiagonal.svg" style="width:60.0%"></p>
+</div></div>
+</section>
+
+<section id="electrode-location-nomenclature" class="title-slide slide level1 nostretch scrollable">
 <h1>Electrode location nomenclature</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>There is a standardized nomenclature to identify the location of the electrodes.</p>
+<ul>
+<li class="fragment">“L” stands for lateral</li>
+<li class="fragment">“I” stands for inferior (below)</li>
+<li class="fragment">“S” stands for superiod (above)</li>
+<li class="fragment">“1” stands for left</li>
+<li class="fragment">“2” stands for right</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<div class="fragment">
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -502,15 +585,20 @@ Dr Germano Gallicchio <br>
 </tr>
 <tr class="even">
 <td style="text-align: right;">SO2</td>
-<td>superiod ocular right</td>
+<td>superior ocular right</td>
 </tr>
 </tbody>
 </table>
+</div>
+</div></div>
+<div class="fragment">
+<p><img data-src="./Psychophysiology_files/eogSitesNames.svg" style="width:60.0%"></p>
+</div>
 </section>
 
-<section id="bipolar-channels" class="title-slide slide level1">
-<h1>Bipolar channels</h1>
-<p>When two electrodes are “referenced” to one another, their montage is called “bipolar”.</p>
+<section id="montage-options-bipolar-channels" class="title-slide slide level1 scrollable">
+<h1>Montage options: Bipolar channels</h1>
+<p>When two electrodes are referenced to one another, their montage is called <em>bipolar</em>. In a bipolar montage, the voltage reflects the difference in electrical potential between the two sites.</p>
 <p><strong>Horizontal EOG channel</strong>:</p>
 <p>When computing it as left - right, eye movement to the left/right = increased/decreased voltage</p>
 <p><span class="math display">\[
@@ -529,36 +617,39 @@ vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 \]</span></p>
 </section>
 
-<section id="electrooculographic-signals" class="title-slide slide level1 scrollable">
-<h1>Electrooculographic signals</h1>
+<section id="electrooculographic-signals-1" class="title-slide slide level1 nostretch">
+<h1>Electrooculographic signals #1</h1>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="./Psychophysiology_images/eogH.png" style="width:100.0%"></p>
+<p><img data-src="./Psychophysiology_files/eogH.jpg" style="width:100.0%"></p>
 <figcaption>horizontal EOG signal computed as <span class="math inline">\(LO1 - LO2\)</span></figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="./Psychophysiology_files/eogMovements.jpg" style="width:90.0%"></p>
-<figcaption>horizontal computed as <span class="math inline">\(LO2 - LO1\)</span> and vertical EOG signals</figcaption>
 </figure>
 </div>
 </section>
 
-<section id="impact-of-high-pass-filtering" class="title-slide slide level1">
+<section id="impact-of-high-pass-filtering" class="title-slide slide level1 scrollable">
 <h1>Impact of high-pass filtering</h1>
-<p><em>DC</em> (direct current) used to indicate that high-pass filter is <em>not</em> applied</p>
-<p><em>AC</em> (alternate current) used to indicate that high-pass filter is applied</p>
-<p>AC acquisition is often performed by certain equipment (e.g., PowerLab)</p>
+<p>High-pass filtering is not recommended when studying eye movements. But many systems apply high-pass filtering (it’s simpler).</p>
+<p><span class="fragment">The high-pass filter reduces <em>slow trends</em> and retains faster changes.</span></p>
+<p><span class="fragment">Consider an EOG signal (with saccades and fixations).</span> <span class="fragment">Applying high-pass filter makes the EOG signal less “square”.</span> <span class="fragment">This is as if only the initial changes are detected or only the quick changes that happen (keeping eyes still can be considered like an extremely slow change).</span></p>
+<p><span class="fragment">For example, voltage increases as you move the eyes up. You would expect the voltage to not change is you maintain your eyes in that position.</span> <span class="fragment">But when high-pass filtering is applied, the voltage goes gradually back to baseline even if the eyes are still up.</span></p>
+<div class="fragment">
+<p><img data-src="./Psychophysiology_files/eogDCvsAC.png" style="width:80.0%"></p>
+</div>
+<div class="fragment">
 
-<img data-src="./Psychophysiology_files/eogDCvsAC.png" style="width:80.0%" class="r-stretch"></section>
+</div>
+<aside><div>
+<ul>
+<li class="fragment"><em>DC</em> (direct current) used to indicate that high-pass filter is <em>not</em> applied</li>
+<li class="fragment"><em>AC</em> (alternate current) used to indicate that high-pass filter is applied</li>
+</ul>
+</div></aside></section>
 
 <section id="eog-calibration" class="title-slide slide level1 scrollable">
 <h1>EOG calibration</h1>
-<p>The native units of the EOG are <em>Volts</em>, but eye movements are better described as <em>visual angles</em>.</p>
-<p>This is because eye movements are angular (rotation of the eyeball).</p>
-<p><strong>Calibration</strong> allows to compute how many Volts correspond to 1 degree of visual angle.</p>
-<p>Then we can convert EOG from Volts to degrees.</p>
+<p>The native units of the EOG are <em>Volts</em>, but eye movements are better described as <em>visual angles</em>. Eye movements are angular in nature.</p>
+<p><strong>Calibration</strong> allows to calculate how many Volts correspond to 1 degree of visual angle, so that we can convert our EOG recording from Volts to degrees.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="./Psychophysiology_files/eogCalibration.png" style="width:100.0%"></p>
@@ -576,7 +667,7 @@ vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 <section id="calibrated-eog" class="title-slide slide level1 nostretch scrollable">
 <h1>Calibrated EOG</h1>
 <p>The EOG signal is now represented in degrees of visual angle.</p>
-<p>The figure shows <strong>horizontal</strong>, <strong>vertical</strong>, and <strong>combined</strong> EOG signals.</p>
+<p>The figure shows <strong>horizontal</strong>, <strong>vertical</strong>, and <strong>combined</strong> EOG signals, in the seconds before the execution of a golf putt.</p>
 <p>The combined signal is computed as the vectorial sum of the calibrated horizontal and vertical signals.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -584,25 +675,44 @@ vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 <figcaption>Calibrated EOG</figcaption>
 </figure>
 </div>
-<p>Because the source of the EOG (the corneoretinal potential) is not fixed, calibration should be done every few minutes.</p>
+<p>Because the source of the EOG (the corneoretinal potential) is not fixed, calibration should be done regularly unless the recording session is very short.</p>
+</section>
+
+<section id="eog-eye-movement-metrics" class="title-slide slide level1 scrollable">
+<h1>EOG eye movement metrics</h1>
+<p>Several metrics can be extracted from the EOG signal to characterize eye movements:</p>
+<ul>
+<li class="fragment">saccades:
+<ul>
+<li class="fragment">number</li>
+<li class="fragment">extent</li>
+<li class="fragment">velocity</li>
+</ul></li>
+<li class="fragment">fixations
+<ul>
+<li class="fragment">number</li>
+<li class="fragment">duration</li>
+</ul></li>
+<li class="fragment">Quiet Eye durations (popular in sport tasks)</li>
+</ul>
 </section>
 
 <section id="eye-blink-as-seen-in-the-eog" class="title-slide slide level1">
 <h1>Eye blink as seen in the EOG</h1>
 <div class="columns">
-<div class="column">
-<p><img data-src="./Psychophysiology_files/eogBlink_1.png" style="width:80.0%"></p>
-</div><div class="column">
-<p><img data-src="./Psychophysiology_files/eogBlinkPotential.png" style="width:90.0%"> usual negativity at the back due to the corneoretinal potential</p>
+<div class="column" style="width:60%;">
+<p><img data-src="./Psychophysiology_files/eogBlink_1.png" style="width:100.0%"></p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="./Psychophysiology_files/eogBlinkPotential.png" style="width:90.0%"> Usual negativity at the back due to the corneoretinal potential</p>
 </div></div>
 </section>
 
 <section id="eye-blink-as-seen-in-the-eog-1" class="title-slide slide level1">
 <h1>Eye blink as seen in the EOG</h1>
 <div class="columns">
-<div class="column">
-<p><img data-src="./Psychophysiology_files/eogBlink_2.png" style="width:80.0%"></p>
-</div><div class="column">
+<div class="column" style="width:60%;">
+<p><img data-src="./Psychophysiology_files/eogBlink_2.png" style="width:100.0%"></p>
+</div><div class="column" style="width:40%;">
 <p><img data-src="./Psychophysiology_files/eogBlinkPotential.png" style="width:90.0%"> Transient positivity above the eye</p>
 </div></div>
 <p><arrow x1="65%" y1="75%" x2="65%" y2="60%" color="#0000ff" width="5"></arrow></p>
@@ -611,19 +721,12 @@ vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 <section id="eye-blink-as-seen-in-the-eog-2" class="title-slide slide level1">
 <h1>Eye blink as seen in the EOG</h1>
 <div class="columns">
-<div class="column">
-<p><img data-src="./Psychophysiology_files/eogBlink_3.png" style="width:80.0%"></p>
-</div><div class="column">
-<p><img data-src="./Psychophysiology_files/eogBlinkPotential.png" style="width:90.0%"></p>
+<div class="column" style="width:60%;">
+<p><img data-src="./Psychophysiology_files/eogBlink_2.png" style="width:100.0%"></p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="./Psychophysiology_files/eogBlinkPotential.png" style="width:90.0%" data-crop="0px 50px 0px 50px"> Back to baseline</p>
 </div></div>
 <p><arrow x1="80%" y1="75%" x2="80%" y2="60%" color="#0000ff" width="5"></arrow></p>
-</section>
-
-<section id="physiological-source-of-the-eog-blink" class="title-slide slide level1">
-<h1>Physiological source of the EOG blink</h1>
-<p>Not as well understood as the source of eye movements.</p>
-<p>Initially thought to be due to upward rotation of the eyeball (rapid dipole rotation)</p>
-<p>More recently thought to be due to eyelid bridging the corneoretinal positivity with the forehead (changes in electrical conductivity)</p>
 </section>
 
 <section id="eog-blink-wave-characteristics" class="title-slide slide level1">
@@ -640,13 +743,33 @@ vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 </ul>
 </section>
 
+<section id="physiological-source-of-the-eog-blink" class="title-slide slide level1">
+<h1>Physiological source of the EOG blink</h1>
+<p>Not as well understood as the source of eye movements.</p>
+<p>Initially thought to be due to upward rotation of the eyeball (i.e., rapid dipole rotation)</p>
+<p>More recently thought to be due to eyelid bridging the corneoretinal positivity with the forehead (changes in electrical conductivity).</p>
+</section>
+
+<section id="eog-blink-metrics" class="title-slide slide level1 scrollable">
+<h1>EOG Blink metrics</h1>
+<p>Several metrics can be extracted from the EOG signal to characterize blinking behavior:</p>
+<ul>
+<li class="fragment"><p><strong>Number of blinks</strong>: Total count of blinks during a recording period.</p></li>
+<li class="fragment"><p><strong>Blink rate</strong>: Number of blinks per minute, a commonly reported metric in psychophysiology research.</p></li>
+<li class="fragment"><p><strong>Blink duration</strong>: Time duration of individual blinks, typically measured from initial positive deflection to return to baseline (200-400 ms range).</p></li>
+<li class="fragment"><p><strong>Blink flurries</strong>: Clusters of rapid successive blinks occurring in quick succession, often associated with cognitive load or fatigue.</p></li>
+<li class="fragment"><p><strong>Flurry rate</strong>: Frequency of blink flurries per minute, reflecting periods of increased blinking activity.</p></li>
+</ul>
+<p><span class="fragment">These metrics are useful for assessing cognitive workload, fatigue, attention, and other psychological states during task performance or resting conditions.</span></p>
+</section>
+
 <section id="eog-limitations" class="title-slide slide level1">
 <h1>EOG Limitations</h1>
 <p>While EOG is a useful technique, it has some limitations:</p>
 <ul>
 <li class="fragment"><p><strong>Signal noise</strong>: EOG signals can be affected by electrical noise from other sources, such as muscle activity and external electronic devices.</p></li>
 <li class="fragment"><p><strong>Artifact contamination</strong>: Blinks and other involuntary eye movements can introduce artifacts into the EOG signal, complicating data analysis.</p></li>
-<li class="fragment"><p><strong>head movement confounders</strong>: EOG saccadic signals reflect movements of the eyeballs relative to the head. By looking at the EOG only or without behavioural constrains, it is difficult to know whether the eyes, the head, or both have moved.</p></li>
+<li class="fragment"><p><strong>Head movement confounders</strong>: EOG saccadic signals reflect movements of the eyeballs <em>relative to the head</em>. By looking at the EOG only or without behavioural constrains, it is difficult to know whether the eyes, the head, or both have moved.</p></li>
 <li class="fragment"><p><strong>Limited spatial resolution</strong>: EOG provides less precise information about the exact point of gaze compared to other eye-tracking methods, such as video-based eye trackers.</p></li>
 <li class="fragment"><p><strong>Calibration drift</strong>: The corneoretinal potential can change over time, requiring frequent recalibration.</p></li>
 </ul>
@@ -656,11 +779,13 @@ vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 <h1>Future Directions</h1>
 <p>Research and development in EOG technology are ongoing, with several promising directions:</p>
 <ul>
-<li class="fragment"><p><strong>Improved signal processing</strong>: Developing advanced algorithms to reduce noise and artifacts in EOG signals. A promising technique is median filtering[^1].</p></li>
-<li class="fragment"><p><strong>Integration with other modalities</strong>: Combining EOG with other physiological measurements, such as EEG and EMG, for a more comprehensive understanding of human behavior.[^2]</p></li>
+<li class="fragment"><p><strong>Improved signal processing</strong>: Developing advanced algorithms to reduce noise and artifacts in EOG signals. A promising technique is median filtering.</p></li>
+<li class="fragment"><p><strong>Integration with other modalities</strong>: Combining EOG with other physiological measurements, such as EEG and EMG, for a more comprehensive understanding of human behavior.</p></li>
 <li class="fragment"><p><strong>Wearable EOG devices</strong>: Creating portable and user-friendly EOG systems for real-world applications, such as sports training and assistive technology.</p></li>
 </ul>
+<div class="fragment">
 
+</div>
 
 
 <aside><div>
