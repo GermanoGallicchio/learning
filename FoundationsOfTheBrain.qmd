@@ -24,6 +24,8 @@ On a computer press F11 to de/activate full-screen view.
 For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 
 For pdf document: use "learning resources" link above.
+
+Last modified: {{< meta date-modified >}}
 </div>
 
 :::
@@ -502,12 +504,19 @@ This classification highlights the _diversity_ of neurons and their _specialized
 
 # Classification by Number of Dendrites
 
+::: {.content-visible when-format="html"}
 | **Type**     | **Description**                                                                 | **Examples**        |
 |--------------|---------------------------------------------------------------------------------|---------------------|
 | Unipolar     | Single projection (one neurite) from the soma that branches into dendrites and an axon.      | Sensory neurons     |
 | Bipolar      | One axon and one dendrite (two neurites) extending from the soma.                             | Retinal neurons     |
 | Multipolar   | One axon and multiple dendrites, the most common type of neuron.               | Motor neurons, interneurons |
+:::
 
+::: {.content-visible when-format="pdf"}
+- **Unipolar**: Single projection (one neurite) from the soma that branches into dendrites and an axon. Examples: Sensory neurons
+- **Bipolar**: One axon and one dendrite (two neurites) extending from the soma. Examples: Retinal neurons
+- **Multipolar**: One axon and multiple dendrites, the most common type of neuron. Examples: Motor neurons, interneurons
+:::
 
 
 
@@ -529,10 +538,17 @@ Illustration of **unipolar**, **bipolar**, or **multipolar** neurons, depending 
 
 # Classification by Shape
 
+::: {.content-visible when-format="html"}
 | **Type**     | **Description**                                                                 | **Examples**        |
 |--------------|---------------------------------------------------------------------------------|---------------------|
 | Pyramidal    | Triangular-shaped soma with a long apical dendrite and multiple basal dendrites. | Found in the cerebral cortex |
 | Stellate     | Star-shaped neurons with radiating dendrites.                                   | Found in the cerebellum |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Pyramidal**: Triangular-shaped soma with a long apical dendrite and multiple basal dendrites. Found in the cerebral cortex
+- **Stellate**: Star-shaped neurons with radiating dendrites. Found in the cerebellum
+:::
 
 
 
@@ -554,10 +570,17 @@ Illustration of **pyramidal** and **stellate** neurons, highlighting their disti
 
 # Classification by Axon Length
 
+::: {.content-visible when-format="html"}
 | **Type**     | **Description**                                                                 | **Examples**        |
 |----------------|------------------------------------------------------------------------------|---------------------|
 | Golgi **Type I** | Long axons that extend far from the soma.                                       | Motor neurons       |
 | Golgi **Type II**| Short axons that remain close to the soma.                                      | Interneurons        |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Golgi Type I**: Long axons that extend far from the soma. Examples: Motor neurons
+- **Golgi Type II**: Short axons that remain close to the soma. Examples: Interneurons
+:::
 
 
 
@@ -590,12 +613,19 @@ For example, a modulatory neurotransmitter can influence the excitability of a p
 
 ---
 
-
+::: {.content-visible when-format="html"}
 | **Type**       | **Description**                                                                 | **Examples**                     |
 |----------------|---------------------------------------------------------------------------------|-----------------------------------|
 | Excitatory     | Release neurotransmitters that increase the likelihood of action potentials in the postsynaptic neuron. | Glutamatergic neurons            |
 | Inhibitory     | Release neurotransmitters that decrease the likelihood of action potentials in the postsynaptic neuron. | GABAergic neurons                |
 | Modulatory     | Release neurotransmitters that modulate the activity of other neurons.          | Dopaminergic, serotonergic neurons |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Excitatory**: Release neurotransmitters that increase the likelihood of action potentials in the postsynaptic neuron. Examples: Glutamatergic neurons
+- **Inhibitory**: Release neurotransmitters that decrease the likelihood of action potentials in the postsynaptic neuron. Examples: GABAergic neurons
+- **Modulatory**: Release neurotransmitters that modulate the activity of other neurons. Examples: Dopaminergic, serotonergic neurons
+:::
 
 
 
@@ -727,12 +757,21 @@ This illustration shows **different types of glial cells** and their roles.
 
 Brief overview of some glial cells
 
+::: {.content-visible when-format="html"}
 | **Type**         | **Function**                                                                 |
 |------------------|-----------------------------------------------------------------------------|
 | Astrocytes       | Maintain the blood-brain barrier, regulate nutrient supply, and support synaptic function. |
 | Oligodendrocytes | Produce myelin sheaths that insulate axons in the CNS, enabling faster signal transmission. |
 | Schwann Cells    | Produce myelin sheaths in the peripheral nervous system (PNS)              |
 | Microglia        | Act as immune cells in the CNS, clearing damaged cells and protecting against pathogens |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Astrocytes**: Maintain the blood-brain barrier, regulate nutrient supply, and support synaptic function.
+- **Oligodendrocytes**: Produce myelin sheaths that insulate axons in the CNS, enabling faster signal transmission.
+- **Schwann Cells**: Produce myelin sheaths in the peripheral nervous system (PNS)
+- **Microglia**: Act as immune cells in the CNS, clearing damaged cells and protecting against pathogens
+:::
 
 
 
