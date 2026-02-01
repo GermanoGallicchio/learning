@@ -1,0 +1,161 @@
+## Workshop: EEG Acquisition {.nostretch .center}
+
+::::{.columns}
+:::{.column width=80%}
+
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
+School of Psychology and Sport Science, Bangor University, UK <br>
+
+[profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+</div>
+
+<br>
+
+::: {.content-visible when-format="html"}
+<div style="font-size:0.6em">
+On a computer press F11 to de/activate full-screen view.
+
+For smartphone and review: Bottom left menu -> Tools -> PDF Export Mode.
+
+For pdf document: use "learning resources" link above.
+
+Last modified: {{< meta date-modified >}}
+</div>
+:::
+
+:::
+
+:::{.column width=20%}
+::: {.content-visible when-format="html"}
+QR code to<br>these slides:
+{{< qrcode https://germanogallicchio.github.io/learning/Psychophysiology_EEGWorkshop.html?view=scroll colorDark='#0011bb' >}}
+:::
+
+::: {.content-visible when-format="pdf"}
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
+:::
+
+<br>
+
+::: {.content-visible when-format="html"}
+<span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
+<div contenteditable="true" style="
+    min-height: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: rgba(255,40,0,0.6)
+">0000</div>
+:::
+:::
+::::
+
+<style>
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+</style>
+
+# Attendance
+
+Attendance PIN
+
+# Overview
+
+This workshop provides hands-on experience with electroencephalography (EEG) equipment, electrode placement, artifact identification, and real-time signal control.
+
+# In-class activity
+
+## Role playing
+
+Students alternate roles between experimenter, participant, and observer to develop practical competency across different lab responsibilities.
+
+## Task 1: Cap application and electrode positioning
+
+- Identify midline landmarks: Nasion (bridge of nose) and Inion (bump at back of skull)
+- Place the EEG cap aligned with the Cz electrode at the vertex
+- Verify correct positioning before securing
+
+## Task 2: Artifact identification and morphology
+
+Students work collaboratively to recreate and identify common sources of artifacts. For each artifact type, reflect on:
+
+- **Morphology**: What characteristics does the artifact show in EEG recordings?
+- **Regional influence**: Which electrodes show the artifact most prominently?
+
+| Type of artifact | Morphology | Location |
+|---|---|---|
+| Muscular activity | | |
+| Blinking | | |
+| Eye movements | | |
+| Electrode movement | | |
+| Environmental noise | | |
+
+## Task 3: Self-regulation of cortical activity
+
+Participants perform activities to deliberately modulate EEG alpha activity while experimenters observe signal changes:
+
+- **Increase parietal-occipital alpha**: Relax with eyes closed
+- **Decrease alpha**: Engage in heavy cognitive load with eyes open
+- **Observe P300 components** (if applicable to task design)
+
+# Homework reflection
+
+## Post-activity questions
+
+1. Name two sources of artifacts one might see in an EEG recording.
+
+2. Name the landmarks used to position the electrodes in the international 10-20 system.
+
+3. Based on its name, where on the head is the Fz electrode located?
+
+4. Based on its name, where on the head is the P3 electrode located?
+
+5. What is a reliable way to increase alpha-rhythm activity in the parietal and occipital regions?
+
+6. What does a Fourier transform do?
+
+7. What does the acronym ERP stand for?
+
+8. What cognitive process is typically associated with the P3 wave?
+
+# Key concepts
+
+## International 10-20 system
+
+- Electrodes positioned at 10% and 20% intervals between anatomical landmarks
+- Letter labels denote brain regions (F=frontal, C=central, P=parietal, T=temporal, O=occipital)
+- Numbers and z indicate laterality and midline position
+
+## Common artifacts
+
+- **Muscular**: high-frequency, localized to scalp/neck/face regions
+- **Blinking**: large-amplitude deflections in frontal channels
+- **Eye movements**: slower deflections proportional to gaze movement
+- **Electrode-related**: sudden baseline shifts or noise spikes
+
+## Frequency bands and alpha
+
+- Alpha (8-12 Hz): Often associated with relaxation and cortical inhibition
+- Can be volitionally modulated through relaxation or cognitive engagement
+- Regional specificity aids in understanding task-related brain activity
+
+## Data analysis tools
+
+- **Fourier transform**: Converts time-domain signal to frequency domain for spectral analysis
+- **ERP (Event-Related Potential)**: Averaged EEG activity time-locked to a specific event
+- **P300**: Late positive component (300+ ms post-stimulus) associated with attention and cognitive processing
+
+# Key takeaways
+
+- Proper cap placement and electrode positioning are essential for reliable EEG recordings
+- Artifact awareness and identification are critical skills for data quality
+- EEG signals can be volitionally modulated, enabling biofeedback and neurofeedback approaches
+- Understanding frequency bands and timing components supports interpretation of brain activity during behavior
