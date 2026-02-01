@@ -8,7 +8,7 @@ format: html
 | Topic | RevealJS Slides | Mobile-Friendly View | PDF Document |
 |--------------|-----------------|----------------------|--------------|
 | Oculomotor system and electrooculography | [slides](Psychophysiology_OculomotorEOG.html) | [scroll view](Psychophysiology_OculomotorEOG.html?view=scroll) | [pdf](Psychophysiology_OculomotorEOG.pdf) |
-| Electrooculography acquisition workshop | [slides](Psychophysiology_EOGAcquisitionWorkshop.html) | [scroll view](EOGAcquisitionWorkshop.html?view=scroll) | [pdf](EOGAcquisitionWorkshop.pdf) |
+| Electrooculography acquisition workshop | [slides](Psychophysiology_EOGAcquisitionWorkshop.html) | [scroll view](Psychophysiology_EOGAcquisitionWorkshop.html?view=scroll) | [pdf](Psychophysiology_EOGAcquisitionWorkshop.pdf) |
 | Electrooculography processing workshop | [slides](Psychophysiology_EOGProcessingWorkshop.html) | [scroll view](EOGProcessingWorkshop.html?view=scroll) | [pdf](EOGProcessingWorkshop.pdf) |
 | Cortical system and electroencephalography | - | - | - |
 | Hot topics in sport & exercise: Quiet Eye | - | - | - |
