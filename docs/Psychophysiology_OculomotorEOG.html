@@ -145,7 +145,7 @@ Dr Germano Gallicchio <br>
 <p>On a computer press F11 to de/activate full-screen view.</p>
 <p>For smartphone and review: Bottom left menu → Tools → PDF Export Mode.</p>
 <p>For pdf document: use “learning resources” link above.</p>
-<p>Last modified: 2026-01-31</p>
+<p>Last modified: 2026-02-01</p>
 </div>
 </div><div class="column" style="width:20%;">
 <p>QR code to<br>these slides: </p><div id="" class="qrcode"></div>
@@ -506,6 +506,16 @@ Dr Germano Gallicchio <br>
 
 <img data-src="./Psychophysiology_files/eogDipole5.svg" style="width:70.0%" class="r-stretch"></section>
 
+<section id="electrooculographic-signals-1" class="title-slide slide level1 nostretch">
+<h1>Electrooculographic signals #1</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./Psychophysiology_files/eogH.jpg" style="width:100.0%"></p>
+<figcaption>horizontal EOG signal computed as <span class="math inline">\(LO1 - LO2\)</span></figcaption>
+</figure>
+</div>
+</section>
+
 <section id="electrode-locations" class="title-slide slide level1">
 <h1>Electrode locations</h1>
 <div class="columns">
@@ -617,16 +627,6 @@ vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 \]</span></p>
 </section>
 
-<section id="electrooculographic-signals-1" class="title-slide slide level1 nostretch">
-<h1>Electrooculographic signals #1</h1>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="./Psychophysiology_files/eogH.jpg" style="width:100.0%"></p>
-<figcaption>horizontal EOG signal computed as <span class="math inline">\(LO1 - LO2\)</span></figcaption>
-</figure>
-</div>
-</section>
-
 <section id="impact-of-high-pass-filtering" class="title-slide slide level1 scrollable">
 <h1>Impact of high-pass filtering</h1>
 <p>High-pass filtering is not recommended when studying eye movements. But many systems apply high-pass filtering (it’s simpler).</p>
@@ -634,7 +634,7 @@ vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 <p><span class="fragment">Consider an EOG signal (with saccades and fixations).</span> <span class="fragment">Applying high-pass filter makes the EOG signal less “square”.</span> <span class="fragment">This is as if only the initial changes are detected or only the quick changes that happen (keeping eyes still can be considered like an extremely slow change).</span></p>
 <p><span class="fragment">For example, voltage increases as you move the eyes up. You would expect the voltage to not change is you maintain your eyes in that position.</span> <span class="fragment">But when high-pass filtering is applied, the voltage goes gradually back to baseline even if the eyes are still up.</span></p>
 <div class="fragment">
-<p><img data-src="./Psychophysiology_files/eogDCvsAC.png" style="width:80.0%"></p>
+<p><img data-src="./Psychophysiology_files/EOGfilters.jpg" style="width:80.0%"></p>
 </div>
 <div class="fragment">
 
@@ -703,7 +703,7 @@ vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 <div class="column" style="width:60%;">
 <p><img data-src="./Psychophysiology_files/eogBlink_1.png" style="width:100.0%"></p>
 </div><div class="column" style="width:40%;">
-<p><img data-src="./Psychophysiology_files/eogBlinkPotential.png" style="width:90.0%"> Usual negativity at the back due to the corneoretinal potential</p>
+<p><img data-src="./Psychophysiology_files/eogBlinkPotential1.png" style="width:90.0%"> Usual negativity at the back due to the corneoretinal potential</p>
 </div></div>
 </section>
 
@@ -713,20 +713,18 @@ vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 <div class="column" style="width:60%;">
 <p><img data-src="./Psychophysiology_files/eogBlink_2.png" style="width:100.0%"></p>
 </div><div class="column" style="width:40%;">
-<p><img data-src="./Psychophysiology_files/eogBlinkPotential.png" style="width:90.0%"> Transient positivity above the eye</p>
+<p><img data-src="./Psychophysiology_files/eogBlinkPotential2.png" style="width:90.0%"> Transient positivity above the eye</p>
 </div></div>
-<p><arrow x1="65%" y1="75%" x2="65%" y2="60%" color="#0000ff" width="5"></arrow></p>
 </section>
 
 <section id="eye-blink-as-seen-in-the-eog-2" class="title-slide slide level1">
 <h1>Eye blink as seen in the EOG</h1>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p><img data-src="./Psychophysiology_files/eogBlink_2.png" style="width:100.0%"></p>
+<p><img data-src="./Psychophysiology_files/eogBlink_1.png" style="width:100.0%"></p>
 </div><div class="column" style="width:40%;">
-<p><img data-src="./Psychophysiology_files/eogBlinkPotential.png" style="width:90.0%" data-crop="0px 50px 0px 50px"> Back to baseline</p>
+<p><img data-src="./Psychophysiology_files/eogBlinkPotential3.png" style="width:90.0%" data-crop="0px 50px 0px 50px"> Back to baseline</p>
 </div></div>
-<p><arrow x1="80%" y1="75%" x2="80%" y2="60%" color="#0000ff" width="5"></arrow></p>
 </section>
 
 <section id="eog-blink-wave-characteristics" class="title-slide slide level1">
