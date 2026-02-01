@@ -1,0 +1,147 @@
+## Workshop: EOG acquisition {.nostretch .center}
+
+::::{.columns}
+:::{.column width=80%}
+
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
+School of Psychology and Sport Science, Bangor University, UK <br>
+
+[profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+</div>
+
+<br>
+
+::: {.content-visible when-format="html"}
+<div style="font-size:0.6em">
+On a computer press F11 to de/activate full-screen view.
+
+For smartphone and review: Bottom left menu -> Tools -> PDF Export Mode.
+
+For pdf document: use "learning resources" link above.
+
+Last modified: {{< meta date-modified >}}
+</div>
+:::
+
+:::
+
+:::{.column width=20%}
+::: {.content-visible when-format="html"}
+QR code to<br>these slides:
+{{< qrcode https://germanogallicchio.github.io/learning/Psychophysiology_EOGAcquisitionWorkshop.html?view=scroll colorDark='#0011bb' >}}
+:::
+
+::: {.content-visible when-format="pdf"}
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
+:::
+
+<br>
+
+::: {.content-visible when-format="html"}
+<span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
+<div contenteditable="true" style="
+    min-height: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: rgba(255,40,0,0.6)
+">0000</div>
+:::
+:::
+::::
+
+<style>
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+</style>
+
+# Overview
+
+This workshop provides hands-on experience with electrooculography (EOG).
+
+Students will alternate roles between experimenter, participant, and observer.
+
+# Try it yourself
+
+Try the slight discomfort of skin preparation on yourself (e.g., rubbing Nuprep paste and alcohol swab on your own forearm, rubbing alcohol swab below your eye). 
+
+_Unless, you have a medical condition of skin or eyes_
+
+Then, take turns in being “experimenter”, “participant”, and “observer” (if a station has more than two people) in the following activities.
+
+# EOG electrode montages
+
+::::{.columns}
+:::{.column width=40%}
+![](./Psychophysiology_files/eogSitesAllThree.svg){width='100%'}
+:::
+:::{.column width=60%}
+| LABEL | SITE |
+|-----:| -----| 
+| LO1 | lateral ocular left |
+| LO2 | lateral ocular right|
+| IO1 | inferior ocular left |
+| IO2 | inferior ocular right |
+| SO1 | superior ocular left |
+| SO2 | superior ocular right |
+:::
+::::
+
+# Activity 1. Horizontal EOG
+
+1. The experimenter prepares the participant's skin in the appropriate locations and then applies two electrodes (see montage figure)
+2. The participant is instructed to perform specific actions
+  a. Alternate looking left-right (small and large saccades)
+  b. Keep fixating and rotate head left and right
+  c. Blink
+3. The experimenter can unplug the leads from the electrodes
+
+# Activity 2. Vertical EOG
+
+1. The experimenter prepares the participant's skin in the appropriate locations and then applies two electrodes (see montage figure)
+2. The participant is instructed to perform specific actions
+  a. Alternate looking left-right (Notice how this differs from the previous activity.)
+  b. Alternate looking up-down (small and large saccades)
+  c. Maintain fixation and rotate head up and down
+  d. Blink
+
+3. The experimenter can unplug the leads from the electrodes
+
+# Activity 3. Diagonal EOG
+
+1. The experimenter prepares the participant's skin in the appropriate locations and then applies two electrodes (see montage figure)
+2. The participant is instructed to perform specific actions
+  a. Alternate looking left-right
+  b. Alternate looking up-down
+  c. Alternate looking diagonally
+  d. Keep fixating and rotate head left and right or up and down
+  e. Blink
+3. The experimenter can unplug the leads from the electrodes
+
+# Reflections {.scrollable}
+
+1. Write down the skin preparation and electrode application procedure as described during the workshop.
+
+2. Reflect on why skin preparation is
+important when recording electrophysiological signals
+
+3. Describe the sources of the EOG signal in two parts.
+
+  A) What electrophysiological phenomenon links voltage changes to movements of the eyes (e.g., saccades)?
+
+  B) What electrophysiological phenomenon links voltage changes to movements of the eyelid (e.g., blinks)?
+
+4. Describe what happens to the EOG signal when you (or your peer) looked left or right while maintaining the head still. Reflecting on the content of previous sessions, describe which electrode arrangement (positioning) is best for highlighting horizontal and vertical eye movements.
+
+5. Describe what happened to the EOG signal when you (or your peer) maintained fixation on a spot while moving the head left and right.
+
+6. Describe what happened what you (or your peer) blinked. Reflecting on the content of previous sessions, describe which electrode arrangement (positioning) is best for
+highlighting blinks.
