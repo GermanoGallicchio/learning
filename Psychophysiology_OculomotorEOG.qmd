@@ -217,7 +217,7 @@ In principle, we could measure the activity of the extraocular muscles to unders
 
 ::::{.columns}
 :::{.column width=60%}
-![](/Psychophysiology_files/corneoRetinalPotential.png){width='100%'}
+![](./Psychophysiology_files/corneoRetinalPotential.png){width='100%'}
 :::
 :::{.column width=40%}
 
@@ -248,7 +248,7 @@ Assume you place two electrodes, one left and one right of the eyes.
 :::{.fragment}
 When you _look left_: the left side becomes more positive while the right side becomes more negative.
 
-![](/Psychophysiology_files/eogDipoleLookLeft.svg){width='70%'}
+![](./Psychophysiology_files/eogDipoleLookLeft.svg){width='70%'}
 :::
 
 :::
@@ -257,7 +257,7 @@ When you _look left_: the left side becomes more positive while the right side b
 :::{.fragment}
 When you _look right_: the right side becomes more positive while the left side becomes more negative.
 
-![](/Psychophysiology_files/eogDipoleLookRight.svg){width='70%'}
+![](./Psychophysiology_files/eogDipoleLookRight.svg){width='70%'}
 :::
 
 :::
@@ -270,7 +270,7 @@ When you _look right_: the right side becomes more positive while the left side 
 A system consisting of electrodes (plus electrolytic paste, other hardware, and software--more on this later) to record electrical activity near the eyes.
 
 ::: {.content-visible when-format="html"}
-![](/Psychophysiology_files/eogDipole1.svg){width='70%'}
+![](./Psychophysiology_files/eogDipole1.svg){width='70%'}
 
 
 # Electrooculography (EOG) 
@@ -279,7 +279,7 @@ A system consisting of electrodes (plus electrolytic paste, other hardware, and 
 
 A system consisting of electrodes (plus electrolytic paste, other hardware, and software--more on this later) to record electrical activity near the eyes.
 
-![](/Psychophysiology_files/eogDipole2.svg){width='70%'}
+![](./Psychophysiology_files/eogDipole2.svg){width='70%'}
 
 
 # Electrooculography (EOG) 
@@ -288,7 +288,7 @@ A system consisting of electrodes (plus electrolytic paste, other hardware, and 
 
 A system consisting of electrodes (plus electrolytic paste, other hardware, and software--more on this later) to record electrical activity near the eyes.
 
-![](/Psychophysiology_files/eogDipole3.svg){width='70%'}
+![](./Psychophysiology_files/eogDipole3.svg){width='70%'}
 
 
 # Electrooculography (EOG) 
@@ -297,7 +297,7 @@ A system consisting of electrodes (plus electrolytic paste, other hardware, and 
 
 A system consisting of electrodes (plus electrolytic paste, other hardware, and software--more on this later) to record electrical activity near the eyes.
 
-![](/Psychophysiology_files/eogDipole4.svg){width='70%'}
+![](./Psychophysiology_files/eogDipole4.svg){width='70%'}
 
 
 # Electrooculography (EOG) 
@@ -307,11 +307,16 @@ A system consisting of electrodes (plus electrolytic paste, other hardware, and 
 A system consisting of electrodes (plus electrolytic paste, other hardware, and software--more on this later) to record electrical activity near the eyes.
 :::
 
-![](/Psychophysiology_files/eogDipole5.svg){width='70%'}
+![](./Psychophysiology_files/eogDipole5.svg){width='70%'}
 
 ::: {.content-visible when-format="pdf"}
-![](/Psychophysiology_files/eogDipoleAnnotated.png){width='70%'}
+![](./Psychophysiology_files/eogDipoleAnnotated.png){width='70%'}
 :::
+
+# Electrooculographic signals #1 {.nostretch}
+
+![horizontal EOG signal computed as $LO1 - LO2$](./Psychophysiology_files/eogH.jpg){width=100%}
+
 
 # Electrode locations
 
@@ -341,7 +346,7 @@ It depends on the direction in which we want to record eye movements.
 :::
 :::{.column width=70%}
 
-![](/Psychophysiology_files/eogSitesVertical.svg){width='60%'}
+![](./Psychophysiology_files/eogSitesVertical.svg){width='60%'}
 
 :::
 ::::
@@ -358,7 +363,7 @@ It depends on the direction in which we want to record eye movements.
 :::
 :::{.column width=70%}
 
-![](/Psychophysiology_files/eogSitesDiagonal.svg){width='60%'}
+![](./Psychophysiology_files/eogSitesDiagonal.svg){width='60%'}
 
 :::
 ::::
@@ -370,6 +375,7 @@ It depends on the direction in which we want to record eye movements.
 :::
 
 
+
 # Electrode location nomenclature {.nostretch .scrollable}
 
 ::::{.columns}
@@ -378,7 +384,7 @@ There is a standardized nomenclature to identify the location of the electrodes.
 
 - "L" stands for lateral
 - "I" stands for inferior (below)
-- "S" stands for superiod (above)
+- "S" stands for superior (above)
 - "1" stands for left
 - "2" stands for right
 :::
@@ -399,7 +405,7 @@ There is a standardized nomenclature to identify the location of the electrodes.
 ::::
 
 :::{.fragment}
-![](/Psychophysiology_files/eogSitesNames.svg){width='60%'}
+![](./Psychophysiology_files/eogSitesNames.svg){width='60%'}
 :::
 
 
@@ -431,9 +437,6 @@ $$
 vEOG = \frac{vEOG_{left}+vEOG_{right}}{2}
 $$
 
-# Electrooculographic signals #1 {.nostretch}
-
-![horizontal EOG signal computed as $LO1 - LO2$](./Psychophysiology_files/eogH.jpg){width=100%}
 
 
 # Impact of high-pass filtering {.scrollable}
@@ -447,7 +450,7 @@ High-pass filtering is not recommended when studying eye movements. But many sys
 [For example, voltage increases as you move the eyes up. You would expect the voltage to not change is you maintain your eyes in that position.]{.fragment} [But when high-pass filtering is applied, the voltage goes gradually back to baseline even if the eyes are still up.]{.fragment}
 
 :::{.fragment}
-![](./Psychophysiology_files/eogDCvsAC.png){width=80%} 
+![](./Psychophysiology_files/EOGfilters.jpg){width=80%} 
 :::
 
 
@@ -502,10 +505,10 @@ Several metrics can be extracted from the EOG signal to characterize eye movemen
 
 ::::{.columns}
 :::{.column width=60%}
-![](/Psychophysiology_files/eogBlink_1.png){width='100%'}
+![](./Psychophysiology_files/eogBlink_1.png){width='100%'}
 :::
 :::{.column width=40%}
-![](/Psychophysiology_files/eogBlinkPotential.png){width='90%'}
+![](./Psychophysiology_files/eogBlinkPotential1.png){width='90%'}
 Usual negativity at the back due to the corneoretinal potential
 :::
 ::::
@@ -517,26 +520,24 @@ Usual negativity at the back due to the corneoretinal potential
 ![](/Psychophysiology_files/eogBlink_2.png){width='100%'}
 :::
 :::{.column width=40%}
-![](/Psychophysiology_files/eogBlinkPotential.png){width='90%'}
+![](/Psychophysiology_files/eogBlinkPotential2.png){width='90%'}
 Transient positivity above the eye
 :::
 ::::
 
-<Arrow x1="65%" y1="75%" x2="65%" y2="60%" color="#0000ff" width="5"/>
 
 # Eye blink as seen in the EOG
 
 ::::{.columns}
 :::{.column width=60%}
-![](/Psychophysiology_files/eogBlink_1.png){width='100%'}
+![](./Psychophysiology_files/eogBlink_1.png){width='100%'}
 :::
 :::{.column width=40%}
-![](/Psychophysiology_files/eogBlinkPotential.png){width='90%' crop="0px 50px 0px 50px"}
+![](./Psychophysiology_files/eogBlinkPotential3.png){width='90%' crop="0px 50px 0px 50px"}
 Back to baseline
 :::
 ::::
 
-<Arrow x1="80%" y1="75%" x2="80%" y2="60%" color="#0000ff" width="5"/>
 
 # EOG Blink wave characteristics
 
