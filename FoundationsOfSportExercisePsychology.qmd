@@ -22,6 +22,8 @@ On a computer press F11 to de/activate full-screen view.
 For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 
 For pdf document: use "learning resources" link above.
+
+Last modified: {{< meta date-modified >}}
 </div>
 
 :::
@@ -156,11 +158,19 @@ Sport and Exercise Psychology is the:
 
 The ABC of Psychology
 
+::: {.content-visible when-format="html"}
 | Affect (Feelings) | Behavior (Actions) | Cognition (Thoughts) |
 |--------------------|--------------------|-----------------------|
 | Emotions, moods   | Performance, habits| Beliefs, attitudes    |
 | Stress, anxiety    | Communication      | Decision-making       |
 | Motivation         | Leadership         | Problem-solving       |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Affect (Feelings)**: Emotions, moods; Stress, anxiety; Motivation
+- **Behavior (Actions)**: Performance, habits; Communication; Leadership
+- **Cognition (Thoughts)**: Beliefs, attitudes; Decision-making; Problem-solving
+:::
 
 :::
 
