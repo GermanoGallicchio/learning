@@ -603,6 +603,8 @@ Research and development in EOG technology are ongoing, with several promising d
 :::aside
 Gallicchio, G., Ryu, D., Krishnani, M., Tasker, G., Pecunioso, A., & Jackson, R. (2024). Temporal and spectral electrooculographic features in a discrete precision task. _Psychophysiology, 61_(3). https://doi.org/10.1111/psyp.14461. 
 
-Gallicchio, G., & Ring, C. (2020). The quiet eye effect: A test of the visual and postural-kinematic hypotheses. _Sport, Exercise & Performance Psychology, 9_(1), 143-159- http://dx.doi.org/10.1037/spy0000162
+Gallicchio, G., & Ring, C. (2020). The quiet eye effect: A test of the visual and postural-kinematic hypotheses. _Sport, Exercise & Performance Psychology, 9_(1), 143-159. http://dx.doi.org/10.1037/spy0000162.
+
+Gallicchio, G., Cooke, A., & Ring, C. (2018). Assessing ocular activity during performance of motor skills using electrooculography. _Psychophysiology, 55_(7). https://doi.org/10.1111/psyp.13070.
 :::
 :::
