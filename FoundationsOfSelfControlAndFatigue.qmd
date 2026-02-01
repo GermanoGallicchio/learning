@@ -22,6 +22,8 @@ On a computer press F11 to de/activate full-screen view.
 For smartphone and review: Bottom left menu → Tools → PDF Export Mode.
 
 For pdf document: use "learning resources" link above.
+
+Last modified: {{< meta date-modified >}}
 </div>
 
 :::
@@ -144,10 +146,17 @@ Images: [child in front of cake](https://freerangestock.com/sample/69067/little-
 
 They are both tempted (e.g., to eat the sweet, to stop running) and experiencing a **conflict** between a shorter-term **desire** and a longer-term **goal**.
 
+::: {.content-visible when-format="html"}
 | scenario | goal | desire |
 | -------- | ----------- | ------------ |
 | child with sweets | Wait a bit longer. If you resist you will get more | The candy looks yummy. Eat it now! |
 | tired runner | Resist the discomfort. It's for your own good | So tiring and painful. Stop this awful feeling | 
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Child with sweets**: Goal = Wait a bit longer. If you resist you will get more; Desire = The candy looks yummy. Eat it now!
+- **Tired runner**: Goal = Resist the discomfort. It's for your own good; Desire = So tiring and painful. Stop this awful feeling
+::: 
 
 :::
 
@@ -734,6 +743,7 @@ Proposed vicious circle of events:
 
 # Comparing the two models {.scrollable}
 
+::: {.content-visible when-format="html"}
 | Aspect | Strength Model | Psychobiological Model |
 |--------|----------------|------------------------|
 | **Key mechanism** | Resource depletion (like a fuel tank) | Perception of effort (like pain) |
@@ -742,6 +752,16 @@ Proposed vicious circle of events:
 | **Role of motivation** | Does not override ego depletion | Directly modulates tolerance threshold |
 | **Recovery** | Rest replenishes resources | Time reduces effort perception |
 | **Biological basis** | Unspecified (glicemia?) | ACC, insula generate effort perception |
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Key mechanism**: Strength Model = Resource depletion (like a fuel tank); Psychobiological Model = Perception of effort (like pain)
+- **Definition of fatigue**: Strength Model = Running out of a limited resource; Psychobiological Model = Reaching maximum tolerable effort
+- **Why we stop**: Strength Model = Resources are depleted; Psychobiological Model = Effort feels too high relative to motivation
+- **Role of motivation**: Strength Model = Does not override ego depletion; Psychobiological Model = Directly modulates tolerance threshold
+- **Recovery**: Strength Model = Rest replenishes resources; Psychobiological Model = Time reduces effort perception
+- **Biological basis**: Strength Model = Unspecified (glicemia?); Psychobiological Model = ACC, insula generate effort perception
+:::
 
 **Which model is "correct"?**
 
@@ -776,10 +796,17 @@ Reflect on:
 
 # Strategies to improve performance
 
+::: {.content-visible when-format="html"}
 | strategy | theoretical framework |
 | ----- | --- |
 | Training self control like a muscle | Strength model of self-control |
 | Fatigue inoculation training to decrease perception of effort. | Psychobiological model | 
+:::
+
+::: {.content-visible when-format="pdf"}
+- **Training self control like a muscle**: Strength model of self-control
+- **Fatigue inoculation training to decrease perception of effort**: Psychobiological model
+::: 
 
 # Muraven (2010) {.scrollable}
 
