@@ -209,7 +209,7 @@ However, in practice, all muscles contribute to all movements.
 
 In principle, we could measure the activity of the extraocular muscles to understand in which directions the eyes are moving.
 
-[But it is very impractical to record this activity: it would require invasive electrodes.]{.fragment}
+[But it is very impractical to record this activity: it would require invasive electrodes.]{.fragment} [Also, the muscles are small and close to each other, and contribute to multiple movement types, making it difficult to isolate their activity.]{.fragment}
 
 [There are other techniques for measuring eye movements. One of these, the electrooculogram, exploits an electrical property of the eyes: the eye **dipole**.]{.fragment}
 
