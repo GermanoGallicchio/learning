@@ -1,0 +1,324 @@
+## Hot Topics in Sport and Exercise: Quiet Eye {.nostretch .center}
+
+::::{.columns}
+:::{.column width=80%}
+
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
+School of Psychology and Sport Science, Bangor University, UK <br>
+
+[profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+</div>
+
+<br>
+
+::: {.content-visible when-format="html"}
+<div style="font-size:0.6em">
+On a computer press F11 to de/activate full-screen view.
+
+For smartphone and review: Bottom left menu -> Tools -> PDF Export Mode.
+
+For pdf document: use "learning resources" link above.
+
+Last modified: {{< meta date-modified >}}
+</div>
+:::
+
+:::
+
+:::{.column width=20%}
+::: {.content-visible when-format="html"}
+QR code to<br>these slides:
+{{< qrcode https://germanogallicchio.github.io/learning/Psychophysiology_QuietEye.html?view=scroll colorDark='#0011bb' >}}
+:::
+
+::: {.content-visible when-format="pdf"}
+[To access the latest version of these slides or other learning material visit this link](https://germanogallicchio.github.io/learning/)
+:::
+
+<br>
+
+::: {.content-visible when-format="html"}
+<span class="pulse" style="font-weight: bold; color: rgba(255,40,0,0.6);">PIN</span>
+<div contenteditable="true" style="
+    min-height: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: rgba(255,40,0,0.6)
+">0000</div>
+:::
+:::
+::::
+
+<style>
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+</style>
+
+# Objectives
+
+Being able to:
+
+- describe the Quiet Eye effect
+- explain algorithms to quantify Quiet Eye duration from EOG data
+- critically evaluate studies using EOG to measure the Quiet Eye
+- optional, present methodology and findings to your peers (flipped classroom approach)
+
+
+# Seminar structure
+
+**Part 1**, Lecturer-driven
+
+- what is the Quiet Eye
+- relation between Quiet Eye and performance
+- how is it typically measured
+- how it can be measured with the EOG
+
+**Part 2**, Student-driven (flipped classroom)
+
+- Protected time for students to (re)read their chosen paper and then have a small-group discussion of pros/cons/future directions.
+
+## Part 1: Is there an optimal oculomotor pattern for better performance? {.center}
+
+![](./Psychophysiology_files/gazeGolf.png){width="80%" fig-align="center"}
+
+# The Quiet Eye effect {.scrollable}
+
+Performance advantage conferred by a **steady ocular fixation** on a critical target of an action.
+
+::::{.columns}
+:::{.column}
+
+<iframe
+width=100% 
+height=30%
+src="https://youtube.com/embed/knfC978EoWc" 
+title="Scientific American Frontiers, Season 12, Episode 06
+On the Ball - My Quiet Eye." 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+:::{.fragment}
+**Quiet Eye is the time duration wherein:**
+:::
+
+- gaze is on a critical visual target of the action (e.g., golf ball)
+- onset before movement initiation
+- offset when gaze deviates from target of a certain quantity
+
+:::
+:::{.column}
+
+
+:::{.fragment}
+
+**Relation between QE and performance**
+
+Medium to very large effects reported in meta-analysis (Lebeau et al., 2016).
+```{r}
+library(ggplot2)
+
+# Data
+data <- data.frame(
+    condition = factor(c("between-subject", "within-subject"), levels = c("between-subject", "within-subject")),
+    eSize_M = c(1.04, 0.58),
+    eSize_lo = c(0.71, 0.34),
+    eSize_up = c(1.38, 0.82)
+    )
+
+# ggplot2 barplot
+ggplot(data, aes(x = condition, y = eSize_M, fill = condition)) +
+  geom_col(width = 0.7, position = position_dodge(width = 0.8)) + 
+  geom_errorbar(aes(ymin = eSize_lo, ymax = eSize_up), width = 0.2) +
+  labs(x = "analysis type", 
+     y = "effect size (Cohen's d)") +
+  theme_minimal(base_size = 20)
+```
+
+:::
+
+:::
+::::
+
+
+:::aside
+:::{.fragment}
+Lebeau, J. C., Liu, S., Sáenz-Moncaleano, C., Sanduvete-Chaves, S., Chacón-Moscoso, S., Becker, B. J., & Tenenbaum, G. (2016). Quiet eye and performance in sport: A meta-analysis. Journal of Sport and Exercise Psychology, 38(5), 441-457. [https://doi-org.bangor.idm.oclc.org/10.1123/jsep.2015-0123](https://doi-org.bangor.idm.oclc.org/10.1123/jsep.2015-0123).
+:::
+:::
+
+# How is the QE _typically_ measured?
+
+Through camera-based eye-tracking technology. It requires measuring time during which the critical object lies within 3 deg of visual angles.
+
+[Very tedius, time-consuming, and subjective manual coding procedure.]{.fragment}
+
+![](./Psychophysiology_files/gazeQE.png){width="70%" fig-align="center"}
+
+# Can the _EOG_ be used to measure the QE?
+
+:::{.fragment}
+Yes. But no less challenging. Some advantages: more objective and automatable. Biggest limitation: no spatial information.
+
+![](./Psychophysiology_files/eogQE.png){width="100%" fig-align="center"}  
+:::
+
+# Two approaches to quantify QE duration {.scrollable}
+
+**[Dispersion-based algorithm]{style="color: blue;"}**
+
+- Monitors eye _position_ stability
+- Detects when the eye remains within a spatial window
+- Analogous to fixation detection in eye-tracking
+
+
+**[Velocity-based algorithm]{style="color: orange;"}**
+
+- Monitors eye movement _velocity_
+- Detects when eye velocity falls below threshold
+
+:::aside
+Both implemented in:
+
+Gallicchio, G. (2023). Quiet-Eye-EOG. _Zenodo_. [https://doi.org/10.5281/zenodo.8411093](https://doi.org/10.5281/zenodo.8411093).
+:::
+
+# Commonalities
+
+- Both algorithms assume that a critical event happens at time 0 (e.g., movement initiation).
+- Both algorithms identify the Quiet Eye **onset** (working backward from time 0) and Quiet Eye **offset** (working forward from time 0).
+- By definition, QE onset must occur _before_ movement initiation (negative time), whereas QE offset must occur _at or after_ movement initiation (zero or positive time).
+- Total QE duration is measured as the time interval from Quiet Eye onset to offset.
+- We don't know for sure where participants are looking at. Both algorithms make a big assumption: that the eyes are on the target at time 0. This assumption is often not unreasonable, based on literature and empirical evidence.
+
+# _Dispersion_ algorithm: Concept {.nostretch .scrollable}
+
+**[Core principle]{style="color: blue;"}**: The eyes are "quiet" when their _position_ stays _within_ a narrow range. That is, its dispersion does not overcome a set _threshold_.
+
+More on the threshold later.
+
+:::{.fragment}
+**[Key steps:]{style="color: blue;"}**
+:::
+
+1. Identify time 0 (e.g., movement initiation)
+2. Work backwards from time 0, one point at a time, and compare the EOG value at that point with the EOG value at time 0
+  A) If the comparison yields a value that is within threshold: we are still within a "quiet" period, so keep working backwards (repeat step 2). 
+  B) Otherwise, stop: you have found the first time point outside of the Quiet Eye period. The Quiet Eye onset is immediately after that point
+4. Same procedure for Quiet Eye offset but move forward
+
+![EOG Quiet Eye scoring](./Psychophysiology_files/eogCalibrated.jpg){width=100%}
+
+# _Dispersion_ algorithm: the 100 ms rule (for temporal constrain)
+
+Optional, but often implemented
+
+[The EOG is a noisy signal. A brief boundary violation (e.g., a short spike in the EOG) shouldn't necessarily end the QE period. Short, transient deviations should be tolerated, and only sustained exits should count as true violations.]{.fragment}
+
+[Implementation: the EOG signal should exceed the threshold for at least 100 ms.]{.fragment} 
+
+[Why 100 ms? This is a conventional standard from perception science suggesting that a stable fixation cannot be shorter than 100 ms. But some variation exists in the literature (ranging from 60-150 ms depending on the application).]{.fragment}
+
+# _Dispersion_ algorithm: median filter
+
+It is convenient to simplify the EOG signal to get rid of (reduce) short-lived features and retain flat portions and edges in the signal (indicating fixations and saccades).
+
+[The median filter is ideal. A running window is slid along the signal and for each window, the median is computed.]{.fragment}
+
+[This filter needs one parameters: the length of the running window.]{.fragment}
+
+[How to choose it? Also no objective answer, and (cross)validation would be useful.]{.fragment}
+
+:::aside
+:::{.fragment}
+The first validation of median filter parameters was done in Gallicchio, G., Ryu, D., Krishnani, M., Tasker, G. L., Pecunioso, A., & Jackson, R. C. (2024). Temporal and spectral electrooculographic features in a discrete precision task. _Psychophysiology, 61_(3), [https://doi.org/10.1111/psyp.14461](https://doi.org/10.1111/psyp.14461).
+:::
+:::
+
+# _Velocity_ algorithm: Concept {.nostretch .scrollable}
+
+**[Core principle]{style="color: orange;"}**: The eyes are "quiet" when they move slowly. That is, when they move at a velocity within a set _threshold_.
+
+More on the threshold later.
+
+:::{.fragment}
+**[Key steps:]{style="color: orange;"}**
+:::
+
+1. Compute eye velocity from EOG signal (i.e., rate of change of position over time). For a time series use "differentiation" (computing the "derivative", aka "rate of change"). 
+2. Identify time 0 (e.g., movement initiation)
+3. Work backwards from time 0, one point at a time, and compare the EOG velocity at that point with the EOG velocity at time 0
+A) If the comparison yields a value that is within threshold: we are still within a "quiet" period, so keep working backwards (repeat step 2). 
+B) Otherwise, stop: you have found the first time point outside of the Quiet Eye period. The Quiet Eye onset is immediately after that point
+4. Same procedure for Quiet Eye offset but move forward
+
+![EOG Quiet Eye scoring](./Psychophysiology_files/eogCalibrated.jpg){width=100%}
+
+# _Velocity_ algorithm: smoothing filter
+
+Differentiating a signal tends to amplify high-frequency noise. Therefore, it is important to smooth the signal before computing velocity.
+
+[For a noisy time series use "Savitzky-Golay filter". A running window is slid along the signal. For each window, a polynomial is fitted to the data points within that window. The polynomial (and not the raw data) is differentiated. The central point of the window is then replaced with the value predicted by the differentiated polynomial.]{.fragment}
+
+[This filter needs two parameters: the length of the running window and the order of the polynomial.]{.fragment}
+
+[How to choose them? Also no objective answer, and (cross)validation would be useful.]{.fragment}
+
+:::aside
+:::{.fragment}
+The first validation of Savitzky-Golay filter parameters was done in Gallicchio, G., Ryu, D., Krishnani, M., Tasker, G. L., Pecunioso, A., & Jackson, R. C. (2024). Temporal and spectral electrooculographic features in a discrete precision task. _Psychophysiology, 61_(3), [https://doi.org/10.1111/psyp.14461](https://doi.org/10.1111/psyp.14461).
+:::
+:::
+
+# Threshold
+
+How to decide within which range eye movements are still considered "quiet eye"?
+
+[Most of the eye-tracking literature uses 3 degrees (dispersion algorithm) or 33 degrees / second (velocity algorithm) as criterion to define fixations.]{.fragment}
+
+[However, there is no objective answer and the threshold should be (cross)validated on the data at hand.]{.fragment}
+
+:::aside
+:::{.fragment}
+The first validation of threshold was done in Gallicchio, G., Cooke, A., & Ring, C. (2018). Assessing ocular activity during performance of motor skills using electrooculography. _Psychophysiology, 55_(7), 1-12. [https://doi.org/10.1111/psyp.13070](https://doi.org/10.1111/psyp.13070).
+:::
+:::
+
+
+
+# Dispersion vs. Velocity: Conceptual differences
+| Aspect | **[Dispersion algorithm]{style="color: blue;"}** | **[Velocity algorithm]{style="color: orange;"}** |
+|--------|--------------------------|----------------------|
+| **Question** | "Are the eyes staying roughly in the same place?" | "Are the eyes moving relatively slowly?" |
+| **What it measures** | Changes in EOG position* | Changes in EOG velocity* |
+| **Advantage** | More intuitive, directly relates to visual fixation | Less sensitive to drift and baseline shifts |
+
+[Note: * Relative to a set threshold]{.fragment}
+
+# Open questions {.hidden}
+
+What to do when there is no Quiet Eye period? Should researchers say that Quiet Eye was zero or that there is no Quiet Eye? Subtle but important repercussions on data analysis.
+
+
+
+## Part 2: Critical evaluation of studies using the EOG to measure the Quiet Eye
+
+Pick one of these two papers:
+
+1. Gallicchio, G., Cooke, A., & Ring, C. (2018). Assessing ocular activity during performance of motor skills using electrooculography. _Psychophysiology, 55_(7), 1-12. [https://doi.org/10.1111/psyp.13070](https://doi.org/10.1111/psyp.13070).
+
+2. Gallicchio, G., & Ring, C. (2020). The quiet eye effect: A test of the visual and postural-kinematic hypotheses. _Sport, Exercise & Performance Psychology, 9_(1), 143-159. [http://dx.doi.org/10.1037/spy0000162](http://dx.doi.org/10.1037/spy0000162).
+
+[Focus on dis/advantages, opportunities, and limitations. These are already mentioned in the papers--try to find hem. But also think outside the box and try to come up with your own.]{.fragment}
+
+[Optionally, discuss in groups/with the lecturer.]{.fragment}
