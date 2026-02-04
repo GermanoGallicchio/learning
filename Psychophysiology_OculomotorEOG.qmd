@@ -454,11 +454,10 @@ High-pass filtering is not recommended when studying eye movements. But many sys
 :::
 
 
-:::{.fragment}
+
 :::aside
 - _DC_ (direct current) used to indicate that high-pass filter is _not_ applied
 - _AC_ (alternate current) used to indicate that high-pass filter is applied
-:::
 :::
 
 
