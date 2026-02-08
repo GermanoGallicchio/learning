@@ -178,7 +178,7 @@ Yes. But no less challenging. Some advantages: more objective and automatable. B
 **[Dispersion-based algorithm]{style="color: blue;"}**
 
 - Monitors eye _position_ stability
-- Detects when the eye remains within a spatial window
+- Detects when the eyes remain within a spatial window
 - Analogous to fixation detection in eye-tracking
 
 
@@ -193,13 +193,19 @@ Both implemented in:
 Gallicchio, G. (2023). Quiet-Eye-EOG. _Zenodo_. [https://doi.org/10.5281/zenodo.8411093](https://doi.org/10.5281/zenodo.8411093).
 :::
 
-# Commonalities
+# Commonalities {.scrollable}
 
 - Both algorithms assume that a critical event happens at time 0 (e.g., movement initiation).
 - Both algorithms identify the Quiet Eye **onset** (working backward from time 0) and Quiet Eye **offset** (working forward from time 0).
 - By definition, QE onset must occur _before_ movement initiation (negative time), whereas QE offset must occur _at or after_ movement initiation (zero or positive time).
 - Total QE duration is measured as the time interval from Quiet Eye onset to offset.
 - We don't know for sure where participants are looking at. Both algorithms make a big assumption: that the eyes are on the target at time 0. This assumption is often not unreasonable, based on literature and empirical evidence.
+
+:::aside
+:::{.fragment}
+And more recent evidence suggests it does not matter where exactly the eyes are looking at.
+:::
+:::
 
 # _Dispersion_ algorithm: Concept {.nostretch .scrollable}
 
