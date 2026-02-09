@@ -148,7 +148,7 @@ Dr Germano Gallicchio <br>
 <p>On a computer press F11 to de/activate full-screen view.</p>
 <p>For smartphone and review: Bottom left menu -&gt; Tools -&gt; PDF Export Mode.</p>
 <p>For pdf document: use “learning resources” link above.</p>
-<p>Last modified: 2026-02-08</p>
+<p>Last modified: 2026-02-09</p>
 </div>
 </div><div class="column" style="width:20%;">
 <p>QR code to<br>these slides: </p><div id="" class="qrcode"></div>
@@ -251,7 +251,15 @@ Dr Germano Gallicchio <br>
 
 <section id="content" class="title-slide slide level1">
 <h1>Content</h1>
-<p>TO DO</p>
+<ol type="1">
+<li class="fragment"><strong>Principles of biosignals propagation</strong></li>
+<li class="fragment"><strong>Acquisition</strong>
+<ul>
+<li class="fragment">The recording chain</li>
+</ul></li>
+<li class="fragment"><strong>Biosignals processing</strong></li>
+</ol>
+<p>Concepts and intuitions.</p>
 </section>
 
 <section id="source-and-propagation-the-ripple-analogy" class="title-slide slide level1 scrollable">
@@ -638,7 +646,7 @@ SNR = \frac{S}{N}
 <p>Let’s first see waveforms of different frequencies.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="./Psychophysiology_files/waveformFrequency.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="waves of different frequency"><img data-src="./Psychophysiology_files/waveformFrequency.png" alt="waves of different frequency"></a></p>
+<p><a href="./Psychophysiology_files/waveformsFrequency.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="waves of different frequency"><img data-src="./Psychophysiology_files/waveformsFrequency.png" alt="waves of different frequency"></a></p>
 <figcaption>waves of different frequency</figcaption>
 </figure>
 </div>
@@ -653,19 +661,29 @@ SNR = \frac{S}{N}
 </div></div>
 </section>
 
-<section id="signal-conditioner-filtering-low-pass" class="title-slide slide level1">
+<section id="signal-conditioner-filtering-low-pass" class="title-slide slide level1 scrollable">
 <h1>Signal Conditioner &gt; Filtering &gt; Low-pass</h1>
 <p>Filters <em>out</em> fast (high) frequencies and therefore retains slow (low) frequencies</p>
-<p>TO DO: make new image in MATLAB</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./Psychophysiology_files/waveformsLowpass.png"></p>
+<figcaption>low-pass filtering</figcaption>
+</figure>
+</div>
 
 <aside><div>
 <p>Also called “high-cut” filter, but less frequently.</p>
 </div></aside></section>
 
-<section id="signal-conditioner-filtering-high-pass" class="title-slide slide level1">
+<section id="signal-conditioner-filtering-high-pass" class="title-slide slide level1 scrollable">
 <h1>Signal Conditioner &gt; Filtering &gt; High-pass</h1>
 <p>Filters <em>out</em> slow (low) frequencies and therefore retains fast (high) frequencies</p>
-<p>TO DO: make new image in MATLAB</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./Psychophysiology_files/waveformsHighpass.png"></p>
+<figcaption>high-pass filtering</figcaption>
+</figure>
+</div>
 
 <aside><div>
 <p>Also called “low-cut” filter, but less frequently.</p>
@@ -674,7 +692,6 @@ SNR = \frac{S}{N}
 <section id="signal-conditioner-filtering-band-pass" class="title-slide slide level1">
 <h1>Signal Conditioner &gt; Filtering &gt; Band-pass</h1>
 <p>A combination of high-pass and low-pass filters to allow frequencies between two cut-off values, which describe a <em>frequency band</em>. Frequencies outside of this band are filtered <em>out</em>.</p>
-<p>TO DO: make new image in MATLAB</p>
 </section>
 
 <section id="signal-conditioner-filtering-notch" class="title-slide slide level1">
@@ -707,9 +724,14 @@ SNR = \frac{S}{N}
 </div>
 </div></aside></section>
 
-<section id="analog-to-digital-conversion-adc-digitization" class="title-slide slide level1">
+<section id="analog-to-digital-conversion-adc-digitization" class="title-slide slide level1 nostretch scrollable">
 <h1>Analog-to-digital conversion (ADC) &gt; Digitization</h1>
-<p>TO DO: add image of analog vs digital signal in MATLAB</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./Psychophysiology_files/waveformsSampling.png"></p>
+<figcaption>sampling a waveform</figcaption>
+</figure>
+</div>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p>The signal acquired by the sensors and processed by the signal conditioner is an <strong>analog</strong> signal.</p>
