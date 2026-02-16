@@ -92,9 +92,12 @@ Scripts from the "Learn Psychophysiology" repository:
 [https://github.com/GermanoGallicchio/LearnPsychophysiology](https://github.com/GermanoGallicchio/LearnPsychophysiology)
 
 4. **Data**
-_TO DO: provide data link_
+Hosted on an Open Science Framework (OSF) link:
+[https://osf.io/k4ytm/files/vkwcu](https://osf.io/k4ytm/files/vkwcu)
 
+:::aside
 Make sure you have installed all the required software and downloaded the scripts and data before starting the workshop.
+:::
 
 # Workshop structure
 
