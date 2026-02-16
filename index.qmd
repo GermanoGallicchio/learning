@@ -7,8 +7,8 @@ format: html
 
 | Topic | RevealJS Slides | Mobile-Friendly View | PDF Document |
 |--------------|-----------------|----------------------|--------------|
-| Biosignals: concepts | [slides](Psychophysiology_Biosignals.html) | [scroll view](Psychophysiology_Biosignals.html?view=scroll) | [pdf](Psychophysiology_Biosignals.pdf) |
-| Biosignals: processing basics | [slides] | [scroll view] | [pdf] |
+| Biosignals: basic concepts | [slides](Psychophysiology_Biosignals.html) | [scroll view](Psychophysiology_Biosignals.html?view=scroll) | [pdf](Psychophysiology_Biosignals.pdf) |
+| Biosignals: processing basics | [slides](Psychophysiology_BasicProcessingWorkshop.html) | [scroll view](Psychophysiology_BasicProcessingWorkshop.html?view=scroll) | [pdf](Psychophysiology_BasicProcessingWorkshop.pdf) |
 | Oculomotor system and electrooculography | [slides](Psychophysiology_OculomotorEOG.html) | [scroll view](Psychophysiology_OculomotorEOG.html?view=scroll) | [pdf](Psychophysiology_OculomotorEOG.pdf) |
 | Electrooculography acquisition workshop | [slides](Psychophysiology_EOGAcquisitionWorkshop.html) | [scroll view](Psychophysiology_EOGAcquisitionWorkshop.html?view=scroll) | [pdf](Psychophysiology_EOGAcquisitionWorkshop.pdf) |
 | Electrooculography processing workshop | [slides](Psychophysiology_EOGProcessingWorkshop.html) | [scroll view](Psychophysiology_EOGProcessingWorkshop.html?view=scroll) | [pdf](Psychophysiology_EOGProcessingWorkshop.pdf) |
