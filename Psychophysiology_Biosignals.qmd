@@ -100,7 +100,12 @@ digraph {
 
 # Content
 
-TO DO
+1. **Principles of biosignals propagation**
+2. **Acquisition**
+   - The recording chain
+3. **Biosignals processing**
+
+Concepts and intuitions.
 
 
 # Source and propagation: the ripple analogy {.scrollable}
@@ -389,7 +394,7 @@ Modern signal conditioners carry out multiple functions. The two main functions 
 :::{.column width=50%}
 Let's first see waveforms of different frequencies.
 
-![waves of different frequency](./Psychophysiology_files/waveformFrequency.png){.lightbox}
+![waves of different frequency](./Psychophysiology_files/waveformsFrequency.png){.lightbox}
 :::
 :::{.column width=50%}
 [Filtering is the process of removing unwanted frequencies from the signal.]{.fragment} [Basic filter types:]{.fragment}
@@ -402,21 +407,21 @@ Let's first see waveforms of different frequencies.
 :::
 ::::
 
-# Signal Conditioner > Filtering > Low-pass
+# Signal Conditioner > Filtering > Low-pass {.scrollable}
 
 Filters _out_ fast (high) frequencies and therefore retains slow (low) frequencies
 
-TO DO: make new image in MATLAB
+![low-pass filtering](./Psychophysiology_files/waveformsLowpass.png)
 
 :::aside
 Also called "high-cut" filter, but less frequently.
 :::
 
-# Signal Conditioner > Filtering > High-pass
+# Signal Conditioner > Filtering > High-pass {.scrollable}
 
 Filters _out_ slow (low) frequencies and therefore retains fast (high) frequencies
 
-TO DO: make new image in MATLAB
+![high-pass filtering](./Psychophysiology_files/waveformsHighpass.png)
 
 :::aside
 Also called "low-cut" filter, but less frequently.
@@ -426,7 +431,6 @@ Also called "low-cut" filter, but less frequently.
 
 A combination of high-pass and low-pass filters to allow frequencies between two cut-off values, which describe a _frequency band_. Frequencies outside of this band are filtered _out_.
 
-TO DO: make new image in MATLAB
 
 # Signal Conditioner > Filtering > Notch
 
@@ -463,9 +467,9 @@ Note: Important to amplify the signal but not the noise. That's why filtering ha
 :::
 :::
 
-# Analog-to-digital conversion (ADC) > Digitization
+# Analog-to-digital conversion (ADC) > Digitization {.nostretch .scrollable}
 
-TO DO: add image of analog vs digital signal in MATLAB
+![sampling a waveform](./Psychophysiology_files/waveformsSampling.png)
 
 ::::{.columns}
 :::{.column width=50%}
@@ -520,7 +524,7 @@ The digitized signal is an approximation of the original analog signal. The _qua
 
 [Too high sampling: you might end up with a lot of redundant information that takes up storage space and makes it harder to analyze the data.]{.fragment}
 
-[Too low sampling: you might miss important moments in the football game (e.g., a goal) or the movement of the clouds (e.g., a sudden change in direction). This is called **aliasing**.]{.fragment}
+[Too low sampling: you might miss important moments in the football game (e.g., a goal) or the movement of the clouds (e.g., a sudden change in direction). Distortion due to undersampling is called **aliasing**.]{.fragment}
 
 [To avoid aliasing, the sampling rate should be at least 2-5 times larger than the larger frequency contained in the signal.]{.fragment}
 
