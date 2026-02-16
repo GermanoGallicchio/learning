@@ -65,15 +65,26 @@ QR code to<br>these slides:
 
 # Overview
 
-This workshop provides hands-on experience with coding concepts necessary for basic biosignal processing.
+This workshop provides hands-on experience with **coding concepts** necessary for basic biosignal processing.
 
-Students will go through computer code to carry out tasks of gradually increasing complexity. 
+[Students will go through computer code to carry out tasks of gradually increasing complexity.]{.fragment}
 
-The sequence of tasks is designed to progress from no knowledge of coding to enough to be able to carry out basic biosignal processing in later sessions.
+[These tasks are not directly related to psychophysiology, but they are designed to teach the coding concepts that are necessary for basic biosignal processing.]{.fragment}
+
+[The sequence of tasks is designed to progress from no knowledge of coding to enough to be able to carry out basic biosignal processing in later sessions.]{.fragment}
+
+[Once these fundamental coding concepts are covered, we will be able to apply them to psychophysiological data in later sessions.]{.fragment}
 
 # Learning outcomes
 
 By the end of this workshop, students will be able to:
+
+- Navigate a MATLAB script and identify key sections (setup, operations, outputs)
+- Work with basic data types and simple data structures in MATLAB.
+- Create, load, and inspect simple datasets for practice analyses.
+- Generate and interpret basic plots of time-series data.
+- Describe how signals can be represented in time and frequency terms.
+- Apply simple, exploratory filtering steps and compare outcomes.
 
 
 # Requirements {.scrollable}
@@ -85,7 +96,9 @@ The computer code is written in MATLAB (https://en.wikipedia.org/wiki/MATLAB), a
 Scripts from the "Learn Psychophysiology" repository:
 [https://github.com/GermanoGallicchio/LearnPsychophysiology](https://github.com/GermanoGallicchio/LearnPsychophysiology)
 
+:::aside
 Make sure you have installed all the required software and downloaded the scripts before starting the workshop.
+:::
 
 # Workshop structure
 
@@ -96,4 +109,3 @@ For this session, we will use these scripts:
 pp01_*.m
 
 [Let's switch to MATLAB and start working on the code.]{.fragment}
-
