@@ -12,8 +12,8 @@ format: html
 | Oculomotor system and electrooculography | [slides](Psychophysiology_OculomotorEOG.html) | [scroll view](Psychophysiology_OculomotorEOG.html?view=scroll) | [pdf](Psychophysiology_OculomotorEOG.pdf) |
 | Electrooculography acquisition workshop | [slides](Psychophysiology_EOGAcquisitionWorkshop.html) | [scroll view](Psychophysiology_EOGAcquisitionWorkshop.html?view=scroll) | [pdf](Psychophysiology_EOGAcquisitionWorkshop.pdf) |
 | Electrooculography processing workshop | [slides](Psychophysiology_EOGProcessingWorkshop.html) | [scroll view](Psychophysiology_EOGProcessingWorkshop.html?view=scroll) | [pdf](Psychophysiology_EOGProcessingWorkshop.pdf) |
-| Cortical system and electroencephalography | [slides] | [scroll view] | [pdf] |
-| Electroencephalography acquisition workshop | [slides] | [scroll view] | [pdf] |
+| Cortical system and electroencephalography | [slides](Psychophysiology_CorticalEEG.html) | [scroll view](Psychophysiology_CorticalEEG.html?view=scroll) | [pdf](Psychophysiology_CorticalEEG.pdf) |
+| Electroencephalography acquisition workshop | [slides](Psychophysiology_EEGAcquisitionWorkshop.html) | [scroll view](Psychophysiology_EEGAcquisitionWorkshop.html?view=scroll) | [pdf](Psychophysiology_EEGAcquisitionWorkshop.pdf) |
 | Electroencephalography processing workshop | [slides](Psychophysiology_EEGProcessingWorkshop.html) | [scroll view](Psychophysiology_EEGProcessingWorkshop.html?view=scroll) | [pdf](Psychophysiology_EEGProcessingWorkshop.pdf) |
 | Hot topics in sport & exercise: Quiet Eye | [slides](Psychophysiology_QuietEye.html) | [scroll view](Psychophysiology_QuietEye.html?view=scroll) | [pdf](Psychophysiology_QuietEye.pdf) |
 | Hot topics in sport & exercise: Psychomotor efficiency | [slides](Psychophysiology_PsychomotorEfficiency.html) | [scroll view](Psychophysiology_PsychomotorEfficiency.html?view=scroll) | [pdf](Psychophysiology_PsychomotorEfficiency.pdf) |
