@@ -1,4 +1,4 @@
-## Psychophysiology: Cortical EEG {.nostretch .center}
+## Cortical system and electroencephalography {.nostretch .center}
 
 ::::{.columns}
 :::{.column width=80%}
@@ -63,33 +63,12 @@ QR code to<br>these slides:
 }
 </style>
 
-# Attendance
-
-Attendance PIN
-
-# Overview of this submodule
-
-| CONTENT                               | LECTURE | WORKSHOP | SEMINAR | LABS |
-| ------:                               | :-----: | :------: | :-----: | :---:|
-| Reminders of Anatomy and Physiology   | X       |          |         |      |
-| Foundations of Electroencephalography | X       | X        |         |      |
-| Hands-on experience                   |         | X        |         | X    |     
-| Applications to Sport and Exercise    |         |          | X       |      |
-
 # Objectives
 
 Being able to elaborate:
 
 - biological source of the EEG signal
 - metrics that can be obtained from the EEG signal
-
-# Study resources
-
-## Main
-
-These slides
-
-Other resources (e.g., articles published in the journal _Psychophysiology_) are cited when relevant.
 
 # Why study brain activity
 
@@ -101,7 +80,7 @@ Studying brain activity is useful for several purposes:
 - **Enable brain-computer interfaces** that allow direct control of machines and external devices by controlling brain activity.
 - **Therapies** for mental health conditions such as anxiety, depression, and ADHD.
 
-# Anatomical directions and planes
+# Anatomical directions
 
 ::::{.columns}
 :::{.column width=55%}
@@ -109,315 +88,253 @@ Studying brain activity is useful for several purposes:
 - **Posterior** (or caudal): towards the back (towards the tail)
 - **Superior** (or dorsal): upwards
 - **Inferior** (or ventral): downwards
-:::
-:::{.column width=45%}
-![](../JXH3089/images/brainDirections1.png){width="85%" fig-align="center"}
-:::
-::::
-
-# Anatomical directions and planes
-
-::::{.columns}
-:::{.column width=55%}
 - **Lateral**: towards the side
 - **Medial**: towards the midline
 - **Ipsilateral**: same side
 - **Contralateral**: opposite side
-- **Proximal**: closer to the point of attachment or origin
-- **Distal**: further from the point of attachment or origin
+
+:::
+:::{.column width=45%}
+![](./Psychophysiology_files/brainDirections.png){width="85%" fig-align="center" .lightbox}
+:::
+::::
+
+
+# Anatomical planes
+
+::::{.columns}
+:::{.column width=60%}
 
 Anatomical planes (useful to imagine as slices):
-- **Sagittal**: divides the brain into left and right
-- **Coronal** (or frontal): divides the brain into anterior (rostral) and posterior (caudal)
-- **Horizontal** (or transverse): divides the brain into superior (dorsal) and inferior (ventral)
+
+- **Sagittal** (midsagittal): vertical plane through the midline, dividing brain into left and right hemispheres
+- **Parasagittal**: vertical plane parallel to the midline, dividing left and right but off-center
+- **Coronal** (or frontal): vertical plane perpendicular to the midline, dividing anterior (rostral) and posterior (caudal)
+- **Transverse** (or horizontal): horizontal plane dividing superior (dorsal) and inferior (ventral)
 :::
-:::{.column width=45%}
-![](../JXH3089/images/brainDirections1.png){width="85%" fig-align="center"}
-:::
-::::
-
-# The nervous system
-
-::::{.columns}
-:::{.column width=55%}
-```{mermaid}
-flowchart TD
-    A(nervous system) 
-    B(central n. s.)
-    C(peripheral n. s.)
-    A --> B
-    A --> C
-
-    D(brain)
-    E(spinal cord)
-    B --> D 
-    B --> E
-
-    F(somatic n. s.)
-    G(autonomic n. s.)
-    C --> F
-    C --> G
-
-    H(sympathetic n.s)
-    I(parasympathetic n.s)
-    G --> H
-    G --> I
-```
-:::
-:::{.column width=45%}
-![](../JXH3089/images/nervousSystem.png){width="100%" fig-align="center"}
+:::{.column width=40%}
+![](./Psychophysiology_files/brainPlanes.png){width="85%" fig-align="center" .lightbox}
 :::
 ::::
 
-# The brain
+# Key concepts about the brain {.scrollable}
+
+Key neuronal structures:
+
+- **Dendrites**: Receive signals and generate postsynaptic potentials (PSPs)
+- **Soma**: Integrates incoming PSPs from dendrites
+- **Axon**: Transmits action potentials (AP) away from soma
+
+Key potentials:
+
+- **Postsynaptic potentials (PSP)**: Slower (hundreds of ms) and graded (their amplitude varies with input strength).
+- **Action potentials (AP)**: Very fast (~1-2 ms duration) and all-or-none (same amplitude regardless of input strength).
+
+Key neuron type:
+
+[**Pyramidal neurons**: an important type of cortical neuron.]{.fragment} [They are the most abundant excitatory neurons in the cerebral cortex.]{.fragment} [Their connections reach across different layers of the cortex and to other brain regions.]{.fragment} [Their dendrites are aligned perpendicular to the cortical surface.]{.fragment}
+
+
+:::aside
+If you are not familiar with these concepts, I recommend reviewing the basics of neuroscience before proceeding. Check "Foundations of the Brain" on [learning material](https://germanogallicchio.github.io/learning/)
+:::
+
+# Dipoles in the brain
 
 ::::{.columns}
-:::{.column width=55%}
-```{mermaid}
-flowchart LR
-    A(brain)
-    B(forebrain)
-    C(midbrain)
-    D(hindbrain)
-    A --> B
-    A --> C
-    A --> D
-
-    E(cerebrum)
-    F(diencephalon)
-    B --> E --> cortex
-    B --> F
-
-    G(cerebellum)
-    H(pons)
-    I(medulla)
-    D --> G
-    D --> H
-    D --> I
-```
-:::
-:::{.column width=45%}
-![](../JXH3089/images/brainDivisions.jpg){width="100%" fig-align="center"}
-
-Interactive website: https://www.brainfacts.org/3d-brain#intro=false&focus=Brain
-:::
-::::
-
-# Cerebral cortex
-
-The focus in this submodule
-
-![](../JXH3089/images/cerebralCortex.png){width="85%" fig-align="center"}
-
-# Cortical lobes
-
-![](../JXH3089/images/corticalLobes1.png){width="75%" fig-align="center"}
-
-# Cortical lobes
-
-![](../JXH3089/images/corticalLobes2.png){width="75%" fig-align="center"}
-
-# Cortical lobes
-
-![](../JXH3089/images/corticalLobes3.png){width="75%" fig-align="center"}
-
-# Cortical layers
-
-::::{.columns}
-:::{.column width=55%}
-The cerebral cortex is divided into six layers, each with distinct types of neurons and connections.
-- Layer I: Contains mostly dendrites and axons.
-- Layer II: Contains small pyramidal neurons.
-- Layer III: Contains medium-sized pyramidal neurons.
-- Layer IV: Contains various types of neurons.
-- Layer V: Contains large pyramidal neurons, including Betz cells.
-- Layer VI: Contains spindle-shaped neurons.
-:::
-:::{.column width=45%}
-![](../JXH3089/images/corticalLayers.png){width="75%" fig-align="center"}
-:::
-::::
-
-# Broadmann areas
-
-::::{.columns}
-:::{.column width=55%}
-Not only variations in cellular composition (cytoarchitecture) define the six cortical layers, but they also help identify different areas (Broadmann areas), each with distinct cellular structures and functions.
-
-- Area 1, 2, 3: Primary somatosensory cortex.
-- Area 4: Primary motor cortex.
-- Area 17: Primary visual cortex.
-- Area 22: Part of the superior temporal gyrus, involved in auditory processing.
-- Area 44, 45: Broca's area, involved in language production.
-:::
-:::{.column width=45%}
-![](../JXH3089/images/broadmannAreas.png){width="85%" fig-align="center"}
-:::
-::::
-
-# Cortex mapping
-
-There are several examples of mapping (e.g., retinotopic, tonotopic, somatotopic).
-
-Somatotopic mapping: organization of the primary somatosensory cortex (S1) and primary motor cortex (M1) where different parts of the body are represented in specific cortical areas. This is often illustrated by the sensory and motor homunculus, which shows the disproportionate representation of body parts based on their sensory and motor importance.
-
-![](../JXH3089/images/cortexSomatotopic.png){width="100%" fig-align="center"}
-
-# Neurons
-
-![](../JXH3089/images/neurons1.png){width="100%" fig-align="center"}
-
-# Neurons
-
-![](../JXH3089/images/neurons2.png){width="85%" fig-align="center"}
-
-# Neuronal communication
-
-electrochemical communication
-
-<Youtube id="6qS83wD29PY" width="100%" height="30%"/>
-https://youtu.be/6qS83wD29PY?t=8
-
-::::{.columns}
-:::{.column width=50%}
-**Action potential**:
-- Fast voltage spike (1 ms)
-- Travelling along the axon, from its beginning to its terminal
-- Neurotransmitters are released
-- Unlikely to be detected with surface electrodes
-:::
-:::{.column width=50%}
-**Postsynaptic potential**:
-- Slower voltage (up to hundreds of ms)
-- Increase (excitatory) or decrease (inhibitory)
-- Travelling on the membrane of dendrites or soma
-- Multiple potentials summate
-:::
-::::
-
-# Dipoles
-
-::::{.columns}
-:::{.column width=55%}
+:::{.column width=40%}
 - Electrochemical activity in the dendrites generates electric fields.
 - These fields create dipoles due to the separation of charges.
 :::
-:::{.column width=45%}
-![](../JXH3089/images/neuronDipole.png){height="90%" fig-align="center"}
+:::{.column width=60%}
+![](./Psychophysiology_files/neuronDipole.jpg){width="70%" fig-align="center"}
 :::
 ::::
 
-# Dipoles
+# Summation of dipoles {.scrollable}
+
+Each neuronal activity generates a dipole. [But most individual dipoles are too _small_ to be detected from the scalp.]{.fragment} [However, when thousands of nearby neurons fire in synchronous, aligned activity, their individual dipoles **summate** into a bigger dipole and create a measurable electrical signal which is the foundation of EEG.]{.fragment}
 
 ::::{.columns}
-:::{.column width=55%}
-- Dipoles can be detected from the scalp as voltage differences.
-- The orientation and magnitude of dipoles influence the signal on the scalp.
-- Simultaneous dipoles summate.
-- The myriad of dipoles active at the same time contributes to the overall voltage pattern on the scalp.
+:::{.column width=50%}
+
+[Summation in _time_:]{.fragment}
+
+- Dipoles must be active synchronously. [Which type of potential (between PSPs and APs) is more likely to overlap in time?]{.fragment} [PSPs, because they are slower and can last hundreds of milliseconds, while APs are very brief (1-2 ms).]{.fragment} 
+
+- Dipoles must be active for a sustained period. [Brief, transient activity may not produce a strong enough signal to be detected at the scalp.]{.fragment} 
 :::
-:::{.column width=45%}
-![](../JXH3089/images/neuronsDipolesCortex.png){width="100%" fig-align="center"}
+
+:::{.column width=50%}
+
+[Summation in _space_:]{.fragment}
+
+- Dipoles need to be aligned in the same direction. [Dipoles that are not perfectly aligned but are close in orientation will summate less effectively.]{.fragment} [Dipoles that are oriented in opposite directions will cancel each other out.]{.fragment}
+
+- Dipoles need to be close enough to each other (local population) to summate effectively. [Distant dipoles may not contribute significantly to the scalp signal due to spatial attenuation.]{.fragment}
+
 :::
 ::::
 
-# Dipoles
+# Detecting dipoles from the scalp
 
 ::::{.columns}
+:::{.column width=45%}
+Electric fields propagate through the tissues (volume conduction), allowing us to detect the activity of neuronal populations from electrodes placed on the scalp. 
+
+Several dipoles can be detected simultaneously. 
+
+We can observe scalp activity but it is challenging to determine the exact location of the underlying dipoles (so called, inverse problem).
+:::
 :::{.column width=55%}
+![](./Psychophysiology_files/eegManyDipoles.png){width="100%" fig-align="center"}
+:::
+
+::::
+
+# Types of dipoles detectable from the scalp {.scrollable}
+
+::::{.columns}
+:::{.column width=65%}
 - **Radial dipoles**: Oriented perpendicular to the cortical surface, often generated by pyramidal neurons in the gyri. These dipoles are more likely to be detected from electrodes on the scalp because their orientation aligns with the electrodes on the scalp.
 - **Tangential dipoles**: Oriented parallel to the cortical surface, often found in the walls of the sulci. These dipoles are less likely to be detected by electrodes on the scalp as their orientation does not align well with the scalp.
-- Both types of dipoles contribute to the overall EEG signal, but radial dipoles generally have a stronger influence due to their alignment with the scalp surface.
 :::
-:::{.column width=45%}
-![](../JXH3089/images/neuronsDipolesCortexEEG.png){width="90%" fig-align="center"}
+:::{.column width=35%}
+![](./Psychophysiology_files/neuronsDipolesCortexEEG.png){width="90%" fig-align="center" .lightbox}
 :::
 ::::
 
-# Electroencephalography (EEG)
+- Both types of dipoles contribute to the overall EEG signal, but radial dipoles generally have a stronger influence due to their alignment with the scalp surface.
 
-::::{.columns}
-:::{.column width=55%}
+# Electroencephalography (EEG) {.scrollable}
+
 | MORPHEME  | MEANING |
 |---------: |:----------|
 | Electro   | = electrical activity |
-| encephalo | = of the brain (cortex) |
-| graph     | = measurement |
-:::
-:::{.column width=45%}
-![](../JXH3089/images/brainTechniques.png){width="100%" fig-align="center"}
-:::
-::::
+| encephalo | = of the brain |
+| graph     | = measurement/recording |
 
-# Characteristics of the EEG
+Characteristics of the EEG
 
 ::::{.columns}
-:::{.column width=55%}
-- Noninvasive
-- Portable
-- Postsynaptic potential
-- High temporal resolution
-- Cerebral cortex
-- Poor spatial resolution
-- Objective
-:::
 :::{.column width=45%}
-![](../JXH3089/images/biosemiCap.png){width="100%" fig-align="center"}
+Advantages:
+
+- Noninvasive
+- Portable (easy to set up and transport)
+- High temporal resolution (captures fast neural dynamics)
+- Measures neuronal activity 
+- Relatively low cost 
+
+:::
+:::{.column width=55%}
+
+Limitations:
+
+- Poor spatial resolution (signals spread across scalp due to volume conduction)
+- Inverse problem (difficulty in localizing sources of activity)
+- Limited to cerebral cortex (not deeper structures)
+- Susceptible to artifacts (e.g., eye movements, muscle activity)
+
 :::
 ::::
 
-# Main parameters of waveforms
+# Biological source of the EEG signal
 
-![](../JXH3089/images/waveformParameters.png){width="55%" fig-align="center"}
+EEG signals comes mainly from _postsynaptic potentials (PSPs)_ [of _pyramidal neurons_ in the cerebral cortex. This is because:]{.fragment}
+
+- PSPs are slower and can overlap in time, allowing for temporal summation.
+- Pyramidal neurons are abundant and have an aligned architecture, which allows for spatial summation of their dipoles.
+
+[EEG captures rhythmic, coordinated brain activity and not isolated/localized neuronal firing.]{.fragment}
+
+# EEG signal morphology
+
+EEG signals appear like complex waveforms[, consisting of multiple overlapping waveforms]{.fragment} [that vary in frequency, phase, and amplitude.]{.fragment}
+
+
+![](./Psychophysiology_files/eegSignals.jpg){width="100%" fig-align="center" .lightbox}
+
+:::{.content-visible when-format="html"}
+:::{.fragment}
+```{dot}
+digraph parameters {
+    rankdir=TB;
+    bgcolor="transparent";
+    node [shape=none, fontsize=10];
+
+    Key [label="Key parameters\nof waves"];
+    
+    Key -> Frequency;
+    Key -> Phase;
+    Key -> Amplitude;
+
+}
+```
+:::
+:::
+
+
+# The three main parameters of waveforms {.nostretch .scrollable}
+
+![](./Psychophysiology_files/waveformParameters.png){width="70%" fig-align="center" .lightbox}
 
 - **Frequency**: The number of cycles the waveform completes in a given time period, usually measured in Hertz (Hz). Higher frequency indicates more cycles per second.
 - **Phase**: The position of a point in time on the waveform cycle, indicating the timing of the waveform relative to a reference point. Phase differences can affect how waveforms interact with each other.
 - **Amplitude**: The height of the waveform, representing the strength or intensity of the signal. Higher amplitude indicates stronger signals.
 
-# Main parameters of waveforms: varying frequency
+# Manipulating one parameter at a time
 
-![](../JXH3089/images/waveformParameters_frequency.png){width="90%" fig-align="center"}
+::::{.columns}
 
-# Main parameters of waveforms: varying phase
+:::{.column width=33%}
+![varying frequency](./Psychophysiology_files/waveformsFrequency.png){width="90%" fig-align="center" .lightbox}
 
-![](../JXH3089/images/waveformParameters_phase.png){width="90%" fig-align="center"}
+:::
+:::{.column width=33%}
 
-# Main parameters of waveforms: varying amplitude
+![varying phase](./Psychophysiology_files/waveformsPhase.png){width="90%" fig-align="center" .lightbox}
 
-![](../JXH3089/images/waveformParameters_amplitude.png){width="90%" fig-align="center"}
+:::
+:::{.column width=33%}
+
+![varying amplitude](./Psychophysiology_files/waveformsAmplitude.png){width="90%" fig-align="center" .lightbox}
+:::
+::::
 
 # Simulating EEG signal
 
 Let's sum, time by time, three waves varying in frequency, phase, and amplitude.
 
-![](../JXH3089/images/waveformParameters_sum.png){width="90%" fig-align="center"}
+![three simple waves and their sum](./Psychophysiology_files/waveformParameters_sum.png){width="70%" fig-align="center" .lightbox}
 
 # Simulating EEG signal with noise
 
 Same as before but adding noise.
 
-![](../JXH3089/images/waveformParameters_sumWithNoise.png){width="90%" fig-align="center"}
+![composite wave plus structured noise](./Psychophysiology_files/waveformParameters_sumWithNoise.png){width="70%" fig-align="center" .lightbox}
 
-# 10-20 system
+# 10-20 system: main ideas
 
 An internationally recognized method to describe the location of scalp electrodes.
 
 ::::{.columns}
-:::{.column width=55%}
-- Electrodes are placed at intervals of 10% or 20% of the total distance between specified skull landmarks.
-- Common landmarks include the nasion (bridge of the nose), inion (bump at the back of the skull), and preauricular points (just in front of the ears).
-- Electrode positions are labeled with letters and numbers, where letters correspond to brain regions (e.g., F for frontal, T for temporal) and numbers indicate the hemisphere (odd numbers for the left, even numbers for the right).
-- It can be expanded to include additional electrodes for higher resolution recordings, known as the 10-10 or 10-5 systems.
-:::
 :::{.column width=45%}
-![](../JXH3089/images/1020system.png){width="100%" fig-align="center"}
+- Electrodes are placed at intervals of 10% or 20% of the total distance between specified skull landmarks.
+- Landmarks include the nasion (bridge of the nose), inion (bump at the back of the skull), and preauricular points (just in front of the ears).
+:::
+:::{.column width=55%}
+![](./Psychophysiology_files/1020system.png){width="100%" fig-align="center"}
 :::
 ::::
 
-# 10-20 system coding
+# 10-20 system: labels {.scrollable}
+
+Electrode positions are labeled with letters and numbers, where letters correspond to brain regions (e.g., F for frontal, T for temporal) and numbers indicate the hemisphere (odd numbers for the left, even numbers for the right).
+
 
 ::::{.columns}
-:::{.column width=50%}
+:::{.column width=35%}
 | Letter    | Region  |
 |----------:|:--------|
 | F         | Frontal |
@@ -427,24 +344,27 @@ An internationally recognized method to describe the location of scalp electrode
 | O         | Occipital|
 | Fp        | Frontopolar |
 :::
-:::{.column width=50%}
-| Second letter or digit | Lateral/medial  |
-|-----------:|:---------------|
+:::{.column width=65%}
+| Second digit* | Lateral/medial position |
+|--------------:|:---------------|
 | z          | on the midline |
 | odd digit  | lateral (left) |
 | even digit | lateral (right)|
 | smaller digit | closer to the midline |
 | larger digit  | farther from the midline |
+_* Note: z is used for midline electrodes, while odd and even digits indicate lateral positions._
 :::
 ::::
+
+
 
 # 10-20 system examples
 
 ::::{.columns}
-:::{.column width=55%}
-![](../JXH3089/images/1020system2.png){width="90%" fig-align="center"}
+:::{.column width=50%}
+![](./Psychophysiology_files/1020system2.png){width="90%" fig-align="center"}
 :::
-:::{.column width=45%}
+:::{.column width=50%}
 Some examples:
 
 - Cz = central on the midline (aka vertex)
@@ -453,15 +373,24 @@ Some examples:
 :::
 ::::
 
-# Electrical reference
+:::aside
+The 10-20 system can be expanded to include additional electrodes for higher resolution recordings, known as the 10-10 or 10-5 systems.
+:::
 
-Reminder: one electrode alone cannot measure anything. You need two electrodes to measure voltage.
+# Electrical reference {.scrollable}
 
+Reminder: voltage is difference in electrical potential between two points. Therefore, one electrode alone cannot measure anything. You need two electrodes to measure voltage.
+
+::::{.columns}
+:::{.column width=50%}
 - **Bipolar montage**:
     - Each electrode is referenced to an adjacent electrode.
     - Measures the voltage difference between pairs of electrodes.
     - Useful for detecting localized activity.
-    - Can help reduce common noise.
+    - Commonly used in clinical settings to identify focal seizures (e.g., epilepsy).
+
+:::
+:::{.column width=50%}
 
 - **Monopolar (or referential) montage**:
     - Each electrode is referenced to a common reference electrode.
@@ -469,43 +398,69 @@ Reminder: one electrode alone cannot measure anything. You need two electrodes t
     - Provides a broader view of brain activity.
     - Common reference points include the mastoids, earlobes, or an average of all electrodes.
 
-# EEG signals
-
-![](../JXH3089/images/eegSignal.png){width="90%" fig-align="center"}
-
-# EEG signals
-
-![](../JXH3089/images/eegSignal2.png){width="65%" fig-align="center"}
-
-Recordings from multiple channels
+:::
+::::
 
 # EEG signals
-
-![](../JXH3089/images/eegSignal3.png){height="80%" fig-align="center"}
-
-Recordings from the same channel, under different states of consciousness
-
-# EEG artifacts
 
 ::::{.columns}
-:::{.column width=55%}
-![](../JXH3089/images/eegArtifacts.png){width="90%" fig-align="center"}
+
+:::{.column width=50%}
+![Recordings under different states of consciousness](./Psychophysiology_files/eegStates.png){height="80%" fig-align="center" .lightbox}
 :::
-:::{.column width=45%}
+
+:::{.column width=50%}
+
+![Recordings from multiple channels](./Psychophysiology_files/eegMultiChannels.png){width="65%" fig-align="center" .lightbox}
+
+:::
+::::
+
+
+# Sources of noise in the EEG signal {.scrollable}
+
+::::{.columns}
+:::{.column width=20%}
+
+![](./Psychophysiology_files/eegArtifactsAnnotated.png){width="100%" fig-align="center" .lightbox}
+:::
+:::{.column width=80%}
+
+Commonly known as "artifacts".
+
+They are of non-neural origin and can contaminate the EEG signal and obscure the underlying brain activity.
+
+
+:::
+::::
+
 - Eye movements: blinks and saccades, especially in the frontal region.
 - Muscle activity: tension or movements in the scalp, neck, or face muscles can introduce high-frequency noise.
 - Electrode movement: shifts in electrode position can cause sudden changes in the recorded signal.
 - Sweat: changes in skin conductance can affect low-frequency characteristics.
 - Heartbeats: electrical activity of the heart (e.g., R-waves, pulse waves).
 - Environmental noise: electrical interference from nearby equipment or power lines can introduce 50/60 Hz noise.
+
+# Decomposing the EEG signal into its frequency components {.scrollable}
+
+::::{.columns}
+:::{.column width=20%}
+
+![](./Psychophysiology_files/prism.png){width="100%" fig-align="center" .lightbox}
+
 :::
+
+:::{.column width=80%}
+A prism can break down white light into its component colors
+
+[Similarly, spectral decomposition techniques can break down the composite EEG waveforms into their component frequencies.]{.fragment} [Sometimes referred to as "brain rhythms".]{.fragment} 
+:::
+
 ::::
 
-# Brain rhythms
-
-![](../JXH3089/images/eegPrism.png){width="90%" fig-align="center"}
-
-Spectral decomposition breaks down the complex EEG signal into its constituent frequency components. This process facilitates analysis of the different brain rhythms and their contributions to the overall signal.
+:::{.fragment}
+![EEG spectral decomposition](./Psychophysiology_files/prismEEG.png){width="100%" fig-align="center"}
+:::
 
 # Brain rhythms
 
@@ -522,21 +477,43 @@ Spectral decomposition breaks down the complex EEG signal into its constituent f
 :::
 ::::
 
+# Extractable metrics from EEG
+
+::::{.columns}
+:::{.column width=50%}
+**Time domain metrics:**
+
+- **Event-Related Potentials (ERPs)**: Voltage changes time-locked to specific events or stimuli
+- Measured as **amplitude** and **latency** of peaks/components
+- High temporal precision (milliseconds)
+- Reflect cognitive or motor processes related to specific events
+
+:::
+:::{.column width=50%}
+**Frequency domain metrics:**
+
+- **Spectral power**: Strength of oscillations at specific frequencies
+- Measured across frequency bands (delta, theta, alpha, beta, gamma)
+- Measured across multiple scalp locations (topographic patterns)
+- Reflects underlying neural oscillations and brain states
+:::
+::::
+
+
 # Topographical mapping
 
 ::::{.columns}
-:::{.column width=55%}
-![](../JXH3089/images/eegTopoMap.png){width="90%" fig-align="center"}
+:::{.column width=50%}
+![](./Psychophysiology_files/eegTopoMap.png){width="90%" fig-align="center" .lightbox}
 :::
-:::{.column width=45%}
-- Visual representation of EEG data across the scalp.
+:::{.column width=50%}
+- Visual representation of EEG data across the scalp. [Typically, seen from the top, with the nose pointing upwards.]{.fragment}
+- Color indicates the strength of the metric of interest (e.g., power in a specific frequency band, amplitude of an ERP component). [Important: a scalp map should always be given with a colour bar]{.fragment}
 - Helps identify spatial patterns of brain activity.
-- Useful for detecting regional differences in brain function.
-- Often used in clinical and research settings to analyze brain waves.
-- Provides a comprehensive view of brain dynamics over time.
+
 :::
 ::::
 
 # Uses of EEG in sport and exercise
 
-![](../JXH3089/images/eegSport.png){width="90%" fig-align="center"}
+![](./Psychophysiology_files/eegSport.png){width="90%" fig-align="center"}
