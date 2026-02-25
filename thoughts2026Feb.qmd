@@ -1,0 +1,92 @@
+## Oscillations in biological systems, their _coupling_, and their associations with cognition and behaviour {.nostretch .center}
+
+::::{.columns}
+:::{.column width=80%}
+
+Dr Germano Gallicchio <br>
+<div style="font-size:0.8em">
+Lecturer in Psychophysiology and Cognitive Neuroscience
+
+School of Psychology and Sport Science, Bangor University, UK <br>
+
+[profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
+</div>
+
+<br>
+
+
+
+:::
+
+::::
+
+# Cardiac deceleration
+
+![](./thoughts2026Feb_files/heartPeriod.png){width="100%" fig-align="center" .lightbox}
+
+# Cardiac deceleration, inter and intra-individual variability
+
+![](./thoughts2026Feb_files/trialLvl.jpg){width="50%" fig-align="center" .lightbox}
+
+# Cardiac deceleration, expertise effects (time domain)
+
+![](./thoughts2026Feb_files/timeDomain.png){width="45%" fig-align="center" .lightbox}
+
+# Cardiac deceleration, expertise effects (frequency domain)
+
+![](./thoughts2026Feb_files/freqDomain.png){width="90%" fig-align="center" .lightbox}
+
+# What accompanies cardiac deceleration?
+
+- Breathing
+- Autonomic activity
+- Postural sway
+- Cortical activity
+
+# 
+
+![](./thoughts2026Feb_files/eegQ1.png){width="100%" fig-align="center" .lightbox}
+
+#
+
+![](./thoughts2026Feb_files/EEGcorr.png){width="100%" fig-align="center" .lightbox}
+
+#
+
+![](./thoughts2026Feb_files/EEGdecel.png){width="100%" fig-align="center" .lightbox}
+
+# Coupling, ideally
+
+
+![](./thoughts2026Feb_files/PAC.png){width="100%" fig-align="center"}
+
+# Coupling, possibly (multimodal)
+
+![](./thoughts2026Feb_files/PAC2.png){width="100%" fig-align="center"}
+
+# Coupling, possibly (phase avoidance)
+
+![](./thoughts2026Feb_files/PAC3.png){width="100%" fig-align="center"}
+
+# Coupling, possibly (multivariate)
+
+![](./thoughts2026Feb_files/PAC4.png){width="100%" fig-align="center"}
+
+# Polar / Verso
+
+[Polar / Verso](https://github.com/GermanoGallicchio/Polar): 
+
+A new software with traditional and novel indices for the analysis of oscillatory coupling.
+
+Combining:
+
+- circular statistics
+- unbiased estimators
+- harmonic analysis
+- linear algebra
+- resampling statistics
+
+In progress/upcoming:
+
+- Algorithm development
+- Application to physiological data
