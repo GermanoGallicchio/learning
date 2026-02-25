@@ -9,7 +9,6 @@ Lecturer in Psychophysiology and Cognitive Neuroscience
 
 School of Psychology and Sport Science, Bangor University, UK <br>
 
-[profile](https://www.bangor.ac.uk/staff/spss/germano-gallicchio-530785/en) | [research](https://scholar.google.com/citations?user=i3h3GbMAAAAJ&hl=en) | [software](https://github.com/GermanoGallicchio) | [learning resources](https://germanogallicchio.github.io/learning/) | [book meeting](https://outlook.office.com/book/SHESStaffTutorialandDropInHours@bangoroffice365.onmicrosoft.com/?login_hint)
 </div>
 
 <br>
@@ -74,11 +73,7 @@ School of Psychology and Sport Science, Bangor University, UK <br>
 
 # Polar / Verso
 
-[Polar / Verso](https://github.com/GermanoGallicchio/Polar): 
-
-A new software with traditional and novel indices for the analysis of oscillatory coupling.
-
-Combining:
+A new [software](https://github.com/GermanoGallicchio/Polar) with traditional and novel indices for the analysis of oscillatory coupling. Combining:
 
 - circular statistics
 - unbiased estimators
@@ -86,7 +81,7 @@ Combining:
 - linear algebra
 - resampling statistics
 
-In progress/upcoming:
+[In progress/upcoming:]{.fragment}
 
 - Algorithm development
 - Application to physiological data
