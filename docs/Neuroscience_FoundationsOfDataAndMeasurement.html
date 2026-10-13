@@ -212,34 +212,16 @@ Dr Germano Gallicchio <br>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong>Week 1: simple reaction time</strong></p>
-<p>Each participant completed two blocks (“rounds”) of five trials on a personal device.</p>
-<p>One observation per participant per block.</p>
+<p>Each participant completed two blocks of five trials on a personal device.</p>
+<p>Trials were averaged, yielding one observation per participant per block.</p>
 </div><div class="column" style="width:50%;">
 <p><strong>Week 2: chain reaction time</strong></p>
 <p>A signal was transmitted along a row of participants, in an auditory and a visual condition, and timed manually.</p>
-<p>One observation per chain per run.</p>
+<p>One observation per chain per trial.</p>
 </div></div>
 <div class="fragment">
 <p>This session considers how such data should be interpreted, summarised and presented.</p>
 </div>
-<aside class="notes">
-<p>Switch briefly to the Week 1 workbook (histogram) and the Week 2 workbook (bar chart), thirty seconds each.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-
-<section id="part-1-measurement-and-measurement-error" class="title-slide slide level1 center">
-<h1>Part 1 · Measurement and measurement error</h1>
-
 </section>
 
 <section id="components-of-a-measurement" class="title-slide slide level1">
@@ -263,18 +245,21 @@ Dr Germano Gallicchio <br>
 </div>
 </section>
 
-<section id="observed-score-true-score-and-error" class="title-slide slide level1">
-<h1>Observed score, true score and error</h1>
-<div class="columns">
-<div class="column" style="width:50%;">
+<section id="true-score-and-measurement-error" class="title-slide slide level1 scrollable">
+<h1>True score and measurement error</h1>
+<ul>
+<li class="fragment"><span class="math display">\[\text{observed score} = \text{true score} + \text{error}\]</span></li>
+</ul>
 <p>In classical measurement theory, every observed score is the sum of two components:</p>
 <ul>
-<li class="fragment"><p><strong>observed score</strong> = <strong>true score</strong> + <strong>error</strong></p></li>
-<li class="fragment"><p>In the Week 1 task, the true score is the speed with which a participant’s nervous system responds to a visual stimulus.</p></li>
+<li class="fragment">true score</li>
+<li class="fragment">error</li>
 </ul>
-</div><div class="column" style="width:50%;">
 <div class="fragment">
-<p>Sources of error in the class data:</p>
+<p>In the Week 1 task, the <em>true score</em> is the speed with which a participant’s nervous system responds to a visual stimulus.</p>
+</div>
+<div class="fragment">
+<p>Sources of <em>error</em> in the class data:</p>
 <ul>
 <li class="fragment">display refresh (approximately 17 ms per frame at 60 Hz)</li>
 <li class="fragment">touchscreen and input latency</li>
@@ -282,14 +267,59 @@ Dr Germano Gallicchio <br>
 <li class="fragment">in Week 2, the timer’s own reaction time at the start and end of each run</li>
 </ul>
 </div>
-</div></div>
 </section>
 
-<section id="random-and-systematic-error" class="title-slide slide level1">
-<h1>Random and systematic error</h1>
+<section id="error-random-and-systematic" class="title-slide slide level1 scrollable">
+<h1>Error: random and systematic</h1>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="480" viewbox="0.00 0.00 210.34 116.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<title>error_types</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-112 206.34,-112 206.34,4 -4,4"></polygon>
+<!-- error -->
+<g id="node1" class="node">
+<title>error</title>
+<ellipse fill="none" stroke="black" cx="95.54" cy="-90" rx="29.6" ry="18"></ellipse>
+<text text-anchor="middle" x="95.54" y="-85.8" font-family="Times,serif" font-size="14.00">error</text>
+</g>
+<!-- random -->
+<g id="node2" class="node">
+<title>random</title>
+<ellipse fill="none" stroke="black" cx="40.54" cy="-18" rx="40.57" ry="18"></ellipse>
+<text text-anchor="middle" x="40.54" y="-13.8" font-family="Times,serif" font-size="14.00">random</text>
+</g>
+<!-- error&#45;&gt;random -->
+<g id="edge1" class="edge">
+<title>error-&gt;random</title>
+<path fill="none" stroke="black" d="M83.33,-73.46C76.41,-64.65 67.59,-53.43 59.76,-43.46"></path>
+<polygon fill="black" stroke="black" points="62.4,-41.17 53.47,-35.47 56.9,-45.49 62.4,-41.17"></polygon>
+</g>
+<!-- systematic -->
+<g id="node3" class="node">
+<title>systematic</title>
+<ellipse fill="none" stroke="black" cx="150.54" cy="-18" rx="51.6" ry="18"></ellipse>
+<text text-anchor="middle" x="150.54" y="-13.8" font-family="Times,serif" font-size="14.00">systematic</text>
+</g>
+<!-- error&#45;&gt;systematic -->
+<g id="edge2" class="edge">
+<title>error-&gt;systematic</title>
+<path fill="none" stroke="black" d="M107.74,-73.46C114.66,-64.65 123.48,-53.43 131.31,-43.46"></path>
+<polygon fill="black" stroke="black" points="134.17,-45.49 137.6,-35.47 128.67,-41.17 134.17,-45.49"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Random error</strong></p>
+<p><strong>Random error (aka, noise)</strong></p>
 <p>Varies unpredictably in magnitude and direction from one observation to the next.</p>
 <ul>
 <li class="fragment">a slow trial following a blink</li>
@@ -297,7 +327,7 @@ Dr Germano Gallicchio <br>
 </ul>
 <p><em>Reduced by averaging across observations.</em></p>
 </div><div class="column" style="width:50%;">
-<p><strong>Systematic error (bias)</strong></p>
+<p><strong>Systematic error (aka, bias)</strong></p>
 <p>Displaces observations consistently in one direction.</p>
 <ul>
 <li class="fragment">the input latency of a particular device</li>
@@ -319,33 +349,20 @@ Dr Germano Gallicchio <br>
 <section id="best-trial-versus-mean-performance" class="title-slide slide level1">
 <h1>Best trial versus mean performance</h1>
 <ul>
-<li class="fragment"><p>The <strong>fastest</strong> trial is the observation in which random error happened to favour the participant most.</p></li>
+<li class="fragment"><p>The <strong>fastest</strong> trial is the observation in which <em>random error</em> happened to favour the participant most.</p></li>
 <li class="fragment"><p>The <strong>mean</strong> of all trials allows positive and negative errors to offset one another.</p></li>
 </ul>
 <div class="fragment">
 <p>For describing a participant’s typical performance, the mean (or median) of all trials is preferred to the single best trial.</p>
 </div>
-<aside class="notes">
-<p>Resolves the Week 1 “if you have time” question. Take an answer from the room before the fragment.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 
 <section id="reliability-and-validity" class="title-slide slide level1">
 <h1>Reliability and validity</h1>
 
 <img data-src="Neuroscience_FoundationsOfDataAndMeasurement_files/figure-revealjs/dartboards-1.png" width="1056" class="r-stretch"><ul>
-<li class="fragment"><p><strong>Reliability</strong>: the consistency of a measure across repeated observations</p></li>
-<li class="fragment"><p><strong>Validity</strong>: the extent to which a measure reflects the construct it is intended to measure</p></li>
+<li class="fragment"><strong>Reliability</strong>: the consistency of a measure across repeated observations.</li>
+<li class="fragment"><strong>Validity</strong>: the extent to which a measure reflects the construct it is intended to measure. In this illustration, measurements centred on the target are valid (unbiased on average).</li>
 </ul>
 </section>
 
@@ -373,7 +390,7 @@ Dr Germano Gallicchio <br>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p>Simple visual reaction time measured with laboratory equipment is typically in the region of <strong>200–250 ms</strong>.</p>
-<p>The class means, obtained on personal devices, were higher.</p>
+<p>The class means, obtained on personal devices, were slightly higher.</p>
 </div><div class="column" style="width:50%;">
 <div class="fragment">
 <ul>
@@ -386,11 +403,6 @@ Dr Germano Gallicchio <br>
 <div class="fragment">
 <p>The Week 1 score is a valid measure of performance on a particular device; it is a less valid measure of nervous-system processing speed.</p>
 </div>
-</section>
-
-<section id="part-2-describing-a-distribution" class="title-slide slide level1 center">
-<h1>Part 2 · Describing a distribution</h1>
-
 </section>
 
 <section id="distributions" class="title-slide slide level1">
@@ -553,16 +565,11 @@ Dr Germano Gallicchio <br>
 </div>
 </section>
 
-<section id="part-3-presenting-data-accurately" class="title-slide slide level1 center">
-<h1>Part 3 · Presenting data accurately</h1>
-
-</section>
-
-<section id="bar-charts-data-points-and-error-bars" class="title-slide slide level1">
-<h1>Bar charts, data points and error bars</h1>
+<section id="bar-plot-data-points-and-error-bars" class="title-slide slide level1">
+<h1>Bar plot, data points and error bars</h1>
 
 <img data-src="Neuroscience_FoundationsOfDataAndMeasurement_files/figure-revealjs/bars-1.png" width="1056" class="r-stretch"><ul>
-<li class="fragment"><p><strong>Bar</strong>: condition mean. <strong>Error bar</strong>: here, ±1 SD. <strong>Points</strong>: individual chains.</p></li>
+<li class="fragment"><p><strong>Bar height</strong>: mean. <strong>Error bar</strong>: here, ±1 SD. <strong>Points</strong>: individual observations.</p></li>
 <li class="fragment"><p>Error bars may represent the SD, the standard error, or a confidence interval. The figure caption must state which.</p></li>
 </ul>
 </section>
@@ -617,7 +624,7 @@ Dr Germano Gallicchio <br>
 <ol type="1">
 <li class="fragment"><p>Identify one source of random error and one source of systematic error in the Week 1 and Week 2 data.</p></li>
 <li class="fragment"><p>Explain why the mean of five trials provides a better estimate of a participant’s reaction time than the fastest trial.</p></li>
-<li class="fragment"><p>In a sample of ten, one observation is 900 ms. Which is affected more, the mean or the median, and why?</p></li>
+<li class="fragment"><p>In a sample of ten, one large observation is 900 ms. Which is affected more, the mean or the median, and why?</p></li>
 <li class="fragment"><p>What is the advantage of comparing each participant with themselves rather than comparing two separate groups?</p></li>
 </ol>
 </section>
