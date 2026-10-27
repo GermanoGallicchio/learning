@@ -370,7 +370,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"valid   <- c(312, 345, 298, 367, 330, 355, 301, 342, 318, 336)\ninvalid <- c(334, 337, 309, 402, 325, 372, 322, 349, 341, 350)\n\ncueing <- invalid - valid\ncueing","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"n  <- length(cueing)\nm  <- mean(cueing)\ns  <- sd(cueing)\nse <- s / sqrt(n)\nt_value <- m / se\n\nc(n = n, mean = m, sd = s, se = se, t = t_value)","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"t.test(invalid, valid, paired = TRUE)","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"t.test(invalid[1:5], valid[1:5], paired = TRUE)","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-4","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"hist(cueing, breaks = 8,\n     main = \"Cueing effect per participant\",\n     xlab = \"Invalid - valid (ms)\")\nabline(v = 0, col = \"red\", lwd = 3)","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-5","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"t_null <- replicate(1000, {\n  x <- rnorm(10, mean = 0, sd = 13)\n  mean(x) / (sd(x) / sqrt(10))\n})\nhist(t_null, breaks = 40, main = \"t values with no true difference\", xlab = \"t\")\nabline(v = t_value, col = \"red\", lwd = 3)\nmean(abs(t_null) >= abs(t_value))","id":6,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-6","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qwebrCellDetails = [{"code":"valid   <- c(312, 345, 298, 367, 330, 355, 301, 342, 318, 336)\ninvalid <- c(334, 337, 309, 402, 325, 372, 322, 349, 341, 350)\n\ncueing <- invalid - valid\ncueing","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"n  <- length(cueing)\nmean  <- mean(cueing)\nstdev  <- sd(cueing)\nsterr <- stdev / sqrt(n)\nt_value <- mean / sterr\n\nc(n, mean, stdev, sterr, t_value)","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"t.test(invalid, valid, paired = TRUE)","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"t.test(invalid[1:5], valid[1:5], paired = TRUE)","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-4","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"hist(cueing, breaks = 8,\n     main = \"Cueing effect per participant\",\n     xlab = \"Invalid - valid (ms)\")\nabline(v = 0, col = \"red\", lwd = 3)","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-5","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"t_null <- replicate(10000, {\n  x <- rnorm(10, mean = 0, sd = 13)\n  mean(x) / (sd(x) / sqrt(10))\n})\nhist(t_null, breaks = 40, main = \"t values with no true difference\", xlab = \"t\")\nabline(v = t_value, col = \"red\", lwd = 3)\nmean(abs(t_null) >= abs(t_value))","id":6,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-6","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 </script>
 <script type="module">
@@ -2026,7 +2026,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
     
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>The lecture introduced the spatial cueing task and the cueing effect: slower responses when a cue directs attention to the wrong location than when it directs attention to the correct location. It also introduced the t value as a means of judging whether a difference between two conditions is larger than would be expected by chance. In this practical, each participant measures their own cueing effect, and the class data are used to compute a t value.</p>
+<p>The associated lecture introduced the spatial cueing task and the cueing effect: slower responses when a cue directs attention to the wrong location than when it directs attention to the correct location. It also introduced the t value as a means of judging whether a difference between two conditions is larger than would be expected by chance. In this practical, each participant measures their own cueing effect, and the class data are used to compute a t value.</p>
 </section>
 <section id="aim" class="level2">
 <h2 class="anchored" data-anchor-id="aim">Aim</h2>
@@ -2035,66 +2035,100 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <section id="materials" class="level2">
 <h2 class="anchored" data-anchor-id="materials">Materials</h2>
 <ul>
-<li>A computer in the teaching room, with a keyboard</li>
+<li>A computer with a keyboard</li>
 <li>LINK 1 below, to the spatial cueing task (PsyToolkit)</li>
 <li>LINK 2 below, to the form in which results are recorded</li>
+<li>LINK 3 below, to the class data workbook (view only)</li>
 </ul>
 </section>
 <section id="task-1-the-spatial-cueing-task" class="level2">
 <h2 class="anchored" data-anchor-id="task-1-the-spatial-cueing-task">TASK 1 · The spatial cueing task</h2>
 <ol type="1">
-<li>Open the task: <a href="https://www.psytoolkit.org/experiment-library/experiment_cueing.html">LINK 1</a>, and select the option to run the demonstration.</li>
-<li>Read the instructions on screen. On each trial, a cue (<strong>X</strong>) appears on the left or the right, followed by the target, the word <strong>go</strong>, on the left or the right. On <strong>valid</strong> trials the target appears at the cued location; on <strong>invalid</strong> trials it appears at the opposite location. The cue is exogenous: it appears at a location, rather than pointing to it.</li>
-<li>Press the <strong>spacebar</strong> to start. Respond to the location of the target as quickly and as accurately as possible: <strong>A</strong> for left, <strong>L</strong> for right. Keep the eyes on the centre of the screen throughout.</li>
-<li>The task consists of 100 trials and takes a few minutes.</li>
+<li>Open the task: <a href="https://www.psytoolkit.org/experiment-library/experiment_cueing.html">LINK 1</a>, and click when ready to start.</li>
+<li>Read the instructions on screen, then press the spacebar to start.</li>
+<li>Respond to the location of the target as quickly and as accurately as possible: <strong>A</strong> for left, <strong>L</strong> for right. Keep the eyes on the centre of the screen throughout.</li>
+<li>The task consists of 100 trials and takes a few minutes. Be patient!</li>
 <li>At the end, the summary reports the response time for <strong>valid cue conditions</strong> and for <strong>invalid cue conditions</strong>. Note both values (ms).</li>
 </ol>
 </section>
 <section id="task-2-submission-of-results" class="level2">
 <h2 class="anchored" data-anchor-id="task-2-submission-of-results">TASK 2 · Submission of results</h2>
-<p>Open the form at <a href="FORM_LINK">LINK 2</a> and enter the two values noted in Task 1.</p>
+<p>Open the form at <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=VUxHxiOpKk2b1OzjcUjbssLYd3LnxD1DsoAER3TNORlUQ0ZGOUIyWVBKWVhQRUhSSkFONjhNS0ZZNi4u">LINK 2</a> and enter the two values noted in Task 1.</p>
 <div id="" class="qrcode"></div>
 <script type="text/javascript">
 (function() {
   var script = document.currentScript;
   var qrcode = script.previousElementSibling;
-  qrcode.qrcode = new QRCode(qrcode, {"colorDark":"#0011bb","colorLight":"#ffffff","height":128,"text":"FORM_LINK","width":128});
+  qrcode.qrcode = new QRCode(qrcode, {"colorDark":"#0011bb","colorLight":"#ffffff","height":128,"text":"https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=VUxHxiOpKk2b1OzjcUjbssLYd3LnxD1DsoAER3TNORlUQ0ZGOUIyWVBKWVhQRUhSSkFONjhNS0ZZNi4u","width":128});
   script.remove();
 })();
 </script>
     
 </section>
-<section id="task-3-the-individual-cueing-effect" class="level2">
-<h2 class="anchored" data-anchor-id="task-3-the-individual-cueing-effect">TASK 3 · The individual cueing effect</h2>
-<p>Calculate the cueing effect:</p>
+<section id="task-3-your-individual-cueing-effect" class="level2">
+<h2 class="anchored" data-anchor-id="task-3-your-individual-cueing-effect">TASK 3 · Your individual cueing effect</h2>
+<p>Calculate your own cueing effect:</p>
 <p>cueing effect = mean reaction time on invalid trials − mean reaction time on valid trials</p>
 <p>A positive value indicates that responses were slower when the cue directed attention to the wrong location.</p>
 </section>
-<section id="task-4-the-class-data" class="level2">
-<h2 class="anchored" data-anchor-id="task-4-the-class-data">TASK 4 · The class data</h2>
-<p>The class data are analysed on the projector, step by step. For the whole class, the analysis reports the number of participants, the mean cueing effect, its standard deviation, its standard error, the <strong>t value</strong>, and the p value.</p>
-<p><em>Questions.</em> Is the mean cueing effect positive? How does the individual cueing effect from Task 3 compare with the class mean? Does the t value lie outside the range of approximately −2 to +2? What does this indicate?</p>
-</section>
-<section id="points-for-discussion" class="level2">
-<h2 class="anchored" data-anchor-id="points-for-discussion">Points for discussion</h2>
-<ul>
-<li>Some participants may show a negative cueing effect. Does this mean that the cue did not affect them, or could random error account for it?</li>
-<li>The class mean is based on many participants. Why is the class t value more informative than any single participant’s cueing effect?</li>
-<li>Is a statistically significant cueing effect necessarily large or important for performance in sport?</li>
-</ul>
+<section id="task-4-analysis-of-the-whole-class-data" class="level2">
+<h2 class="anchored" data-anchor-id="task-4-analysis-of-the-whole-class-data">TASK 4 · Analysis of the whole class data</h2>
+<p>Once the class results have been submitted, they are made available in a workbook.</p>
+<p>Follow through the analyses as I carry them out on the big screen. Each student works on their own local copy.</p>
+<p><strong>Step 0. Obtaining a copy.</strong> Open the class workbook at <a href="https://bangoroffice365-my.sharepoint.com/:x:/g/personal/grg20plq_bangor_ac_uk/IQC0VcvnbNUnRK3g4eIfCLq6Aevl8SKhRZfhfYGV34IGT6U?e=lehOUd">LINK 3</a>, and save a personal copy as in Week 3 (File → Create a copy → Create a copy online). All work is carried out in the copy.</p>
+<p><strong>Step 1. The cueing effect of each participant.</strong> Add a column, <em>Difference</em>, containing for each participant the response time in the invalid condition <em>minus</em> the response time in the valid condition. A positive value indicates slower responses on invalid trials.</p>
+<p><strong>Step 2. The t value.</strong> The aim is to determine whether the mean cueing effect is larger than would be expected by chance. The t value requires the mean (M) and the standard error (SE) of the difference scores:</p>
+<p>t = M / SE</p>
+<p>The standard error, in turn, requires the standard deviation (SD) and the number of participants (N):</p>
+<p>SE = SD / √N</p>
+<p>Each quantity is computed with the corresponding Excel function, applied to the <em>Difference</em> column:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: left;">Excel function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">N</td>
+<td style="text-align: left;"><code>=COUNT(range)</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M</td>
+<td style="text-align: left;"><code>=AVERAGE(range)</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SD</td>
+<td style="text-align: left;"><code>=STDEV.S(range)</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SE</td>
+<td style="text-align: left;">SD divided by <code>SQRT(N)</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">t</td>
+<td style="text-align: left;">M divided by SE</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Step 3. The p value.</strong> Excel computes p directly from the two columns of response times. For a two-tailed test on paired data:</p>
+<p><code>=T.TEST(invalid range, valid range, 2, 1)</code></p>
+<p>The difference is statistically significant if p &lt; .05.</p>
+<p><strong>Step 4. Presentation.</strong> Create a column chart of the mean response time in each condition (y-axis beginning at zero), and a column chart of the difference scores sorted from smallest to largest, in which each bar represents one participant.</p>
+<p><em>Questions.</em> Is the mean cueing effect positive? How does the individual cueing effect from Task 3 compare with the class mean? Does the t value lie outside the range of approximately −2 to +2, and is p smaller than .05? How many participants show a negative cueing effect?</p>
 </section>
 <section id="additional-exercises" class="level2">
 <h2 class="anchored" data-anchor-id="additional-exercises">Additional exercises</h2>
 <ul>
-<li>Using the class values shown on the projector, predict how the t value would change if only five participants had taken part, with reference to the formula for t. Exercise R4 below tests this prediction on simulated data.</li>
-<li>The lecturer will report the t value for the change in reaction time between block 1 and block 2 in Week 1. Compare it with the t value for the cueing effect. Which difference is statistically significant?</li>
+<li>How does the t value change if using very few participants, for example, only five? Explain why. (Hint: the t value is a ratio of the mean to the standard error, and the standard error depends on the number of participants.). Exercise R4 below tests this prediction on simulated data.</li>
 <li>Sebanz and Shiffrar (2009) reported that experts classified passes “above chance”. Describe how the same logic would be applied to a comparison between a mean accuracy and 50%.</li>
 </ul>
 </section>
 <section id="additional-exercises-in-r-optional" class="level2">
 <h2 class="anchored" data-anchor-id="additional-exercises-in-r-optional">Additional exercises in R (optional)</h2>
-<p>These exercises are optional and are not assessed. They repeat the analysis of this practical in <strong>R</strong>, a programming language widely used for statistical analysis in research. R runs here in the web browser: no installation or account is required. The first time a cell is run, R may take up to a minute to load.</p>
-<p>To run a cell, select <strong>Run Code</strong>. The code in each cell can be edited and run again. The data are <strong>simulated</strong>: they represent ten fictitious participants, not the class.</p>
+<p>These exercises are optional and any associated knowledge is not assessed. They repeat the analysis of this practical in <strong>R</strong>.</p>
+<p>To run a cell, select <strong>Run Code</strong>. The code in each cell can be edited and run again. The data are simulated/made-up: they represent ten fictitious participants, not the actual class.</p>
 <section id="r1-entering-data" class="level3">
 <h3 class="anchored" data-anchor-id="r1-entering-data">R1 · Entering data</h3>
 <p>Each value in <code>valid</code> and <code>invalid</code> is one participant’s mean reaction time (ms). The cueing effect of each participant is calculated by subtraction.</p>
@@ -2112,7 +2146,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <p>R calculates the same t value in a single line, together with the p value.</p>
 <div id="qwebr-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p><em>Questions.</em> Is the t value the same as in R2? Is p smaller than .05? How would the result be reported in a results section?</p>
+<p><em>Questions.</em> Is p smaller than .05?</p>
 </section>
 <section id="r4-fewer-participants" class="level3">
 <h3 class="anchored" data-anchor-id="r4-fewer-participants">R4 · Fewer participants</h3>
@@ -2128,7 +2162,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </section>
 <section id="r6-the-t-value-when-there-is-no-true-difference" class="level3">
 <h3 class="anchored" data-anchor-id="r6-the-t-value-when-there-is-no-true-difference">R6 · The t value when there is no true difference</h3>
-<p>As in the lecture: 1000 simulated samples of ten participants in which the true cueing effect is zero. The red line marks the t value from R2.</p>
+<p>As in the lecture: 10000 simulated samples of ten participants in which the true cueing effect is zero. The red line marks the t value from R2.</p>
 <div id="qwebr-insertion-location-6"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <p><em>Question.</em> The last line reports the proportion of simulated samples with a t at least as extreme as the observed one. How does it compare with the p value in R3?</p>
