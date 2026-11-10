@@ -40,6 +40,13 @@
 }
 
 .reveal h2,
+.reveal .title-slide h2 {
+  font-size: 0.8em !important;
+  line-height: 1;
+  color: #4c566a;
+  font-family: Arial;
+}
+
 .reveal h3{
   color: #3b4252;
   font-family: Arial;
@@ -51,3 +58,13 @@
 
 
 
+
+/* Okabe-Ito, colour-blind safe */
+.reveal .fragment.highlight-green.visible { color: #009E73; }
+.reveal .fragment.highlight-orange.visible  { color: #D55E00; }
+.reveal .fragment.highlight-purple.visible { color: #CC79A7; }
+
+/* same three, as plain spans, for the recurring colour elsewhere */
+.reveal .green   { color: #009E73; }
+.reveal .orange { color: #D55E00; }
+.reveal .purple { color: #CC79A7; }
